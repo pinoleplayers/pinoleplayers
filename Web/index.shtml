@@ -155,9 +155,9 @@
 					  <hr />
 
 					  <div align="center">
-					    <h2>PINOLE YOUTH<br />MUSICALS</h2>
-					    <small>presents</small><br />
-					  	<h2>JULY 22 - 24</h2>
+					    <h2>PINOLE YOUTH<br />MUSICALS<br />
+						<small><small>presents</small></small>
+					    </h2>
 					    <img src="2011 Footloose/FootlooseLOGO2.jpg" width="175" height="243" alt="Footloose Logo" />
 					    <div align="left">
 					      <p>When Ren McCormack moves to a small town where the local government has banned dancing and rock music,
@@ -165,8 +165,13 @@
                 </div>
 					    </div>
 					  <div align="left">
-					      <h3>Directed by: Anjee Norgaard</h3>
-					      </div>
+							<h3>Directed by: Anjee Norgaard</h3>
+							</div>
+					  <div align="center">
+							<h2>JULY 22 - 24<br /><br />
+								<small>Tickets ON SALE Now!</small>
+							</h2>
+						</div>
 
 					  <div id="footloose-panel">
 					    <div align="center" title="click to view" onclick="exposeMoreInfo('footloose-panel','footloose-info','More Info','Less Info','footloose-arrow','380px')">
