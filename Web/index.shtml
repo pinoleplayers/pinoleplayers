@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=us-ascii" />
+	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
 
 	<title>PCP Pinole Community Players</title>
 
@@ -74,166 +74,24 @@
 	</style>
 </head>
 
-<body style="height: 100%">
+<body style="height:100%">
 
-<div id="mainContainer" style="height: 100%">
+<div id="mainContainer" style="height:100%">
 <center>
-<table id="mainTable" border="0" cellpadding="0" cellspacing="0" height="100%">
+<table id="mainTable" border="0" cellpadding="1" cellspacing="0" height="100%">
   <tbody>
 <!--#include virtual="includes/PCPbanner-row.html" -->
 <!--#include virtual="includes/PCPmenu-row2.html" -->
 	<tr>
-	<td colspan=3 id="mainContent" style="height: 100%; margin-top: 0pt; padding-top: 0pt" valign="top" align="center">
-	<div style="text-align: center; padding: 0; padding-top: 10px">
+	<td colspan=3 id="mainContent" style="height:100%; margin-top:0pt; padding-top:0pt" valign="top" align="center">
+	<div style="text-align:center; padding:0; padding-top:10px">
 	<table width="100%" align="center" border="0" cellpadding="0" cellspacing="0">
 	  <tbody>
 		<tr>
 		  <td align="center">
 			<table width="826" cellpadding="20"  border="2" bordercolor="blue">
 			  <tbody>
-				<tr>
-				  <td width="275" valign="top" style="padding-bottom: 0pt; margin-bottom: 0pt" bgcolor="#FF0033">
-					  <div align="center">
-							<h2>Coming in September</h2>
-					  	<h3>Tennessee Williams'</h3>
-					  	<img src="2011 Cat on a Hot Tin Roof/CatLOGO2.jpg" width="175" height="228" alt="Footloose Logo" />
-							<div align="center">
-								<h3>Directed by: <big>Brian Katz</big></h3>
-								</div>
-					  	<h3>Performances:<br />September 9-17</h3>
-						</div>
-						<!--
-				    <div id="cat-cast-panel" style="font-style:underline">
-				      <div align="center" title="click to view" onclick="exposeMoreInfo('cat-cast-panel','cat-cast-info','Show Cast','Hide Cast','producers-cast-arrow','420px')">
-				        <div id="cat-cast-info">Show Cast</div><img src="images/arrowd.gif" id="cat-cast-arrow" alt="arrow down"></div>
-								<div align="left">
-									<h3>
-				              Set Design:  Fernando Ochoa
-									</h3>
-					      </div>
-								<div align="center">
-									<p><b>Featuring:</b><br />
-									</p>
-								</div>
-							</div>
-						</div>
-							-->
-						<div align="center">
-							<hr>
-							<h1>2012<br />SEASON<br />ANNOUNCED</h1>
-					    <img src="/2012 ILY,YP,NC/ILYYPNC-LOGO.png" width="175" alt="I Love You, You're Perfect, Now Change Logo" />
-							<br /><br /><br />
-					    <img src="/2012 Singin in the Rain/SinginLOGO1.png" width="175" alt="Singin in the Rain Logo" />
-							<br /><br /><br />
-							<h3>Watch this space for more info SOON!</h3>
-					</td>
-				
-				  <td width="275" valign="top" style="padding-bottom: 0pt; margin-bottom: 0pt" bgcolor="#33FF99">
-					<div align="center">
-					  <h1>SUMMER 2011<br /></h1>
-					  </div>
-
-					  <hr />
-
-					  <div align="center">
-					    <h2>PINOLE YOUTH<br />MUSICALS<br />
-						<small><small>presents</small></small>
-					    </h2>
-					    <img src="2011 Footloose/FootlooseLOGO2.jpg" width="175" height="243" alt="Footloose Logo" />
-					    <div align="left">
-					      <p>When Ren McCormack moves to a small town where the local government has banned dancing and rock music,
-					         he leads his classmates around the law and Reverend Shaw Moore to have a real senior prom.</p>
-                </div>
-					    </div>
-					  <div align="left">
-							<h3>Directed by: Anjee Norgaard</h3>
-							</div>
-					  <div align="center">
-							<h2>JULY 22 - 24<br /><br />
-								<small>Tickets ON SALE Now!</small>
-							</h2>
-						</div>
-
-					  <div id="footloose-panel">
-					    <div align="center" title="click to view" onclick="exposeMoreInfo('footloose-panel','footloose-info','More Info','Less Info','footloose-arrow','380px')">
-					      <div id="footloose-info">More Info</div><img src="images/arrowd.gif" id="footloose-arrow" alt="arrow down"></div>
-  					    <div align="center">
-  					         <br />A Production of the<br />
-  					         SUMMER THEATRE WORKSHOP<br />
-  					         With performers high school age through 21 years
-  					      <div align="left">
-  					        <h2>Performances:</h2>
-                    </div>
-  					      <table width="85%">
-  					        <tr><td>Friday,</td><td>July 22</td><td>8 p.m.</td></tr>
-                    <tr><td>Saturday,</td><td>July 23</td><td>2 p.m.</td></tr>
-                    <tr><td>Saturday,</td><td>July 23</td><td>8 p.m.</td></tr>
-                    <tr><td>Sunday,</td><td>July 24</td><td>2 p.m.</td></tr>
-                    </table>
-  					      </div>
-  					    <div align="center">
-  				        <h3><small>Tickets:</small> 510-724-9844</h3>
-  				  	    <h3>General Admission:&nbsp;&nbsp;$20
-  				  	      Seniors/Students:&nbsp;&nbsp;&nbsp;&nbsp;$17
-  				  	      </h3>
-  				        </div>
-  				      </div>
-					    </div>
-					<hr />
-
-					<div align="center">
-					  <h2>PINOLE YOUNG ACTORS<br />
-				          Summer Drama Workshop
-				        </h2>
-					  <h2>TUESDAY , JULY 5 -<br />
-				  	      SUNDAY, JULY 31
-				  	    </h2>
-					  <img src="2011 PYA/CAMP ROCK LOGO.jpg" width="175" height="149" alt="Pinole Young Actors Logo" /><br /><br />
-					  </div>
-
-					  <div id="camprock-panel">
-					    <div align="center" title="click to view" onclick="exposeMoreInfo('camprock-panel','camprock-info','More Info','Less Info','camprock-arrow','480px')">
-					      <div id="camprock-info">More Info</div><img src="images/arrowd.gif" id="camprock-arrow" alt="arrow down"></div>
-					      <div align="center">
-				  	        <h3>TUESDAY , JULY 5 -<br />
-				  	            SUNDAY, JULY 31
-				  	          </h3>
-				              Monday thru Friday<br />
-				              9:00 - Noon<br /><br />
-				              Performances at
-					        <h3>Pinole Valley High School<br />
-				                2900 Pinole Valley Road
-				              </h3>
-				              Friday,    July 29  @ 7 p.m.<br />
-				              Saturday, July 30  @ 7 p.m.<br />
-				              Sunday,   July 31 @ 2 p.m. 
-					        <br /><br />
-					        Call  <b>510-223-3598</b><br />
-					        for More Information<br />
-					        </div>
-					      </div>
-					    </div>
-
-					    
-					  </td>
-				
-					<td width="275" valign="top" style="padding-bottom: 0pt; margin-bottom: 0pt" bgcolor="#FFFF99">
-					  <div align="center">
-					    <h2>PLAYHOUSE<br />NEWS</h2>
-					    </div>
-
-					  <div align="center">
-					    <img src="2011 Seat Campaign/plushseatsTime2.jpg" width="175" alt="Your Seat In The Spotlight" />
-					  	<p><b>Comfortable, elevated, theatre-style seating is coming soon!</b></p>
-					    <p><b>You can help</b> with this upgrade to the Community Playhouse. A $250 donation will cover the costs of one seat.
-					    Your seat will have a brass plate engraved with a name you designate.</p>
-					    <a href="2011 Seat Campaign/SeatCampaign.shtml" title=""><h3>Click for more details.</h3></a>
-					    </div>
-
-					  <hr />
-					  </td>
-					</tr>
-
+<!--#include virtual="index-content072511.html" -->
 					<tr bgcolor="#6699FF">
 						<td align="center"><img src="images/PCPconnecting.jpg" width="134" height="72" border="0" alt="" longdesc="New PCP LOGO" /></td>
 						<td align="center">
