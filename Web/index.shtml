@@ -1,76 +1,81 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
-<head><meta http-equiv="Content-Type" content="text/html; charset=us-ascii" />
-<title>PCP Pinole Community Players</title>
-<link rel="stylesheet" type="text/css" href="css/pcp.css" />
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=us-ascii" />
 
-<link rel="stylesheet" type="text/css" href="css/2leveltab.css" />
+	<title>PCP Pinole Community Players</title>
 
-<script type="text/javascript" src="js/easyDropDownContainer.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/pcp.css" />
 
-<script type="text/javascript" src="js/2leveltab2.js">
-/***********************************************
-* 2 level Horizontal Tab Menu- by JavaScript Kit (www.javascriptkit.com)
-* This notice must stay intact for usage
-* Visit JavaScript Kit at http://www.javascriptkit.com/ for full source code
-* http://www.javascriptkit.com/script/script2/2leveltab.shtml
-***********************************************/
-</script>
+	<link rel="stylesheet" type="text/css" href="css/2leveltab.css" />
 
-<style type="text/css">
-<!--.style2 {
-	font-size: 16px;
-	font-weight: bold;
-}
-.style4 {
-	font-size: large;
-	font-family: Georgia, "Times New Roman", Times, serif;
-}
-.style5 {
-	font-size: large;
-	font-family: Georgia, "Times New Roman", Times, serif;
-}
-.style6 {
-	font-size: 14px;
-	font-family: Georgia, "Times New Roman", Times, serif;
-}
-.style10 {	
-  font-size: 16px;
-	font-family: Georgia, "Times New Roman", Times, serif;
-}
-#producers-cast-panel {
-  width:100%;
-  height:40px;
-  background:#FF0033;
-  overflow:hidden;
-}
-#footloose-panel {
-  width:100%;
-  height:25px;
-  background:#33FF99;
-  overflow:hidden;
-}
-#camprock-panel {
-  width:100%;
-  height:25px;
-  background:#33FF99;
-  overflow:hidden;
-}
-.mborder {
-  border:1px #404040 double;
-  border-top:1px #c0c0c0 double;
-  border-right:1px #c0c0c0 solid;
-}
-.really-big {
-	font-family: Arial; font-size:4em; font-weight:900;
-}
-.kinda-big {
-	font-family: Verdana; font-size: 1em; font-weight: 500; font-style: oblique;
-}
--->
-</style>
+	<script type="text/javascript" src="js/easyDropDownContainer.js"></script>
+
+	<script type="text/javascript" src="js/2leveltab2.js">
+		/***********************************************
+		* 2 level Horizontal Tab Menu- by JavaScript Kit (www.javascriptkit.com)
+		* This notice must stay intact for usage
+		* Visit JavaScript Kit at http://www.javascriptkit.com/ for full source code
+		* http://www.javascriptkit.com/script/script2/2leveltab.shtml
+		***********************************************/
+	</script>
+
+	<style type="text/css">
+		<!--.style2 {
+			font-size: 16px;
+			font-weight: bold;
+		}
+		.style4 {
+			font-size: large;
+			font-family: Georgia, "Times New Roman", Times, serif;
+		}
+		.style5 {
+			font-size: large;
+			font-family: Georgia, "Times New Roman", Times, serif;
+		}
+		.style6 {
+			font-size: 14px;
+			font-family: Georgia, "Times New Roman", Times, serif;
+		}
+		.style10 {	
+			font-size: 16px;
+			font-family: Georgia, "Times New Roman", Times, serif;
+		}
+		#producers-cast-panel {
+			width:100%;
+			height:40px;
+			background:#FF0033;
+			overflow:hidden;
+		}
+		#footloose-panel {
+			width:100%;
+			height:25px;
+			background:#33FF99;
+			overflow:hidden;
+		}
+		#camprock-panel {
+			width:100%;
+			height:25px;
+			background:#33FF99;
+			overflow:hidden;
+		}
+		.mborder {
+			border:1px #404040 double;
+			border-top:1px #c0c0c0 double;
+			border-right:1px #c0c0c0 solid;
+		}
+		.really-big {
+			font-family: Arial; font-size:4em; font-weight:900;
+		}
+		.kinda-big {
+			font-family: Verdana; font-size: 1em; font-weight: 500; font-style: oblique;
+		}
+		-->
+	</style>
 </head>
+
 <body style="height: 100%">
+
 <div id="mainContainer" style="height: 100%">
 <center>
 <table id="mainTable" border="0" cellpadding="0" cellspacing="0" height="100%">
@@ -88,77 +93,40 @@
 			  <tbody>
 				<tr>
 				  <td width="275" valign="top" style="padding-bottom: 0pt; margin-bottom: 0pt" bgcolor="#FF0033">
-				    <div align="center">
-				      <h2>CLOSES JULY 16!<br />
-					  SOLD OUT!!!</h2>
-				      </div>
-				    <div align="center">
-				      <img src="2011 Producers/ProducersLOGO.jpg" width="175" height="250" alt="Pinole Young Actors Logo" />
-				      </div>
-				    <div>
-				      <p>Outrageous, hilarious, a teeny bit offensive, off the wall and the winner of a record 12 Tony Awards are just a few things
-				         that THE PRODUCERS is.  But it is never boring and you will find yourself holding your sides with laughter as Max Bialystock 
-				         and Leo Bloom sing and dance their way through the greatest show biz scam there ever was!</p>
-				      </div>
-				    <div align="left">
-				      <h3>Directed by: <big>Janet O'Brien</big></h3>
-				      </div>
-				    <div align="left">
-				  	  <h2>Performance Dates</h2>
-				  	    <p><b>Evenings - 8pm Curtain</b>
-				  	      <ul>
-				  	  	    <li>June 17, 18, 24, 25</li>
-				  	  	    <li>July 1, 2, 8, 9, 15, 16</li>
-				  	        </ul>
-				  	      </p>
-				  	    <p><b>Matinees - 2pm Curtain</b>
-				  	        <ul>
-				  	      	  <li>July 3, 10</li>
-				  	          </ul>
-				  	      </p>
-				      </div>
-				    <div align="center">
-				      <h2><small>FINAL WEEKEND</small><br />
-				      			SOLD OUT!!!</h2>
-				      </div>
-
-				    <div id="producers-cast-panel" style="font-style:underline">
-				      <div align="center" title="click to view" onclick="exposeMoreInfo('producers-cast-panel','producers-cast-info','Show Cast','Hide Cast','producers-cast-arrow','420px')">
-				        <div id="producers-cast-info">Show Cast</div><img src="images/arrowd.gif" id="producers-cast-arrow" alt="arrow down"></div>
-					    <div align="left">
-					      <h3>Music Direction:  Sierra Dee<br />
-				              Choreography: Anjee<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-				                        Norgaard<br />
-				              Set Design:  Fernando Ochoa
-				            </h3>
-					      </div>
-					    <div align="center">
-				  	    <p><b>Featuring:</b><br />
-							Lucas&nbsp;Brandt,
-							Peter&nbsp;Del&nbsp;Fiorentino,
-							Michelle&nbsp;Demshok,
-							Larry&nbsp;Harada,
-							Ysabel&nbsp;Johnston,
-							Anthony&nbsp;Lucido,
-							Amy&nbsp;Lucido,
-							ToriLynn&nbsp;McBride,
-							Connor&nbsp;Miller,
-							Monica&nbsp;Minix,
-							Dan&nbsp;Morgan,
-							Michael&nbsp;A.&nbsp;O'Brien,
-							Fernando&nbsp;Ochoa,
-							Erica&nbsp;Rahmgren,
-							Art&nbsp;Reardon,
-							Dianne&nbsp;Reardon,
-							Bobby&nbsp;Schofield,
-							Stephen&nbsp;H.&nbsp;Scott,
-							Ryan&nbsp;T.&nbsp;Smith,
-							Vicki&nbsp;Zabarte
-						  </p>
-              </div>
+					  <div align="center">
+							<h2>Coming in September</h2>
+					  	<h3>Tennessee Williams'</h3>
+					  	<img src="2011 Cat on a Hot Tin Roof/CatLOGO2.jpg" width="175" height="228" alt="Footloose Logo" />
+							<div align="center">
+								<h3>Directed by: <big>Brian Katz</big></h3>
+								</div>
+					  	<h3>Performances:<br />September 9-17</h3>
 						</div>
-				      </div>
-				    </td>
+						<!--
+				    <div id="cat-cast-panel" style="font-style:underline">
+				      <div align="center" title="click to view" onclick="exposeMoreInfo('cat-cast-panel','cat-cast-info','Show Cast','Hide Cast','producers-cast-arrow','420px')">
+				        <div id="cat-cast-info">Show Cast</div><img src="images/arrowd.gif" id="cat-cast-arrow" alt="arrow down"></div>
+								<div align="left">
+									<h3>
+				              Set Design:  Fernando Ochoa
+									</h3>
+					      </div>
+								<div align="center">
+									<p><b>Featuring:</b><br />
+									</p>
+								</div>
+							</div>
+						</div>
+							-->
+						<div align="center">
+							<hr>
+							<h1>2012<br />SEASON<br />ANNOUNCED</h1>
+					    <img src="/2012 ILY,YP,NC/ILYYPNC-LOGO.png" width="175" alt="I Love You, You're Perfect, Now Change Logo" />
+							<br /><br /><br />
+					    <img src="/2012 Singin in the Rain/SinginLOGO1.png" width="175" alt="Singin in the Rain Logo" />
+							<br /><br /><br />
+							<h3>Watch this space for more info SOON!</h3>
+					</td>
 				
 				  <td width="275" valign="top" style="padding-bottom: 0pt; margin-bottom: 0pt" bgcolor="#33FF99">
 					<div align="center">
@@ -197,7 +165,7 @@
   					        <h2>Performances:</h2>
                     </div>
   					      <table width="85%">
-  					        <tr><td>Friday,</td><td>July 22</td><td>8 p.m.</td>
+  					        <tr><td>Friday,</td><td>July 22</td><td>8 p.m.</td></tr>
                     <tr><td>Saturday,</td><td>July 23</td><td>2 p.m.</td></tr>
                     <tr><td>Saturday,</td><td>July 23</td><td>8 p.m.</td></tr>
                     <tr><td>Sunday,</td><td>July 24</td><td>2 p.m.</td></tr>
@@ -255,47 +223,40 @@
 					    </div>
 
 					  <div align="center">
-					    <img src="2011 Seat Campaign/plushseatsTime2.jpg" width="175" height="173" alt="Your Seat In The Spotlight" />
+					    <img src="2011 Seat Campaign/plushseatsTime2.jpg" width="175" alt="Your Seat In The Spotlight" />
 					  	<p><b>Comfortable, elevated, theatre-style seating is coming soon!</b></p>
 					    <p><b>You can help</b> with this upgrade to the Community Playhouse. A $250 donation will cover the costs of one seat.
 					    Your seat will have a brass plate engraved with a name you designate.</p>
-					    <a href="2011 Seat Campaign/SeatCampaign.shtml" title="" target="_blank"><h3>Click for more details.</h3></a>
+					    <a href="2011 Seat Campaign/SeatCampaign.shtml" title=""><h3>Click for more details.</h3></a>
 					    </div>
 
 					  <hr />
-
-					  <div align="center">
-					  	<h1>PCP<br />AUDITIONS</h1>
-					  	<h2>July 10 / 11</h2>
-					  	<h3>Tennessee Williams'</h3>
-					  	<img src="2011 Cat on a Hot Tin Roof/CatLOGO2.jpg" width="175" height="228" alt="Footloose Logo" />
-					  	<h3>Performances:<br />September 9-17</h3>
-						<a href="2011 Cat on a Hot Tin Roof/CatAuditions.html" title=""><h2>Click for Details</h2></a>
-						</div>
 					  </td>
 					</tr>
 
-			  <tr bgcolor="#6699FF">
-				  <td align="center"><img src="images/PCPconnecting.jpg" width="134" height="72" border="0" alt="" longdesc="New PCP LOGO" /></td>
-				  <td align="center">
-				  	<a href="/2010-2011SponsorshipForm.shtml" title="" target="_blank">
-				  	  <strong>BECOME A PATRON OF THE ARTS<br />
-					          2011 Sponsorship Drive</strong>
-			          </a>
-					</td>
-				  <td align="center">
-				  	<a href="http://www.facebook.com/group.php?gid=109262739110253">
-				  	  <img src="images/find_us_on_facebook_badge.gif" width="74" height="77" border="0" alt="" longdesc="http://dramamasksw-curtain" />
-				  	  </a>
-				  	</td>
+					<tr bgcolor="#6699FF">
+						<td align="center"><img src="images/PCPconnecting.jpg" width="134" height="72" border="0" alt="" longdesc="New PCP LOGO" /></td>
+						<td align="center">
+							<a href="/2010-2011SponsorshipForm.shtml" title="">
+								<strong>BECOME A PATRON OF THE ARTS<br />
+											2011 Sponsorship Drive</strong>
+									</a>
+						</td>
+						<td align="center">
+							<a href="http://www.facebook.com/group.php?gid=109262739110253">
+								<img src="images/find_us_on_facebook_badge.gif" width="74" height="77" border="0" alt="" longdesc="http://dramamasksw-curtain" />
+							</a>
+						</td>
 				  </tr>
 		    </tbody>
        </table>
        </td>
      </tr>
     </tbody>
-  </table>
+	</table>
   </div>
+</td>
+</tr>
 <!--#include virtual="includes/PCPfooter-row.html" -->
 </tbody>
 </table>
