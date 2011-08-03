@@ -1,0 +1,99 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+	<title>PCP History</title>
+
+	<link rel="stylesheet" type="text/css" href="css/pcp.css" />
+
+	<link rel="stylesheet" type="text/css" href="css/2leveltab.css" />
+	
+	<style type="text/css">
+		em {
+			color: blue;
+		}
+	</style>
+
+	<script type="text/javascript" src="js/easyDropDownContainer.js"></script>
+
+	<script type="text/javascript" src="js/2leveltab2.js">
+		/***********************************************
+		* 2 level Horizontal Tab Menu- by JavaScript Kit (www.javascriptkit.com)
+		* This notice must stay intact for usage
+		* Visit JavaScript Kit at http://www.javascriptkit.com/ for full source code
+		* http://www.javascriptkit.com/script/script2/2leveltab.shtml
+		***********************************************/
+	</script>
+</head>
+
+<body style="height:100%">
+	<div id="mainContainer" style="height:100%">
+	<center>
+	<table id="mainTable" border="0" cellpadding="1" cellspacing="0" width="849 height="100%">
+		<tbody>
+<!--#include virtual="includes/PCPbanner-row.html" -->
+<!--#include virtual="includes/PCPmenu-row2.html" -->
+			<tr>
+				<td colspan=3 style="height:100%; margin-top:0pt; padding-top:0pt" valign="top" align="center">
+					<div style="text-align:center; padding:10px; margin-top:10px;">
+						<table width="100%" align="center" border="0" cellpadding="0" cellspacing="0">
+							<tbody>
+								<tr style=" background-color:#FFFF99">
+									<td align="center">
+										<div class="mainText" style="margin-top:0; padding:20px; text-align:justify">
+											<h2>Our History</h2>
+											<p>In 1986, two <a href="http://www.ci.pinole.ca.us/" target="_blank">Pinole (California)</a>
+													couples, Gary &amp; Nancy Gill and David &amp; Patti Clark met around the  Gill's kitchen
+													table to discuss their dream of forming a local community theatre group.
+													Utilizing Gary's technical knowledge, Nancy's musical talents, David's directing background
+													and Patti's producing and organizational skills, the <strong>PINOLE COMMUNITY  PLAYERS</strong>
+													were born.
+													Contact was made with Father Tom Ryan at&nbsp; St. Joseph's Church to seek support for the
+													new endeavor.
+													With Father  Ryan's blessing and financial support, and the use of the school auditorium,
+													<em>GODSPELL</em>, the first production of the new theatrical company, was  born.
+													Tryout's were conducted and an outstanding cast of young local people hit the newly
+													constructed stage in July of 1986.
+													Two more successful seasons followed with the  productions of<em> OLIVER, THE FANTASTICKS</em>
+													and <em>SOUTH PACIFIC</em>, but in 1989 the St. Joseph's auditorium was no longer available
+													and it became necessary to find a new venue for the Pinole Community Players.
+											</p>
+											<p>At this point, the City of Pinole offered the use of the Pinole Memorial Center.
+													Able to pack up lights, scenery and costumes at a moments notice, the Pinole Players became
+													a band of traveling performers in  the true theatrical tradition.
+													<em>COMPANY,  A CHORUS LINE, BABY, ANNIE, </em><em>A LITTLE SHOP OF HORRORS</em> and
+													<em>GUYS &amp; DOLLS</em> brought PCP to their 1991-92 SEASON &ndash; but still homeless.
+													But by now, the Pinole Community Players consisted of many talented local people, including
+													entire families -- all bitten by the theatrical bug -- who worked  diligently and tirelessly
+													to make PCP a well-respected performance  group.
+													In 1990, the Board of Directors approached the Pinole City Council with the possibility of
+													leasing the Pinole Memorial Center  as the Players' permanent performance space.
+											</p>
+											<p>By the summer of 1991, the City Council voted unanimously in favor of this agreement, pledged
+												their support to the group and granted  permission to establish the PINOLE COMMUNITY PLAYHOUSE.
+												<em>THE BEST OF  BROADWAY</em> opened the 1991-92 season and plans were underway to make
+												renovations to the building and expand the number of  adult and children's performances each year.
+												This group has been able to accomplish renovations to the building, an increase in audience
+												attendance, introduction of new directors and new <a href="pastProductions.shtml" target="_parent">
+												productions</a>.
+												Pinole Community Players' quality productions, intimate performance space, unique cabaret style
+												and family atmosphere continue to be strengths as the second decade  begins.
+											</p>
+											<p>Voted &quot;Best in the West&quot; by West County Times readers and supported by civic leaders,
+												theatre goers, and the community in  general.
+											</p>
+										</div>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</td>
+			</tr>
+<!--#include virtual="includes/PCPfooter-row.html" -->
+	</tbody>	
+</table>
+</center>
+</div>
+</body>
+</html>
