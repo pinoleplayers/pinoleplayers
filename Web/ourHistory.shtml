@@ -12,6 +12,10 @@
 		em {
 			color: blue;
 		}
+		img.lineup {
+			margin:2px 10px;
+			height:150px;
+		}
 	</style>
 
 	<script type="text/javascript" src="js/easyDropDownContainer.js"></script>
@@ -46,7 +50,7 @@
 												couples, Gary &amp; Nancy Gill and David &amp; Patti Clark met around the  Gill's kitchen
 												table to discuss their dream of forming a local community theatre group.
 												Utilizing Gary's technical knowledge, Nancy's musical talents, David's directing background
-												and Patti's producing and organizational skills, the <strong>PINOLE COMMUNITY PLAYERS</strong>
+												and Patti's producing and organizational skills, the <strong style="color:blue;">PINOLE COMMUNITY PLAYERS</strong>
 												was born.
 											</p>
 											<p>
@@ -57,26 +61,43 @@
 												constructing a stage, hanging lights, setting up dressing rooms, bringing in tables and chairs --
 												and &quot;load out&quot; when the show closed.
 											</p>
-											<img src=/images/Godspell(86)-3-sm.png width="110" alt="Godspell thumbnail"
-															align="left" style="margin:5px; margin-right:15px; margin-left:0" />
 											<p>
 												<em>GODSPELL</em>, a musical based on the Gospel of St. Matthew, was the first production of the new
-												theatrical company.
-												Auditions were conducted and an outstanding cast of young local people hit the newly
-												constructed stage in July of 1986.
-												Two more successful seasons followed with the productions of <em>OLIVER</em>, <em>THE FANTASTICKS</em>
-												and <em>SOUTH PACIFIC</em>.
+												theatre company.
+												Auditions were conducted and an outstanding cast of young local people hit the newly-constructed
+												stage in July of 1986.
+												Two more successful seasons followed with the productions of <em>OLIVER</em>,
+												<em>THE FANTASTICKS</em> and <em>SOUTH PACIFIC</em>.
 											</p>
-											<a href=/images/Clipping-SeekingAHome.png>
-												<img src=/images/Clipping-SeekingAHome-sm.png width="180" alt="Seeking a Home Clipping thumbnail"
-															align="right" style="margin:5px; margin-left:15px; margin-right:0" />
-											</a>
-											<p>In 1989 the St. Joseph's auditorium was no longer available
+											<table align="center" border="0" cellspacing="0" cellpadding="0" style="color:blue">
+												<tbody>
+													<tr>
+														<td width="25%" align="center"><img class="lineup" src=/images/OldShowThumbs/Godspell-86-3.jpg alt="Godspell thumbnail" /></td>
+														<td width="25%" align="center"><img class="lineup" src=/images/OldShowThumbs/Oliver-87-Oliver,Dodger,Fagin.jpg alt="Oliver-87 thumbnail" /></td>
+														<td width="25%" align="center"><img class="lineup" src=/images/OldShowThumbs/TheFantasticks-88-FullCast.jpg alt="The Fantasticks-88 thumbnail" /></td>
+														<td width="25%" align="center"><img class="lineup" src=/images/OldShowThumbs/SouthPacific-Honeybun-Billis+Nellie.jpg alt="South Pacific thumbnail" /></td>
+													</tr>
+													<tr>
+														<td align="center">Godspell<br />1986</td>
+														<td align="center">Oliver<br />1987</td>
+														<td align="center">The Fantasticks<br />1988</td>
+														<td align="center">South Pacific<br />1988</td>
+													</tr>
+												</tbody>
+											</table>
+											<p>
+												<a href=/images/Clipping-SeekingAHome.png>
+													<img src=/images/Clipping-SeekingAHome-sm.jpg height="160" alt="Seeking a Home Clipping thumbnail"
+																style="float:right; margin:5px; margin-left:15px; margin-right:0" />
+												</a>
+											In 1989 the St. Joseph auditorium was no longer available
 												and it became necessary to find a new venue for the Pinole Community Players.
-												Learning of the need for a performing space, the City of Pinole offered the use of the Pinole Memorial Center,
-												which at that time housed the Pinole Senior Center.
-												Able to pack up lights, scenery and costumes at a moment's notice, the Pinole Players became
-												a band of traveling performers in the true theatrical tradition.
+												Learning of the need for a performing space, the City of Pinole offered the use of the Pinole Memorial Center.
+												At that time, the Memorial Center housed the Pinole Senior Center, so shows had to be loaded in and loaded out.
+												The next three summer productions were staged in the Little Theatre at Pinole Valley High School, which had its
+												own stage with stage lighting.
+												Able to pack up lights, scenery and costumes at a moment's notice, the Pinole Players were
+												a band of traveling performers in the theatrical tradition.
 											</p>
 											<p>
 												<em>COMPANY</em>, <em>A CHORUS LINE</em>, <em>BABY</em>, <em>ANNIE</em>, <em>A LITTLE SHOP OF HORRORS</em> and
@@ -85,16 +106,53 @@
 												entire families -- all bitten by the theatrical bug -- who worked  diligently and tirelessly
 												to make PCP a well-respected performance  group.
 											</p>
+											<table align="center" border="0" cellspacing="0" cellpadding="0" style="color:blue">
+												<tbody>
+													<tr>
+														<td width="33%" align="center"><img class="lineup" src=/images/OldShowThumbs/Company-Bobby'sBirthday.jpg alt="Company thumbnail"\ /></td>
+														<td width="33%" align="center"><img class="lineup" src=/images/OldShowThumbs/AChorusLine-TheLine.jpg alt="A Chorus Line thumbnail"\ /></td>
+														<td width="33%" align="center"><img class="lineup" src=/images/OldShowThumbs/BABY-FullCast.jpg alt="BABY thumbnail"\ /></td>
+													</tr>
+													<tr>
+														<td align="center">Company<br />1989</td>
+														<td align="center">A Chorus Line<br />1989</td>
+														<td align="center">BABY<br />1990</td>
+													</tr>
+												</tbody>
+											</table>
 											<p>
 												Still lacking a permanent home, in 1990, the Board of Directors approached the Pinole City Council with a
 												proposal to lease the Pinole Memorial Center as the Players' permanent performance space.
 												In the summer of 1991, the City Council voted unanimously in favor of this agreement, pledged
 												their support to the group and granted permission to establish the PINOLE COMMUNITY PLAYHOUSE.
 											</p>
-											<img src=/images/BestOfBroadway-SouthPacific-sm.png width="130" alt="Best of Broadway thumbnail"
-															align="left" style="margin:5px; margin-right:15px; margin-left:0" />
+											<table align="center" border="0" cellspacing="0" cellpadding="0" style="color:blue">
+												<tbody>
+													<tr>
+														<td width="33%" align="center"><img class="lineup" src=/images/OldShowThumbs/Annie-Orphans+Hannigan.jpg alt="Annie thumbnail"\ /></td>
+														<td width="33%" align="center"><img class="lineup" src=/images/OldShowThumbs/LittleShopOfHorrors-MushniksWithAudreyII-2.jpg alt="Little Shop Of Horrors thumbnail"\ /></td>
+														<td width="33%" align="center"><img class="lineup" src=/images/OldShowThumbs/Guys&Dolls-91-TheCrapGame.jpg alt="Guys & Dolls-91 thumbnail"\ /></td>
+													</tr>
+													<tr>
+														<td align="center">Annie<br />1990</td>
+														<td align="center">Little Shop of Horrors<br />1991</td>
+														<td align="center">Guys & Dolls<br />1991</td>
+													</tr>
+												</tbody>
+											</table>
 											<p>
-												<em>THE BEST OF  BROADWAY</em> opened the 1991-92 season and plans were underway to make
+												<table align="center" border="0" cellspacing="0" cellpadding="0" style="float:left; color:blue">
+													<tbody>
+														<tr>
+															<td width="100%" align="center"><img class="lineup" src=/images/OldShowThumbs/BestOfBroadway-SouthPacific.jpg alt="Best of Broadway thumbnail" /></td>
+														</tr>
+														<tr>
+															<td align="center">The Best of Broadway<br />1992</td>
+														</tr>
+													</tbody>
+												</table>
+												<em>THE BEST OF  BROADWAY</em>
+												opened the 1991-92 season and plans were underway to make
 												renovations to the building and expand the number of  adult and children's performances each year.
 												This group has been able to accomplish renovations to the building, an increase in audience
 												attendance, introduction of new directors and new <a href="pastProductions.shtml" target="_parent">
