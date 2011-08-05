@@ -7,7 +7,6 @@
 	<link rel="stylesheet" type="text/css" href="css/pcp.css" />
 
 	<link rel="stylesheet" type="text/css" href="css/2leveltab.css" />
-	
 	<style type="text/css">
 		em {
 			color: blue;
@@ -28,6 +27,14 @@
 		* http://www.javascriptkit.com/script/script2/2leveltab.shtml
 		***********************************************/
 	</script>
+
+	<script type="text/javascript" src="js/expando.js">
+	/* Expando Image Script ©2008 John Davenport Scheuer
+   as first seen in http://www.dynamicdrive.com/forums/
+   username: jscheuer1 - This Notice Must Remain for Legal Use
+   */
+	</script>
+	
 </head>
 
 <body style="height:100%">
@@ -72,10 +79,10 @@
 											<table align="center" border="0" cellspacing="0" cellpadding="0" style="color:blue">
 												<tbody>
 													<tr>
-														<td width="25%" align="center"><img class="lineup" src=/images/OldShowThumbs/Godspell-86-3.jpg alt="Godspell thumbnail" /></td>
-														<td width="25%" align="center"><img class="lineup" src=/images/OldShowThumbs/Oliver-87-Oliver,Dodger,Fagin.jpg alt="Oliver-87 thumbnail" /></td>
-														<td width="25%" align="center"><img class="lineup" src=/images/OldShowThumbs/TheFantasticks-88-FullCast.jpg alt="The Fantasticks-88 thumbnail" /></td>
-														<td width="25%" align="center"><img class="lineup" src=/images/OldShowThumbs/SouthPacific-Honeybun-Billis+Nellie.jpg alt="South Pacific thumbnail" /></td>
+														<td width="25%" align="center"><img class="lineup expando" src=/images/OldShowThumbs/Godspell-86-3.jpg alt="Godspell thumbnail" /></td>
+														<td width="25%" align="center"><img class="lineup expando" src=/images/OldShowThumbs/Oliver-87-Oliver,Dodger,Fagin.jpg alt="Oliver-87 thumbnail" /></td>
+														<td width="25%" align="center"><img class="lineup expando" src=/images/OldShowThumbs/TheFantasticks-88-FullCast.jpg alt="The Fantasticks-88 thumbnail" /></td>
+														<td width="25%" align="center"><img class="lineup expando" src=/images/OldShowThumbs/SouthPacific-Honeybun-Billis+Nellie.jpg alt="South Pacific thumbnail" /></td>
 													</tr>
 													<tr>
 														<td align="center">Godspell<br />1986</td>
@@ -109,9 +116,9 @@
 											<table align="center" border="0" cellspacing="0" cellpadding="0" style="color:blue">
 												<tbody>
 													<tr>
-														<td width="33%" align="center"><img class="lineup" src=/images/OldShowThumbs/Company-Bobby'sBirthday.jpg alt="Company thumbnail"\ /></td>
-														<td width="33%" align="center"><img class="lineup" src=/images/OldShowThumbs/AChorusLine-TheLine.jpg alt="A Chorus Line thumbnail"\ /></td>
-														<td width="33%" align="center"><img class="lineup" src=/images/OldShowThumbs/BABY-FullCast.jpg alt="BABY thumbnail"\ /></td>
+														<td width="33%" align="center"><img class="lineup expando" src=/images/OldShowThumbs/Company-Bobby'sBirthday.jpg alt="Company thumbnail"\ /></td>
+														<td width="33%" align="center"><img class="lineup expando" src=/images/OldShowThumbs/AChorusLine-TheLine.jpg alt="A Chorus Line thumbnail"\ /></td>
+														<td width="33%" align="center"><img class="lineup expando" src=/images/OldShowThumbs/BABY-FullCast.jpg alt="BABY thumbnail"\ /></td>
 													</tr>
 													<tr>
 														<td align="center">Company<br />1989</td>
@@ -129,9 +136,9 @@
 											<table align="center" border="0" cellspacing="0" cellpadding="0" style="color:blue">
 												<tbody>
 													<tr>
-														<td width="33%" align="center"><img class="lineup" src=/images/OldShowThumbs/Annie-Orphans+Hannigan.jpg alt="Annie thumbnail"\ /></td>
-														<td width="33%" align="center"><img class="lineup" src=/images/OldShowThumbs/LittleShopOfHorrors-MushniksWithAudreyII-2.jpg alt="Little Shop Of Horrors thumbnail"\ /></td>
-														<td width="33%" align="center"><img class="lineup" src=/images/OldShowThumbs/Guys&Dolls-91-TheCrapGame.jpg alt="Guys & Dolls-91 thumbnail"\ /></td>
+														<td width="33%" align="center"><img class="lineup expando" src=/images/OldShowThumbs/Annie-Orphans+Hannigan.jpg alt="Annie thumbnail"\ /></td>
+														<td width="33%" align="center"><img class="lineup expando" src=/images/OldShowThumbs/LittleShopOfHorrors-MushniksWithAudreyII-2.jpg alt="Little Shop Of Horrors thumbnail"\ /></td>
+														<td width="33%" align="center"><img class="lineup expando" src=/images/OldShowThumbs/Guys&Dolls-91-TheCrapGame.jpg alt="Guys & Dolls-91 thumbnail"\ /></td>
 													</tr>
 													<tr>
 														<td align="center">Annie<br />1990</td>
@@ -144,7 +151,7 @@
 												<table align="center" border="0" cellspacing="0" cellpadding="0" style="float:left; color:blue">
 													<tbody>
 														<tr>
-															<td width="100%" align="center"><img class="lineup" src=/images/OldShowThumbs/BestOfBroadway-SouthPacific.jpg alt="Best of Broadway thumbnail" /></td>
+															<td width="100%" align="center"><img class="lineup expando" src=/images/OldShowThumbs/BestOfBroadway-SouthPacific.jpg alt="Best of Broadway thumbnail" /></td>
 														</tr>
 														<tr>
 															<td align="center">The Best of Broadway<br />1992</td>
@@ -178,3 +185,4 @@
 </div>
 </body>
 </html>
+<!-- vim: set sw=2 ts=2: -->

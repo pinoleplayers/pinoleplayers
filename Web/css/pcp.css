@@ -112,4 +112,8 @@
 		font-weight:bold;
 		text-align:center;
 	}	
-		
+	img.expando{
+		border: none;
+		vertical-align: top; /*top aligns image, so mouse has less of a change of moving out of image while image is expanding*/
+	}
+</style>
