@@ -465,7 +465,7 @@ EOT;
 		$hdrs = $mime->headers($hdrs);
 
 		$mail =& Mail::factory('mail');
-		$mail->send('boxoffice@pinoleplayers.org, a.elischer@comcast.net', $hdrs, $email_body);
+		$mail->send('boxoffice@pinoleplayers.org, pa-clark@comcast.net', $hdrs, $email_body);
 
 		// send to person that ordered
 		$hdrs = array(
