@@ -1,0 +1,151 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+
+	<title>PCP Patrons of the Arts</title>
+
+	<link rel="stylesheet" type="text/css" href="css/pcp.css" />
+
+	<link rel="stylesheet" type="text/css" href="css/2leveltab.css" />
+
+	<style type="text/css">
+		<!--.style2 {
+			font-size: 16px;
+			font-weight: bold;
+		}
+		.style4 {
+			font-size: large;
+			font-family: Georgia, "Times New Roman", Times, serif;
+		}
+		.style5 {
+			font-size: large;
+			font-family: Georgia, "Times New Roman", Times, serif;
+		}
+		.style6 {
+			font-size: 14px;
+			font-family: Georgia, "Times New Roman", Times, serif;
+		}
+		.style10 {	
+			font-size: 16px;
+			font-family: Georgia, "Times New Roman", Times, serif;
+		}
+		.mborder {
+			border:1px #404040 double;
+			border-top:1px #c0c0c0 double;
+			border-right:1px #c0c0c0 solid;
+		}
+		-->
+	</style>
+
+	<script type="text/javascript" src="js/easyDropDownContainer.js"></script>
+
+	<script type="text/javascript" src="js/2leveltab2.js">
+		/***********************************************
+		* 2 level Horizontal Tab Menu- by JavaScript Kit (www.javascriptkit.com)
+		* This notice must stay intact for usage
+		* Visit JavaScript Kit at http://www.javascriptkit.com/ for full source code
+		* http://www.javascriptkit.com/script/script2/2leveltab.shtml
+		***********************************************/
+	</script>
+</head>
+
+<body style="height:100%">
+	<div id="mainContainer" style="height:100%">
+		<center>
+		<table id="mainTable" border="0" cellpadding="1" cellspacing="0" height="100%">
+			<tbody>
+	<!--#include virtual="includes/PCPbanner-row.html" -->
+	<!--#include virtual="includes/PCPmenu-row2.html" -->
+				<tr style="background-color:#eeeeee;">
+					<td colspan=3 id="mainContent" style="height:100%; margin-top:0pt; padding-top:0pt" valign="top" align="center;">
+						<div style="text-align:center; padding:0; padding-top:10px;">
+							<table width="100%" align="center" border="0" cellpadding="10" cellspacing="0">
+								<tbody style="background-color:#6699FF; font-size:12pt; color:LightBlue">
+									<tr>
+										<td align="center">
+											<table width="826" cellpadding="0" cellspacing="0" border="0">
+											  <tbody>
+													<tr style="color:blue">
+														<th colspan="5" align="center" style="padding:20px; font-size:14pt;">
+															A big THANK YOU to all of our Patrons for their generous support.
+														</th>
+													</tr>
+													<tr style="color:blue">
+														<th width="20%" align="center">FRIENDS</th>
+														<th width="20%" align="center">SUBSCRIBERS</th>
+														<th width="20%" align="center">BENEFACTORS</th>
+														<th width="20%" align="center">SPONSORS</th>
+														<th width="20%" align="center">ANGELS</th>
+													</tr>
+													<tr valign="top">
+														<td align="left">
+															<ul>
+																<li>Susan Duda</li>
+																<li>Roberta T. Quan</li>
+																<li>Richard &amp; Patricia Loomis</li>
+															</ul>
+														</td>
+														<td align="left">
+															<ul>
+																<li>Sonnie Gandola</li>
+															</ul>
+														</td>
+														<td align="left">
+															<ul>
+																<li>Marc &amp; Dana Grisham</li>
+																<li>The Madfes Family</li>
+																<li>Michelle McGoon</li>
+															</ul>
+														</td>
+														<td align="left">
+															<ul>
+																<li>Heidi Zuerner</li>
+																<li>George &amp; Kathie Doerr</li>
+																<li>Mark Zimmerman</li>
+																<li>Mike &amp; Sharon LeFebvre</li>
+																<li>John &amp; Mary Alice Lynch</li>
+															</ul>
+														</td>
+														<td align="left">
+															<ul>
+																<li>Jeff &amp; Terry O'Donnell</li>
+																<li>Art &amp; Dianne Reardon</li>
+																<li>Dave &amp; Deanna Million</li>
+															</ul>
+														</td>
+													</tr>
+													<tr style="color:blue">
+														<th colspan="5" align="center">COMMUNITY PLAYHOUSE<br />SUPPORTERS</th>
+													</tr>
+													<tr>
+														<td></td>
+														<td></td>
+														<td align="left">
+															<div>
+															<ul>
+																<li>Jerry &amp; Judy Cates</li>
+																<li>Melinda Harris</li>
+																<li>Patricia A. Ryan</li>
+															</ul>
+															</div>
+														</td>
+														<td></td>
+														<td></td>
+													</tr>
+												</tbody>
+											</table>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</td>
+				</tr>
+<!--#include virtual="includes/PCPfooter-row.html" -->
+			</tbody>
+		</table>
+		</center>
+	</div>
+</body>
+</html>

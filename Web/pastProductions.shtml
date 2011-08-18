@@ -1,0 +1,268 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+	<title>PCP Past Shows</title>
+
+	<link rel="stylesheet" type="text/css" href="css/pcp.css" />
+
+	<link rel="stylesheet" type="text/css" href="css/2leveltab.css" />
+
+	<script type="text/javascript" src="js/easyDropDownContainer.js"></script>
+
+	<script type="text/javascript" src="js/2leveltab2.js">
+		/***********************************************
+		* 2 level Horizontal Tab Menu- by JavaScript Kit (www.javascriptkit.com)
+		* This notice must stay intact for usage
+		* Visit JavaScript Kit at http://www.javascriptkit.com/ for full source code
+		* http://www.javascriptkit.com/script/script2/2leveltab.shtml
+		***********************************************/
+	</script>
+
+	<style type="text/css">
+	<!--
+	.style2 {font-size: 14; }
+	.style7 {font-size: 16px; color: #FFFFFF; font-weight: bold; }
+	.timelineDirector {color:blue; }
+	-->
+	</style>
+</head>
+
+<body style="height:100%">
+  <div id="mainContainer" style="height:100%">
+    <center>
+    <table id="mainTable" cellpadding="1" cellspacing="0" height="100%">    
+      <tbody>
+<!--#include file="includes/PCPbanner-row.html" -->
+<!--#include file="includes/PCPmenu-row2.html" -->
+				<tr>
+					<td colspan=3 id="mainContent" style="height:100%; margin-top:0pt; padding-top:0pt" valign="top" align="center">
+						<div style="text-align:center; font-size:18px; padding:0; margin-top:20px; background-color:#FFFF99">
+							<div class="mainTitle" style="margin-top:0; padding-top:0;">
+								<h2><center>PCP Past Shows</center></h2>
+							</div>
+							<table align="center" width="600" border="1" cellspacing="1" cellpadding="10" style="border-color:blue">
+								<tbody>
+									<tr>
+										<td rowspan=2 width="1%"><div align="right"><span class="timelineYear">2<br />0<br />1<br />1</span></div></td>
+										<td width="250" align="center" valign="bottom"><a href="#"><img src="2010 Full Monty/FullMontyLOGO.jpg" width="197" height="300" border="1" /></a></td>
+										<td width="250" align="center" valign="bottom"><a href="#"><img src="2011 Producers/ProducersLOGO.jpg" width="197" height="300" border="1" /></a></td>
+									</tr>
+									<tr>
+									 <td align="center" valign="top"><span class="timelineDirector">Directed by Meredith Meeks</span></td>
+									 <td align="center" valign="top"><span class="timelineDirector">Directed by Janet O'Brien</span></td>
+									</tr>
+									<tr>
+										<td rowspan=2 width="1%"><div align="right"><span class="timelineYear">2<br />0<br />1<br />0</span></div></td>
+										<td width="250" align="center" valign="bottom"><a href="#"><img src="images/2010_Nunsensations_logo.jpg" width="197" height="300" border="1" /></a></td>
+										<td width="250" align="center" valign="bottom"><a href="#"><img src="images/2010_Spelling_Bee_logo.jpg" width="197" height="300" border="1" /></a></td>
+									</tr>
+									<tr>
+										<td align="center" valign="top"><span class="timelineDirector">Directed by G. A. Klein</span></td>
+										<td align="center" valign="top"><span class="timelineDirector">Directed by Janet O'Brien</span></td>
+									</tr>
+									<tr>
+										<td rowspan=2 width="1%"><div align="right"><span class="timelineYear">2<br />0<br />0<br />9</span></div></td>
+										<td width="250" align="center" valign="bottom"><a href="#"><img src="images/2009_PumpBoys_logo_sm.jpg" width="197" height="300" border="1" /></a></td>
+										<td width="250" align="center" valign="bottom"><a href="#"><img src="images/2009_Falsettos_logo_sm.jpg" width="197" height="300" border="1" /></a></td>
+									</tr>
+									<tr>
+										<td align="center" valign="top"><span class="timelineDirector">Directed by Derrick Silva</span></td>
+										<td align="center" valign="top"><span class="timelineDirector">Directed by Janet O'Brien</span></td>
+									</tr>
+									<tr>
+										<td rowspan=2 width="1%"><div align="right"><span class="timelineYear">2<br />0<br />0<br />8</span></div></td>
+										<td width="250" align="center" valign="bottom"><a href="#"><img src="images/carousel logo LH.jpg" width="197" height="300" border="1" /></a></td>
+										<td width="250" align="center" valign="bottom"><a href="#m"><img src="images/SomethingsAfootSmall.jpg" width="197" height="300" border="1" /></a></td>
+									</tr>
+									<tr>
+										<td align="center" valign="top"><span class="timelineDirector">Directed by Larry Harada</span></td>
+										<td align="center" valign="top"><span class="timelineDirector">Directed by Marti Baer</span></td>
+									</tr>
+									<tr>
+										<td rowspan=2 width="1%"><div align="right"><span class="timelineYear">2<br />0<br />0<br />7</span></div></td>
+										<td width="250" align="center" valign="bottom"><a href="#"><img src="images/smokeyJoesSmall.jpg" width="197" height="300" border="1" /></a></td>
+										<td width="250" align="center" valign="bottom"><a href="#"><img src="images/chicagoSmall.jpg" width="197" height="300" border="1" /></a></td>
+									</tr>
+									<tr>
+										<td align="center" valign="top"><span class="timelineDirector">Directed by Nancy Gill<br />& Anjee Norgaard</span></td>
+										<td align="center" valign="top"><span class="timelineDirector">Directed by Janet O'Brien</span></td>
+									</tr>
+									<tr>
+										<td rowspan=2 width="1%"><div align="right"><span class="timelineYear">2<br />0<br />0<br />6</span></div></td>
+										<td width="250" align="center" valign="bottom"><a href="#"><img src="images/suddsSmall.jpg" width="197" height="300" border="1" /></a></td>
+										<td width="250" align="center" valign="bottom"><a href="#"><img src="images/oliverSmall.jpg" width="197" height="300" border="1" /></a></td>
+									</tr>
+									<tr>
+										<td align="center" valign="top"><span class="timelineDirector">Directed by Janet O'Brien</span></td>
+										<td align="center" valign="top"><span class="timelineDirector">Directed by David Clark</span></td>
+									</tr>
+									<tr>
+										<td rowspan=2 width="1%"><div align="right"><span class="timelineYear">2<br />0<br />0<br />5</span></div></td>
+										<td width="250" align="center" valign="bottom"><a href="#"><img src="images/CabaretLogo.jpg" width="197" height="300" border="1" /></a></td>
+										<td width="250" align="center" valign="bottom"><a href="#"><img src="images/tblwtSmall.jpg" width="197" height="300" border="1" /></a></td>
+									</tr>
+									<tr>
+										<td align="center" valign="top"><span class="timelineDirector">Directed by Janet O'Brien</span></td>
+										<td align="center" valign="top"><span class="timelineDirector">Directed by G. A. Klein</span></td>
+									</tr>
+								</tbody>
+							</table>
+              
+						<div><span class="timelineYear"><h3 align="center">The First 19 Years</h3></span></div>
+						<strong>
+						<table border="1" cellspacing="2" cellpadding="10" align="center">
+							<tbody>
+								<tr valign="top" align="center" bgcolor="#999999">
+									<th>Season</th>
+									<th>Show</th>
+									<th>Director</th>
+								</tr>
+								<tr valign="top" align="center">
+									<td><p class="style2">2004</p></td>
+									<td><p class="style2">Quilters<br />
+													Cinderella</p></td>
+									<td><p class="style2">Janet O'Brien<br />
+													Tammara Plankers</p></td>
+								</tr>
+								<tr valign="top" align="center">
+									<td><p class="style2">2003</p></td>
+									<td><p class="style2">A Few Good Men<br />
+													Sweet Charity</p></td>
+									<td><p class="style2">Janet O'Brien<br />
+													Ted Bigornia </p></td>
+								</tr>
+								<tr valign="top" align="center">
+									<td><p class="style2">2002</p></td>
+									<td><p class="style2">Guys &amp; Dolls<br />
+													Dames at Sea</p></td>
+									<td><p class="style2">David Clark<br />
+													Justin Cole</p></td>
+								</tr>
+								<tr valign="top" align="center">
+									<td><p class="style2">2001</p></td>
+									<td><p class="style2">The Fantasticks</p></td>
+									<td><p class="style2">Janet O&rsquo;Brien</p></td>
+								</tr>
+								<tr valign="top" align="center">
+									<td><p class="style2">2000</p></td>
+									<td><p class="style2">Forever Plaid<br />
+													Once Upon a Mattress<br />
+													Forever Plaid</p></td>
+									<td><p class="style2">Janet O&rsquo;Brien<br />
+													Ned Kopp<br />
+													Janet O&rsquo;Brien</p></td>
+								</tr>
+								<tr valign="top" align="center">
+									<td><p class="style2">1999</p></td>
+									<td><p class="style2">Pump Boys &amp; Dinettes<br />
+													The Sound of Music</p></td>
+									<td><p class="style2">Tammara Plankers<br />
+													Janet O&rsquo;Brien</p></td>
+								</tr>
+								<tr valign="top" align="center">
+									<td><p class="style2">1998</p></td>
+									<td><p class="style2">Nunsense<br />
+													Anything Goes<br />
+													Steel Magnolias</p></td>
+									<td><p class="style2">Janet O&rsquo;Brien<br />
+													Justin Cole<br />
+													Dennis Gleason</p></td>
+								</tr>
+								<tr valign="top" align="center">
+									<td><p class="style2">1997</p></td>
+									<td><p class="style2">The Odd Couple<br />
+													Fiddler on the Roof</p></td>
+									<td><p class="style2">Mark Patino<br />
+													Janet O&rsquo;Brien</p></td>
+								</tr>
+								<tr valign="top" align="center">
+									<td><p class="style2">1996</p></td>
+									<td><p class="style2">Drood<br />
+													Damn Yankees<br />
+													Godspell</p></td>
+									<td><p class="style2">Debbie Grossman<br />
+													Janet O&rsquo;Brien<br />
+													Mark Patino</p></td>
+								</tr>
+								<tr valign="top" align="center">
+									<td><p class="style2">1995</p></td>
+									<td><p class="style2">The Music Man<br />
+													My Fair Lady</p></td>
+									<td><p class="style2">David Clark<br />
+													Janet O&rsquo;Brien</p></td>
+								</tr>
+								<tr valign="top" align="center">
+									<td><p class="style2">1994</p></td>
+									<td><p class="style2">Singin in the Rain<br />
+													Oklahoma </p></td>
+									<td><p class="style2">Mark Patino<br />
+													Mark Patino</p></td>
+								</tr>
+								<tr valign="top" align="center">
+									<td><p class="style2">1993</p></td>
+									<td><p class="style2">Forum<br />
+													Gypsy</p></td>
+									<td><p class="style2">Mark Patino<br />
+													David    Clark &amp; Janet O&rsquo;Brien </p></td>
+								</tr>
+								<tr valign="top" align="center">
+									<td><p class="style2">1992</p></td>
+									<td><p class="style2">Best of Broadway<br />
+											Best Little Whorehouse in Texas<br />
+										Blithe Spirit</p></td>
+									<td><p class="style2">Gerald Calvo<br />
+													David Clark<br />
+													Mark Patino</p></td>
+								</tr>
+								<tr valign="top" align="center">
+									<td><p class="style2">1991</p></td>
+									<td><p class="style2">Little Shop of Horrors<br />
+													Guys &amp; Dolls</p></td>
+									<td><p class="style2">Mark Cornfield<br />
+													Mark Cornfield</p></td>
+								</tr>
+								<tr valign="top" align="center">
+									<td><p class="style2">1990</p></td>
+									<td><p class="style2">Baby<br />
+													Annie</p></td>
+									<td><p class="style2">Gerard Calvo<br />
+													David Clark</p></td>
+								</tr>
+								<tr valign="top" align="center">
+									<td><p class="style2">1989</p></td>
+									<td><p class="style2">Company<br />
+													A Chorus Line</p></td>
+									<td><p class="style2">Gerard Calvo<br />
+													David Clark</p></td>
+								</tr>
+								<tr valign="top" align="center">
+									<td><p class="style2">1988 </p></td>
+									<td><p class="style2">The Fantasticks<br />
+													South Pacific</p></td>
+									<td><p class="style2">Gerard Calvo<br />
+													David Clark</p></td>
+								</tr>
+								<tr valign="top" align="center">
+									<td><p class="style2">1987</p></td>
+									<td><p class="style2">Oliver</p></td>
+									<td><p class="style2">David Clark</p></td>
+								</tr>
+								<tr valign="top" align="center">
+									<td><p class="style2">1986</p></td>
+									<td><p class="style2">Godspell</p></td>
+									<td><p class="style2">David Clark</p></td>
+								</tr>
+							</tbody>
+						</table>
+						</strong>
+					</div>
+				</td>
+			</tr>
+<!--#include file="includes/PCPfooter-row.html" -->
+	</tbody>
+</table>
+</center>
+</div>
+</body>
+</html>

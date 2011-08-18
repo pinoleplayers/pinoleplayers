@@ -1,0 +1,93 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+
+	<title>Program Ad Information</title>
+
+	<link rel="stylesheet" type="text/css" href="css/pcp.css" />
+
+	<link rel="stylesheet" type="text/css" href="css/2leveltab.css" />
+
+	<style type="text/css">
+		<!--.style2 {
+			font-size: 16px;
+			font-weight: bold;
+		}
+		.style4 {
+			font-size: large;
+			font-family: Georgia, "Times New Roman", Times, serif;
+		}
+		.style5 {
+			font-size: large;
+			font-family: Georgia, "Times New Roman", Times, serif;
+		}
+		.style6 {
+			font-size: 14px;
+			font-family: Georgia, "Times New Roman", Times, serif;
+		}
+		.style10 {	
+			font-size: 16px;
+			font-family: Georgia, "Times New Roman", Times, serif;
+		}
+		.mborder {
+			border:1px #404040 double;
+			border-top:1px #c0c0c0 double;
+			border-right:1px #c0c0c0 solid;
+		}
+		-->
+	</style>
+
+	<script type="text/javascript" src="js/easyDropDownContainer.js"></script>
+
+	<script type="text/javascript" src="js/2leveltab2.js">
+		/***********************************************
+		* 2 level Horizontal Tab Menu- by JavaScript Kit (www.javascriptkit.com)
+		* This notice must stay intact for usage
+		* Visit JavaScript Kit at http://www.javascriptkit.com/ for full source code
+		* http://www.javascriptkit.com/script/script2/2leveltab.shtml
+		***********************************************/
+	</script>
+</head>
+
+<body style="height:100%">
+	<div id="mainContainer" style="height:100%">
+		<center>
+		<table id="mainTable" border="0" cellpadding="1" cellspacing="0" height="100%">
+			<tbody>
+	<!--#include virtual="includes/PCPbanner-row.html" -->
+	<!--#include virtual="includes/PCPmenu-row2.html" -->
+				<tr style="background-color:#eeeeee;">
+					<td colspan=3 id="mainContent" style="height:100%; margin-top:0pt; padding-top:0pt" valign="top" align="center;">
+						<div style="text-align:center; padding:0; padding-top:10px;">
+							<table width="100%" align="center" border="0" cellpadding="0" cellspacing="0">
+								<tbody style="background-color:#33FF99; font-size:12pt; color:ForestGreen">
+									<tr>
+										<td align="center">
+											<table width="826" cellpadding="20"  border="0">
+											  <tbody>
+													<tr>
+														<td align="center">
+															<p>
+																Please call 510-223-3598 and request information about placing an
+																advertisement for your company, products or services in the programs
+																for one or more of our productions.
+															</p>
+														</td>
+													</tr>
+												</tbody>
+											</table>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</td>
+				</tr>
+<!--#include virtual="includes/PCPfooter-row.html" -->
+			</tbody>
+		</table>
+		</center>
+	</div>
+</body>
+</html>

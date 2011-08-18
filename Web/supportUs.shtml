@@ -1,0 +1,133 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+
+	<title>Support PCP</title>
+
+	<link rel="stylesheet" type="text/css" href="css/pcp.css" />
+
+	<link rel="stylesheet" type="text/css" href="css/2leveltab.css" />
+
+	<style type="text/css">
+		<!--.style2 {
+			font-size: 16px;
+			font-weight: bold;
+		}
+		.style4 {
+			font-size: large;
+			font-family: Georgia, "Times New Roman", Times, serif;
+		}
+		.style5 {
+			font-size: large;
+			font-family: Georgia, "Times New Roman", Times, serif;
+		}
+		.style6 {
+			font-size: 14px;
+			font-family: Georgia, "Times New Roman", Times, serif;
+		}
+		.style10 {	
+			font-size: 16px;
+			font-family: Georgia, "Times New Roman", Times, serif;
+		}
+		.mborder {
+			border:1px #404040 double;
+			border-top:1px #c0c0c0 double;
+			border-right:1px #c0c0c0 solid;
+		}
+		-->
+	</style>
+
+	<script type="text/javascript" src="js/easyDropDownContainer.js"></script>
+
+	<script type="text/javascript" src="js/2leveltab2.js">
+		/***********************************************
+		* 2 level Horizontal Tab Menu- by JavaScript Kit (www.javascriptkit.com)
+		* This notice must stay intact for usage
+		* Visit JavaScript Kit at http://www.javascriptkit.com/ for full source code
+		* http://www.javascriptkit.com/script/script2/2leveltab.shtml
+		***********************************************/
+	</script>
+</head>
+
+<body style="height:100%">
+	<div id="mainContainer" style="height:100%">
+		<center>
+		<table id="mainTable" border="0" cellpadding="1" cellspacing="0" height="100%">
+			<tbody>
+	<!--#include virtual="includes/PCPbanner-row.html" -->
+	<!--#include virtual="includes/PCPmenu-row2.html" -->
+				<tr style="background-color:#eeeeee;">
+					<td colspan=3 id="mainContent" style="height:100%; margin-top:0pt; padding-top:0pt" valign="top" align="center;">
+						<div style="text-align:center; padding:0; padding-top:10px; font-size:14pt">
+							<table width="100%" align="center" border="0" cellpadding="0" cellspacing="0">
+								<tbody>
+									<tr>
+										<td align="center">
+											<table width="826" cellpadding="40"  border="2" bordercolor="blue">
+											  <tbody>
+													<tr bgcolor="#6699FF">
+														<td align="justify">
+															<p>
+																The <strong>PINOLE COMMUNITY PLAYERS</strong> exists because of our audiences,
+																the people who pay to see our productions,
+																the people of Pinole and surrounding cities,
+																who come to our Playhouse to be entertained.
+															</p>
+															<p>
+																The money they pay for tickets and for concessions pays the fees we pay for the
+																rights to produce the shows.
+																It buys the lumber to build the sets and the paint.
+																It rents special costumes or props that we don't have in our collection and
+																can't borrow from other theatre groups.
+																It pays to copy the programs, buy the concessions, buy the special bulbs for the
+																theatre lighting.
+															</p>
+															<p>
+																Sometimes ticket revenue doesn't cover the costs of our shows.
+															</p>
+															<p>
+																<strong>PCP</strong> exists because of the monetary support of a few special people
+																over the years.
+																Some have given tens of dollars, some hundreds of dollars, and a few have given thousands
+																of dollars.
+																Here are the <a href=ourPatrons.shtml>people<a></a> who have most recently donated to <strong>PCP</strong>.
+																If you have the means, perhaps you would like to become a <a href=2010-2011SponsorshipForm.shtml>
+																Patrons of the Arts</a>.
+															</p>
+															<p>
+																<strong>PCP</strong> exists because of the work of hundreds of people.
+															</p>
+															<p>
+																Some have worked tens of hours, some hundreds of hours, and some thousands of hours.
+																A few have worked on every show, many on many shows, some on only one.
+															</p>
+															<p>
+																They don't do it for the money - there isn't any left over after we finance our productions.
+																They do it for love - most for love of theatre, some for love of community, some for love of family.
+															</p>
+															<p>
+																They come from every walk of life - adults, teenagers, even children.
+																They become carpenters, seamstresses, actors, musicians, maintenance workers, stage hands, technicians,
+																managers, directors, concessionaires, ticket sellers, ticket takers, all of the roles required to run
+																a theatre company, produce a show, present a show.
+															</p>
+															<p>Perhaps you are one of those amazing people</p>
+														</td>
+													</tr>
+												</tbody>
+											</table>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</td>
+				</tr>
+<!--#include virtual="includes/PCPfooter-row.html" -->
+			</tbody>
+		</table>
+		</center>
+	</div>
+</body>
+</html>
