@@ -593,7 +593,7 @@ function DisplayForm()
 
 	$form = <<<EOD
 	$errorsHTML
-	<form name="TicketForm" method="post" action="buytickets.php">
+	<form name="TicketForm" method="post" action="buyTickets.php">
 		<table id="tixTable" cellspacing="5">
 			<tr>
 				<th width="260">Name</th>
