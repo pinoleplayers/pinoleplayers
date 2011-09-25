@@ -1,0 +1,140 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+
+		<title>I Love You, You're Perfect, Now Change Audition Info</title>
+
+
+	<link rel="stylesheet" type="text/css" href="../css/pcp.css" />
+
+	<link rel="stylesheet" type="text/css" href="../css/2leveltab.css" />
+
+	<style type="text/css">
+		<!--.style2 {
+			font-size: 16px;
+			font-weight: bold;
+		}
+		.style4 {
+			font-size: large;
+			font-family: Georgia, "Times New Roman", Times, serif;
+		}
+		.style5 {
+			font-size: large;
+			font-family: Georgia, "Times New Roman", Times, serif;
+		}
+		.style6 {
+			font-size: 14px;
+			font-family: Georgia, "Times New Roman", Times, serif;
+		}
+		.style10 {	
+			font-size: 16px;
+			font-family: Georgia, "Times New Roman", Times, serif;
+		}
+		.mborder {
+			border:1px #404040 double;
+			border-top:1px #c0c0c0 double;
+			border-right:1px #c0c0c0 solid;
+		}
+		-->
+	</style>
+
+	<script type="text/javascript" src="../js/easyDropDownContainer.js"></script>
+
+	<script type="text/javascript" src="../js/2leveltab2.js">
+		/***********************************************
+		* 2 level Horizontal Tab Menu- by JavaScript Kit (www.javascriptkit.com)
+		* This notice must stay intact for usage
+		* Visit JavaScript Kit at http://www.javascriptkit.com/ for full source code
+		* http://www.javascriptkit.com/script/script2/2leveltab.shtml
+		***********************************************/
+	</script>
+</head>
+
+<body style="height:100%">
+	<div id="mainContainer" style="height:100%">
+		<center>
+		<table id="mainTable" border="0" cellpadding="1" cellspacing="0" height="100%">
+			<tbody>
+	<!--#include virtual="../includes/PCPbanner-row.html" -->
+				<tr style="background-color:#eeeeee;">
+					<td colspan=3 id="mainContent" style="height:100%; margin-top:0pt; padding-top:0pt" valign="top" align="center;">
+						<div style="text-align:center; padding:0; padding-top:10px;">
+							<table width="100%" align="center" border="0" cellpadding="0" cellspacing="0">
+								<tbody>
+									<tr>
+										<td align="center">
+											<table width="826" cellpadding="20"  border="2" bordercolor="blue">
+											  <tbody>
+													<tr bgcolor="#6699FF">
+														<td align="center">
+															<table width="100%" cellpadding="20">
+																<tbody>
+																	<tr>
+																		<td align="center" valign="top">
+																			<img src="ILYYPNC-LOGO2.150.png" width="224" border="0" longdesc="ILY,YP,NC LOGO" />
+																			<h4 align="center" style=" color:#FFFF99">Directed by<br /><big>Matthew Teague Miller</big></h4>
+																		</td>
+																		<td valign="middle">
+																			<i>I Love You, You're Perfect, Now Change</i> is presented in the form of a series of vignettes
+																					connected by the central theme of love and relationships.
+																					The play's tagline is "Everything you have ever secretly thought about dating, romance,
+																					marriage, lovers, husbands, wives and in-laws, but were afraid to admit."
+																					With few exceptions, the scenes stand independent of the others, but progress in a fashion
+																					designed to suggest an overall arc to relationships throughout the course of one's life.
+																			<p style=" color:#FFFF99">This quirky musical comedy revue requires four funny actors (2 men and 2 women),
+																					all of whom must possess strong singing voices and play a versatile set of vibrant,
+																					silly characters.</p>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td align="center" valign="top">
+																			<h2>Auditions</h2>
+																			<p>will be held on</p>
+																			<p><strong>MONDAY, OCTOBER 17 - 7:30pm.</strong></p> 
+																			<p>at the</p>
+																			<p><strong>Community Playhouse<br />601 Tennent Ave.<br />Pinole, CA</strong><br /><a href="../directions.shtml">[Directions]</a></p>
+																			<h5>ONE NIGHT ONLY - NO CALLBACKS.</h5>
+																		</td>
+																		<td align="center" valign="middle">
+																			<p>No appointment needed.</p>
+																			<p>Prepare 32 bars of a show tune that best shows your range.</p>
+																			<p>Accompanist provided/Tapes OK.</p>
+																			<p>No dance audition required.</p>
+																			<p>Age: Adults (18+)</p>
+																			<p>Please bring your calendar so you can check for rehearsal conflicts.</p>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td colspan="2" align="center">
+																			<p><strong>First rehearsal: November 7.</strong><br />
+																									Rehearsals typically Monday - Thursday 7:30-10pm.</p>
+																			<p><strong>Performances:<br />
+																									Fridays, Saturdays, Sundays<br />
+																									January 13 - February 11, 2012.</strong>
+																			</p>
+																			<p><strong>No Stipend.</strong></p>
+																			<p>For more detailed information call <strong>510-223-3598</strong> 
+																			<br />or email the director at <a href="mailto:teaguemill@aol.com"><strong>teaguemill@aol.com</strong></a>.</p>
+																		</td>
+																	</tr>
+																</tbody>
+															</table>
+														</td>
+													</tr>
+												</tbody>
+											</table>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</td>
+				</tr>
+<!--#include virtual="../includes/PCPfooter-row.html" -->
+			</tbody>
+		</table>
+		</center>
+	</div>
+</body>
+</html>
