@@ -71,11 +71,13 @@
 	  <tbody>
 		<tr>
 		  <td align="center">
-			<table width="826" cellpadding="20"  border="2" bordercolor="blue">
+			<table width="826" cellpadding="10"  border="2" bordercolor="blue">
 			  <tbody>
 <!--#include virtual="index-content.html" -->
 					<tr bgcolor="#6699FF">
-						<td align="center"><img src="images/PCPconnecting.jpg" width="134" height="72" border="0" alt="" longdesc="New PCP LOGO" /></td>
+						<td align="center">
+<!--#include virtual="includes/ConstantContact-bubble.html" -->
+						</td>
 						<td align="center">
 							<a href="/2010-2011SponsorshipForm.shtml" title="">
 								<strong>BECOME A PATRON OF THE ARTS<br />
@@ -84,7 +86,7 @@
 						</td>
 						<td align="center">
 							<a href="http://www.facebook.com/group.php?gid=109262739110253">
-								<img src="images/find_us_on_facebook_badge.gif" width="74" height="77" border="0" alt="" longdesc="http://dramamasksw-curtain" />
+								<img src="images/FindUsOnFB-blue.gif" width="140" border="0" alt="" longdesc="Find Us on Facebook" />
 							</a>
 						</td>
 				  </tr>
