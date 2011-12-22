@@ -18,6 +18,8 @@
 	$mysql_user = 'pcp_ticket';
 	$mysql_passwd = 'sJpAm9fY5S';
 
+	$pageTitle = "Order Tickets";
+
 	$pageContent = "";
 
 	$tixName = "";
@@ -180,12 +182,14 @@ function ValidateOrder()
 
 	if ($tixPerfId == "" || $tixPerfId == "0")
 		$errors[] = "Please select a performance.";
+	else
+	{
+		if ($tixPerfPriceSenStu == "")
+			$errors[] = "Internal error with tixPerfPriceSenStu."."-".$tixPerfIdPrices."-".$tixPerfId."-".$tixPerfPriceSenStu."?";
 
-	if ($tixPerfPriceSenStu == "")
-		$errors[] = "Internal error with tixPerfPriceSenStu."."-".$tixPerfIdPrices."-".$tixPerfId."-".$tixPerfPriceSenStu."?";
-
-	if ($tixPerfPriceAdult == "")
-		$errors[] = "Internal error with tixPerfPriceAdult."."-".$tixPerfIdPrices."-".$tixPerfId."-".$tixPerfPriceAdult."?";;
+		if ($tixPerfPriceAdult == "")
+			$errors[] = "Internal error with tixPerfPriceAdult."."-".$tixPerfIdPrices."-".$tixPerfId."-".$tixPerfPriceAdult."?";
+	}
 
 	if (($tixSenStu == "" && $tixAdult == "") || (intval($tixSenStu) + intval($tixAdult) <= 0))
 		$errors[] = "Please enter the number of tickets you would like.";
@@ -252,11 +256,14 @@ function ShowConfirm()
 		$tixSpecReq,
 		$tixAddToMailingList,
 		$tixMessage,
+		$pageTitle,
 		$pageContent,
 		$mysql_db,
 		$mysql_user,
 		$mysql_passwd;
 
+	$pageTitle = "Ticket Order Confirmation";
+	
 	LoadFormVars();
 
 	$cn = mysql_connect('localhost', $mysql_user, $mysql_passwd);
@@ -317,81 +324,102 @@ function ShowConfirm()
 	}
 
 	$pageContent = <<<EOT
-	<p>Thank you for your order.  It has been submitted to our box office staff.  Please review and print this page for your records.  If you need to make any changes to your order, please contact our box office at (510) 724-9844.</p>
-	$tixMessage
-	<table id="tixTable" cellpadding="5">
-		<tr>
-			<th>Name</th>
-			<td>$tixName</td>
-		</tr>
-		<tr>
-			<th>Address</th>
-			<td>
-				$tixAddress<br>
-				$tixCity, $tixState $tixZip
-			</td>
-		</tr>
-		<tr>
-			<th>Day Time Phone</th>
-			<td>$tixDayPhone</td>
-		</tr>
-		<tr>
-			<th>Evening Phone</th>
-			<td>$tixNightPhone</td>
-		</tr>
-		<tr>
-			<th>Email Address</th>
-			<td>$tixEmail</td>
-		</tr>
-		<tr>
-			<th>Performance</th>
-			<th>$performance</th>
-		</tr>
-		<tr>
-			<th style="text-align:left">Number of Tickets</th>
-			<td>
-				<table name="TicketSummary" border="1" cellpadding="5">
-					<tr>
-						<td>&nbsp;</td>
-						<th align="center">Tickets</th>
-						<th align="right">Price</th>
-						<th align="right">Cost</th>
-					</tr>
-					<tr>
-						<th>Student/<br/>
-							&nbsp;&nbsp;Senior
-						</th>
-						<td align="center">$tixSenStuTxt</td>
-						<td align="right">$$perfInfo->tixPriceSeniorStudent</td>
-						<td align="right">$$tixAmtSenStu</td>
-					</tr>
-					<tr>
-						<th>Adult</th>
-						<td align="center">$tixAdultTxt</td>
-						<td align="right">$$perfInfo->tixPriceAdult</td>
-						<td align="right">$$tixAmtAdult</td>
-					</tr>
-					<tr>
-						<th>Total Order</th>
-						<td align="center">$tixTotal</td>
-						<td>&nbsp;</td>
-						<td align="right">$$tixDollarAmt</td>
-					</tr>
-				</table>
-			</td>
-		</tr>
-		<tr>
-			<th>Payment Method</th>
-			<td>$tixPayMethod</td>
-		</tr>
-		<tr>
-			<th>Special Requests</th>
-			<td>$tixSpecReq</td>
-		</tr>
-		<tr>
-			<td>&nbsp;</td>
-			<th>$tixMailList</th>
-		</tr>
+	<table id="tixTable" width="826" cellpadding="5"  border="0" bordercolor="blue">
+		<tbody>
+			<tr>
+				<td colspan="3">
+					<p>Thank you for your order.  It has been submitted to our box office staff.
+					Please review and print this page for your records.
+					If you need to make any changes to your order, please contact our box office at (510) 724-9844.</p>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="3">$tixMessage</td>
+			</tr>
+			<tr>
+				<th>Name</th>
+				<td>$tixName</td>
+				<td rowspan="5" width="250">
+					<img src="http://pinoleplayers.org/images/TicketOrderAdornment.png" border="0" height="150" alt=""/>
+				</td>
+			</tr>
+			<tr>
+				<th>Address</th>
+				<td>
+					$tixAddress<br />
+					$tixCity, $tixState $tixZip
+				</td>
+			</tr>
+			<tr>
+				<th>Day Time Phone</th>
+				<td>$tixDayPhone</td>
+			</tr>
+			<tr>
+				<th>Evening Phone</th>
+				<td>$tixNightPhone</td>
+			</tr>
+			<tr>
+				<th>Email Address</th>
+				<td>$tixEmail</td>
+			</tr>
+			<tr>
+				<th>Performance</th>
+				<th colspan="2" style="text-align:left">$performance</th>
+			</tr>
+			<tr>
+				<th>Number of Tickets</th>
+				<td colspan="2">
+					<table name="TicketSummary" border="1" cellpadding="5">
+						<tbody>
+							<tr>
+								<td>&nbsp;</td>
+								<th align="center">Tickets</th>
+								<th align="right">Price</th>
+								<th align="right">Cost</th>
+							</tr>
+							<tr>
+								<th>Student/<br/>
+									&nbsp;&nbsp;Senior
+								</th>
+								<td align="center">$tixSenStuTxt</td>
+								<td align="right">$$perfInfo->tixPriceSeniorStudent</td>
+								<td align="right">$$tixAmtSenStu</td>
+							</tr>
+							<tr>
+								<th>Adult</th>
+								<td align="center">$tixAdultTxt</td>
+								<td align="right">$$perfInfo->tixPriceAdult</td>
+								<td align="right">$$tixAmtAdult</td>
+							</tr>
+							<tr>
+								<th>Total Order</th>
+								<td align="center">$tixTotal</td>
+								<td>&nbsp;</td>
+								<td align="right">$$tixDollarAmt</td>
+							</tr>
+						</tbody>
+					</table>
+				</td>
+			</tr>
+			<tr>
+				<th>Payment Method</th>
+				<td colspan="2">$tixPayMethod</td>
+			</tr>
+			<tr>
+				<th>Special Requests</th>
+				<td colspan="2">$tixSpecReq</td>
+			</tr>
+			<tr>
+				<td colspan="3" align="center">
+
+EOT;
+
+		$pageContent .= preg_replace( "/value=\"\"/", "value=\"" . $tixEmail . "\"", file_get_contents("includes/ConstantContact-bubble.html") );
+	
+		$pageContent .= <<<EOT
+				</td>
+			</tr>
+		</tbody>
 	</table>
 EOT;
 
@@ -409,7 +437,7 @@ EOT;
 function SendConfirmation($htmlContent, $name, $email)
 {
 		preg_match_all("/<p[^>]*>(.*?)<\/p>/s", $htmlContent, $matches);
-		$txtOrderHeader = $matches[1][0] . "\n\n\n";
+		$txtOrderHeader = $matches[1][0] . "\n\n" . $matches[1][1] . "\n\n\n";
 
 		preg_match_all("/<tr[^>]*>(.*?)<\/tr>/s", $htmlContent, $matches);
 		// $rows = $matches[1];
@@ -425,29 +453,32 @@ function SendConfirmation($htmlContent, $name, $email)
 
 		foreach ($data as $row)
 		{
-			$txtContent .= preg_replace("/<.*?>/s", " ", preg_replace("/\s\s+/s", " ", $row[0]))
-						.  ": "
-						.  preg_replace("/<.*?>/s", " ", preg_replace("/\s\s+/s", " ", $row[1]))
-						.  "\n";
+			if (preg_match("/<p[^>]*>(.*?)<\/p>/s", $row[0]) == 0)
+			{;
+				$txtContent .= preg_replace("/<.*?>/s", " ", preg_replace("/\s\s+/s", " ", $row[0]))
+												. ": "
+												. preg_replace("/<.*?>/s", " ", preg_replace("/\s\s+/s", " ", $row[1]))
+												. "\n";
+			}
 		}
 
 
 		$htmlContent = <<<EOT
 <html>
 <head>
-<style type="text/css">
-#tixTable td {
-	text-align:left;
-	vertical-align:top;
-}
-#tixTable th {
-	text-align:right;
-	vertical-align:top;
-}
-</style>
+	<style type="text/css">
+	#tixTable td {
+		text-align:left;
+		vertical-align:top;
+	}
+	#tixTable th {
+		text-align:right;
+		vertical-align:top;
+	}
+	</style>
 </head>
 <body>
-$htmlContent
+	$htmlContent
 </body>
 </html>
 EOT;
@@ -455,7 +486,7 @@ EOT;
 		//send to box office
 		$hdrs = array(
 			'From'			=> 'boxoffice@pinoleplayers.org',
-			'Subject'		=> 'Ticket Order for '.$name,
+			'Subject'		=> 'Pinole Playhouse Ticket Order for '.$name,
 			'To'			=> 'boxoffice@pinoleplayers.org',
 			'BCC'			=> 'mao@netcom.com',
 			'Return-Path'	=> 'boxoffice@pinoleplayers.org'
@@ -475,7 +506,7 @@ EOT;
 		// send to person that ordered
 		$hdrs = array(
 			'From'			=> 'boxoffice@pinoleplayers.org',
-			'Subject'		=> 'Your PCP Ticket Order',
+			'Subject'		=> 'Your Pinole Playhouse Ticket Order',
 			'To'			=> $email,
 			'BCC'			=> 'mao@netcom.com',
 			'Return-Path'	=> 'boxoffice@pinoleplayers.org'
@@ -484,7 +515,8 @@ EOT;
 		$crlf = "\n";
 		$mime = new Mail_mime($crlf);
 		$mime->setTXTBody($txtOrderHeader . $txtContent);
-		$mime->setHTMLBody($htmlContent);
+		$mime->setHTMLBody(preg_replace("/<!-- BEGIN: Constant Contact Bubble Opt-in Email List Form -->.*?<!-- END: SafeSubscribe -->/s",
+																			" ", $htmlContent) );
 
 		$email_body = $mime->get();
 		$hdrs = $mime->headers($hdrs);
@@ -606,6 +638,9 @@ function DisplayForm()
 			<tr>
 				<th width="260">Name</th>
 				<td><input tabindex="1" type="text" name="tixName" value="$tixName" size="50" /></td>
+				<td rowspan="6" width="250">
+					<img src="/images/TicketOrderAdornment.png" border="0" height="150" alt=""/>
+				</td>
 			</tr>
 			<tr>
 				<th>Street Address</th>
@@ -629,61 +664,61 @@ function DisplayForm()
 			</tr>
 			<tr>
 				<th>Performance</th>
-				<td>
+				<td colspan="2">
 					<select name="tixPerfIdPrices" onchange="UpdatePrices()">
 						$perfDatesHTML
 					</select>
 				</td>
 			<tr>
-				<th colspan="2" style="text-align:left">Number of Tickets</th>
+				<th colspan="3" style="text-align:left">Number of Tickets</th>
 			</tr>
 			<tr>
 				<th>Senior/Student Tickets</th>
-				<td><input type="text" name="tixSenStu" length="2" size="2" value="$tixSenStu" />
+				<td colspan="2"><input type="text" name="tixSenStu" length="2" size="2" value="$tixSenStu" />
 					($<input tabindex="0" type="text" name="tixPerfPriceSenStu" value="$tixPerfPriceSenStu" align="right" length="3" size="3" readonly="readonly" /> each)
 				</td>
 			</tr>
 			<tr>
 				<th>Adult Tickets</th>
-				<td><input type="text" name="tixAdult" length="2" size="2" value="$tixAdult" />
+				<td colspan="2"><input type="text" name="tixAdult" length="2" size="2" value="$tixAdult" />
 					($<input tabindex="0" type="text" name="tixPerfPriceAdult" value="$tixPerfPriceAdult" align="right" length="3" size="3" readonly="readonly" /> each)
 				</td>
 			</tr>
 			<tr>
 				<th>Payment will be made by:</th>
-				<td>
+				<td colspan="2">
 					<input type="radio" name="tixPayment" $tixPaymentCheck id="tixPaymentCheck" value="paymentCheck">
 					<label for="tixPaymentCheck">Check made out to: $checkTo<br/>
 						&nbsp;&nbsp;&nbsp;&nbsp;Mail to:<br/>
 						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pinole Community Players<br/>
 						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;P.O. Box 182<br/>
 						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pinole, CA  94564<br/>
-						</label>
+					</label>
 					<input type="radio" name="tixPayment" $tixPaymentCC id="tixPaymentCC" value="paymentCC">
 					<label for="tixPaymentCC">Please call me for my credit card information<br/>
 						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;($2 handling fee applies)
-						</label>
+					</label>
 				</td>
 			</tr>
 			<tr>
 				<th style="vertical-align:top">Any special requests<br />(seat location, wheel chair<br />access needed)</th>
-				<td ><textarea name="tixSpecReq" cols="50" rows="4">$tixSpecReq</textarea></td>
+				<td colspan="2"><textarea name="tixSpecReq" cols="50" rows="4">$tixSpecReq</textarea></td>
 			</tr>
 			<tr>
-				<td colspan="2">$tixMessage</td>
+				<td colspan="3">$tixMessage</td>
 			</tr>
 			<tr>
 				<th>Add me to your mailing list</th>
-				<td><input type="checkbox" name="tixAddToMailingList" value="yes">YES!</td>
+				<td colspan="2"><input type="checkbox" name="tixAddToMailingList" value="yes">YES!</td>
 			</tr>
 			<tr>
-				<th>Please Complete the Captcha</th><td>
+				<th>Please Complete the Captcha</th>
+				<td colspan="2">
 					$recaptcha
 				</td>
-
 			</tr>
 			<tr>
-				<td colspan="2" style="text-align:center">
+				<td colspan="3" style="text-align:center">
 					<input type="Submit" value="Submit Order">&nbsp;&nbsp;&nbsp;&nbsp;<input type="reset" value="Clear Form">
 				</td>
 			</tr>
@@ -698,7 +733,9 @@ EOD;
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
-<title>Order Tickets</title>
+<title>
+<?= $pageTitle ?>
+</title>
 
 <link rel="stylesheet" type="text/css" href="css/pcp.css" />
 
@@ -754,7 +791,9 @@ readfile("includes/PCPmenu-row2.html");
 					<tbody style="background-color:#FFFF99; font-size:12pt; color:ForestGreen">
 						<tr>
 							<td colspan=2>
-								<div class="mainTitle" style="margin-top:0; padding-top:0">Order Tickets</div>
+								<div class="mainTitle" style="margin-top:0; padding-top:0">
+<?= $pageTitle ?>
+								</div>
 							</td>
 						</tr>
 						<tr>
