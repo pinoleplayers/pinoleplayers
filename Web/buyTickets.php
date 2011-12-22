@@ -44,13 +44,18 @@
 	$tixMessage = <<<EOT
 	<p style="text-align:center;border:solid 1px black;padding:1em; font-weight:bold">
 
-	Tickets will be held at the door.  Ticket reservation is secured once payment is received or when credit card charges have been approved.
-	<br><br>
-	Cabaret seating &#8211; All seats reserved.  All reservations must be prepaid.<br>
-	All sales final. Seats assigned upon payment
-
-	</p>
+	All seats reserved.
+	All reservations must be prepaid.
+	Ticket reservation is secured once payment is received or when credit card charges have been approved.
+	Tickets will be held at the door.
+	All sales final.<br>
 EOT;
+	$cabaretSeating = <<<EOT
+	<br>
+	Cabaret seating &ndash; Seats assigned upon payment.<br>
+EOT;
+	$tixMessage .= $cabaretSeating;
+	$tixMessage .= "</p>";
 
 	if ($_SERVER["REQUEST_METHOD"] != "POST")
 	{
@@ -512,20 +517,24 @@ EOT;
 	while ($row = mysql_fetch_object($result))
 	{
 		$perfIdPrices = $row->id . ":" . $row->tixPriceSeniorStudent . ":" . $row->tixPriceAdult;
-		$performance = $row->show . " - ";
+		$performance = $row->show;
 		$disabled = "";
 
-		if ($row->preSold == 1)
+		if ($row->comment == 1)
 		{
-			$performance .= date("D, M j",strtotime($row->perfDateTime)) . " - Pre-Sold - Call 510-724-9844";
+			$disabled = "disabled=\"disabled\" ";
+		}
+		elseif ($row->preSold == 1)
+		{
+			$performance .= " - " . date("D, M j",strtotime($row->perfDateTime)) . " - Pre-Sold - Call 510-724-9844 for Info";
 			$disabled = "disabled=\"disabled\" ";
 		}
 		else
 		{
-			$performance .= date( "D, M j - g:ia",strtotime($row->perfDateTime));
+			$performance .= " - " . date( "D, M j - g:ia",strtotime($row->perfDateTime));
 			if ($row->twofer == 1)
 			{
-				$performance .= "- 2for1";
+				$performance .= " (2for1)";
 			}
 		}
 
@@ -533,10 +542,6 @@ EOT;
 		if ($row->soldOut == 1)
 		{
 			$performance .= " (SOLD OUT)";
-			$disabled = "disabled=\"disabled\" ";
-		}
-		if ($row->comment == 1)
-		{
 			$disabled = "disabled=\"disabled\" ";
 		}
 		if ($tixPerfId == $row->id)
@@ -579,6 +584,9 @@ function DisplayForm()
 	$perfDatesHTML = getPerfDates();
 
 	$errorsHTML = "";
+
+	$checkTo = "City of Pinole";
+	$checkTo = "Pinole Community Players";
 
 	if (count($errors) > 0)
 	{
@@ -645,7 +653,8 @@ function DisplayForm()
 				<th>Payment will be made by:</th>
 				<td>
 					<input type="radio" name="tixPayment" $tixPaymentCheck id="tixPaymentCheck" value="paymentCheck">
-					<label for="tixPaymentCheck">Check mailed to:<br/>
+					<label for="tixPaymentCheck">Check made out to: $checkTo<br/>
+						&nbsp;&nbsp;&nbsp;&nbsp;Mail to:<br/>
 						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pinole Community Players<br/>
 						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;P.O. Box 182<br/>
 						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pinole, CA  94564<br/>
