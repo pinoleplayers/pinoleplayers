@@ -1,0 +1,135 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+
+	<title>TICKET DEALS for I Love You, You're Perfect, Now Change</title>
+
+	<link rel="stylesheet" type="text/css" href="css/pcp.css" />
+
+	<link rel="stylesheet" type="text/css" href="css/2leveltab.css" />
+
+	<style type="text/css">
+		<!--.style2 {
+			font-size: 16px;
+			font-weight: bold;
+		}
+		.style4 {
+			font-size: large;
+			font-family: Georgia, "Times New Roman", Times, serif;
+		}
+		.style5 {
+			font-size: large;
+			font-family: Georgia, "Times New Roman", Times, serif;
+		}
+		.style6 {
+			font-size: 14px;
+			font-family: Georgia, "Times New Roman", Times, serif;
+		}
+		.style10 {	
+			font-size: 16px;
+			font-family: Georgia, "Times New Roman", Times, serif;
+		}
+		.mborder {
+			border:1px #404040 double;
+			border-top:1px #c0c0c0 double;
+			border-right:1px #c0c0c0 solid;
+		}
+		-->
+	</style>
+
+	<script type="text/javascript" src="js/easyDropDownContainer.js"></script>
+
+	<script type="text/javascript" src="js/2leveltab2.js">
+		/***********************************************
+		* 2 level Horizontal Tab Menu- by JavaScript Kit (www.javascriptkit.com)
+		* This notice must stay intact for usage
+		* Visit JavaScript Kit at http://www.javascriptkit.com/ for full source code
+		* http://www.javascriptkit.com/script/script2/2leveltab.shtml
+		***********************************************/
+	</script>
+</head>
+
+<body style="height:100%">
+	<div id="mainContainer" style="height:100%">
+		<center>
+		<table id="mainTable" border="0" cellpadding="1" cellspacing="0" height="100%">
+			<tbody>
+	<!--#include virtual="../includes/PCPbanner-row.html" -->
+				<tr style="background-color:#eeeeee;">
+					<td colspan=3 id="mainContent" style="height:100%; margin-top:0pt; padding-top:0pt" valign="top" align="center;">
+						<div style="text-align:center; padding:0; padding-top:10px;">
+							<table width="100%" align="center" border="0" cellpadding="0" cellspacing="0">
+								<tbody>
+									<tr>
+										<td align="center">
+											<table width="826" cellpadding="20"  border="2" bordercolor="blue">
+											  <tbody>
+													<tr bgcolor="#33FF99">
+														<td align="center">
+															<div align="center" style="padding-bottom: 0pt; margin-bottom: 0pt" bgcolor="#33FF99; color:#2C4484">
+																<img src="/2012 ILY,YP,NC/ILYYPNC-LOGO-304w-150ppi.png" width="236" alt="ILY,YP,NC Logo" />
+																<h2>TICKET DEALS!</h2>
+
+																<h3>Eat at<br /><br />
+																		<a href="http://www.pearstreetbistro.com/" title="" target="_blank"><strong><i>Pear Street Bistro</i></strong></a> or
+																		<a href="http://www.pinolecreekcafe.com/" title="" target="_blank"><strong><i>Pinole Creek Cafe</i></strong></a> or
+																		<a href="http://www.tinasplace2.com/" title="" target="_blank"><strong><i>Tina's Place</i></strong></a>
+																</h3>
+																<h4>Get $2 Off Your Ticket!<br />
+																	Dine any time from December 26 thru February 3<br />
+																	Receive a Coupon with your check to get $2 off each ticket in your ticket order.<br /><br />
+																	<small>Click on their links for more info about these fine nearby restaurants</small><br /><br />
+																	<i>Phone orders only - Not valid online</i><br />
+																	<small>CALL:</small> 510-724-9844<br />
+																	<small><i>This deal cannot be combined with any other deal.</i></small>
+																</h4>
+
+																<hr style="width:150px; height:3px; color:#FF0033;; background-color:#FF0033;" />
+
+																<h3>2 for 1 Night<br /><small>Friday, January 20th</small></h3>
+																<h4>2 tickets for the price of 1<br />
+																	<a href="../buyTickets.shtml" title="" target="_blank">Click for TICKETS</a>
+																</h4>
+
+																<hr style="width:150px; height:3px; color:#FF0033;; background-color:#FF0033;" />
+
+																<h3><i>You're Perfect</i> Date Night<br /><small>Saturday, January 28th</small></h3>
+																<h4>Ticket includes wine, champagne, or cider & chocolate for two<br /><br />
+																	<i>Adults Only - 21 or older</i></small><br />
+																	<a href="../buyTickets.shtml" title="" target="_blank">Click for TICKETS</a>
+																</h4>
+
+																<hr style="width:150px; height:3px; color:#FF0033;; background-color:#FF0033;" />
+
+																<h3>Four-or-More Weekend<br /><small>February 3, 4 & 5</small></h3>
+																<h4>15% off Pre-paid groups of 4 or more<br /><br />
+																	<i>Phone orders only - Not valid online</i><br />
+																	<small>CALL:</small> 510-724-9844
+																</h4>
+
+																<hr style="width:150px; height:3px; color:#FF0033;; background-color:#FF0033;" />
+
+																<h3>Starving Artist Preview Night<br /><small>Thursday, January 12th</small></h3>
+																<h4>Bring a program with your name in it and pay what you can.<br />
+																	<i>First come, first served.</i>
+																</h4>
+															</div>
+														</td>
+													</tr>
+												</tbody>
+											</table>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</td>
+				</tr>
+<!--#include virtual="../includes/PCPfooter-row.html" -->
+			</tbody>
+		</table>
+		</center>
+	</div>
+</body>
+</html>
