@@ -695,7 +695,8 @@ function DisplayForm()
 						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pinole, CA  94564<br/>
 					</label>
 					<input type="radio" name="tixPayment" $tixPaymentCC id="tixPaymentCC" value="paymentCC">
-					<label for="tixPaymentCC">Please call me for my credit card information<br/>
+					<label for="tixPaymentCC">Please call me for my credit card information
+						<img src="/images/VisaMasterCard.gif" alt="We accept Visa and MasterCard" height="16" /><br/>
 						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;($2 handling fee applies)
 					</label>
 				</td>
@@ -706,10 +707,6 @@ function DisplayForm()
 			</tr>
 			<tr>
 				<td colspan="3">$tixMessage</td>
-			</tr>
-			<tr>
-				<th>Add me to your mailing list</th>
-				<td colspan="2"><input type="checkbox" name="tixAddToMailingList" value="yes">YES!</td>
 			</tr>
 			<tr>
 				<th>Please Complete the Captcha</th>
