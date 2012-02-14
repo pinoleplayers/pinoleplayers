@@ -19,6 +19,13 @@
 		* http://www.javascriptkit.com/script/script2/2leveltab.shtml
 		***********************************************/
 	</script>
+	
+	<script type="text/javascript" src="js/expando.js">
+	/* Expando Image Script ©2008 John Davenport Scheuer
+   as first seen in http://www.dynamicdrive.com/forums/
+   username: jscheuer1 - This Notice Must Remain for Legal Use
+   */
+	</script>
 
 	<style type="text/css">
 		<!--.style2 {
