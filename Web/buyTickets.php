@@ -56,7 +56,11 @@ EOT;
 	<br>
 	Cabaret seating &ndash; Seats assigned upon payment.<br>
 EOT;
-	$tixMessage .= $cabaretSeating;
+	$assignedReservedSeating = <<<EOT
+	<br />
+	Assigned Reserved Seating
+EOT;
+	$tixMessage .= $assignedReservedSeating;
 	$tixMessage .= "</p>";
 
 	if ($_SERVER["REQUEST_METHOD"] != "POST")
@@ -538,18 +542,26 @@ function getPerfDates()
 	if ($tixPerfId == "" || $tixPerfId == 0)
 		$selected = "selected=\"selected\"";
 	$perfDatesHTML = <<<EOT
-	<option disabled="disabled" $selected value="0">Select Performance</option>
+	<option disabled="disabled" $selected value="0">Select Performance / Event</option>
 EOT;
 
 	$cn = mysql_connect('localhost', $mysql_user, $mysql_passwd);
 	mysql_select_db($mysql_db, $cn);
 
+	$currUnixTime = time();
+
 	$query = "SELECT * FROM `performance` WHERE `visible` = 1 ORDER BY perfDateTime ASC";
 	$result = mysql_query($query,$cn);
 	while ($row = mysql_fetch_object($result))
 	{
-		$perfIdPrices = $row->id . ":" . $row->tixPriceSeniorStudent . ":" . $row->tixPriceAdult;
+		$perfUnixTime = strtotime($row->perfDateTime);
+		if ($currUnixTime >= $perfUnixTime)
+		{
+			continue;
+		}
+
 		$performance = $row->show;
+		$perfIdPrices = $row->id . ":" . $row->tixPriceSeniorStudent . ":" . $row->tixPriceAdult;
 		$disabled = "";
 
 		if ($row->comment == 1)
@@ -559,6 +571,11 @@ EOT;
 		elseif ($row->preSold == 1)
 		{
 			$performance .= " - " . date("D, M j",strtotime($row->perfDateTime)) . " - Pre-Sold - Call 510-724-9844 for Info";
+			$disabled = "disabled=\"disabled\" ";
+		}
+		else if ($currUnixTime > ($perfUnixTime - 4 * 60 * 60))
+		{
+			$performance .= " - Call 510-724-9844 to Order";
 			$disabled = "disabled=\"disabled\" ";
 		}
 		else
