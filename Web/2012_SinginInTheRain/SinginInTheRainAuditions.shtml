@@ -1,0 +1,137 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+
+		<title>Singin' in the Rain Audition Info</title>
+
+
+	<link rel="stylesheet" type="text/css" href="../css/pcp.css" />
+
+	<link rel="stylesheet" type="text/css" href="../css/2leveltab.css" />
+
+	<style type="text/css">
+		<!--.style2 {
+			font-size: 16px;
+			font-weight: bold;
+		}
+		.style4 {
+			font-size: large;
+			font-family: Georgia, "Times New Roman", Times, serif;
+		}
+		.style5 {
+			font-size: large;
+			font-family: Georgia, "Times New Roman", Times, serif;
+		}
+		.style6 {
+			font-size: 14px;
+			font-family: Georgia, "Times New Roman", Times, serif;
+		}
+		.style10 {	
+			font-size: 16px;
+			font-family: Georgia, "Times New Roman", Times, serif;
+		}
+		.mborder {
+			border:1px #404040 double;
+			border-top:1px #c0c0c0 double;
+			border-right:1px #c0c0c0 solid;
+		}
+		p { font-size: 16px
+		}
+		-->
+	</style>
+
+	<script type="text/javascript" src="../js/easyDropDownContainer.js"></script>
+
+	<script type="text/javascript" src="../js/2leveltab2.js">
+		/***********************************************
+		* 2 level Horizontal Tab Menu- by JavaScript Kit (www.javascriptkit.com)
+		* This notice must stay intact for usage
+		* Visit JavaScript Kit at http://www.javascriptkit.com/ for full source code
+		* http://www.javascriptkit.com/script/script2/2leveltab.shtml
+		***********************************************/
+	</script>
+</head>
+
+<body style="height:100%">
+	<div id="mainContainer" style="height:100%">
+		<center>
+		<table id="mainTable" border="0" cellpadding="1" cellspacing="0" height="100%">
+			<tbody>
+	<!--#include virtual="../includes/PCPbanner-row.html" -->
+				<tr style="background-color:#eeeeee;">
+					<td colspan=3 id="mainContent" style="height:100%; margin-top:0pt; padding-top:0pt" valign="top" align="center;">
+						<div style="text-align:center; padding:0; padding-top:10px;">
+							<table width="100%" align="center" border="0" cellpadding="0" cellspacing="0">
+								<tbody>
+									<tr>
+										<td align="center">
+											<table width="826" cellpadding="20"  border="2" bordercolor="blue">
+											  <tbody>
+													<tr bgcolor="#6699FF">
+														<td align="center">
+															<table width="100%" cellpadding="20">
+																<tbody>
+																	<tr>
+																		<td align="center" valign="top">
+																			<img src="/2012 Singin in the Rain/SinginInTheRainLOGO-350w-150ppi.png" width="224" border="0" longdesc="Singin' in the Rain LOGO" />
+																			<h4 align="center" style=" color:#FFFF99">Directed and Choreographed by<br /><big>Justin Cole &amp;<br /> Anjee Norgaard</big></h4>
+																		</td>
+																		<td valign="middle">
+																			<p><strong>Singin' in the Rain</strong> is the story of the making of the first Hollywood musical.
+																			A silent-screen swashbuckler finds love while trying to adjust to the coming of sound.																			It features all the style and spectacle of a golden age and a succession of unforgettable songs,
+																			including <i>Good Morning</i>, <i>Make 'em Laugh</i>,<i>Moses Supposes</i>, and, of course,
+																			<i>Singin' in the Rain</i>.</p>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td align="center" valign="top">
+																			<h2>Auditions</h2>
+																			<p>will be held on</p>
+																			<p><strong>Sunday, March 18 - 2:00pm<br />
+																				Monday, March 19 - 7:30pm</strong></p> 
+																			<p>at the</p>
+																			<p><strong>Community Playhouse<br />601 Tennent Ave.<br />Pinole, CA</strong><br /><a href="../directions.shtml">[Directions]</a></p>
+																		</td>
+																		<td align="center" valign="middle">
+																			<p>No appointment needed.</p>
+																			<p>Prepare 32 bars of a show tune that best shows your range.</p>
+																			<p>Accompanist provided/Tapes OK.</p>
+																			<p>Bring tap &amp; jazz shoes for required dance audition.</p>
+																			<p>Age: Adults (18+)</p>
+																			<p>Please bring your calendar to review rehearsal conflicts.</p>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td colspan="2" align="center">
+																			<p><strong>Performances:<br />
+																									Friday and Saturday Evenings,<br />one Saturday and two Sunday Matinees<br />
+																									June 15 - July 14, 2012.</strong>
+																			</p>
+																			<p><strong>No Stipend.</strong></p>
+																			<p>For more detailed information call <strong>510-223-3598</strong> 
+																			<br />or email the directors at <a href="mailto:lilj5678@aol.com"><strong> Justin Cole (lilj5678@aol.com)</strong></a><br />
+																			or<br />
+																			<a href="mailto:dancnut5678@aol.com"><strong> Anjee Norgaard (dancnut5678@gmail.com)</strong></a>.</p>
+																		</td>
+																	</tr>
+																</tbody>
+															</table>
+														</td>
+													</tr>
+												</tbody>
+											</table>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</td>
+				</tr>
+<!--#include virtual="../includes/PCPfooter-row.html" -->
+			</tbody>
+		</table>
+		</center>
+	</div>
+</body>
+</html>
