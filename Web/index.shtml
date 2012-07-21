@@ -70,7 +70,7 @@
 <center>
 <table id="mainTable" border="0" cellpadding="1" cellspacing="0" height="100%">
   <tbody>
-<!--#include virtual="includes/PCPlayhouse-banner-row.html" -->
+<!--#include virtual="includes/PCPbanner-row.html" -->
 <!--#include virtual="includes/PCPmenu-row2.html" -->
 	<tr>
 	<td colspan=3 id="mainContent" style="height:100%; margin-top:0pt; padding-top:0pt" valign="top" align="center">
@@ -87,7 +87,7 @@
 <!--#include virtual="includes/ConstantContact-bubble.html" -->
 						</td>
 						<td align="center">
-							<a href="/2012SponsorshipForm.shtml" title="">
+							<a href="/2013SponsorshipForm.shtml" title="">
 								<strong>BECOME A PATRON OF THE ARTS<br />
 											Sponsorship Drive</strong>
 									</a>
