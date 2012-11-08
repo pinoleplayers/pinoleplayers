@@ -634,8 +634,8 @@ function DisplayForm()
 
 	$errorsHTML = "";
 
-	$checkTo = "City of Pinole";
 	$checkTo = "Pinole Community Players";
+	$checkTo = "City of Pinole";
 
 	if (count($errors) > 0)
 	{
