@@ -5,12 +5,13 @@
 <title>Directions to PCP</title>
 <link rel="stylesheet" type="text/css" href="css/pcp.css" />
 
+	<link rel="stylesheet" type="text/css" href="css/pcp-colors.css" />
+
 <link rel="stylesheet" type="text/css" href="css/2leveltab.css" />
 
 <style type="text/css">
 	.thisText {
 		font-size: 14px;
-		color: #0011cc;
 	}
 </style>
 
@@ -34,31 +35,25 @@
 		<tbody>
 <!--#include virtual="includes/PCPbanner-row.html" -->
 <!--#include virtual="includes/PCPmenu-row2.html" -->
-			<tr>
+			<tr class="mainTable-bg">
 				<td colspan=3 style="height:100%; margin-top:0pt; padding-top:0pt" valign="top" align="center">
-					<div style="text-align:center; padding:0; padding-top:10px; margin-top:10px; background-color:#33FF99">
-
-						<table width="100%" align="center" border="0" cellpadding="2" cellspacing="20">
-							<tbody>
-								<tr>
-									<td colspan=2>
-										<div class="mainTitle" style="margin-top:0; padding-top:0">Directions</div>
-									</td>
-								</tr>
-								<tr>
+					<div style="text-align:center; padding:10px; margin-top:10px;">
+						<table width="95%" align="center" border="0" cellpadding="20" cellspacing="0">
+							<tbody class="col2-bg" style="text-align:center; padding:0; padding-top:20px; margin-top:10px;">
+								<tr class="col2-txt">
 									<td valign="top" class="thisText">
-										<p><strong>Pinole Community Playhouse<br />
-												601 Tennent Ave.<br />
-												Pinole, CA 94564</strong><br />
-										</p>
+										<h3 class="col2-hilite">Pinole Community Playhouse<br />
+												601 Tennent Ave<br />
+												Pinole, CA 94564
+										</h3>
 									</td>
 									<td rowspan="2" valign="top" class="thisText">
-										<strong style="color:#0011cc">From Martinez/Concord</strong>
+										<strong class="col2-hilite">From Martinez/Concord</strong>
 											<ul style="margin:0; padding:5px 12px; text-align:left; list-style-type:square">
 												<li>Take Hwy-4 West to I-80 West</li>
 												<li>Then follow the <i>From Vallejo</i> Directions below.</li>
 											</ul>
-										<strong style="color:#0011cc">From Vallejo</strong>
+										<strong class="col2-hilite">From Vallejo</strong>
 											<ul style="margin:0; padding:5px 12px; text-align:left; list-style-type:square">
 												<li>Take I-80 West to Pinole Valley Road Exit </li>
 												<li>Turn Right on Pinole Valley Road </li>
@@ -66,7 +61,7 @@
 												<li>Go through one more light (San Pablo Ave.) </li>
 												<li>Playhouse is on the Right next to the baseball field </li>
 											</ul>
-										<strong style="color:#0011cc">From Richmond/Berkeley/Oakland /San&nbsp;Francisco</strong>
+										<strong class="col2-hilite">From Richmond/Berkeley/Oakland /San&nbsp;Francisco</strong>
 											<ul style="margin:0; padding:5px 12px; text-align:left; list-style-type:square">
 												<li>Take I-80 East to Pinole Valley Road Exit </li>
 												<li>Turn Left on Pinole Valley Road </li>
@@ -74,7 +69,7 @@
 												<li>Go through one more light (San Pablo Ave.) </li>
 												<li>Playhouse is on the Right next to the baseball field</li>
 											</ul>
-										<strong style="color:#0011cc">From Marin</strong>
+										<strong class="col2-hilite">From Marin</strong>
 											<ul style="margin:0; padding:5px 12px; text-align:left; list-style-type:square">
 												<li>Take I-580 East across the Richmond-San Rafael Bridge</li>
 												<li>Past the Toll Plaza, take Exit 7 I-80 East/Richmond Pkwy/Point Richmond</li>
@@ -90,8 +85,9 @@
 								<tr>
 									<td align="center" valign="middle">
 										<span style="padding-bottom:0;margin-bottom:0">
-											<a href="http://www.mapquest.com/maps/map.adp?country=US&amp;countryid=US&amp;addtohistory=&amp;searchtab=address&amp;searchtype=address&amp;address=601+tennent+ave&amp;city=pinole&amp;state=ca&amp;zipcode=&amp;search=++Search++" target="_blank"><img src="images/map.png" alt="Map to PCP" width="400" border="0">
-											<br />Click for Full Mapquest Map
+											<a href="http://www.mapquest.com/maps/map.adp?country=US&amp;countryid=US&amp;addtohistory=&amp;searchtab=address&amp;searchtype=address&amp;address=601+tennent+ave&amp;city=pinole&amp;state=ca&amp;zipcode=&amp;search=++Search++" target="_blank" class="col2-hilite">
+												<img src="images/map.png" alt="Map to PCP" width="400" border="0"><br /><br />
+												Click for Full Mapquest Map
 											</a>
 										</span>
 										<p>&nbsp;</p>

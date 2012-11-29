@@ -7,6 +7,8 @@
 
 	<link rel="stylesheet" type="text/css" href="css/pcp.css" />
 
+	<link rel="stylesheet" type="text/css" href="css/pcp-colors.css" />
+
 	<link rel="stylesheet" type="text/css" href="css/2leveltab.css" />
 
 	<script type="text/javascript" src="js/easyDropDownContainer.js"></script>
@@ -72,22 +74,22 @@
   <tbody>
 <!--#include virtual="includes/PCPbanner-row.html" -->
 <!--#include virtual="includes/PCPmenu-row2.html" -->
-	<tr>
+	<tr class="mainTable-bg">
 	<td colspan=3 id="mainContent" style="height:100%; margin-top:0pt; padding-top:0pt" valign="top" align="center">
 	<div style="text-align:center; padding:0; padding-top:10px">
 	<table width="100%" align="center" border="0" cellpadding="0" cellspacing="0">
 	  <tbody>
 		<tr>
 		  <td align="center">
-			<table width="826" cellpadding="10"  border="2" bordercolor="blue">
+			<table width="826" cellpadding="10"  border="2" bordercolor="Gainsboro">
 			  <tbody>
 <!--#include virtual="index-content.html" -->
-					<tr bgcolor="#6699FF">
+					<tr class="mainTable-bg">
 						<td align="center">
-<!--#include virtual="includes/ConstantContact-bubble.html" -->
+<!--#include virtual="includes/ConstantContact-bubble-test.html" -->
 						</td>
 						<td align="center">
-							<a href="/2013SponsorshipForm.shtml" title="">
+							<a href="/2013SponsorshipForm.shtml" title="" style="color:white">
 								<strong>BECOME A PATRON OF THE ARTS<br />
 											Sponsorship Drive</strong>
 									</a>

@@ -1,7 +1,7 @@
 /* CSS Document */
 
 	body{
-		background-color:#eeeeee;
+		background-color:#dcdcdc;
 		font-family:Verdana, Arial, Helvetica, sans-serif;
 		font-size:12px;
 		text-align:left;
@@ -87,7 +87,7 @@
 	
 	.timelineYear{
 		font-size:24px;
-		color:#0011cc;
+		color:#7286A7;
 		font-weight:bold;
 		text-align:center;
 	}

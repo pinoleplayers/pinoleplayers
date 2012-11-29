@@ -6,7 +6,7 @@
 	list-style-type: none;
 	margin-bottom: 0;
 	text-align: left; /*set to left, center, or right to align the menu as desired*/
-	background-color: #6699FF;
+	background-color: inherit;
 }
 
 .basictab li{
@@ -20,7 +20,7 @@
 	margin-right: 2px;
 	border: 1px solid AliceBlue;
 	border-bottom: none;
-	background-color: #6699FF;
+	background-color: inherit;
 	color: AliceBlue;
 }
 
@@ -30,7 +30,7 @@
 	margin-right: 2px;
 	border: 1px solid AliceBlue;
 	border-bottom: none;
-	background-color: #6699FF;
+	background-color: inherit;
 	color: AliceBlue;
 }
 
@@ -41,7 +41,7 @@
 
 .basictab li a:hover{
 	background-color: AliceBlue;
-	color: #6699FF;
+	color: inherit;
 }
 
 .basictab li a:active{
@@ -52,7 +52,7 @@
 	position: relative;
 	top: 1px;
 	padding-top: 4px;
-	background-color: #6699FF;
+	background-color: inherit;
 	color: AliceBlue;
 }
 
@@ -73,18 +73,18 @@
 .submenustyle a{
 	padding: 1px 5px;
 	text-decoration: none;
-	background-color: #6699FF;
+	background-color: inherit;
 	color: AliceBlue;
 }
 
 .submenustyle span{
 	padding: 1px 5px;
 	text-decoration: none;
-	background-color: #6699FF;
+	background-color: inherit;
 	color: AliceBlue;
 }
 
 .submenustyle a:hover{
-	background-color: AliceBlue;
-	color: #6699FF;
+	background-color: inherit;
+	color: AliceBlue;
 }

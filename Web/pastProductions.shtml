@@ -6,6 +6,8 @@
 
 	<link rel="stylesheet" type="text/css" href="css/pcp.css" />
 
+	<link rel="stylesheet" type="text/css" href="css/pcp-colors.css" />
+
 	<link rel="stylesheet" type="text/css" href="css/2leveltab.css" />
 
 	<script type="text/javascript" src="js/easyDropDownContainer.js"></script>
@@ -21,36 +23,45 @@
 
 	<style type="text/css">
 	<!--
-	.style2 {font-size: 14; }
-	.style7 {font-size: 16px; color: #FFFFFF; font-weight: bold; }
-	.timelineDirector {color:blue; }
+	.style2 {font-size: 12pt; margin: 3px; }
+	.style7 {font-size: 16pt; color: #FFFFFF; font-weight: bold; }
+	.timelineDirector {color:#7286A7; }
 	-->
 	</style>
 </head>
 
 <body style="height:100%">
-  <div id="mainContainer" style="height:100%">
-    <center>
-    <table id="mainTable" cellpadding="1" cellspacing="0" height="100%">    
-      <tbody>
+	<div id="mainContainer" style="height:100%">
+		<center>
+		<table id="mainTable" cellpadding="1" cellspacing="0" height="100%">
+			<tbody>
 <!--#include file="includes/PCPbanner-row.html" -->
 <!--#include file="includes/PCPmenu-row2.html" -->
-				<tr>
+				<tr class="mainTable-bg">
 					<td colspan=3 id="mainContent" style="height:100%; margin-top:0pt; padding-top:0pt" valign="top" align="center">
-						<div style="text-align:center; font-size:18px; padding:0; margin-top:20px; background-color:#FFFF99">
-							<div class="mainTitle" style="margin-top:0; padding-top:0;">
-								<h2><center>PCP Past Shows</center></h2>
-							</div>
-							<table align="center" width="600" border="1" cellspacing="1" cellpadding="10" style="border-color:blue">
-								<tbody>
+						<div class="mainTable-bg" style="text-align:center; font-size:18px; padding:0; margin-top:20px;">
+							<table align="center" width="600" border="1" cellspacing="1" cellpadding="10" style="border-color:Blue">
+								<tbody class="page-bg">
 									<tr>
-										<td rowspan=2 width="1%"><div align="right"><span class="timelineYear">2<br />0<br />1<br />1</span></div></td>
+										<td colspan=3 align="center"><strong class="timelineYear">Our Past Productions</strong></td>
+									</tr>
+									<tr>
+										<td rowspan=2 align="right"><span class="timelineYear">2<br />0<br />1<br />2</span></td>
+										<td width="250" align="center" valign="bottom"><a href="#"><img src="2012 ILY,YP,NC/ILYYPNC-LOGO-200w-150ppi.png" width="197" height="300" border="1" /></a></td>
+										<td width="250" align="center" valign="bottom"><a href="#">.</a></td>
+									</tr>
+									<tr>
+										<td align="center" valign="top"><span class="timelineDirector">Directed by Matt</span></td>
+										<td align="center" valign="top"><span class="timelineDirector">.</span></td>
+									</tr>
+									<tr>
+										<td rowspan=2 align="right"><span class="timelineYear">2<br />0<br />1<br />1</span></td>
 										<td width="250" align="center" valign="bottom"><a href="#"><img src="2010 Full Monty/FullMontyLOGO.jpg" width="197" height="300" border="1" /></a></td>
 										<td width="250" align="center" valign="bottom"><a href="#"><img src="2011 Producers/ProducersLOGO.jpg" width="197" height="300" border="1" /></a></td>
 									</tr>
 									<tr>
-									 <td align="center" valign="top"><span class="timelineDirector">Directed by Meredith Meeks</span></td>
-									 <td align="center" valign="top"><span class="timelineDirector">Directed by Janet O'Brien</span></td>
+										<td align="center" valign="top"><span class="timelineDirector">Directed by Meredith Meeks</span></td>
+										<td align="center" valign="top"><span class="timelineDirector">Directed by Janet O'Brien</span></td>
 									</tr>
 									<tr>
 										<td rowspan=2 width="1%"><div align="right"><span class="timelineYear">2<br />0<br />1<br />0</span></div></td>
@@ -108,15 +119,15 @@
 									</tr>
 								</tbody>
 							</table>
-              
-						<div><span class="timelineYear"><h3 align="center">The First 19 Years</h3></span></div>
+						</div>
+						<div class="timelineDirector"><h3 class="col1-hilite" align="center">The First 19 Years</h3></div>
 						<strong>
 						<table border="1" cellspacing="2" cellpadding="10" align="center">
-							<tbody>
-								<tr valign="top" align="center" bgcolor="#999999">
-									<th>Season</th>
-									<th>Show</th>
-									<th>Director</th>
+							<tbody class="page-bg">
+								<tr valign="top" align="center">
+									<th class="style2">SEASON</th>
+									<th class="style2">SHOW</th>
+									<th class="style2">DIRECTOR</th>
 								</tr>
 								<tr valign="top" align="center">
 									<td><p class="style2">2004</p></td>
@@ -256,13 +267,12 @@
 							</tbody>
 						</table>
 						</strong>
-					</div>
-				</td>
-			</tr>
+					</td>
+				</tr>
 <!--#include file="includes/PCPfooter-row.html" -->
-	</tbody>
-</table>
-</center>
-</div>
+			</tbody>
+		</table>
+		</center>
+	</div>
 </body>
 </html>

@@ -7,6 +7,8 @@
 
 	<link rel="stylesheet" type="text/css" href="css/pcp.css" />
 
+	<link rel="stylesheet" type="text/css" href="css/pcp-colors.css" />
+
 	<link rel="stylesheet" type="text/css" href="css/2leveltab.css" />
 
 	<style type="text/css">
@@ -57,18 +59,18 @@
 			<tbody>
 	<!--#include virtual="includes/PCPbanner-row.html" -->
 	<!--#include virtual="includes/PCPmenu-row2.html" -->
-				<tr style="background-color:#eeeeee;">
+				<tr  class="mainTable-bg">
 					<td colspan=3 id="mainContent" style="height:100%; margin-top:0pt; padding-top:0pt" valign="top" align="center;">
 						<div style="text-align:center; padding:0; padding-top:10px;">
 							<table width="100%" align="center" border="0" cellpadding="0" cellspacing="0">
-								<tbody style="background-color:#33FF99; font-size:12pt; color:ForestGreen">
+								<tbody class="col2-bg" style="font-size:12pt;">
 									<tr>
 										<td align="center">
 											<table width="826" cellpadding="20"  border="0">
 											  <tbody>
 													<tr>
 														<td align="center">
-															<p>
+															<p class="col2-hilite">
 																Please call 510-223-3598 and request information about placing an
 																advertisement for your company, products or services in the programs
 																for one or more of our productions.

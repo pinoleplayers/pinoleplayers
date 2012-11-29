@@ -6,10 +6,12 @@
 
 	<link rel="stylesheet" type="text/css" href="css/pcp.css" />
 
+	<link rel="stylesheet" type="text/css" href="css/pcp-colors.css" />
+
 	<link rel="stylesheet" type="text/css" href="css/2leveltab.css" />
 	<style type="text/css">
 		em {
-			color: blue;
+			color: AliceBlue;
 		}
 		img.lineup {
 			margin:2px 10px;
@@ -44,20 +46,20 @@
 		<tbody>
 <!--#include virtual="includes/PCPbanner-row.html" -->
 <!--#include virtual="includes/PCPmenu-row2.html" -->
-			<tr>
+			<tr class="mainTable-bg">
 				<td colspan=3 style="height:100%; margin-top:0pt; padding-top:0pt" valign="top" align="center">
-					<div style="text-align:center; padding:10px; margin-top:10px;">
+					<div style="text-align:center; padding:10px; margin-top:0px;">
 						<table width="100%" align="center" border="0" cellpadding="0" cellspacing="0">
 							<tbody>
-								<tr style=" background-color:#FFFF99">
+								<tr class="col1-bg">
 									<td align="center">
-										<div class="mainText" style="margin-top:0; padding:20px; text-align:justify">
-											<h2>Our History</h2>
-											<p>In 1986, two <a href="http://www.ci.pinole.ca.us/" target="_blank">Pinole (California)</a>
+										<div class="col1-txt" style="margin-top:0; padding:20px; font-size:14px; text-align:justify">
+											<h2 class="col1-hilite">Our History</h2>
+											<p>In 1986, two <a href="http://www.ci.pinole.ca.us/" target="_blank" class="col1-hilite">Pinole (California)</a>
 												couples, Gary &amp; Nancy Gill and David &amp; Patti Clark met around the  Gill's kitchen
 												table to discuss their dream of forming a local community theatre group.
 												Utilizing Gary's technical knowledge, Nancy's musical talents, David's directing background
-												and Patti's producing and organizational skills, the <strong style="color:blue;">PINOLE COMMUNITY PLAYERS</strong>
+												and Patti's producing and organizational skills, the <strong class="col1-hilite">PINOLE COMMUNITY PLAYERS</strong>
 												was born.
 											</p>
 											<p>
@@ -84,7 +86,7 @@
 														<td width="25%" align="center"><img class="lineup expando" src=/images/OldShowThumbs/TheFantasticks-88-FullCast.jpg alt="The Fantasticks-88 thumbnail" /></td>
 														<td width="25%" align="center"><img class="lineup expando" src=/images/OldShowThumbs/SouthPacific-Honeybun-Billis+Nellie.jpg alt="South Pacific thumbnail" /></td>
 													</tr>
-													<tr>
+													<tr class="col1-hilite">
 														<td align="center">Godspell<br />1986</td>
 														<td align="center">Oliver<br />1987</td>
 														<td align="center">The Fantasticks<br />1988</td>
@@ -120,7 +122,7 @@
 														<td width="33%" align="center"><img class="lineup expando" src=/images/OldShowThumbs/AChorusLine-TheLine.jpg alt="A Chorus Line thumbnail"\ /></td>
 														<td width="33%" align="center"><img class="lineup expando" src=/images/OldShowThumbs/BABY-FullCast.jpg alt="BABY thumbnail"\ /></td>
 													</tr>
-													<tr>
+													<tr class="col1-hilite">
 														<td align="center">Company<br />1989</td>
 														<td align="center">A Chorus Line<br />1989</td>
 														<td align="center">BABY<br />1990</td>
@@ -140,7 +142,7 @@
 														<td width="33%" align="center"><img class="lineup expando" src=/images/OldShowThumbs/LittleShopOfHorrors-MushniksWithAudreyII-2.jpg alt="Little Shop Of Horrors thumbnail"\ /></td>
 														<td width="33%" align="center"><img class="lineup expando" src=/images/OldShowThumbs/Guys&Dolls-91-TheCrapGame.jpg alt="Guys & Dolls-91 thumbnail"\ /></td>
 													</tr>
-													<tr>
+													<tr class="col1-hilite">
 														<td align="center">Annie<br />1990</td>
 														<td align="center">Little Shop of Horrors<br />1991</td>
 														<td align="center">Guys & Dolls<br />1991</td>
@@ -153,7 +155,7 @@
 														<tr>
 															<td width="100%" align="center"><img class="lineup expando" src=/images/OldShowThumbs/BestOfBroadway-SouthPacific.jpg alt="Best of Broadway thumbnail" /></td>
 														</tr>
-														<tr>
+														<tr class="col1-hilite">
 															<td align="center">The Best of Broadway<br />1992</td>
 														</tr>
 													</tbody>

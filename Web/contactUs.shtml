@@ -6,6 +6,8 @@
 
 <link rel="stylesheet" type="text/css" href="css/pcp.css" />
 
+	<link rel="stylesheet" type="text/css" href="css/pcp-colors.css" />
+
 <link rel="stylesheet" type="text/css" href="css/2leveltab.css" />
 
 <script type="text/javascript" src="js/easyDropDownContainer.js"></script>
@@ -27,30 +29,59 @@
 		<tbody>
 <!--#include virtual="includes/PCPbanner-row.html" -->
 <!--#include virtual="includes/PCPmenu-row2.html" -->
-			<tr>
+			<tr class="mainTable-bg">
 				<td colspan=3 id="mainContent" style="height:100%; margin-top:0pt; padding-top:0pt" valign="top" align="center">
-					<div style="text-align:center; font-size:18px; padding:0; margin-top:20px">
-						<table width="100%" align="center" border="0" cellpadding="0" cellspacing="0">
-							<tbody>
-								<tr style="background-color:#FFFF99">
-									<td>
-										<h4 style="color: #0011cc">The Theatre</h4>
-										<strong>Pinole Community Playhouse</strong><br />
+					<div style="text-align:center; font-size:18px; padding:0; margin-top:1px">
+						<table width="80%" align="center" border="0" cellpadding="10" cellspacing="10">
+							<tbody class="col3-bg">
+								<tr class="col3-hilite">
+									<th colspan="2">
+										CONTACT US
+									</th>
+								</tr>
+								<tr class="col3-txt">
+									<td width="30%" style="text-align:right; vertical-align:text-top;">
+										<h4 class="col3-hilite">The Theatre</h4>
+									</td>
+									<td width="70%" align="left">
+										<strong class="col3-hilite">Pinole Community Playhouse</strong><br />
 														601 Tennent Avenue<br />
 														Pinole, CA 94564<br />
-											<a href="directions.shtml"><small>Directions</small></a>
-										<h4 style="color: #0011cc">Phone</h4>
+											<a href="directions.shtml" class="col3-hilite"><small>Directions</small></a>
+									</td>
+								</tr>
+								<tr class="col3-txt">
+									<td style="text-align:right; vertical-align:top;">
+										<h4 class="col3-hilite">Phone</h4>
+									</td>
+									<td align="left">
 										Box Office:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;510-724-9844<br>
 										Business Office: 510-223-3598
-										<h4 style="color: #0011cc">Mail</h4>
-										<strong>Pinole Community Playhouse</strong><br>
+									</td>
+								</tr>
+								<tr class="col3-txt">
+									<td style="text-align:right; vertical-align:top;">
+										<h4 class="col3-hilite">Mail</h4>
+									</td>
+									<td align="left">
+										<strong class="col3-hilite">Pinole Community Playhouse</strong><br>
 														P.O. Box 182<br />
 														Pinole, CA 94564<br>
-										<h4 style="color: #0011cc">Email</h4>
-										<a href="mailto:pa-clark@comcast.net?subject=PCP">Patti Clark (pa-clark@comcast.net)</a>
-										<p></p><a href="https://www.facebook.com/groups/109262739110253?ap=1">
-											<img src="images/find_us_on_facebook_badge.gif" height="100" border="0" alt="find us on facebook" />
-										</a></p>
+									</td>
+								</tr>
+								<tr class="col3-txt">
+									<td style="text-align:right; vertical-align:top;">
+										<h4 class="col3-hilite">Email</h4>
+									</td>
+									<td align="left">
+										<a href="mailto:pa-clark@comcast.net?subject=PCP" class="col3-hilite">Patti Clark (pa-clark@comcast.net)</a>
+									</td>
+								</tr>
+								<tr class="col3-txt">
+									<td colspan="2">
+										<a href="https://www.facebook.com/groups/109262739110253?ap=1">
+											<img src="images/find_us_on_facebook_badge.gif" height="60" border="0" alt="find us on facebook" />
+										</a>
 									</td>
 								</tr>
 							</tbody>

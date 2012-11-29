@@ -1,0 +1,36 @@
+/* CSS Document */
+
+.page-bg {
+	background-color: Gainsboro;
+}
+.mainTable-bg {
+	background-color: #7286A7;
+}
+.col1-bg {
+	background-color: #45556E;
+}
+.col1-txt {
+	color: #91A1BA;
+}
+.col1-hilite {
+	color: #D0D7E2;
+}
+
+.col2-bg {
+	background-color: #556E45;
+}
+.col2-txt {
+	color: #A1BA91;
+}
+.col2-hilite {
+	color: #D7E2D0;
+}
+.col3-bg {
+	background-color: #6E4555;
+}
+.col3-txt {
+	color: #BA91A1;
+}
+.col3-hilite {
+	color: #E2D0D7;
+}
