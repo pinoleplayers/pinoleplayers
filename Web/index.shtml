@@ -85,8 +85,8 @@
 			  <tbody>
 <!--#include virtual="index-content.html" -->
 					<tr class="mainTable-bg">
-						<td align="center">
-<!--#include virtual="includes/ConstantContact-bubble-test.html" -->
+						<td align="center" style="color:aliceblue;">
+<!--#include virtual="includes/ConstantContact-bubble.html" -->
 						</td>
 						<td align="center">
 							<a href="/2013SponsorshipForm.shtml" title="" style="color:white">

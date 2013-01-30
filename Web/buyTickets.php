@@ -753,6 +753,8 @@ EOD;
 
 <link rel="stylesheet" type="text/css" href="css/pcp.css" />
 
+	<link rel="stylesheet" type="text/css" href="css/pcp-colors.css" />
+
 <link rel="stylesheet" type="text/css" href="css/2leveltab.css" />
 
 <style type="text/css">
@@ -798,21 +800,21 @@ function UpdatePrices() {
 readfile("includes/PCPbanner-row.html");
 readfile("includes/PCPmenu-row2.html");
 ?>
-	<tr>
+	<tr class="mainTable-bg">
 		<td colspan=3 id="mainContent" style="height:100%; margin-top:0pt; padding-top:0pt" valign="top" align="center">
-			<div style="text-align:center; padding:0; padding-top:10px; margin-top:10px; background-color:#FFFF99">
+			<div style="text-align:center; padding:0; padding-top:10px;">
 				<table width="100%" align="center" border="0" cellpadding="0" cellspacing="0">
-					<tbody style="background-color:#FFFF99; font-size:12pt; color:ForestGreen">
+					<tbody class="page-bg" style="font-size:12pt;">
 						<tr>
 							<td colspan=2>
-								<div class="mainTitle" style="margin-top:0; padding-top:0">
+								<div class="mainTitle" style="margin-top:0; padding-top:0; margin-left: 10px;">
 <?= $pageTitle ?>
 								</div>
 							</td>
 						</tr>
 						<tr>
 							<td align="center">
-								<table width="826" cellpadding="20"  border="2" bordercolor="blue">
+								<table width="826" cellpadding="20"  border="0" bordercolor="AliceBlue">
 									<tbody>
 										<tr>
 											<td>
