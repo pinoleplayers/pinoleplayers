@@ -20,13 +20,14 @@
 		height:100%;
 		border:solid 1px #cccccc;
 		background-color:#ffffff;
+		font-size:12px;
 	}
 	
 	#footer{
 		border-top:solid 1px #cccccc;
-		background-color:#eeeeee;
+		background-color:#dcdcdc;
 		font-size:10px;
-		color:#666666;
+		color:#fafafa;
 		font-weight:bold;
 		text-align:right;
 		padding:3px;
@@ -45,7 +46,7 @@
 	
 	.mainText{
 		font-size:14px;
-		color:#666666;
+		color:#7286A7;
 	}
 	
 	.mainTextContainer{
@@ -54,12 +55,9 @@
 	
 	.mainTextContainerGray{
 		padding:12px;
-		border:solid 1px #cccccc;
-		background-color:#eeeeee;
+		border:solid 1px #7286A7;
+		background-color:#dcdcdc;
 	}
-	
-	
-
 	.ticketInfo{
 		background-color:#FFFFCC;
 		padding:8px;
@@ -76,7 +74,6 @@
 		background-color:#666666;
 		color:#ffffff;
 		font-weight:bold;
-	
 	}
 	.castRow{
 		background-color:#ffffff;
@@ -104,16 +101,80 @@
 		color:#000000;
 		font-weight:bold;
 		text-align:center;
-	}	
+	}
 	
 	.timelineDirector{
 		font-size:16px;
 		color:#000000;
 		font-weight:bold;
 		text-align:center;
-	}	
+	}
 	img.expando{
 		border: none;
-		vertical-align: top; /*top aligns image, so mouse has less of a change of moving out of image while image is expanding*/
+		vertical-align: top; /*top aligns image, so mouse has less of a chance of moving out of image while image is expanding*/
+	}
+	.button {
+		border: 1px solid #006;
+		background-color: #ccf;
+		font-weight: bold;
+		font-size: 14px;
+	}
+	.button:hover {
+		border-color: #f00;
+		background-color: #eef;
+	}
+	.button:active {
+		color: red;
+	}
+	.textBlock {
+		display:block;
+		border:1px solid #7286A7;
+		margin:10px 25px;
+		padding:10px;
+	}
+	.errorTextBlock {
+		display:block;
+		border:1px solid #7286A7;
+		margin:10px 25px;
+		padding:10px;
+		color:red;
+	}
+	form {
+		margin-bottom:0em;
+	}
+	label {
+		display: block;
+		width: 90px;
+		float: right;
+		text-align: left;
+	}
+	table.ticketTable td,th {
+		text-align:left;
+		padding:0px;
+		vertical-align:middle;
+	}
+	table.productTable {
+		font-size:14px;
+		vertical-align:middle;
+	}
+	table.productTable td {
+		font-weight:bold;
+		text-align:left;
+		padding:5px;
+	}
+	table.productTable th {
+		text-align:right;
+		padding:5px;
+	}
+	input[type="text"], textarea {
+		font-weight:bold;
+		background-color:AliceBlue;
+	}
+	.strikethru {
+		text-decoration:line-through;
+	}
+	.bold {
+		font-weight:bold;
 	}
 </style>
+<!-- vim:set ts=2 sw=2: -->
