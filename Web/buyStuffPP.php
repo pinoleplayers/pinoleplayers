@@ -50,8 +50,8 @@
 	$orderMessage = <<<EOT
 	<div class="textBlock" style="text-align:center; font-weight:bold">
 	All seats reserved.<br />
-	All reservations must be prepaid.
-	Ticket reservation is secured once payment is received or when credit card charges have been approved.<br />
+	All reservations must be prepaid.<br />
+	Ticket reservation is secured once payment is received<br />or<br />when credit card charges have been approved.<br />
 	Tickets will be held at the door.<br />
 	All sales final.<br>
 EOT;
