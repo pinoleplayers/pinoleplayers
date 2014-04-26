@@ -1,0 +1,118 @@
+<div id="point1" STYLE="position:absolute;visibility:visible;">
+<!--Please delete this table and insert into your html elements-->
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td>
+<a href="http://www.dynamicdrive.com">
+<img src="../ddaward.gif" width=96 height=60 alt="" border="0">
+</a>
+</td>
+</tr>
+<tr>
+<td>
+<center><a href="http://www.dynamicdrive.com">
+<font face="Arial" size="2" color="#0000FF">Dynamic Drive</font>
+</a></center>
+</td>
+</tr>
+<tr>
+<td>
+<center><a href="http://www.dynamicdrive.com/new.htm">
+<font face="Arial" size="2" color="#0000FF">What's New</font>
+</a></center>
+</td>
+</tr>
+</table>
+<!--End of the customizable area, please do not delete div the tag -->
+</div>
+
+
+<script LANGUAGE="JavaScript1.2">
+
+/*
+Floating image II (up down)- Bruce Anderson (http://appletlib.tripod.com)
+Submitted to Dynamicdrive.com to feature script in archive
+Modified by DD for script to function in NS6
+For 100's of FREE DHTML scripts, Visit http://www.dynamicdrive.com
+*/
+
+var XX=20; // X position of the scrolling objects
+var xstep=1;
+var delay_time=60;
+
+//Begin of the unchangable area, please do not modify this area
+var YY=0;  
+var ch=0;
+var oh=0;
+var yon=0;
+
+var ns4=document.layers?1:0
+var ie=document.all?1:0
+var ns6=document.getElementById&&!document.all?1:0
+
+if(ie){
+YY=document.body.clientHeight;
+point1.style.top=YY;
+}
+else if (ns4){
+YY=window.innerHeight;
+document.point1.pageY=YY;
+document.point1.visibility="hidden";
+}
+else if (ns6){
+YY=window.innerHeight
+document.getElementById('point1').style.top=YY
+}
+
+
+function reloc1()
+{
+
+if(yon==0){YY=YY-xstep;}
+else{YY=YY+xstep;}
+if (ie){
+ch=document.body.clientHeight;
+oh=point1.offsetHeight;
+}
+else if (ns4){
+ch=window.innerHeight;
+oh=document.point1.clip.height;
+}
+else if (ns6){
+ch=window.innerHeight
+oh=document.getElementById("point1").offsetHeight
+}
+		
+if(YY<0){yon=1;YY=0;}
+if(YY>=(ch-oh)){yon=0;YY=(ch-oh);}
+if(ie){
+point1.style.left=XX;
+point1.style.top=YY+document.body.scrollTop;
+}
+else if (ns4){
+document.point1.pageX=XX;
+document.point1.pageY=YY+window.pageYOffset;
+}
+else if (ns6){
+document.getElementById("point1").style.left=XX
+document.getElementById("point1").style.top=YY+window.pageYOffset
+}
+
+}
+
+function onad()
+{
+if(ns4)
+document.point1.visibility="visible";
+loopfunc();
+}
+function loopfunc()
+{
+reloc1();
+setTimeout('loopfunc()',delay_time);
+}
+
+if (ie||ns4||ns6)
+window.onload=onad
+
+</script>

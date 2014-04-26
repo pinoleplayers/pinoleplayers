@@ -1,5 +1,14 @@
 /* CSS Document */
 
+/* Mobile browsers only */
+@media only screen and (max-device-width: 480px) {
+	html { -webkit-text-size-adjust:100% }
+}
+
+@media(-webkit-min-device-pixel-ratio:0) {
+
+}
+
 	body{
 		background-color:#dcdcdc;
 		font-family:Verdana, Arial, Helvetica, sans-serif;

@@ -7,6 +7,8 @@
     </title>
     <link rel="stylesheet" type="text/css" href="/css/pcp.css" />
 
+	<link rel="stylesheet" type="text/css" href="/css/pcp-colors.css" />
+
     <link rel="stylesheet" type="text/css" href="/css/2leveltab.css" />
 
     <script type="text/javascript" src="/js/easyDropDownContainer.js"></script>
@@ -49,12 +51,12 @@
           <tbody>
             <!--#include virtual="/includes/PCPbanner-row.html" -->
             <!--#include virtual="/includes/PCPmenu-row2.html" -->
-            <tr>
+            <tr class="mainTable-bg">
               <td colspan=3 id="mainContent" style="height: 100%; margin-top: 0pt; padding-top: 0pt" valign="top" align="center">
                 <div style="text-align: center">
                   <table width="100%" align="center" border="0" cellpadding="0" cellspacing="0">
                     <tbody>
-                      <tr>
+                      <tr class="mainTable-bg">
                         <td align="center">
                           <table width="826" cellpadding="20" border="2" bordercolor="blue">
                             <tbody>
@@ -63,7 +65,7 @@
                                   <img src="SeatCampaignCover.png" align="center" longdesc="cover%20of%20the%20seat%20campaign%20brochure" />
                                   <hr />
                                   <h2>
-                                    <a href="SeatCampaignForm.pdf" title="" target="_blank">Click Here to Get a Printable Seat Sponsorship Form that Details the Cost</a>
+                                    <a class="col1-hilite" href="SeatCampaignForm.pdf" title="" target="_blank">Click Here to Get a Printable Seat Sponsorship Form that Details the Cost</a>
                                   </h2>
                                   <hr />
                                   <img src="SeatCampaignPage2.png" align="center" longdesc="page%202%20of%20the%20seat%20campaign%20brochure" />

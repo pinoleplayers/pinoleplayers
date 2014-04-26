@@ -1,0 +1,54 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<meta http-equiv="refresh" content="0;url=buyTickets.php">
+<title>Order Tickets</title>
+
+<link rel="stylesheet" type="text/css" href="css/pcp.css" />
+<link rel="stylesheet" type="text/css" href="css/pcp-colors.css" />
+</head>
+
+	
+
+<body style="height:100%">
+
+<div id="mainContainer" style="height:100%">
+<center>
+	<table id="mainTable" height="100%" cellpadding="0" cellspacing="0">
+	    <tbody>
+<!--#include file="includes/PCPbanner-row.html" -->
+<!--#include file="includes/PCPmenu-row.html" -->
+		<tr>
+			<td id="mainContent" style="height:100%;margin-top:0; padding-top:0;" valign="top">
+			
+			  <div class="mainTextContainer" style="margin-top:0; padding-top:0;">
+					<div class="mainTitle" style="margin-top:0; padding-top:0;">Order Tickets <br />
+				    </div>
+					
+					
+			        <table>
+				    <tbody>
+						<tr>
+							<td width="230"  valign="top"><span style="padding-bottom:0;margin-bottom:0;"></a></span>
+							<p>&nbsp;</p>
+						  </td>
+							<td width="286" valign="top"><p>&nbsp;</p>
+						    <p>							<a href="buyTickets.php">click here if not automatically redirected...</a>
+</p></td>
+							<td width="176" valign="top">&nbsp;</td>
+				</tr>
+					</table>
+					
+					
+			  </div>
+		  </td>
+		</tr>
+<!--#include file="includes/PCPfooter-row.html" -->
+	</tbody>
+	</table>
+	</center>
+	</div>
+</body>
+</html>
+<!-- vim:set ts=2 sw=2: -->

@@ -46,6 +46,28 @@
 										<td colspan=3 align="center"><strong class="timelineYear">Our Past Productions</strong></td>
 									</tr>
 									<tr>
+										<td rowspan=2 align="right"><span class="timelineYear">2<br />0<br />1<br />4</span></td>
+										<td width="250" align="center" valign="bottom"><a href="#"><img src="2014_Carrie/Carrie_LOGO-narrowed+largerdates-sat-198w-283h-150ppi.jpg" width="197" height="300" border="1" /></a></td>
+										<td width="250" align="center" valign="center">
+											.
+											<!--
+											<a href="#"><img src="2014_MerrilyWeRollAlong/MerrilyWRA_LOGO-450w-600h-72ppi.jpg" width="197" height="150" border="1" /></a>
+											//-->
+										</td>
+									</tr>
+									<tr>
+										<td align="center" valign="top"><span class="timelineDirector">Directed by Laura Schultze</span></td>
+										<td align="center" valign="top">
+											.
+											<!--
+											<span class="timelineDirector">Directed by
+												DC Scarpelli &amp;<br />
+												Peter Budinger
+											</span>
+											//-->
+										</td>
+									</tr>
+									<tr>
 										<td rowspan=2 align="right"><span class="timelineYear">2<br />0<br />1<br />3</span></td>
 										<td width="250" align="center" valign="bottom"><a href="#"><img src="2013_NextToNormal/nextToNormal_LOGO-200w-150ppi.jpg" width="197" height="300" border="1" /></a></td>
 										<td width="250" align="center" valign="center"><a href="#"><img src="2013_BABY/BABY_LOGO-245w-150ppi.png" width="197" height="150" border="1" /></a></td>
