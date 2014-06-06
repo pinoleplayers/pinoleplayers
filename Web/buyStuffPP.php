@@ -257,7 +257,11 @@ function wipeSESSIONvars()
 
 function obliterateSession()
 {
-if ( $debuggingOn==1)
+	global	$GlobalParams,
+					$debuggingON,
+					$paypalMode;
+
+if ($debuggingOn==1)
 	echo "<pre>entering obliterateSession</pre>";
 
 	// Unset all of the session variables.
@@ -274,6 +278,9 @@ if ( $debuggingOn==1)
 	}
 	// Finally, destroy the session.
 	session_destroy();
+
+if ($debuggingOn==1)
+	echo "<pre>leaving obliterateSession</pre>";
 }
 
 function LoadGlobalParams()
@@ -839,7 +846,7 @@ function ShowOrder( $reviewOrConfirm )
 					$mysql_conn;
 
 if($debuggingOn==1)
-	echo "<pre>entering ShowOrder</pre>";
+	echo "<pre>entering ShowOrder: reviewOrConfirm: {$reviewOrConfirm}|</pre>";
 	
 	switch ( $reviewOrConfirm )
 	{
