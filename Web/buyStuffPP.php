@@ -1,5 +1,6 @@
 <?
 	ini_set("include_path", '/home/pcp/php:/home/pcp/phpinc:' . ini_get("include_path")  );
+	session_set_cookie_params(0);
 	session_start();
 
 	require_once('recaptcha/recaptchalib.php');
@@ -11,6 +12,8 @@
 	require_once('Mail/mime.php');
 	
 	$GlobalParams = array();
+	
+	class UnknownProductCategoryException extends Exception { }
 
 	$publickey = "6LePSwQAAAAAADxUr4RbCyd5B6l_s4a1SNxoygMl"; // you got this from the signup page
 	$privatekey = "6LePSwQAAAAAACJqzKLyf62DVoa2TnSz0SipYJ_1";
@@ -20,6 +23,10 @@
 	$mysql_user = 'pcp_ticket';
 	$mysql_passwd = 'sJpAm9fY5S';
 	$mysql_conn;
+
+	$metaHTTPequiv = <<<EOT
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+EOT;
 
 	$pageTitle = "Order Tickets";
 
@@ -142,7 +149,13 @@ if( $debuggingOn )
 	switch($_SESSION["orderStep"])
 	{
 		case "displayForm":
-			$pageContent .= DisplayProductsForm( $orderCategoryName );
+			try {
+				$pageContent .= DisplayProductsForm( $orderCategoryName );
+			}
+			catch (UnknownProductCategoryException $unknownProductCategory) {
+				$pageContent = DisplayUnknownProductCategoryPage( $unknownProductCategory );
+				break;
+			}
 			$_SESSION["orderStep"] = "validateOrder";
 			break;
 
@@ -151,7 +164,13 @@ if( $debuggingOn )
 
 			if ( $formErrorCount > 0)
 			{
-				$pageContent = DisplayProductsForm( $orderCategoryName );
+				try {
+					$pageContent .= DisplayProductsForm( $orderCategoryName );
+				}
+				catch (UnknownProductCategoryException $unknownProductCategory) {
+					$pageContent = DisplayUnknownProductCategoryPage( $unknownProductCategory );
+					break;
+				}
 			}
 			else
 			{
@@ -1830,6 +1849,8 @@ if($debuggingOn==1)
 	{
 if($debuggingOn==1)
 	echo '<pre>fetch_object failed to find $categoryName: ' . mysql_error() . '</pre>';
+	
+	throw new UnknownProductCategoryException();
 	}
 
 	$productQuery = <<<EOQ
@@ -2045,6 +2066,50 @@ function payPalLogoHTML()
 EOT;
 	return $payPalLogoHTML;
 }
+function DisplayUnknownProductCategoryPage( UnknownProductCategoryException $unknownProductCategory )
+{
+	global	$GlobalParams,
+					$debuggingOn,
+					$debugFlags,
+					$paypalMode,
+					$pageTitle,
+					$metaHTTPequiv;
+
+	$metaHTTPequiv = <<<EOT
+<meta http-equiv="refresh" content="20; url=http://www.pinoleplayers.org">
+EOT;
+	$pageTitle = "Redirect to Pinole Players Home Page";
+	$unknownProductCategoryHTML = <<<EOT
+		<table class="productTable" width="826" cellspacing="0" border="2" bordercolor="#7286A7">
+			<tbody>
+				<tr class="page-bg">
+					<td colspan="6">
+						<div style="padding:10px;" align="center">
+								<div style="color:blue; font-size:xx-large; font-weight:900; padding:20px;" align="center">
+									OOPS!
+								</div>
+								<div style="font-size:medium;" align="center">
+									It looks like you may have clicked on an old link to our Online BoxOffice.<br /><br />
+									In 20 seconds you will be redirected to the Pinole Players' Home Page<br />
+									where you will find our current links.<br /><br />
+									If that does not happen, or you don't want to wait,
+									<a href="http://www.pinoleplayers.org">Click Here<br /><br />
+									http://www.pinoleplayers.org</a><br /><br />
+									Should you end up on this page a second time, please call 
+EOT;
+			$unknownProductCategoryHTML .= makeNonBreaking($GlobalParams["PCPboxofficePhoneNumber"]) . ".<br />";
+			$unknownProductCategoryHTML .= <<<EOT
+									to place your order and be sure to mention this problem.<br /><br />
+									We apology for any inconvenience.
+								</div>
+						</div>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+EOT;
+	return $unknownProductCategoryHTML;
+}
 
 function DisplayProductsForm( $categoryName )
 {
@@ -2076,6 +2141,14 @@ function DisplayProductsForm( $categoryName )
 
 if($debuggingOn==1)
 	echo "<pre>entering DisplayProductsForm: categoryName: {$categoryName}|</pre>";
+	
+	try {
+		$productRowsHTML = getProductRowsHTML( $categoryName );
+	}
+	catch (UnknownProductCategoryException $unknownProductCategory) {
+		# pass it up
+		throw $unknownProductCategory;
+	}
 
 	$pageContents = displayFormErrors( $formErrors );
 	$pageContents .= <<<EOT
@@ -2118,7 +2191,7 @@ EOT;
 			</tr>
 EOT;
 
-	$pageContents .= getProductRowsHTML( $categoryName );
+	$pageContents .= $productRowsHTML;
 
 	$pageContents .= mainTableSeparatorRowHTML();
 
@@ -2228,7 +2301,8 @@ if ($debuggingOn)
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<?= $metaHTTPequiv ?>
+
 <title>
 <?= $pageTitle ?>
 </title>
