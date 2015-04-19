@@ -1,0 +1,177 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+	<title>Patron of the Arts</title>
+
+	<link rel="stylesheet" type="text/css" href="css/pcp.css" />
+
+	<link rel="stylesheet" type="text/css" href="css/pcp-colors.css" />
+
+	<link rel="stylesheet" type="text/css" href="css/2leveltab.css" />
+
+	<script type="text/javascript" src="js/easyDropDownContainer.js"></script>
+
+	<script type="text/javascript" src="js/2leveltab2.js">
+		/***********************************************
+		* 2 level Horizontal Tab Menu- by JavaScript Kit (www.javascriptkit.com)
+		* This notice must stay intact for usage
+		* Visit JavaScript Kit at http://www.javascriptkit.com/ for full source code
+		* http://www.javascriptkit.com/script/script2/2leveltab.shtml
+		***********************************************/
+	</script>
+
+	<style type="text/css">
+		<!--
+		.style2 {
+			font-family: "Wingdings 2", Wingdings, "Wingdings 3";
+			font-size: 18px;
+		}
+		.style3 {font-size: 18px}
+		.style4 {font-size: large}
+		.style5 {font-size: 14px}
+		-->
+	</style>
+</head>
+
+<body style="height:100%">
+<div id="mainContainer" style="height:100%">
+<center>
+	<table id="mainTable" height="100%" cellpadding="0" cellspacing="0">
+		<tbody>
+<!--#include virtual="includes/PCPbanner-row.html" -->
+<!--#include virtual="includes/PCPmenu-row2.html" -->
+			<tr class="mainTable-bg">
+				<td colspan=3 style="height:100%; margin-top:0px; padding-top:0px" valign="top" align="center">
+					<div style="text-align:center; padding:0; padding-top:10px; padding-bottom:20px;">
+						<table width="95%" align="center" border="0" cellpadding="10" cellspacing="0">
+							<tbody class="col1-bg" style="text-align:center; padding:0; padding-top:20px; margin-top:10px;">
+								<tr class="col1-hilite">
+									<td colspan="2" style="font-size:20pt; text-style:bold; margin-top:0; padding-top:20px; text-align:center">
+										Become a PATRON of the ARTS<br />Fill out &amp; MAIL TODAY!!!
+									</td>
+								</tr>
+								<tr class="col1-txt">
+									<td width="386"  valign="top">
+										<p align="center"><span class="style4"><strong>PINOLE COMMUNITY PLAYERS</strong><br />
+											<strong>PATRON OF THE ARTS</strong><br />
+											<strong>SPONSORSHIP FORM</strong> </span><br />
+											<br />
+											<strong>Yes, I wish to support the  Pinole Community Players<br />
+											by becoming a patron</strong></p>
+										<table border="2" align="center" cellspacing="0" cellpadding="10" width="361">
+											<tr>
+												<td width="219" valign="top"><p><span class="style2"></span>$20+ <strong>FRIEND</strong> </p></td>
+												<td width="142" valign="top"><p align="center">Name in Program</p></td>
+											</tr>
+											<tr>
+												<td width="219" valign="top"><p><span class="style2"></span>$50+ <strong>SUBSCRIBER</strong></p></td>
+												<td width="142" valign="top"><p align="center">Name in Program</p> </td>
+											</tr>
+											<tr>
+												<td width="219" valign="top"><p><span class="style2"></span>$100+ <strong>SPONSOR</strong></p></td>
+												<td width="142" valign="top"><p align="center">Name in Program<br />2 Free Tickets </p> </td>
+											</tr>
+											<tr>
+												<td width="219" valign="top"><p><span class="style2"></span>$300+ <strong>BENEFACTOR</strong></p></td>
+												<td width="142" valign="top"><p align="center">Name in Program<br />4 Free Tickets </p> </td>
+											</tr>
+											<tr>
+												<td width="219" valign="top"><p><span class="style2"></span>$500+ <strong>ANGEL</strong></p></td>
+												<td width="142" valign="top"><p align="center">Name in Program<br />6 Free Tickets </p> </td>
+											</tr>
+										</table>
+										<p>&nbsp;</p>
+										<b>
+											<p>Name: _____________________________________<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (as you want it to appear in the program)</p>
+											<p>Address: ___________________________________</p>
+											<p>City and Zip: ________________________________</p>
+											<p>E-mail address: ______________________________</p>
+										</b>
+										<p>
+											<br />
+										</p>
+									</td>
+									<td width="329" valign="top">
+										<p align="center">
+											<span class="mainTextContainer" style="margin-top:0; padding-top:0;">
+											<img src="images/Drama Masks w-curtain.jpg" alt="dramamasksw curtain" width="136" height="170" longdesc="http://dramamaskswcurtain" />
+										</p>
+									  <p class="col1-hilite" align="center"><em><strong>THANK YOU TO OUR SUPPORTERS!!!</strong></em></p>
+										<div class="style5">
+											<p align="justify">Our productions would never
+																					make it to the stage without the support of our generous patrons.</p>
+											<p align="justify">We want to thank both our sponsors and our audience members who
+																					continue to make it possible for our curtains to go up for another
+																					season of local cabaret theatre. Remember, we are a certified non-profit
+																					organization and your contributon is completely tax-deductible.</p>
+										</div>
+										<p>&nbsp;</p>
+										<p align="center" class="style3">Make check payable to:<br />
+																											<b>PINOLE COMMUNITY PLAYERS</b>
+										</p>
+										<p align="center" class="style3">Mail to:<br />
+																											P.O. Box 182<br />
+																											Pinole, CA 94564
+										</p>
+										<p style="font-size:10pt">Pinole Community Players is a licensed 501&copy;(3) organization and your contributon is completely tax-deductible.</p>
+					<!--
+										<p align="center"><strong>January 17 -<br \>February 8, 2014</strong></p>
+										<p align="center"><img src="/2014_Carrie/Carrie_LOGO-Premiere-200w-72ppi.jpg" width="200" alt="Carrie Logo" /></p>
+										<p align="center"><strong>Directed by Laura Schultze</strong></p>
+										<p align="center">--------------------------------</p>
+										<p align="center"><strong>March 7 - 15, 2014</strong></p>
+										<p align="center"><img src="2014_39Steps/39Steps_LOGO-200w-220h-72ppi.jpg" width="200" alt="39 Steps Logo" /> </p>
+										<p align="center"><strong>Directed by Marti Baer</strong></p>
+										<p align="center">--------------------------------</p>
+										<p align="center"><strong>June 6 - 28, 2014</strong></p>
+										<p align="center"><img src="2014_MerrilyWeRollAlong/MerrilyWRA_LOGO-200w-130h-72ppi.jpg" width="200" alt="Merrily We Roll Along Logo" /> </p>
+										<p align="center"><strong>Directed by <br />
+																								DC Scarpelli
+																								<span style="font-size:smaller;">&amp;</span><br />
+																								Peter Budinger</strong></p>
+										<p><br /></p>
+				//-->
+									</td>
+								</tr>
+								<tr>
+									<td colspan="2">
+										<table style="margin:0 auto; border-spacing:5px;">
+											<tr>
+												<td class="col1-hilite" colspan="3" style="font-size:large; font-weight:bold; text-align:center;">
+													Mark your calendars to purchase your tickets early for<br />our 2014 Season productions!!
+												</td>
+											</tr>
+											<tr>
+												<td class="col1-hilite" style="font-weight:bold; text-align:center; vertical-align:bottom; margin:0px; padding:0px;">
+													January 30 -<br \>February 31, 2015</td>
+												<td class="col1-hilite" style="font-weight:bold; text-align:center; vertical-align:bottom; margin:0px; padding:0px;">
+													June 5 - 280, 2015</td>
+											</tr>
+											<tr>
+												<td style="padding:5px;"><img src="/2015_RENT/RENT_LOGO-330w-179h-72ppi.png" width="240" alt="NEXT Logo" /></td>
+												<td style="padding:5px;"><img src="/2015_ArsenicAndOldLace/Arsenic_LOGO-309w-353h-72ppi-g.jpg" width="200" alt="Arsenic and Old Lace Logo" /> </td>
+											<tr>
+												<td class="col1-hilite" style="font-weight:bold; text-align:center; vertical-align:text-top; margin:0px; padding:0px;">
+													Directed by<br />Anjee Gallia</td>
+												<td class="col1-hilite" style="font-weight:bold; text-align:center; vertical-align:text-top; margin:0px; padding:0px;">
+													Directed by <br />
+													Renee Echavez</td>
+											</tr>
+										</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</td>
+			</tr>
+<!--#include virtual="includes/PCPfooter-row.html" -->
+		</tbody>
+	</table>
+</center>
+</div>
+</body>
+</html>
+<!-- vim: set sw=2 ts=2: -->

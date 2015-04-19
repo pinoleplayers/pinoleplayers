@@ -1,0 +1,34 @@
+TICKETS
+<div style="align:center; padding-top:3px">
+	<table width="85%" style="border-spacing:1px;">
+		<tr class="COL-hilite"><th colspan="2" style="text-align:left;">Tickets:</th></tr>
+		<tr><td style="text-align:left; padding:0px;">&nbsp;&nbsp;General</td><td style="text-align:right;">$23&nbsp;&nbsp;</td></tr>
+		<tr><td style="text-align:left; padding:0px;">&nbsp;&nbsp;Student / Senior</td><td style="text-align:right;">$20&nbsp;&nbsp;</td></tr>
+	</table>
+	<h4 class="COL-hilite" style="font-variant:small-caps;">Tickets Go On Sale DATE<sup>ORDINAL</sup></h4>
+</div>
+PERFORMANCES
+<div style="align:center; padding-top:3px">
+	<table width="85%" style="border-spacing:1px;">
+		<tr class="COL-hilite"><th colspan="2" style="text-align:left;">Performances:</th></tr>
+		<tr><td style="text-align:left; padding:0px;">&nbsp;&nbsp;Fridays<br />&nbsp;&nbsp;&nbsp;&nbsp;Jan 30, Feb 6,13,20</td><td style="text-align:right;">8 p.m.</td></tr>
+		<tr><td style="text-align:left; padding:0px;">&nbsp;&nbsp;Saturdays<br />&nbsp;&nbsp;&nbsp;&nbsp;Jan 31, Feb 7,14,21</td><td style="text-align:right;">8 p.m.</td></tr>
+		<tr><td style="text-align:left; padding:0px;">&nbsp;&nbsp;Sundays<br />&nbsp;&nbsp;&nbsp;&nbsp;Feb 8,15</td><td style="text-align:right;">2 p.m.</td></tr>
+	</table>
+</div>
+GENERAL
+<div style="align:center; padding-top:3px">
+	<table width="85%">
+		<tr class="COL-hilite"><th colspan="2" style="text-align:left;">TITLE</th></tr>
+		<tr><td style="text-align:left; padding:2px;">&nbsp;&nbsp;COL1</td><td style="text-align:right;">COL2&nbsp;&nbsp;</td></tr>
+	</table>
+</div>
+WE'LL LET YOU KNOW
+<div style="align:center; padding-top:3px">
+	<table width="85%">
+		<tr>
+			<td style="text-align:left; padding:0px;"><img src="/images/thinkingAboutIt.jpg" width="70" alt="We're Thinking About It Logo" /></td>
+			<td style="text-align:left;">Hmmmmmmmm...<br />We'll let you know soon</td>
+		</tr>
+	</table>
+</div>

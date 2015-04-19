@@ -12,6 +12,15 @@
 	<link rel="stylesheet" type="text/css" href="css/2leveltab.css" />
 
 	<style type="text/css">
+		h4 {
+			margin-top:10px;
+			margin-bottom:2px;
+		}
+		p {
+			margin:8px;
+			margin-left:10px;
+			margin-right:20px;
+		}
 		<!--.style2 {
 			font-size: 16px;
 			font-weight: bold;
@@ -61,7 +70,7 @@
 	<!--#include virtual="includes/PCPmenu-row2.html" -->
 				<tr class="mainTable-bg">
 					<td colspan=3 id="mainContent" style="height:100%; margin-top:0pt; padding-top:0pt" valign="top" align="center;">
-						<div style="text-align:center; padding:0; padding-top:10px; font-size:14pt">
+						<div style="text-align:center; padding:0; padding-top:10px; font-size:12pt">
 							<table width="100%" align="center" border="0" cellpadding="0" cellspacing="0">
 								<tbody>
 									<tr>
@@ -70,48 +79,62 @@
 											  <tbody>
 													<tr class="col2-bg">
 														<td class="col2-txt" align="justify">
+															<h2 class="col2-hilite" style="text-align:center; padding-top:0; margin-top:0;">YOU CAN SUPPORT US IN LOTS OF WAYS</h2>
+															<h4 class="col2-hilite">SEE A SHOW</h4>
 															<p>
-																The <strong>PINOLE COMMUNITY PLAYERS</strong> exists because of our audiences,
-																the people who pay to see our productions,
-																the people of Pinole and surrounding cities,
-																who come to our Playhouse to be entertained.
+																After all, it's what we do. The <strong>PINOLE COMMUNITY PLAYERS</strong> exists because of our audiences,
+																the people who pay to see our productions, who come to our Playhouse to be entertained.
 															</p>
-															<p>
-																The money they pay for tickets and for concessions pays the fees we pay for the
-																rights to produce the shows.
-																It buys the lumber to build the sets and the paint.
-																It rents special costumes or props that we don't have in our collection and
-																can't borrow from other theatre groups.
-																It pays to copy the programs, buy the concessions, buy the special bulbs for the
-																theatre lighting.
+															<p class="col2-hilite">
+																Ticket revenue doesn't cover the cost of a show, but full houses help.
 															</p>
+															<h4 class="col2-hilite">TELL YOUR FRIENDS</h4>
 															<p>
-																Sometimes ticket revenue doesn't cover the costs of our shows.
+																Word of mouth is a very effective way to fill our seats.
+																If you enjoyed a show, maybe some friends or family members will.
+																How about arranging a night out at the theatre with friends.
 															</p>
+															<h4 class="col2-hilite">COME TO THE CABARET</h4>
 															<p>
-																<strong>PCP</strong> exists because of the monetary support of a few special people
-																over the years.
-																Some have given tens of dollars, some hundreds of dollars, and a few have given thousands
-																of dollars.
-																Here are the <a href=ourPatrons.shtml class="col2-hilite">people</a> who have most recently donated to <strong>PCP</strong>.
-																If you have the means, perhaps you would like to become a <a href=2013SponsorshipForm.shtml class="col2-hilite">
+																Our annual dinner show and silent auction is a fun social event that is also our largest fund raiser of the year.
+															</p>
+															<h2 class="col2-hilite" style="text-align:center;">GOING THE EXTRA MILE</h2>
+															<p class="col2-hilite">
+																Call <span style="font-size:larger; font-weight:bold;">510&#8209;724&#8209;6413</span>
+																to find out about these ways to help keep live theatre alive in Pinole.
+															</p>
+															<h4 class="col2-hilite">BECOME A PATRON</h4>
+															<p>
+																Have you ever thought you could be a<a href=2015SponsorshipForm.shtml class="col2-hilite">
 																Patron of the Arts</a>.
+																Here are the <a href=ourPatrons.shtml class="col2-hilite">fine people</a> who have most recently donated to <strong>PCP</strong>.
 															</p>
+															<p>
+															<h4 class="col2-hilite">ADVERTISE IN OUR SHOW PROGRAMS</h4>
+															<p>
+																Your purchased ad will reach 750 audience members per production.
+															</p>
+															<h4 class="col2-hilite">UNDERWRITE A PRODUCTION</h4>
+															<p>
+																Allow your company or family support to shine as the sponsor of one of our productions.
+															</p>
+															<h4 class="col2-hilite">TAKE A PHOTO!</h4>
+															<p>
+																Sponsor a Cast Photo in our Lobby.
+																Each large 20x24-inch photo has an engraved tag identifying you as sponsor.
+															</p>
+															<h4 class="col2-hilite">VOLUNTEER</h4>
 															<p>
 																<strong>PCP</strong> exists because of the work of hundreds of people.
 															</p>
 															<p>
-																Some have worked tens of hours, some hundreds of hours, and some thousands of hours.
-																A few have worked on every show, many on many shows, some on only one.
-															</p>
-															<p>
-																They don't do it for the money - there isn't any left over after we finance our productions.
+																They don't do it for money - there isn't any left after we finance our productions.
 																They do it for love - most for love of theatre, some for love of community, some for love of family.
 															</p>
 															<p>
 																They come from every walk of life - adults, teenagers, even children.
-																They become carpenters, seamstresses, actors, musicians, maintenance workers, stage hands, technicians,
-																managers, directors, concessionaires, ticket sellers, ticket takers, all of the roles required to run
+																They become carpenters, seamstresses, actors, musicians, janitors, stage hands, technicians,
+																stage managers, directors, concessionaires, ticket sellers, ushers, all of the roles required to run
 																a theatre company, produce a show, present a show.
 															</p>
 															<p>Perhaps you are one of those amazing people</p>

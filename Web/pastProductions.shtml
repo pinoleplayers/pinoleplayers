@@ -46,26 +46,20 @@
 										<td colspan=3 align="center"><strong class="timelineYear">Our Past Productions</strong></td>
 									</tr>
 									<tr>
-										<td rowspan=2 align="right"><span class="timelineYear">2<br />0<br />1<br />4</span></td>
+										<td rowspan=4 align="right"><span class="timelineYear">2<br />0<br />1<br />4</span></td>
 										<td width="250" align="center" valign="bottom"><a href="#"><img src="2014_Carrie/Carrie_LOGO-narrowed+largerdates-sat-198w-283h-150ppi.jpg" width="197" height="300" border="1" /></a></td>
-										<td width="250" align="center" valign="center">
-											.
-											<!--
-											<a href="#"><img src="2014_MerrilyWeRollAlong/MerrilyWRA_LOGO-450w-600h-72ppi.jpg" width="197" height="150" border="1" /></a>
-											//-->
-										</td>
+										<td width="250" align="center" valign="bottom"><a href="#"><img src="2014_39Steps/39Steps_LOGO-300w-96ppi.jpg" width="197" height="300" border="1" /></a></td>
 									</tr>
 									<tr>
-										<td align="center" valign="top"><span class="timelineDirector">Directed by Laura Schultze</span></td>
-										<td align="center" valign="top">
-											.
-											<!--
-											<span class="timelineDirector">Directed by
-												DC Scarpelli &amp;<br />
-												Peter Budinger
-											</span>
-											//-->
-										</td>
+										<td align="center" valign="top"><span class="timelineDirector"><span style="font-size:smaller;">Directed by</span> Laura Schultze</span></td>
+										<td align="center" valign="top"><span class="timelineDirector"><span style="font-size:smaller;">Directed by</span> Marti Baer</span></td>
+									</tr>
+										<td width="250" align="center" valign="bottom"><a href="#"><img src="2014_MerrilyWeRollAlong/MerrilyWRA_LOGO-450w-600h-72ppi.jpg" width="197" height="300" border="1" /></a></td>
+										<td width="250" align="center" valign="bottom">.</td>
+									</tr>
+									<tr>
+										<td align="center" valign="top"><span class="timelineDirector"><span style="font-size:smaller;">Directed by</span> Peter Budinger</span></td>
+										<td align="center" valign="top"><span class="timelineDirector">.</span></td>
 									</tr>
 									<tr>
 										<td rowspan=2 align="right"><span class="timelineYear">2<br />0<br />1<br />3</span></td>
@@ -73,8 +67,8 @@
 										<td width="250" align="center" valign="center"><a href="#"><img src="2013_BABY/BABY_LOGO-245w-150ppi.png" width="197" height="150" border="1" /></a></td>
 									</tr>
 									<tr>
-										<td align="center" valign="top"><span class="timelineDirector">Directed by Brian Katz</span></td>
-										<td align="center" valign="top"><span class="timelineDirector">Directed by Janet O'Brien</span></td>
+										<td align="center" valign="top"><span class="timelineDirector"><span style="font-size:smaller;">Directed by</span> Brian Katz</span></td>
+										<td align="center" valign="top"><span class="timelineDirector"><span style="font-size:smaller;">Directed by</span> Janet O'Brien</span></td>
 									</tr>
 									<tr>
 										<td rowspan=2 align="right"><span class="timelineYear">2<br />0<br />1<br />2</span></td>
@@ -82,7 +76,7 @@
 										<td width="250" align="center" valign="bottom"><a href="#">.</a></td>
 									</tr>
 									<tr>
-										<td align="center" valign="top"><span class="timelineDirector">Directed by Matt</span></td>
+										<td align="center" valign="top"><span class="timelineDirector"><span style="font-size:smaller;">Directed by</span> Matthew Teague Miller</span></td>
 										<td align="center" valign="top"><span class="timelineDirector">.</span></td>
 									</tr>
 									<tr>
@@ -91,8 +85,8 @@
 										<td width="250" align="center" valign="bottom"><a href="#"><img src="2011 Producers/ProducersLOGO.jpg" width="197" height="300" border="1" /></a></td>
 									</tr>
 									<tr>
-										<td align="center" valign="top"><span class="timelineDirector">Directed by Meredith Meeks</span></td>
-										<td align="center" valign="top"><span class="timelineDirector">Directed by Janet O'Brien</span></td>
+										<td align="center" valign="top"><span class="timelineDirector"><span style="font-size:smaller;">Directed by</span> Meredith Meeks</span></td>
+										<td align="center" valign="top"><span class="timelineDirector"><span style="font-size:smaller;">Directed by</span> Janet O'Brien</span></td>
 									</tr>
 									<tr>
 										<td rowspan=2 width="1%"><div align="right"><span class="timelineYear">2<br />0<br />1<br />0</span></div></td>
@@ -100,8 +94,8 @@
 										<td width="250" align="center" valign="bottom"><a href="#"><img src="images/2010_Spelling_Bee_logo.jpg" width="197" height="300" border="1" /></a></td>
 									</tr>
 									<tr>
-										<td align="center" valign="top"><span class="timelineDirector">Directed by G. A. Klein</span></td>
-										<td align="center" valign="top"><span class="timelineDirector">Directed by Janet O'Brien</span></td>
+										<td align="center" valign="top"><span class="timelineDirector"><span style="font-size:smaller;">Directed by</span> G. A. Klein</span></td>
+										<td align="center" valign="top"><span class="timelineDirector"><span style="font-size:smaller;">Directed by</span> Janet O'Brien</span></td>
 									</tr>
 									<tr>
 										<td rowspan=2 width="1%"><div align="right"><span class="timelineYear">2<br />0<br />0<br />9</span></div></td>
@@ -109,8 +103,8 @@
 										<td width="250" align="center" valign="bottom"><a href="#"><img src="images/2009_Falsettos_logo_sm.jpg" width="197" height="300" border="1" /></a></td>
 									</tr>
 									<tr>
-										<td align="center" valign="top"><span class="timelineDirector">Directed by Derrick Silva</span></td>
-										<td align="center" valign="top"><span class="timelineDirector">Directed by Janet O'Brien</span></td>
+										<td align="center" valign="top"><span class="timelineDirector"><span style="font-size:smaller;">Directed by</span> Derrick Silva</span></td>
+										<td align="center" valign="top"><span class="timelineDirector"><span style="font-size:smaller;">Directed by</span> Janet O'Brien</span></td>
 									</tr>
 									<tr>
 										<td rowspan=2 width="1%"><div align="right"><span class="timelineYear">2<br />0<br />0<br />8</span></div></td>
@@ -118,8 +112,8 @@
 										<td width="250" align="center" valign="bottom"><a href="#m"><img src="images/SomethingsAfootSmall.jpg" width="197" height="300" border="1" /></a></td>
 									</tr>
 									<tr>
-										<td align="center" valign="top"><span class="timelineDirector">Directed by Larry Harada</span></td>
-										<td align="center" valign="top"><span class="timelineDirector">Directed by Marti Baer</span></td>
+										<td align="center" valign="top"><span class="timelineDirector"><span style="font-size:smaller;">Directed by</span> Larry Harada</span></td>
+										<td align="center" valign="top"><span class="timelineDirector"><span style="font-size:smaller;">Directed by</span> Marti Baer</span></td>
 									</tr>
 									<tr>
 										<td rowspan=2 width="1%"><div align="right"><span class="timelineYear">2<br />0<br />0<br />7</span></div></td>
@@ -127,8 +121,8 @@
 										<td width="250" align="center" valign="bottom"><a href="#"><img src="images/chicagoSmall.jpg" width="197" height="300" border="1" /></a></td>
 									</tr>
 									<tr>
-										<td align="center" valign="top"><span class="timelineDirector">Directed by Nancy Gill<br />& Anjee Norgaard</span></td>
-										<td align="center" valign="top"><span class="timelineDirector">Directed by Janet O'Brien</span></td>
+										<td align="center" valign="top"><span class="timelineDirector"><span style="font-size:smaller;">Directed by</span> Nancy Gill<br />& Anjee Norgaard</span></td>
+										<td align="center" valign="top"><span class="timelineDirector"><span style="font-size:smaller;">Directed by</span> Janet O'Brien</span></td>
 									</tr>
 									<tr>
 										<td rowspan=2 width="1%"><div align="right"><span class="timelineYear">2<br />0<br />0<br />6</span></div></td>
@@ -136,8 +130,8 @@
 										<td width="250" align="center" valign="bottom"><a href="#"><img src="images/oliverSmall.jpg" width="197" height="300" border="1" /></a></td>
 									</tr>
 									<tr>
-										<td align="center" valign="top"><span class="timelineDirector">Directed by Janet O'Brien</span></td>
-										<td align="center" valign="top"><span class="timelineDirector">Directed by David Clark</span></td>
+										<td align="center" valign="top"><span class="timelineDirector"><span style="font-size:smaller;">Directed by</span> Janet O'Brien</span></td>
+										<td align="center" valign="top"><span class="timelineDirector"><span style="font-size:smaller;">Directed by</span> David Clark</span></td>
 									</tr>
 									<tr>
 										<td rowspan=2 width="1%"><div align="right"><span class="timelineYear">2<br />0<br />0<br />5</span></div></td>
@@ -145,8 +139,8 @@
 										<td width="250" align="center" valign="bottom"><a href="#"><img src="images/tblwtSmall.jpg" width="197" height="300" border="1" /></a></td>
 									</tr>
 									<tr>
-										<td align="center" valign="top"><span class="timelineDirector">Directed by Janet O'Brien</span></td>
-										<td align="center" valign="top"><span class="timelineDirector">Directed by G. A. Klein</span></td>
+										<td align="center" valign="top"><span class="timelineDirector"><span style="font-size:smaller;">Directed by</span> Janet O'Brien</span></td>
+										<td align="center" valign="top"><span class="timelineDirector"><span style="font-size:smaller;">Directed by</span> G. A. Klein</span></td>
 									</tr>
 								</tbody>
 							</table>

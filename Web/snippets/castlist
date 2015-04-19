@@ -1,0 +1,18 @@
+<style type="text/css">
+	#SHOW-cast-panel {
+	  width:100%;
+	  height:30px;
+	  overflow:hidden;
+	}
+</style>
+<div id="SHOW-cast-panel" style="font-style:underline">
+	<div align="center" title="click to view" onclick="exposeMoreInfo('SHOW-cast-panel','SHOW-cast-info','Click to See the Cast','Hide Cast','SHOW-cast-arrow','SIZEpx')">
+		<div id="SHOW-cast-info">Click to See the Cast</div>
+		<img src="images/arrowd.gif" id="SHOW-cast-arrow" alt="arrow down">
+		<div align="center">
+			<p style="color: black"><b>Featuring:</b><br />
+				FIRST&nbsp;LAST,
+			</p>
+		</div>
+	</div>
+</div>

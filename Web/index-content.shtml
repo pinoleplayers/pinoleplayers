@@ -3,160 +3,45 @@
 		date_default_timezone_set("America/Los_Angeles");
 		$currUnixTime = time();
 ?>
-//-->
-				<!--
+!-->
 				<tr class="mainTable-bg">
-					<td colspan="3" valign="top" style="padding:3px; margin:0px; border-spacing:0px; color:white; background-color:#5E456E">
-						<div>
-							<table style="width:100%; margin:0 auto; border-collapse:collapse; border-spacing:5px;">
-								<tr>
-									<td style="text-align:center;">
-										<h2 class="col3-hilite" style="margin:0px;">Our 5th Annual</h2>
-										<img src="2014_Cabaret/2014CabaretDinnerShow-soldout-601w-150ppi.jpg" width="350" style="padding:5px" alt="Temporary Cabaret Logo" />
-										<h2 style="margin:0px; padding-top:0px;">
-											Saturday April 5 - 6:30-10:30 p.m.<br />
-											<span class="col3-hilite" style="font-size:x-small;">at the</span><br />
-											<span style="font-size:small;">Pinole Senior Center</span><br />
-											<span class="col3-hilite" style="font-size:x-small;">2500 Charles Avenue, Pinole</span>
-										</h2>
-									</td>
-									<td valign="top" style=" text-align:center;">
-										<h2>
-											<div style="font-size:small; margin:5px;">Local Theatre Cannot Survive On Ticket Sales Alone</div>
-											<div style="margin:5px;">Support Live Theatre in Pinole</div>
-											<div style="font-size:small; margin:5px;">and Have a Fun Night Out</div>
-											<div class="col3-hilite" style="font-size:x-small; margin:5px;">
-												With Hors d'ouvres, Dinner catered by Pinole's Pear Street Bistro,<br />
-												Fine Wine, a Silent Auction, and Lots of Entertainment
-											</div>
-										</h2>
-										<div style="font-weight:bold; text-align:center; margin-top:5px;">
-											<a href="buyStuffPP.php?productCategory=5th Annual Cabaret&NewOrder=true" target="_blank" style="color:white; font-size:small;">
-												Click to Order Tickets Online
-											</a><br />
-											<span class="col3-hilite" style="font-size:x-small;">or</span><br />
-											Call 510&#8209;724&#8209;6413<br />
-											<span class="col3-hilite" style="color:white; font-variant:small-caps;">
-												Tickets NOT Sold at the Door
-											</span>
-										</div>
-									</td>
-								</tr>
-							</table>
-						</div>
-						<div>
-							<h1 style="text-align:center; color:white; margin:10px; margin-bottom:2px;">SEASON TICKETS!&nbsp;&nbsp;&nbsp;&nbsp;SEE FIVE SHOWS!&nbsp;&nbsp;&nbsp;&nbsp;SAVE $20!</h1>
-						</div>
-						<div>
-							<h5 class="col1-hilite" style="text-align:center; margin:3px;">Scroll Down for More Info About the Shows or Click on a Show to Go to the Info</h5>
-						</div>
-						<div>
-							<table style="margin:0 auto; border-spacing:5px;">
-								<tr>
-									<td>
-										<a href="#S4aNWInfo">
-											<img src="2013_SongsForANewWorld/Songs4aNewWorld_LOGO-200w-145h-72ppi.jpg"
-												width="120" height="86" alt="Songs for a New World Logo" style="padding:0; margin:0;" />
-										</a>
-									</td>
-									<td>
-										<a href="#GodspellInfo">
-											<img src="2013_Godspell/Godspell_LOGO-200w-144h-72ppi.jpg"
-												width="120" height="86" alt="Godspell Logo" style="padding:0; margin:0;" />
-										</a>
-									</td>
-									<td>
-										<a href="#CarrieInfo">
-											<img src="2014_Carrie/Carrie_LOGO-200w-130h-72ppi.jpg"
-												width="120" height="86" alt="CARRIE Logo" style="padding:0; margin:0;" />
-										</a>
-									</td>
-									<td>
-										<a href="#39StepsInfo">
-											<img src="2014_39Steps/39Steps_LOGO-200w-152h-72ppi.jpg"
-												width="120" height="86" alt="39 Steps Logo" style="padding:0; margin:0;" />
-										</a>
-									</td>
-									<td>
-										<a href="#MWRAInfo">
-											<img src="2014_MerrilyWeRollAlong/MerrilyWRA_LOGO-200w-130h-72ppi.jpg"
-												width="120" height="86" alt="Merrily We Roll Along Logo" style="padding:0; margin:0;" />
-										</a>
-									</td>
-								</tr>
-								<tr>
-									<td class="col1-hilite" style="text-align:center; margin:0px; padding:0px; font-size:larger;">October</td>
-									<td class="col1-hilite" style="text-align:center; margin:0px; padding:0px; font-size:larger;">November</td>
-									<td class="col1-hilite" style="text-align:center; margin:0px; padding:0px; font-size:larger;">January</td>
-									<td class="col1-hilite" style="text-align:center; margin:0px; padding:0px; font-size:larger;">March</td>
-									<td class="col1-hilite" style="text-align:center; margin:0px; padding:0px; font-size:larger;">June</td>
-								</tr>
-							</table>
-						</div>
-						<div class="col1-hilite" style="text-align:center;">
-							<a href="buyStuffPP.php?productCategory=2013-14 Season Tickets&NewOrder=true" title="" target="_blank" class="col1-hilite">
-								<h3 style="margin:0; padding:0; margin-top:5px; padding-top:0px; padding-bottom:10px;">
-									Click To Order Season Tickets Online</a>
-								<span style="font-size:smaller;">or</span>
-								Call 510&#8209;724&#8209;9844
-							</h3>
-						</div>
-					</td>
-				</tr>
-				//-->
-				<tr class="mainTable-bg">
-				  <td width="275" valign="top" class="col1-bg" style="padding-bottom: 0pt; margin-bottom: 0pt">
+				  <td width="271" valign="top" class="col1-bg" style="padding-bottom: 0pt; margin-bottom: 0pt">
 						<div align="center" class="col1-txt">
 							<h2 class="col1-hilite" style="margin-top:5px; padding-top:0px;">PINOLE PLAYERS</h2>
-							<hr class="col1-hr" style="width:100%;" />
+							<hr class="col1-hr" style="width:95%;" />
 							<div>
 				<!--
 							<h2 class="col1-hilite" style="margin:5px; padding:0px;">Tickets On Sale NOW</h2>
 							<hr class="col1-hr" />
 				//-->
-<!--#include virtual="2015_RENT/RENT-index_content.html" -->
-							</div>
-							<hr class="col1-hr" style="width:100%;" />
-							<div>
 <!--#include virtual="2015_ArsenicAndOldLace/ArsenicAOL-index_content.html" -->
 							</div>
 						</div>
-						<hr class="col1-hr" style="width:100%;" />
+						<hr class="col1-hr" style="width:95%;" />
 					</td>
 
-				  <td width="275" valign="top" class="col2-bg" style="padding-bottom: 0pt; margin-bottom: 0pt">
-				  	<div style="position: relative; height:900px;">
-<!--#include virtual="2015_Cabaret/2015Cabaret-index_content.html" -->
-							<hr class="col2-hr" style="width:100%;" />
-							<div style="position: absolute; left: 0; width: 100%; bottom: 0;">
-							<hr class="col2-hr" style="width:100%;" />
-								<h4 class="col2-hilite" style="text-align:center;">
-									We Have A NEW<br />
-									Business Phone Number<br />
-									<span style="font-size:larger;">510&#8209;724&#8209;6413</span>
-								</h4>
-							</div>
+				  <td width="271" valign="top" class="col2-bg" style="padding-bottom: 0pt; margin-bottom: 0pt">
+						<div align="center" class="col2-txt">
+							<h2 class="col2-hilite" style="margin-top:5px; padding-top:0px;">PINOLE PLAYERS</h2>
+							<hr class="col2-hr" style="width:95%;" />
+<!--#include virtual="2015_PYA/PYA-index_content.html" -->
+							<hr class="col2-hr" style="width:95%;" />
+<!--#include virtual="GoingGreen/goingGreen-index_content.html" -->
+							<hr class="col2-hr" style="width:95%;" />
 						</div>
 					</td>
 
-					<td width="275" align="center" valign="top"class="col3-bg" style="padding-bottom: 0pt; margin-bottom: 0pt">
+					<td width="271" valign="top"class="col3-bg" style="padding-bottom: 0pt; margin-bottom: 0pt">
 						<div align="center" class="col3-txt">
+							<h2 class="col3-hilite" style="margin-top:5px; padding-top:0px;">CITY OF PINOLE</h2>
+							<hr class="col3-hr" style="width:95%;" />
 							<div>
-<!--#include virtual="2014_CTW-Fall/PeterPanJr-index_content.html" -->
+<!--#include virtual="2015_TCSM/42ndStreet-index_content.html" -->
+							<hr class="col3-hr" style="width:95%;" />
+<!--#include virtual="2014_Survey/2014Survey-index_content.html" -->
 							</div>
-							<!--
-							<h4 style="text-align:left; margin-left:5px; margin-bottom:0px">Previous productions of the company include</h4>
-							<ul style="font-weight:bold; margin:5px; margin-left:20px; text-align:left;">
-								<li>Cabaret</li>
-								<li>Grease</li>
-								<li>Thoroughly Modern Millie</li>
-								<li>West Side Story</li>
-								<li>Pippin</li>
-								<li>Little Shop of Horrors</li>
-								<li>The Wedding Singer</li>
-							</ul>
-							//-->
-						<hr class="col3-hr" style="width:100%;" />
+							<hr class="col3-hr" style="width:95%;" />
+						</div>
 					</td>
 				</tr>
 <!-- vim: set sw=2 ts=2: -->
