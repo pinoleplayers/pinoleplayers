@@ -9,15 +9,9 @@
 						<div align="center" class="col1-txt">
 							<h2 class="col1-hilite" style="margin-top:5px; padding-top:0px;">PINOLE PLAYERS</h2>
 							<hr class="col1-hr" style="width:95%;" />
-							<div>
-				<!--
-							<h2 class="col1-hilite" style="margin:5px; padding:0px;">Tickets On Sale NOW</h2>
-							<hr class="col1-hr" />
-				//-->
-<!--#include virtual="2015_ArsenicAndOldLace/ArsenicAOL-index_content.html" -->
-							</div>
+<!--#include virtual="2016_Godspell/Godspell-index_content.html" -->
+							<hr class="col1-hr" style="width:95%;" />
 						</div>
-						<hr class="col1-hr" style="width:95%;" />
 					</td>
 
 				  <td width="271" valign="top" class="col2-bg" style="padding-bottom: 0pt; margin-bottom: 0pt">
@@ -25,6 +19,8 @@
 							<h2 class="col2-hilite" style="margin-top:5px; padding-top:0px;">PINOLE PLAYERS</h2>
 							<hr class="col2-hr" style="width:95%;" />
 <!--#include virtual="2015_PYA/PYA-index_content.html" -->
+							<hr class="col2-hr" style="width:95%;" />
+<!--#include virtual="2015_PYA/AnjeesBroadwayDanceWksp-index_content.html" -->
 							<hr class="col2-hr" style="width:95%;" />
 <!--#include virtual="GoingGreen/goingGreen-index_content.html" -->
 							<hr class="col2-hr" style="width:95%;" />

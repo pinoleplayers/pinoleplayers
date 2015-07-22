@@ -1361,9 +1361,11 @@ EOT;
 		case "paymentCheck":
 			$orderHandlingFee = $GlobalParams["HandlingFee-Check"];
 			$orderTotalAmount = calculateOrderTotalAmount();
+			$checksTo = "Pinole Community Players";
+			// $checksTo = "City of Pinole";
 			$orderPaymentInstructions = <<<EOT
 				I will mail a check for \${$orderTotalAmount} payable to
-				<span style="color:blue; font-style:italic;">Pinole Community Players</span>
+				<span style="color:blue; font-style:italic;">{$checksTo}</span>
 				and a copy of this page to:<br/>
 				<div style="display:block; text-align:left; padding-left:110px;">
 					{$GlobalParams["PCPmailingAddress"]}
