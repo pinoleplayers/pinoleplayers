@@ -11,7 +11,7 @@
 
 	body{
 		background-color:#dcdcdc;
-		font-family:Verdana, Arial, Helvetica, sans-serif;
+		font-family:Helvetica,Arial,Verdana,sans-serif;
 		font-size:12px;
 		text-align:left;
 	}
@@ -21,6 +21,7 @@
 		width:100%;
 		height:100%;
 		text-align:center;
+		margin: 0px auto;
 	
 	}
 	
@@ -93,7 +94,6 @@
 	
 	.timelineYear{
 		font-size:24px;
-		color:#7286A7;
 		font-weight:bold;
 		text-align:center;
 	}
@@ -107,14 +107,12 @@
 	
 	.timelineName{
 		font-size:24px;
-		color:#000000;
 		font-weight:bold;
 		text-align:center;
 	}
 	
 	.timelineDirector{
 		font-size:16px;
-		color:#000000;
 		font-weight:bold;
 		text-align:center;
 	}
@@ -144,11 +142,56 @@
 	form{
 		margin-bottom:0em;
 	}
-	table.ticketTable td,th{
-		text-align:left;
-		padding:0px;
-		vertical-align:middle;
+
+	.horizontalPanel{
+		background-color:#dcdcdc;
+		color:#520f10;
+		margin-top:5px;
+		margin-bottom:5px;
+		border: 2px solid #484848;
 	}
+
+	.productionTeamTableSpecialty{
+		text-align:left;
+		font-variant:small-caps;
+		font-size:110%;
+		vertical-align:top;
+		padding:0px;
+		padding-bottom:1px;
+	}
+	.productionTeamTableNames{
+		text-align:left;
+		vertical-align:top;
+		padding:0px;
+		padding-bottom:1px;
+	}
+
+	.ticketTable,.perfTable{
+		margin:0px auto;
+		width:85%;
+		border-spacing:0px;
+		padding-top:3px;
+	}
+	.ticketTableHeading,.perfTableHeading{
+		text-align:left;
+		font-variant:small-caps;
+		font-size:larger;
+		padding-bottom:5px;
+	}
+	.perfTableDays,.ticketTableTickets{
+		text-align:left;
+		vertical-align:middle;
+		padding:0px 0px 0px 8px;
+	}
+	.perfTableDates{
+		text-align:left;
+		padding:0px 0px 0px 14px;
+	}
+	.perfTableTimes,.ticketTablePrices{
+		text-align:right;
+		vertical-align:top;
+	}
+
 	table.productTable{
 		font-size:14px;
 		vertical-align:middle;
@@ -205,29 +248,26 @@
 		/* Move the subscripted text down, but only half as far down as the superscript moved up */
 		bottom: -0.25em;
 	}
-	.roundedRectBorder{
+	
+	.outlineText{
+		text-shadow:1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+	}
+	.button{
 		border: 1px solid black;
-		color:black;
+		background-color:#86191D;
+		color:#dcdcdc;
 		font-size:small;
-		background-color:red; /* PROBABLY WANT TO SET THIS */
+		font-weight:bold;
+		text-decoration:none;
 		border-radius:.72em;
 		padding:.21em .36em;
 	}
-	.button{
-		border: 1px solid #000066;
-		background-color: #ccccff;
-		font-weight: bold;
-		font-size: 14px;
-	}
 	.button:hover{
-		border-color: #f00;
-		background-color: #eeeeff;
+		background-color: #dcdcdc;
+		color: #484848;
 	}
 	.button:active{
 		color: red;
-	}
-	a.roundedRectBorder{
-		text-decoration:none;
 	}
 	/* pops up a text box - invoked by:
 	
@@ -289,5 +329,12 @@
 		border-bottom:7px solid #ECD922;
 		overflow:hidden;
 		z-index:100;
+	}
+	
+	input[type=text],input[type=submit]{
+		background-color:#dcdcdc;
+		border:3px solid black;
+		border-radius:.42em;
+		padding:.21em .36em;
 	}
 <!-- vim:set ts=2 sw=2: -->

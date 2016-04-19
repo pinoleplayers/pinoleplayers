@@ -1,0 +1,27 @@
+<div class="horizontalPanel" style="color:#dcdcdc; background-image:url('/images/Applause_ani-390w-60h-4fr.gif'); background-repeat:repeat-x;">
+
+	<div>
+
+		<div style="display:inline-block; width:200px; vertical-align:top; margin:0px;">
+			<div style="margin:5px 0px 5px 8px; position:relative;">
+				<h2 class="outlineText" style="font-size:24pt; padding:0px; margin:0px;">THANK YOU</h2>
+			</div>
+		</div>
+		<div style="display:inline-block; vertical-align:top; margin:0px;">
+			<div style="margin:7px 0px; position:relative;">
+				<h2 class="outlineText" style="font-size:11pt; padding:0px; margin:0px;">
+					for attending our productions for 30 great years!<br />
+					Consider a Sponsorship donation to help even more.
+				</h2>
+			</div>
+		</div>
+		<div style="display:inline-block; vertical-align:top; margin:10px;">
+			<div style="margin:5px 2px; position:relative;">
+				<a class="button" href="/2016SponsorshipForm.shtml" target="_blank">
+				Click for Sponsorship Details
+				</a>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- vim: set sw=2 ts=2: -->

@@ -75,55 +75,54 @@
 								<tbody>
 									<tr>
 										<td align="center">
-											<table width="826" cellpadding="40"  border="2" bordercolor="blue">
-											  <tbody>
-													<tr class="col2-bg">
-														<td class="col2-txt" align="justify">
-															<h2 class="col2-hilite" style="text-align:center; padding-top:0; margin-top:0;">YOU CAN SUPPORT US IN LOTS OF WAYS</h2>
-															<h4 class="col2-hilite">SEE A SHOW</h4>
+											<table width="826" cellpadding="40"  border="0">
+											  <tbody class="horizontalPanel">
+													<tr>
+														<td align="justify">
+															<h2 style="text-align:center; padding-top:0; margin-top:0;">YOU CAN SUPPORT US IN LOTS OF WAYS</h2>
+															<h4>SEE A SHOW</h4>
 															<p>
 																After all, it's what we do. The <strong>PINOLE COMMUNITY PLAYERS</strong> exists because of our audiences,
 																the people who pay to see our productions, who come to our Playhouse to be entertained.
 															</p>
-															<p class="col2-hilite">
+															<p>
 																Ticket revenue doesn't cover the cost of a show, but full houses help.
 															</p>
-															<h4 class="col2-hilite">TELL YOUR FRIENDS</h4>
+															<h4>TELL YOUR FRIENDS</h4>
 															<p>
 																Word of mouth is a very effective way to fill our seats.
 																If you enjoyed a show, maybe some friends or family members will.
 																How about arranging a night out at the theatre with friends.
 															</p>
-															<h4 class="col2-hilite">COME TO THE CABARET</h4>
+															<h4>COME TO THE CABARET</h4>
 															<p>
 																Our annual dinner show and silent auction is a fun social event that is also our largest fund raiser of the year.
 															</p>
-															<h2 class="col2-hilite" style="text-align:center;">GOING THE EXTRA MILE</h2>
-															<p class="col2-hilite">
-																Call <span style="font-size:larger; font-weight:bold;">510&#8209;724&#8209;6413</span>
+															<h2 style="text-align:center;">GOING THE EXTRA MILE</h2>
+															<p>
+																Call <span style="font-size:larger; font-weight:bold;">510&#8209;724&#8209;9844</span>
 																to find out about these ways to help keep live theatre alive in Pinole.
 															</p>
-															<h4 class="col2-hilite">BECOME A PATRON</h4>
+															<h4>BECOME A PATRON</h4>
 															<p>
-																Have you ever thought you could be a<a href=2015SponsorshipForm.shtml class="col2-hilite">
-																Patron of the Arts</a>.
-																Here are the <a href=ourPatrons.shtml class="col2-hilite">fine people</a> who have most recently donated to <strong>PCP</strong>.
+																Have you ever thought you could be a <a href=2016SponsorshipForm.shtml class="horizontalPanelTextColor">Patron of the Arts</a>.
+																Here are the <a href=ourPatrons.shtml class="horizontalPanelTextColor">fine people</a> who have most recently donated to <strong>PCP</strong>.
 															</p>
 															<p>
-															<h4 class="col2-hilite">ADVERTISE IN OUR SHOW PROGRAMS</h4>
+															<h4>ADVERTISE IN OUR SHOW PROGRAMS</h4>
 															<p>
 																Your purchased ad will reach 750 audience members per production.
 															</p>
-															<h4 class="col2-hilite">UNDERWRITE A PRODUCTION</h4>
+															<h4>UNDERWRITE A PRODUCTION</h4>
 															<p>
 																Allow your company or family support to shine as the sponsor of one of our productions.
 															</p>
-															<h4 class="col2-hilite">TAKE A PHOTO!</h4>
+															<h4>TAKE A PHOTO!</h4>
 															<p>
 																Sponsor a Cast Photo in our Lobby.
 																Each large 20x24-inch photo has an engraved tag identifying you as sponsor.
 															</p>
-															<h4 class="col2-hilite">VOLUNTEER</h4>
+															<h4>VOLUNTEER</h4>
 															<p>
 																<strong>PCP</strong> exists because of the work of hundreds of people.
 															</p>

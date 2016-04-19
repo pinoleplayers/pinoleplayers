@@ -4,7 +4,10 @@
 	background-color: Gainsboro;
 }
 .mainTable-bg {
-	background-color: #023950;
+	background-color: #86191D;  <!-- #88191d; #87191b;-->
+}
+.horizontalPanelTextColor {
+	color:#520f10;
 }
 .col1-bg {
 	background-color: #6A87CF;

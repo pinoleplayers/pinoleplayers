@@ -10,9 +10,6 @@
 
 	<link rel="stylesheet" type="text/css" href="css/2leveltab.css" />
 	<style type="text/css">
-		em {
-			color: AliceBlue;
-		}
 		img.lineup {
 			margin:2px 10px;
 			height:150px;
@@ -50,16 +47,16 @@
 				<td colspan=3 style="height:100%; margin-top:0pt; padding-top:0pt" valign="top" align="center">
 					<div style="text-align:center; padding:10px; margin-top:0px;">
 						<table width="100%" align="center" border="0" cellpadding="0" cellspacing="0">
-							<tbody>
-								<tr class="col1-bg">
+							<tbody class="horizontalPanel">
+								<tr>
 									<td align="center">
-										<div class="col1-txt" style="margin-top:0; padding:20px; font-size:14px; text-align:justify">
-											<h2 class="col1-hilite">Our History</h2>
-											<p>In 1986, two <a href="http://www.ci.pinole.ca.us/" target="_blank" class="col1-hilite">Pinole (California)</a>
+										<div style="margin-top:0; padding:20px; font-size:14px; text-align:justify">
+											<h2>Our History</h2>
+											<p>In 1986, two <a class="horizontalPanelTextColor" href="http://www.ci.pinole.ca.us/" target="_blank">Pinole (California)</a>
 												couples, Gary &amp; Nancy Gill and David &amp; Patti Clark met around the  Gill's kitchen
 												table to discuss their dream of forming a local community theatre group.
 												Utilizing Gary's technical knowledge, Nancy's musical talents, David's directing background
-												and Patti's producing and organizational skills, the <strong class="col1-hilite">PINOLE COMMUNITY PLAYERS</strong>
+												and Patti's producing and organizational skills, the <strong>PINOLE COMMUNITY PLAYERS</strong>
 												was born.
 											</p>
 											<p>
@@ -78,7 +75,7 @@
 												Two more successful seasons followed with the productions of <em>OLIVER</em>,
 												<em>THE FANTASTICKS</em> and <em>SOUTH PACIFIC</em>.
 											</p>
-											<table align="center" border="0" cellspacing="0" cellpadding="0" style="color:blue">
+											<table align="center" border="0" cellspacing="0" cellpadding="0">
 												<tbody>
 													<tr>
 														<td width="25%" align="center"><img class="lineup expando" src=/images/OldShowThumbs/Godspell-86-3.jpg alt="Godspell thumbnail" /></td>
@@ -86,7 +83,7 @@
 														<td width="25%" align="center"><img class="lineup expando" src=/images/OldShowThumbs/TheFantasticks-88-FullCast.jpg alt="The Fantasticks-88 thumbnail" /></td>
 														<td width="25%" align="center"><img class="lineup expando" src=/images/OldShowThumbs/SouthPacific-Honeybun-Billis+Nellie.jpg alt="South Pacific thumbnail" /></td>
 													</tr>
-													<tr class="col1-hilite">
+													<tr>
 														<td align="center">Godspell<br />1986</td>
 														<td align="center">Oliver<br />1987</td>
 														<td align="center">The Fantasticks<br />1988</td>
@@ -115,14 +112,14 @@
 												entire families -- all bitten by the theatrical bug -- who worked  diligently and tirelessly
 												to make PCP a well-respected performance  group.
 											</p>
-											<table align="center" border="0" cellspacing="0" cellpadding="0" style="color:blue">
+											<table align="center" border="0" cellspacing="0" cellpadding="0">
 												<tbody>
 													<tr>
 														<td width="33%" align="center"><img class="lineup expando" src=/images/OldShowThumbs/Company-Bobby'sBirthday.jpg alt="Company thumbnail"\ /></td>
 														<td width="33%" align="center"><img class="lineup expando" src=/images/OldShowThumbs/AChorusLine-TheLine.jpg alt="A Chorus Line thumbnail"\ /></td>
 														<td width="33%" align="center"><img class="lineup expando" src=/images/OldShowThumbs/BABY-FullCast.jpg alt="BABY thumbnail"\ /></td>
 													</tr>
-													<tr class="col1-hilite">
+													<tr>
 														<td align="center">Company<br />1989</td>
 														<td align="center">A Chorus Line<br />1989</td>
 														<td align="center">BABY<br />1990</td>
@@ -135,14 +132,14 @@
 												In the summer of 1991, the City Council voted unanimously in favor of this agreement, pledged
 												their support to the group and granted permission to establish the PINOLE COMMUNITY PLAYHOUSE.
 											</p>
-											<table align="center" border="0" cellspacing="0" cellpadding="0" style="color:blue">
+											<table align="center" border="0" cellspacing="0" cellpadding="0">
 												<tbody>
 													<tr>
 														<td width="33%" align="center"><img class="lineup expando" src=/images/OldShowThumbs/Annie-Orphans+Hannigan.jpg alt="Annie thumbnail"\ /></td>
 														<td width="33%" align="center"><img class="lineup expando" src=/images/OldShowThumbs/LittleShopOfHorrors-MushniksWithAudreyII-2.jpg alt="Little Shop Of Horrors thumbnail"\ /></td>
 														<td width="33%" align="center"><img class="lineup expando" src=/images/OldShowThumbs/Guys&Dolls-91-TheCrapGame.jpg alt="Guys & Dolls-91 thumbnail"\ /></td>
 													</tr>
-													<tr class="col1-hilite">
+													<tr>
 														<td align="center">Annie<br />1990</td>
 														<td align="center">Little Shop of Horrors<br />1991</td>
 														<td align="center">Guys & Dolls<br />1991</td>
@@ -150,12 +147,12 @@
 												</tbody>
 											</table>
 											<p>
-												<table align="center" border="0" cellspacing="0" cellpadding="0" style="float:left; color:blue">
+												<table align="center" border="0" cellspacing="0" cellpadding="0" style="float:left;">
 													<tbody>
 														<tr>
 															<td width="100%" align="center"><img class="lineup expando" src=/images/OldShowThumbs/BestOfBroadway-SouthPacific.jpg alt="Best of Broadway thumbnail" /></td>
 														</tr>
-														<tr class="col1-hilite">
+														<tr>
 															<td align="center">The Best of Broadway<br />1992</td>
 														</tr>
 													</tbody>
@@ -164,7 +161,7 @@
 												opened the 1991-92 season and plans were underway to make
 												renovations to the building and expand the number of  adult and children's performances each year.
 												This group has been able to accomplish renovations to the building, an increase in audience
-												attendance, introduction of new directors and new <a href="pastProductions.shtml" target="_parent">
+												attendance, introduction of new directors and new <a class="horizontalPanelTextColor" href="pastProductions.shtml" target="_parent">
 												productions</a>.
 												Pinole Community Players' quality productions, intimate performance space, unique cabaret style
 												and family atmosphere continue to be strengths as its second quarter century begins.

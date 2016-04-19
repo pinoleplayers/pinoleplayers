@@ -33,51 +33,50 @@
 				<td colspan=3 id="mainContent" style="height:100%; margin-top:0pt; padding-top:0pt" valign="top" align="center">
 					<div style="text-align:center; font-size:18px; padding:0; margin-top:1px">
 						<table width="80%" align="center" border="0" cellpadding="10" cellspacing="10">
-							<tbody class="col3-bg">
-								<tr class="col3-hilite">
-									<th colspan="2">
+							<tbody class="horizontalPanel">
+								<tr >
+									<th colspan="2" style="padding-left:10px; text-align:left;">
 										CONTACT US
 									</th>
 								</tr>
-								<tr class="col3-txt">
+								<tr>
 									<td width="30%" style="text-align:right; vertical-align:text-top;">
-										<h4 class="col3-hilite">The Theatre</h4>
+										<h4>The Theatre</h4>
 									</td>
 									<td width="70%" align="left">
-										<strong class="col3-hilite">Pinole Community Playhouse</strong><br />
+										<strong>Pinole Community Playhouse</strong><br />
 														601 Tennent Avenue<br />
 														Pinole, CA 94564<br />
-											<a href="directions.shtml" class="col3-hilite"><small>Directions</small></a>
+											<a class="horizontalPanelTextColor" href="directions.shtml"><small>Directions</small></a>
 									</td>
 								</tr>
-								<tr class="col3-txt">
+								<tr>
 									<td style="text-align:right; vertical-align:top;">
-										<h4 class="col3-hilite">Phone</h4>
+										<h4>Phone</h4>
 									</td>
 									<td align="left">
 										Box Office:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;510-724-9844<br>
-										Business Office: 510&#8209;724&#8209;6413
 									</td>
 								</tr>
-								<tr class="col3-txt">
+								<tr>
 									<td style="text-align:right; vertical-align:top;">
-										<h4 class="col3-hilite">Mail</h4>
+										<h4>Mail</h4>
 									</td>
 									<td align="left">
-										<strong class="col3-hilite">Pinole Community Playhouse</strong><br>
+										<strong>Pinole Community Playhouse</strong><br>
 														P.O. Box 182<br />
 														Pinole, CA 94564<br>
 									</td>
 								</tr>
-								<tr class="col3-txt">
+								<tr>
 									<td style="text-align:right; vertical-align:top;">
-										<h4 class="col3-hilite">Email</h4>
+										<h4>Email</h4>
 									</td>
 									<td align="left">
-										<a href="mailto:pa-clark@comcast.net?subject=PCP" class="col3-hilite">Patti Clark (pa-clark@comcast.net)</a>
+										<a class="horizontalPanelTextColor" href="mailto:pa-clark@comcast.net?subject=PCP">Patti Clark (pa-clark@comcast.net)</a>
 									</td>
 								</tr>
-								<tr class="col3-txt">
+								<tr>
 									<td colspan="2">
 										<a href="https://www.facebook.com/groups/109262739110253?ap=1">
 											<img src="images/find_us_on_facebook_badge.gif" height="60" border="0" alt="find us on facebook" />
