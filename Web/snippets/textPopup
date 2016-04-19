@@ -1,0 +1,27 @@
+<style>
+	a.textPopup {color:#c00;}
+	a.textPopup b {display:none;}
+	a.textPopup:hover {border:0; position:relative; z-index:500; text-decoration:none;}
+	a.textPopup:hover b {display:block; position:absolute; top:-20px; left:35px; padding:5px; font-weight:normal; color:#000; border:2px solid #000000; background:#ECD922; width:150px;}
+	a.textPopup:hover b em.outer {position:absolute; left:20px; top:-8px; width:0; height:0; display:block; background:transparent; border-left:7px dashed transparent; border-right:7px dashed transparent; border-bottom:7px solid #000000; overflow:hidden; z-index:100;}
+	a.textPopup:hover b em.inner {position:absolute; left:20px; top:-7px; width:0; height:0; display:block; background:transparent; border-left:7px dashed transparent; border-right:7px dashed transparent; border-bottom:7px solid #ECD922; overflow:hidden;; z-index:100;}
+</style>
+
+<a class="textPopup" href="#nogo">TARGET<b><em class="outer"></em><em class="inner"></em>TEXT</b></a>
+
+EXAMPLE
+
+
+<div style="position:relative;">
+	<a class="textPopup" href="#nogo" style="text-decoration:none;">
+		<img src="2016_Season/Godspell.LowRes.png"
+			width="150" alt="Godspell Medallion" style="padding:0; margin:0;" />
+		<b>
+			<em class="outer"></em><em class="inner"></em>
+			See the show that started it all for the Pinole Community Players. Loosely based on the Gospel of Matthew, it is a contemporary pop/rock musical, featuring such songs as "Light of the World", "We Beseech Thee". "All Good Gifts" and "Day By Day". Revived on Broadway in 2012, this show is great for the entire family!
+		</b>
+	</a>
+	<div style="width:100%; position:absolute; bottom:0px; text-align:center;">
+		Godspell<br />Jan 22 - Feb 13
+	</div>
+</div>

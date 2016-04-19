@@ -122,70 +122,69 @@
 		border: none;
 		vertical-align: top; /*top aligns image, so mouse has less of a chance of moving out of image while image is expanding*/
 	}
-	.button {
-		border: 1px solid #006;
-		background-color: #ccf;
-		font-weight: bold;
-		font-size: 14px;
-	}
-	.button:hover {
-		border-color: #f00;
-		background-color: #eef;
-	}
-	.button:active {
-		color: red;
-	}
-	.textBlock {
+	.textBlock{
 		display:block;
 		border:1px solid #7286A7;
 		margin:10px 25px;
 		padding:10px;
 	}
-	.errorTextBlock {
+	.errorTextBlock{
 		display:block;
 		border:1px solid #7286A7;
 		margin:10px 25px;
 		padding:10px;
 		color:red;
 	}
-	form {
+	.smaller{
+		font-size:smaller;
+	}
+	.larger{
+			font-size:larger;
+	}
+	form{
 		margin-bottom:0em;
 	}
-	label {
-		display: block;
-		width: 90px;
-		float: right;
-		text-align: left;
-	}
-	table.ticketTable td,th {
+	table.ticketTable td,th{
 		text-align:left;
 		padding:0px;
 		vertical-align:middle;
 	}
-	table.productTable {
+	table.productTable{
 		font-size:14px;
 		vertical-align:middle;
 	}
-	table.productTable td {
+	table.productTable td{
 		font-weight:bold;
 		text-align:left;
 		padding:5px;
 	}
-	table.productTable th {
+	table.productTable th{
 		text-align:right;
 		padding:5px;
 	}
-	input[type="text"], textarea {
+	table.patronTable{
+		font-size:14px;
+		text-align:center;
+		vertical-align:middle;
+	}
+	table.patronTable td{
+		font-weight:bold;
+		padding:5px;
+	}
+	table.patronTable th{
+		padding:5px;
+	}
+	input[type="text"], textarea{
 		font-weight:bold;
 		background-color:AliceBlue;
 	}
-	.strikethru {
+	.strikethru{
 		text-decoration:line-through;
 	}
-	.bold {
+	.bold{
 		font-weight:bold;
 	}
-	sub, sup {
+	sub, sup{
 		/* Specified in % so that the sup/sup is the right size relative to the surrounding text */
 		font-size: 75%;
 
@@ -198,13 +197,97 @@
 		/* Note that if you're using Eric Meyer's reset.css, this is already set and you can remove this rule */
 		vertical-align: baseline;
 	}
-	sup {
+	sup{
 		/* Move the superscripted text up */
 		top: -0.5em;
 	}
-	sub {
+	sub{
 		/* Move the subscripted text down, but only half as far down as the superscript moved up */
 		bottom: -0.25em;
 	}
-</style>
+	.roundedRectBorder{
+		border: 1px solid black;
+		color:black;
+		font-size:small;
+		background-color:red; /* PROBABLY WANT TO SET THIS */
+		border-radius:.72em;
+		padding:.21em .36em;
+	}
+	.button{
+		border: 1px solid #000066;
+		background-color: #ccccff;
+		font-weight: bold;
+		font-size: 14px;
+	}
+	.button:hover{
+		border-color: #f00;
+		background-color: #eeeeff;
+	}
+	.button:active{
+		color: red;
+	}
+	a.roundedRectBorder{
+		text-decoration:none;
+	}
+	/* pops up a text box - invoked by:
+	
+			<a class="textPopup" href="#nogo" style="text-decoration:none;">
+					THE OBJECT THAT THE TEXT POPS UP OVER
+					<b>
+						<em class="outer"></em><em class="inner"></em>
+						THE TEXT THAT POPS UP
+					</b>
+				</a>
+	*/
+	a.textPopup{
+		color:#c00;
+	}
+	a.textPopup b{
+		display:none;
+	}
+	a.textPopup:hover{
+		border:0;
+		position:relative;
+		z-index:500;
+		text-decoration:none;
+	}
+	a.textPopup:hover b{
+		display:block;
+		position:absolute;
+		top:-20px; left:35px;
+		padding:5px;
+		font-weight:normal;
+		color:#000;
+		border:2px solid #000000;
+		background:#ECD922;
+		width:150px;
+	}
+	a.textPopup:hover b em.outer{
+		position:absolute;
+		left:20px;
+		top:-8px;
+		width:0;
+		height:0;
+		display:block;
+		background:transparent;
+		border-left:7px dashed transparent;
+		border-right:7px dashed transparent;
+		border-bottom:7px solid #000000;
+		overflow:hidden;
+		z-index:100;
+	}
+	a.textPopup:hover b em.inner{
+		position:absolute;
+		left:20px;
+		top:-7px;
+		width:0;
+		height:0;
+		display:block;
+		background:transparent;
+		border-left:7px dashed transparent;
+		border-right:7px dashed transparent;
+		border-bottom:7px solid #ECD922;
+		overflow:hidden;
+		z-index:100;
+	}
 <!-- vim:set ts=2 sw=2: -->

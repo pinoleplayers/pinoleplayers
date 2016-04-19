@@ -3,40 +3,54 @@
 		date_default_timezone_set("America/Los_Angeles");
 		$currUnixTime = time();
 ?>
+				<tr class="bnr-bg">
+					<td width="100%" colspan=3>
+						<table width="98%" align="center" cellpadding="10" cellspacing="2" style="border:2px solid Gainsboro; margin:5px;">
+							<tbody>
+								<tr>
+									<td width="25%" style="color:white;">
+										<h2 class="bnr-hilite">Playhouse News</h2>
+									</td>
+								</tr>
+								<tr>
+									<td style="color:white;">
+										<h2 class="bnr-hilite">Save the Date</h2>
+									</td>
+									<td class="bnr-txt">
+										<h3 style="padding:0px; margin:0px;">
+											It's too early to talk about the Holiday Season, but it's the right time to mark your calendar on <span class="bnr-hilite">December 19 &amp; 20</span>,
+											the performance dates of
+											<i><span style="color:red;">Sounds</span> <span style="color:green;">of</span> <span style="color:red;">the</span> <span style="color:green;">Season</span></i>,
+											a concert of holiday music favorites.<br />
+											<span class="bnr-hilite">Tickets go on sale on November 1.</span>
+										</h3>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</td>
+				</tr>
 !-->
+
 				<tr class="mainTable-bg">
 				  <td width="271" valign="top" class="col1-bg" style="padding-bottom: 0pt; margin-bottom: 0pt">
 						<div align="center" class="col1-txt">
-							<h2 class="col1-hilite" style="margin-top:5px; padding-top:0px;">PINOLE PLAYERS</h2>
-							<hr class="col1-hr" style="width:95%;" />
-<!--#include virtual="2016_Godspell/Godspell-index_content.html" -->
+<!--#include virtual="2016_Cabaret/2016Cabaret-index_content.html" -->
 							<hr class="col1-hr" style="width:95%;" />
 						</div>
 					</td>
 
 				  <td width="271" valign="top" class="col2-bg" style="padding-bottom: 0pt; margin-bottom: 0pt">
 						<div align="center" class="col2-txt">
-							<h2 class="col2-hilite" style="margin-top:5px; padding-top:0px;">PINOLE PLAYERS</h2>
-							<hr class="col2-hr" style="width:95%;" />
-<!--#include virtual="2015_PYA/PYA-index_content.html" -->
-							<hr class="col2-hr" style="width:95%;" />
-<!--#include virtual="2015_PYA/AnjeesBroadwayDanceWksp-index_content.html" -->
-							<hr class="col2-hr" style="width:95%;" />
+<!--#include virtual="2016_WaitUntilDark/WaitUntilDark-index_content.html" -->
+							<hr class="col2-hr" style="width:95%; margin-top:5px; margin-bottom:5px;" />
 <!--#include virtual="GoingGreen/goingGreen-index_content.html" -->
-							<hr class="col2-hr" style="width:95%;" />
 						</div>
 					</td>
 
 					<td width="271" valign="top"class="col3-bg" style="padding-bottom: 0pt; margin-bottom: 0pt">
 						<div align="center" class="col3-txt">
-							<h2 class="col3-hilite" style="margin-top:5px; padding-top:0px;">CITY OF PINOLE</h2>
-							<hr class="col3-hr" style="width:95%;" />
-							<div>
-<!--#include virtual="2015_TCSM/42ndStreet-index_content.html" -->
-							<hr class="col3-hr" style="width:95%;" />
-<!--#include virtual="2014_Survey/2014Survey-index_content.html" -->
-							</div>
-							<hr class="col3-hr" style="width:95%;" />
+<!--#include virtual="2015Give-index_content.html" -->
 						</div>
 					</td>
 				</tr>

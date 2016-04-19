@@ -4,13 +4,13 @@
 	background-color: Gainsboro;
 }
 .mainTable-bg {
-	background-color: #7286A7;
+	background-color: #023950;
 }
 .col1-bg {
-	background-color: #45556E;
+	background-color: #6A87CF;
 }
 .col1-txt {
-	color: #91A1BA;
+	color: #434956;
 }
 .col1-hilite {
 	color: #D0D7E2;
@@ -24,34 +24,51 @@
 }
 
 .col2-bg {
-	background-color: #556E45;
+	background-color: #87CF6A;
 }
 .col2-txt {
-	color: #A1BA91;
+	color: #4B5945;
 }
 .col2-hilite {
-	color: #D7E2D0;
+	color: #E2EEDC;
 }
 .col2-hr {
 	border:0;
 	width:60%;
-	background-color: #D7E2D0;
+	background-color: #E2EEDC;
 	height:2px;
 	margin:2px;
 }
 .col3-bg {
-	background-color: #6E4555;
+	background-color: #CF6A87;
 }
 .col3-txt {
-	color: #BA91A1;
+	color: #392C31;
 }
 .col3-hilite {
-	color: #E2D0D7;
+	color: #E7D6DD;
 }
 .col3-hr {
 	border:0;
 	width:60%;
 	background-color: #E2D0D7;
+	height:2px;
+	margin:2px;
+}
+
+.bnr-bg {
+	background-color: #958DEB;
+}
+.bnr-txt {
+	color: #4C4879;
+}
+.bnr-hilite {
+	color: #DBDFF0;
+}
+.bnr-hr {
+	border:0;
+	width:60%;
+	background-color: #DBDFF0;
 	height:2px;
 	margin:2px;
 }

@@ -1,7 +1,7 @@
 <style type="text/css">
 	#SHOW-cast-panel {
-	  width:100%;
-	  height:30px;
+	  width:90%;
+	  height:25px;
 	  overflow:hidden;
 	}
 </style>

@@ -80,7 +80,7 @@
 <center>
 <table id="mainTable" border="0" cellpadding="1" cellspacing="0" height="100%">
   <tbody>
-<!--#include virtual="includes/PCP-30Anvbanner-row.html" -->
+<!--#include virtual="includes/PCPbanner-row.html" -->
 <!--#include virtual="includes/PCPmenu-row2.html" -->
 	<tr class="mainTable-bg">
 	<td colspan=3 id="mainContent" style="height:100%; margin-top:0pt; padding-top:0pt" valign="top" align="center">
@@ -91,7 +91,22 @@
 		  <td align="center">
 			<table style="width:826px; border:2px solid Gainsboro">
 			  <tbody>
-<!--#include virtual="index-content.shtml" -->
+<!-- index-content -->
+				<tr class="mainTable-bg">
+				  <td width="271" valign="top" class="col1-bg" style="padding-bottom: 0pt; margin-bottom: 0pt">
+						<div align="center" class="col3-txt">
+							<h2 class="col1-hilite" style="margin-top:5px; padding-top:0px;">CITY OF PINOLE</h2>
+							<hr class="col1-hr" style="width:95%;" />
+<!--#include virtual="2016_CTW-Winter/HonkJr-index_content.html" -->
+						</div>
+					</td>
+
+				  <td width="271" valign="top" class="col2-bg" style="padding-bottom: 0pt; margin-bottom: 0pt">
+					</td>
+
+					<td width="271" valign="top"class="col3-bg" style="padding-bottom: 0pt; margin-bottom: 0pt">
+					</td>
+				</tr>
 					<tr class="mainTable-bg">
 						<td align="center" style="color:aliceblue;">
 <!--#include virtual="includes/ConstantContact-bubble.html" -->
