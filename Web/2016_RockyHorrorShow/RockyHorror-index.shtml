@@ -1,0 +1,298 @@
+		<style>
+			@font-face {
+		    font-family: 'double_featureregular';
+		    src: url('/fonts/doublefeature20-webfont.woff2') format('woff2'),
+		         url('/fonts/doublefeature20-webfont.woff') format('woff'),
+		         url('/fonts/DoubleFeature20.ttf') format('truetype');
+		    font-weight: normal;
+		    font-style: normal;
+			}
+		</style>
+
+		<div class="pcp-container pcp-colors" style="margin-top:10px;">
+			<div class="w3-third w3-row w3-center">
+				<h1 class="pcp-bold pcp-line-ht-101pct">COMING IN OCTOBER</h1>
+			</div>
+			<div class="w3-hide-small w3-third w3-row w3-center">
+				<h1 class="pcp-bold pcp-line-ht-101pct">&nbsp;</h1>
+			</div>
+			<div class="w3-third w3-row w3-center">
+				<h2 class="pcp-bold pcp-line-ht-101pct">TICKETS ON SALE NOW</h2>
+			</div>
+		</div>
+
+		<div class="pcp-container pcp-colors"> <!-- 3 COLUMN SECTION -->
+
+			<div class="w3-row">
+
+				<div class="w3-third pcp-container w3-padding-ver-4 w3-center">
+					<div>
+						<img class="pcp-showLogo w3-light-grey" src="/2016_RockyHorrorShow/RockyHorror_LOGO-400w-600h-96ppi-ro.png" style="border:1px solid #520f10;" alt="The Rocky Horror Show Logo" />
+					</div>
+					<div class="w3-row">
+						<h6 class="pcp-rights">THE ROCKY HORROR SHOW is presented through special arrangement with Samuel French, Inc. 235 Park Avenue South Fifth Floor, New York, NY 10003</h6>
+					</div>
+
+					<style type="text/css">
+						#Rocky-synopsis-panel {
+						  width:90%;
+						  height:25px;
+						  overflow:hidden;
+						}
+					</style>
+					<p style="width:85%; margin:0px auto;">
+						A campy, loving musical homage to the classic sci-fi and horror B movies
+						of the 50s and 60s, with an irresistible rock'n'roll score.
+					</p>
+					<div id="Rocky-synopsis-panel" style="height: 30px; font-style:underline; margin:0px auto;">
+						<div align="center" title="click to view" onclick="exposeMoreInfo('Rocky-synopsis-panel','Rocky-synopsis','more','less','Rocky-synopsis-arrow','305px','30px')">
+							<div id="Rocky-synopsis">more</div>
+							<img src="/images/arrowd.gif" id="Rocky-synopsis-arrow" alt="arrow down">
+							<div align="center">
+								<p style="color: black; width:90%; margin:0px auto;">
+									One fateful night, Brad Majors and his fiancee, Janet Weiss -
+									a wholesome, utterly normal couple in love - innocently set
+									out to visit an old professor.
+									A thunderstorm and a flat tire force them to seek help at the castle of Dr&nbsp;Frank'N'Furter, 
+									a mad scientist with a manic genius and an insatiable libido.
+									Brad, Janet and Frank'N'Furter's cohorts are swept up into the scientist's
+									latest experiment.
+									The night's misadventures will cause Brad
+									and Janet to question everything they've known about
+									themselves, each other, love and lust.
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="w3-hide">
+						<p>
+							One fateful night, Brad Majors and his fiancee, Janet Weiss -
+							a wholesome, utterly normal couple in love - innocently set
+							out to visit an old professor.
+							A thunderstorm and a flat tire force them to seek help at the castle of Dr&nbsp;Frank'N'Furter, 
+							a mad scientist with a manic genius and insatiable libido.
+							Brad, Janet and Frank'N'Furter's cohorts are swept up into the scientist's
+							latest experiment.
+							The night's misadventures will cause Brad
+							and Janet to question everything they've known about
+							themselves, each other, love and lust.
+							A campy, loving, musical homage to the classic B sci-fi and horror film genres
+							of the 50s and 60s, with an irresistible rock'n'roll score.
+						</p>
+					</div>
+				</div>
+	
+				<div class="w3-third pcp-container w3-padding-ver-4 w3-center">
+					<div class="w3-row">
+						<h5 class="pcp-creatorRole" style="margin-bottom:12px;"><span>BOOK, MUSIC and LYRICS BY</span><br />RICHARD O'BRIEN</h5>
+					</div>
+					<div class="w3-row">
+						<h4 class="pcp-creatorRole" style="margin-bottom:5px;">
+							<span>DIRECTED BY<br /></span>TERRY TRACY
+						</h4>
+					</div>
+					<div class="w3-hide" style="line-height:1.2;">
+						<h5 style="margin:15px 0px 0px 0px; text-weight:600;">WHAT THEY SAID</h5>
+						<p style="margin-top:10px;">"A socko wacko weirdo rock concert." -&nbsp;WNBC&nbsp;TV</p>
+						<p>"A musical that deals with mutating identity and time warps becomes one of the most mutated, time warped phenomena in show business."
+								-&nbsp;The&nbsp;New&nbsp;York&nbsp;Times</p>
+						<p>"Campy trash." -&nbsp;Time</p>
+						<p>One of the "10 most influential postwar British&nbsp;plays" -&nbsp;Guardian UK</p>
+					</div>
+					<div class="w3-row">
+						<table class="pcp-productionTeamTable">
+							<tbody>
+								<tr><td>Music Director</td><td>Dean Starnes</td></tr>
+								<tr><td>Choreographer</td><td>Anjee Norgaard-Gallia</td></tr>
+								<tr><td>Set Designer</td><td>Fernando Ochoa</td></tr>
+								<tr><td>Costume Designer</td><td>Liz Nelsen</td></tr>
+								<tr><td>Lighting &amp; Sound</br />Designer</td><td>Michael O'Brien</td></tr>
+							</tbody>
+						</table>
+					</div>
+					<div onclick="" style="margin-bottom:10px;">
+						<h5 class="pcp-small-caps pcp-line-ht-91pct" style="margin:10px 0px 0px 0px; text-align:left; font-weight:bold;">Featuring</h5>
+						<div class="pcp-small-caps pcp-line-ht-91pct" style="padding:0px 0px 3px 0px; margin:0px;">click an actor to see their character</div>
+						<p style="line-height:1.2; text-align:left; margin:0;">
+							<span class="pcp-tooltip">Abigail&nbsp;Colyer&nbsp;Nance,<span class="w3-text w3-tag pcp-display-abovemiddle w3-round-medium pcp-colors-rev"><img class="pcp-thumbnail w3-light-grey" src="/2016_RockyHorrorShow/ProgramHeadshots/Abigail_Colyer_Nance_Janet-400w-560h-150ppi-c.jpg" style="border:1px solid #520f10;" />Janet</span></span>
+							<span class="pcp-tooltip">Peter&nbsp;Del&nbsp;Fiorentino,<span class="w3-text w3-tag pcp-display-abovemiddle w3-round-medium pcp-colors-rev"><img class="pcp-thumbnail w3-light-grey" src="/2016_RockyHorrorShow/ProgramHeadshots/Peter_Del Fiorentino_Frank-400w-560h-150ppi-c.jpg" style="border:1px solid #520f10;" />Dr&nbsp;Frank'N'Furter</span></span>
+							<span class="pcp-tooltip">Isaac&nbsp;Dayley,<span class="w3-text w3-tag pcp-display-abovemiddle w3-round-medium pcp-colors-rev"><img class="pcp-thumbnail w3-light-grey" src="/2016_RockyHorrorShow/ProgramHeadshots/Isaac_Dayley_Rocky-400w-559h-150ppi-c.jpg" style="border:1px solid #520f10;" />Rocky</span></span>
+							<span class="pcp-tooltip">George&nbsp;Doerr,<span class="w3-text w3-tag pcp-display-abovemiddle w3-round-medium pcp-colors-rev"><img class="pcp-thumbnail w3-light-grey" src="/2016_RockyHorrorShow/ProgramHeadshots/George_Doerr_Narrator-400w-560h-150ppi-c.jpg" style="border:1px solid #520f10;" />Narrator</span></span>
+							<span class="pcp-tooltip">Diego&nbsp;Hardy,<span class="w3-text w3-tag pcp-display-abovemiddle w3-round-medium pcp-colors-rev"><img class="pcp-thumbnail w3-light-grey" src="/2016_RockyHorrorShow/ProgramHeadshots/Diego_hardy_Phantom-400w-559h-150ppi-c.jpg" style="border:1px solid #520f10;" />Phantom</span></span>
+							<span class="pcp-tooltip">Jennifer&nbsp;Jackson,<span class="w3-text w3-tag pcp-display-abovemiddle w3-round-medium pcp-colors-rev"><img class="pcp-thumbnail w3-light-grey" src="/2016_RockyHorrorShow/ProgramHeadshots/Jennifer_jackson_Columbia-400w-560h-150ppi-c.jpg" style="border:1px solid #520f10;" />Columbia</span></span>
+							<span class="pcp-tooltip">Gregg&nbsp;Klein,<span class="w3-text w3-tag pcp-display-abovemiddle w3-round-medium pcp-colors-rev"><img class="pcp-thumbnail w3-light-grey" src="/2016_RockyHorrorShow/ProgramHeadshots/Gregg_Klein_Eddie-Dr. Scott-400w-560h-150ppi-c.jpg" style="border:1px solid #520f10;" />Eddie/ Dr&nbsp;Scott</span></span>
+							<span class="pcp-tooltip">David&nbsp;Million,<span class="w3-text w3-tag pcp-display-abovemiddle w3-round-medium pcp-colors-rev"><img class="pcp-thumbnail w3-light-grey" src="/2016_RockyHorrorShow/ProgramHeadshots/David_Million_Phantom-400w-560h-150ppi-c.jpg" style="border:1px solid #520f10;" />Phantom</span></span>
+							<span class="pcp-tooltip">Anjee&nbsp;Norgaard&#8209;Gallia,<span class="w3-text w3-tag pcp-display-abovemiddle w3-round-medium pcp-colors-rev"><img class="pcp-thumbnail w3-light-grey" src="/2016_RockyHorrorShow/ProgramHeadshots/Anjee_Norgaard-Gallia_Phantom-Choreo-400w-560h-150ppi-c.jpg" style="border:1px solid #520f10;" />Phantom</span></span>
+							<span class="pcp-tooltip">Jim&nbsp;Schmiedl,<span class="w3-text w3-tag pcp-display-abovemiddle w3-round-medium pcp-colors-rev"><img class="pcp-thumbnail w3-light-grey" src="/2016_RockyHorrorShow/ProgramHeadshots/Jim_Schmiedl_Brad-400w-560h-150ppi-c.jpg" style="border:1px solid #520f10;" />Brad</span></span>
+							<span class="pcp-tooltip">Shauna&nbsp;Shoptaw,<span class="w3-text w3-tag pcp-display-abovemiddle w3-round-medium pcp-colors-rev"><img class="pcp-thumbnail w3-light-grey" src="/2016_RockyHorrorShow/ProgramHeadshots/Shauna_Shoptaw_Magenta-400w-560h-150ppi-c.jpg" style="border:1px solid #520f10;" />Magenta</span></span>
+							<span class="pcp-tooltip">Rick&nbsp;Wood,<span class="w3-text w3-tag pcp-display-abovemiddle w3-round-medium pcp-colors-rev"><img class="pcp-thumbnail w3-light-grey" src="/2016_RockyHorrorShow/ProgramHeadshots/Rick_Wood_Riff Raff-400w-560h-150ppi-c.jpg" style="border:1px solid #520f10;" />Riff Raff</span></span>
+							<span class="pcp-tooltip">Vicki&nbsp;Zabarte<span class="w3-text w3-tag pcp-display-abovemiddle w3-round-medium pcp-colors-rev"><img class="pcp-thumbnail w3-light-grey" src="/2016_RockyHorrorShow/ProgramHeadshots/Vicki_Zabarte_Phantom-400w-560h-150ppi-c.jpg" style="border:1px solid #520f10;" />Phantom</span></span>
+						</p>
+					</div>
+					<div id="cast" class="w3-modal w3-animate-opacity">
+						<div class="w3-modal-content w3-card-8" style="width:600px;">
+							<header class="w3-container w3-red">
+								<span onclick="document.getElementById('cast').style.display='none'" class="w3-closebtn">&times;</span>
+								<h3>THE CAST</h3>
+							</header>
+							<div class="w3-container pcp-text-color">
+								<table class="pcp-castTable">
+									<tr><td>Dr Frank'N'Furter</td><td>Peter Del Fiorentino</td></tr>
+									<tr><td>Rocky</td><td>Isaac Dayley</td></tr>
+									<tr><td>Brad</td><td>Jim Schmiedl</td></tr>
+									<tr><td>Janet</td><td>Abigail Colyer Nance</td></tr>
+									<tr><td>Eddie/Dr&nbsp;Scott</td><td>Gregg Klein</td></tr>
+									<tr><td>Magenta</td><td>Shauna Shoptaw</td></tr>
+									<tr><td>Columbia</td><td>Jennifer Jackson</td></tr>
+									<tr><td>Riff Raff</td><td>Rick Wood</td></tr>
+									<tr><td>Phantom</td><td>David Million</td></tr>
+									<tr><td>Phantom</td><td>Anjee Norgaard-Gallia</td></tr>
+									<tr><td>Phantom</td><td>Vicki Zabarte</td></tr>
+									<tr><td>Phantom</td><td>Diego Hardy</td></tr>
+									<tr><td>Narrator</td><td>George Doerr</td></tr>
+								</table>
+							</div>
+						</div>
+					</div>
+					<hr class="pcp-hr w3-hide-medium w3-hide-large" style="width:95%;">
+				</div>
+
+				<div class="w3-third pcp-container w3-padding-ver-4 w3-center" style="margin-bottom:10px;">
+					<div class="w3-row w3-center">
+						<table class="pcp-perfTable">
+						<tr><th colspan="2">October&nbsp;28 - November&nbsp;19,&nbsp;2016</th></tr>
+						<tr><th colspan="2">Performances:</th></tr>
+						<tr><td>Fridays</td><td>8 p.m.</td></tr>
+						<tr><td>October 28<br />November 4, 11, 18</td><td>&nbsp;</td></tr>
+						<tr><td>Saturdays</td><td>8 p.m.</td></tr>
+						<tr><td>October 29<br />November 5, 12, 19</td><td>&nbsp;</td></tr>
+						<tr><td>Sundays</td><td>2 p.m.</td></tr>
+						<tr><td>November 6, <span style="text-decoration:line-through;">13</span></td><td>&nbsp;</td></tr>
+						<tr><th colspan="2" style="text-align:center; padding-top:5px; line-height:1.1;">Special Midnight Performance<br />Saturday, October 29<br /><span style="font-size:smaller;">doors open at 11:30 p.m.</span></th></tr>
+						<tr><th colspan="2" style="text-align:center; padding-top:5px; line-height:1.1;">Special Benefit Performance<br />for Masquers Playhouse<br /><span style="font-size:smaller;">building restoration fund</span><br />Thursday, November 3<br /><span style="font-size:smaller;">7:30 p.m. curtain</span></th></tr>
+						</table>
+						<hr class="pcp-hr" style="width:65%;" />
+						<table class="pcp-ticketTable">
+							<tr><th colspan="2" class="pcp-ticketTableHeading">Tickets:</th></tr>
+							<tr><td>General</td><td>$23</td></tr>
+							<tr><td>Student / Senior</td><td>$20</td></tr>
+						</table>
+						<h5 class="pcp-small-caps pcp-bold">The Rocky Horror Show is<br />
+							<span class="w3-xlarge" style="font-family:double_featureregular, Helvetica, sans-serif; font-weight:400; color:#be0612;">RATED&nbsp;R</span><br />
+							contains mature subject matter.
+						</h5>
+
+						<div class="" style="text-align:center; margin-top:15px;">
+							<a class="pcp-button w3-medium" href="/buyStuffPP.php?productCategory=The Rocky Horror Show&NewOrder=true" target="_blank">
+							Click to Order Tickets Online
+							</a>
+							<div style="font-size:x-small;padding-top:3px;">or</div>
+							Call the Box Office: 510&#8209;724&#8209;9844
+						</div>
+
+						<div class="" style="text-align:center; margin-top:15px;">
+							<h5 class="pcp-line-ht-101pct pcp-bold" style="font-variant:small-caps;">AUDIENCE PARTICI<span class="pcp-animation-delay-5sec pcp-animate-opacity-in">PATION</span><br />IS ENCOURAGED</h5>
+							<button onclick="document.getElementById('rules').style.display='block'" class="w3-btn w3-round-large w3-yellow pcp-bold pcp-line-ht-91pct">
+								<i class="fa fa-hand-o-right w3-large"></i> THERE ARE RULES! <i class="fa fa-hand-o-left w3-large"></i><br />
+								<span class="w3-medium" style="font-variant:small-caps;">click to see them</span>
+							</button>
+
+							<div id="rules" class="w3-modal w3-animate-opacity">
+								<div class="w3-modal-content w3-card-8" style="width:600px;">
+									<header class="w3-container w3-red">
+										<span onclick="document.getElementById('rules').style.display='none'" class="w3-closebtn">&times;</span>
+										<h2>ROCKY HORROR RULES!</h2>
+									</header>
+									<div class="pcp-text-color" style="margin:8px auto;">
+										<table class="w3-container w3-large">
+											<tr><th class="w3-large">We want you to HAVE FUN. So...<br />We have some RULES!</th></tr>
+											<tr><th>RULE #1</th></tr><tr><td class="w3-text-red"><span class="pcp-bold">NO</span> SMOKING, LIGHTERS OR OPEN FLAMES OF ANY KIND</td></tr>
+											<tr><th>RULE #2</th></tr><tr><td class="w3-text-red"><span class="pcp-bold">DO NOT</span> THROW ANYTHING AT THE CAST OR ONTO THE STAGE<br />
+												<span class="w3-medium">OR in any direction except <span class="pcp-bold">UP</span><i class="fa fa-arrow-up w3-large"></i></span></td></tr>
+											<tr><th>RULE #3</th></tr><tr><td class="w3-text-red" style="padding-bottom:16px;"><span class="pcp-bold">NO</span> FEET ON THE SEATS<br />
+												<span class="w3-medium"><span class="pcp-bold">OR</span> on the SEAT BACKS and <span class="pcp-bold">NO</span> STANDING on the SEATS</span></td></tr>
+											<tr><th class="w3-large w3-padding-4 w3-margin w3-red">ANYONE BREAKING <i class="fa fa-hand-o-up w3-large"></i> THESE <i class="fa fa-hand-o-up w3-large"></i> RULES<br />WILL BE REMOVED FROM THE THEATER!</th</tr>
+											<tr><th style="padding-top:16px;">RULE #69 (<span style="font-weight:400;">THE BEST RULE</span>)</th</tr><tr><td class="w3-text-red">YOU <span class="pcp-bold">MUST</span> <span class="w3-xlarge" style="font-family:double_featureregular, Helvetica, sans-serif; font-weight:400; color:#be0612;">TIME&nbsp;WARP&nbsp;!</span></td></tr></td></tr>
+											<tr><th class="w3-large" style="padding-top:16px;">And, of course, as with ALL our PERFORMANCES:</td></tr>
+										</table>
+									</div>
+									<div class="w3-row w3-padding-4 w3-small">
+										<div class="w3-quarter pcp-container w3-padding-ver-4 w3-center">
+											<img src="/images/NO-weapons.png" style="width:100px;" alt="NO WEAPONS" /><br />
+											NO WEAPONS OR<br />
+											ANY ILLEGAL ITEMS
+										</div>
+										<div class="w3-quarter pcp-container w3-padding-ver-4 w3-center">
+											<img src="/images/NO-alcohol-drugs-smoking.png" style="width:100px;" alt="NO ALCOHOL DRUGS SMOKING" /><br />
+											NO SMOKING,<br />
+											ALCOHOL<br />
+											OR DRUGS
+										</div>
+										<div class="w3-quarter pcp-container w3-padding-ver-4 w3-center">
+											<img src="/images/NO-food-drink.png" style="width:100px;" alt="NO FOOD or DRINK" /><br />
+											NO FOOD OR<br />
+											DRINK OR<br />
+											ANY LIQUIDS
+										</div>
+										<div class="w3-quarter pcp-container w3-padding-ver-4 w3-center">
+											<img src="/images/NO-flash.png" style="width:100px;" alt="NO FLASH PHOTOS" /><br />
+											NO FLASH<br />
+											PHOTOS
+										</div>
+									</div>
+									<div class="w3-container pcp-text-color" style="margin:8px auto;">
+										<table class="w3-large">
+											<tr><th class="w3-large w3-text-red" style="padding-bottom:16px; line-height:1.2;">SORRY! <span class="pcp-bold">NO</span> PROPS from OUTSIDE will be allowed in the theatre<br />
+												<span class="w3-medium">You may purchase a <span class="w3-red">&nbsp;PARTICIPATION&nbsp;KIT&nbsp;</span> of PROPS<br />when you order tickets OR at the door</span></td></tr>
+												<tr><th class="w3-large w3-padding-4 w3-margin w3-red" style="padding-bottom:16px;">WE WILL CHECK FOR CONTRABAND AT THE DOOR<br />
+													<span class="w3-medium">You will be asked to return any such items to your vehicle.<span></th</tr>
+												<tr><th class="w3-large w3-padding-8">THANK YOU FOR YOUR COOPERATION AND SUPPORT!!</th></tr>
+												<tr><th class="w3-large w3-padding-4">We hope to see you at the show. If you have any questions, please email
+												<a href="mailto:patti.pinoleplayers@yahoo.com?subject=Rocky Horror Show Rules" style="text-decoration:underline!important; padding:0px;">Patti Clark (patti.pinoleplayers@yahoo.com)</a></th></tr>
+												<tr><th class="w3-xlarge w3-padding-4">ENJOY THE SHOW!!!</th></tr>
+										</table>
+									</div>
+								</div>
+							</div>
+
+							<button onclick="document.getElementById('kits').style.display='block'" class="w3-btn w3-round-large w3-blue pcp-bold pcp-line-ht-91pct" style="margin-top:8px;">
+								WHAT'S IN A<br />PARTICIPATION KIT <i class="fa fa-question-circle w3-large"></i><br />
+								<span class="w3-medium" style="font-variant:small-caps;">click to find out</span>
+							</button>
+							<div id="kits" class="w3-modal w3-animate-opacity">
+								<div class="w3-modal-content w3-card-8" style="width:600px;">
+									<header class="w3-container w3-blue">
+										<span onclick="document.getElementById('kits').style.display='none'" class="w3-closebtn">&times;</span>
+										<h2>WHAT'S IN A PARTICIPATION KIT<i class="fa fa-question-circle"></i></h2>
+									</header>
+									<div class="w3-container pcp-text-color" style="margin:8px auto; text-align:left;">
+										<p class="w3-medium w3-text-indigo pcp-bold">Since OUTSIDE PROPS are NOT ALLOWED, you can still participate by PURCHASING a PARTICIPATION KIT when you order tickets or at the door.
+											Each kit contains all the props for PCP's <span class="w3-medium" style="font-family:double_featureregular, Helvetica, sans-serif; font-weight:400;">ROCKY HORROR SHOW</span>:</p>
+										<ul class="w3-large">
+											<li class="w3-text-blue">Balloon <span class="w3-medium">(for you to inflate)</span></li>
+											<li class="w3-text-blue">Newpaper</li>
+											<li class="w3-text-blue">Noise Maker</li>
+											<li class="w3-text-blue">Toilet Paper</li>
+											<li class="w3-text-blue">Toast <span class="w3-medium">(bagged up tight!)</span></li>
+											<li class="w3-text-blue">Glo Stick<span class="w3-medium">(a lighter app on your phone is OK)</span></li>
+											<li class="w3-text-blue">Playing Cards</li>
+											<li class="w3-text-blue">Participation Script <span class="w3-medium">(explaining when to use each prop and some of the common TALK BACK lines)</span></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="w3-hide" style="text-align:center; margin-top:15px;">
+							<a class="pcp-button" href="/buyStuffPP.php?productCategory=The Rocky Horror Show&NewOrder=true" target="_blank">
+							Click to Order Tickets Online
+							</a>
+							<div style="font-size:x-small;padding-top:3px;">or</div>
+							Call the Box Office: 510&#8209;724&#8209;9844
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+		</div>											<!-- /3 COLUMN SECTION -->
+<!-- vim: set sw=2 ts=2: -->
