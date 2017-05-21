@@ -3,21 +3,18 @@
 	session_set_cookie_params(0);
 	session_start();
 
-	require_once('recaptcha/recaptchalib.php');
 	require_once('class.inputfilter_clean.php5');
 	require_once('EmailAddressValidator.php');
 
 	// include Pear libraries
 	require_once('Mail.php');
 	require_once('Mail/mime.php');
+
+	$buyStuffPP = "buyStuffPP.php";
 	
 	$GlobalParams = array();
 	
 	class UnknownProductCategoryException extends Exception { }
-
-	$publickey = "6LePSwQAAAAAADxUr4RbCyd5B6l_s4a1SNxoygMl"; // you got this from the signup page
-	$privatekey = "6LePSwQAAAAAACJqzKLyf62DVoa2TnSz0SipYJ_1";
-	$recaptcha = recaptcha_get_html($publickey);
 
 	$mysql_db = 'pcp_cart';
 	$mysql_user = 'pcp_ticket';
@@ -28,7 +25,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
 EOT;
 
-	$pageTitle = "Order Tickets";
+	$pageTitle = "PCP Box Office";
 
 	$pageContent = "";
 
@@ -51,27 +48,8 @@ EOT;
 	
 	$formErrors = array();
 
-	$col1Width = 120;
-	$col3Width = 130;
-
-	$orderMessage = <<<EOT
-	<div class="textBlock" style="text-align:center; font-weight:bold">
-	All seats reserved.<br />
-	All reservations must be prepaid.<br />
-	Ticket reservation is secured once payment is received<br />or<br />when credit card charges have been approved.<br />
-	Tickets will be held at the door.<br />
-	All sales final.<br>
-EOT;
-	$cabaretSeating = <<<EOT
-	<br>
-	Cabaret seating &ndash; Seats assigned upon payment.<br>
-EOT;
-	$assignedReservedSeating = <<<EOT
-	<br />
-	Assigned Reserved Seating
-EOT;
-	$orderMessage .= $assignedReservedSeating;
-	$orderMessage .= "</div>";
+	$col1Width = "120px";
+	$col3Width = "175px";
 
 	date_default_timezone_set("America/Los_Angeles");
 	
@@ -115,7 +93,7 @@ if( $debuggingOn )
 	{ // whatever...
 		#$_REQUEST["productCategory"] = SelectCategory();
 		$_SESSION["orderStep"] = "displayForm";
-		$_SESSION["emailSent"] = "";
+		//$_SESSION["emailSent"] = "";
 	}
 	else if ( isset( $_REQUEST["NewOrder"] ) )
 	{
@@ -132,19 +110,21 @@ if( $debuggingOn )
 	{
 		$pageTitle = "Change Your Order";
 		$_SESSION["orderStep"] = "displayForm";
-		$_SESSION["emailSent"] = "";
+		//$_SESSION["emailSent"] = "";
 	}
 	else if ( isset($_REQUEST["placeOrder"] ) )
 	{
 		$_SESSION["orderStep"] = "showConfirm";
-		$_SESSION["emailSent"] = "";
+		//$_SESSION["emailSent"] = "";
 	}
 	else if ( ! isset($_SESSION["orderStep"]) )
 	{
 		$_SESSION["orderStep"] = "displayForm";
-		$_SESSION["emailSent"] = "";
+		//$_SESSION["emailSent"] = "";
 	}
 	LoadFormVars();
+
+	$categoryDBrow = getCategoryDBrow( $orderCategoryName );
 
 	switch($_SESSION["orderStep"])
 	{
@@ -281,7 +261,7 @@ function obliterateSession()
 					$paypalMode;
 
 if ($debuggingOn==1)
-	echo "<pre>entering obliterateSession</pre>";
+	{echo "<pre>entering obliterateSession</pre>";}
 
 	// Unset all of the session variables.
 	$_SESSION = array();
@@ -299,7 +279,7 @@ if ($debuggingOn==1)
 	session_destroy();
 
 if ($debuggingOn==1)
-	echo "<pre>leaving obliterateSession</pre>";
+	{echo "<pre>leaving obliterateSession</pre>";}
 }
 
 function LoadGlobalParams()
@@ -325,7 +305,7 @@ EOQ;
 	}
 
 if($debuggingOn==1)
-	echo '<pre>leaving LoadGlobalParams</pre>';
+	{echo '<pre>leaving LoadGlobalParams</pre>';}
 
 }
 
@@ -352,15 +332,15 @@ function getREQUESTorSESSION( $key, $default="" )
 					$paypalMode;
 
 if ( $debuggingON )
-	echo "<pre>entering getREQUESTorSESSION: key:{$key}| REQUEST:{$_REQUEST[$key]}| SESSION:{$_SESSION[$key]}| default:{$default}|\n</pre>";
+		{echo "<pre>entering getREQUESTorSESSION: key:{$key}| REQUEST:{$_REQUEST[$key]}| SESSION:{$_SESSION[$key]}| default:{$default}|\n</pre>";}
 
 	if ( isset( $_REQUEST[$key] ) )
 	{
-		$value = $_SESSION[$key] = $_REQUEST[$key];
+		$value = $_SESSION[$key] = stripslashes( $_REQUEST[$key] );
 	}
 	else if ( isset( $_SESSION[$key] ) )
 	{
-		$value = $_SESSION[$key];
+		$value = stripslashes( $_SESSION[$key] );
 	}
 	else
 	{
@@ -371,9 +351,123 @@ if ( $debuggingON )
 		$value = $_SESSION[$key] = $default;
 	}
 if ( $debuggingON )
-	echo "<pre>leaving getREQUESTorSESSION: value:{$value}|\n</pre>";
+	{echo "<pre>leaving getREQUESTorSESSION: value:{$value}|\n</pre>";}
 	return $value;
 }
+
+function getSelectionColHdr( $categoryType )
+	{
+		global	$debuggingOn;
+
+		switch ( $categoryType )
+		{
+			case "show":
+				$selectionColHdr = "Specify the Number of Tickets You Desire for ANY Performances You Wish to Attend";
+				break;
+
+			case "donation":
+			case "sponsor":
+				$selectionColHdr = "Choose the Amount You Wish to Donate";
+				break;
+
+			case "event":
+				$selectionColHdr = "Specify the Number of Tickets You Desire for ANY Events You Wish to Attend";
+				break;
+
+			default:
+				$selectionColHdr = "Specify the Number of " . $categoryType . " You Desire";
+				break;
+		}
+if ( $debuggingOn )
+	{echo "<pre>leaving getSelectionColHdr: categoryType:{$categoryType}|selectionColHdr:{$selectionColHdr}|\n</pre>";}
+		return $selectionColHdr;
+	}
+
+function getProductColHdr( $categoryType )
+	{
+		global	$debuggingOn;
+
+		switch ( $categoryType )
+		{
+			case "show":
+				$productColHdr = "Available Performances";
+				break;
+
+			case "donation":
+			case "sponsor":
+				$productColHdr = "Donation Levels";
+				break;
+
+			case "event":
+				$productColHdr = "Available Events";
+				break;
+
+			default:
+				$productColHdr = $categoryType;
+				break;
+		}
+if ( $debuggingOn )
+	{echo "<pre>leaving getProductColHdr: categoryType:{$categoryType}|productColHdr:{$productColHdr}|\n</pre>";}
+		return $productColHdr;
+	}
+
+function getOrderMessage( $categoryType, $categoryOrderMessageFn )
+	{
+		global	$debuggingOn;
+
+		$orderMessage = <<<EOT
+				<div class="textBlock" style="text-align:center; font-weight:bold">
+EOT;
+
+		switch ( $categoryType )
+		{
+			case "show":
+			case "event":
+				$orderMessage .= <<<EOT
+				All seats reserved.<br />
+				All reservations must be prepaid.<br />
+				Ticket reservation is secured once payment is received.<br />
+				TICKETS WILL BE HELD AT THE DOOR.<br />
+				ALL SALES FINAL<br /><br />
+				Box office and lobby open one hour before show time.<br />
+				Doors to the theatre open 30 minutes before show time.
+EOT;
+				$assignedReservedSeating = <<<EOT
+				<br />
+				Assigned Reserved Seating
+EOT;
+				$orderMessage .= $assignedReservedSeating;
+
+				break;
+
+			case "donation":
+			case "sponsor":
+				$orderMessage .= <<<EOT
+					<h3 style="text-align:center;">Thank You for your Donation</h3>
+					<div style="display:block; width:75%; text-align:center;">
+						Our productions would never make it to the stage without the generous support of our donors and theatre-goers.<br /><br />
+						Remember, we are a certified 501(c)(3) non-profit organization.<br />
+						Your contributon is tax-deductible.
+					</div>
+EOT;
+				break;
+
+			default:
+				$orderMessage .= $categoryType;
+				break;
+		}
+		if ( $categoryOrderMessageFn && file_exists( $categoryOrderMessageFn ) && is_file( $categoryOrderMessageFn ) )
+		{
+			$orderMessage .= file_get_contents( $categoryOrderMessageFn );
+		}
+
+		$orderMessage .= "</div>\n";
+
+if ( $debuggingOn )
+	{echo "<pre>leaving getOrderMessage: categoryType:{$categoryType}|categoryOrderMessageFn:{$categoryOrderMessageFn}|orderMessage:{$orderMessage}|\n</pre>";}
+
+		return $orderMessage;
+	}
 
 function showFormVars()
 {
@@ -436,12 +530,13 @@ function LoadFormVars()
 					$orderPaymentMethod,
 					$orderPaymentInstructions,
 					$orderSpecReq,
+					$oneSelectedPriceId,
 					$priceId2quantity,
 					$mysql_conn,
 					$formVarsLoaded;
 
 if($debuggingOn==1)
-	echo '<pre>entering LoadFormVars</pre>';
+	{echo '<pre>entering LoadFormVars</pre>';}
 
 	if ( ! $formVarsLoaded )
 	{
@@ -468,6 +563,7 @@ if($debuggingOn==1)
 		$orderSpecReq				= getREQUESTorSESSION( "orderSpecReq" );
 		$orderHandlingFee		= getREQUESTorSESSION( "orderHandlingFee" );
 		$orderSmallDonationAmount = sprintf( "%.2f", getREQUESTorSESSION( "orderSmallDonationAmount", "0" ) );
+		$oneSelectedPriceId	= getREQUESTorSESSION( "oneSelectedPriceId", "0" );
 
 		$lastFormRowNo			= getREQUESTorSESSION( "lastFormRowNo" );
 
@@ -478,7 +574,8 @@ if($debuggingOn==1)
 		for ( $i=1; $i <= intval($lastFormRowNo); ++$i )
 		{
 			$priceIDi = getREQUESTorSESSION( "priceId_{$i}" );
-			$quantity = sprintf( "%d", getREQUESTorSESSION( "quantity_{$i}", "0" ) );
+			$quantity = getREQUESTorSESSION( "quantity_{$i}", "0" );
+			//$quantity = sprintf( "%d", getREQUESTorSESSION( "quantity_{$i}", "0" ) );
 
 			if ( $priceIDi == "" || $priceIDi == "unavailable" )
 			{
@@ -493,6 +590,43 @@ if($debuggingOn==1)
 					continue;
 				}
 			}
+
+			if ( $oneSelectedPriceId != 0 && $priceIDi != $oneSelectedPriceId )
+			{
+				continue;
+			}
+			++$orderItemNo;
+
+			$orderItems[$orderItemNo] = array(
+																				"priceId" => $priceIDi,
+																				"quantity" => $quantity,
+																				"itemInfo" => getOrderItemInfo( $priceIDi )
+																				);
+		}
+	}
+	else
+	{
+if($debuggingOn==1)
+	{echo '<pre>LoadFormVars already called</pre>';}
+	}
+if($debuggingOn==1)
+	{
+	echo '<pre>leaving LoadFormVars: orderItems: ';
+		print_r($orderItems);
+			echo 'priceId2quantity: ';
+				print_r($priceId2quantity);
+					echo '</pre>';
+	showFormVars();
+	}
+}
+function getOrderItemInfo( $priceID )
+	{
+	global	$debuggingOn,
+					$orderCategoryName,
+					$lastFormRowNo,
+					$oneSelectedPriceId,
+					$priceId2quantity,
+					$mysql_conn;
 
 			$productQuery = <<<EOQ
 					SELECT	category.categoryName,
@@ -519,7 +653,7 @@ if($debuggingOn==1)
 						FROM ProductCategory AS category
 									INNER JOIN Product AS product ON product.categoryId = category.categoryId
 									INNER JOIN ProductPrice AS price ON price.productId = product.productId
-						WHERE price.priceId = {$priceIDi}
+						WHERE price.priceId = {$priceID}
 						ORDER BY category.categoryName ASC, product.productDateTime ASC, price.classPrice DESC;
 EOQ;
 			$productResult = mysql_query($productQuery,$mysql_conn);
@@ -531,45 +665,26 @@ EOQ;
 			$productNumRows = mysql_num_rows($productResult);
 			if ( $productNumRows == 0 )
 			{
-				# error: no entry for priceId = {$_REQUEST["priceId_{$i}"]}
-				echo '<pre>' . "No DB entry for priceId == " . $_REQUEST["priceId_{$i}"] . '</pre>';
+				# error: no entry for priceId = {$_REQUEST["priceId_{$orderItemIndex}"]}
+				echo '<pre>' . "No DB entry for priceId == {$priceId}" . '</pre>';
 				exit;
 			}
-			++$orderItemNo;
 
-			$orderItems[$orderItemNo] = array(
-																			"priceId" => $priceIDi,
-																			"quantity" => $quantity,
-																			"itemInfo" => mysql_fetch_object($productResult)
-																			);
-			$orderCategoryName = $orderItems[$orderItemNo]["itemInfo"]->categoryName;
+			$itemInfo = mysql_fetch_object( $productResult );
+
+			$orderCategoryName = $itemInfo->categoryName;
 			if ( $orderCategoryName	!= getREQUESTorSESSION( "productCategory" ) )
 			{
-				echo '<pre>LoadFormVars: REQUESTorSESSION productCategory ('
-										. getREQUESTorSESSION( "productCategory" )
-											. "!= DB (priceIDi: {$priceIDi}) categoryName ({$orderCategoryName})"
+				echo '<pre>getOrderItemInfo: REQUESTorSESSION productCategory ('
+							. getREQUESTorSESSION( "productCategory" )
+							. ") != DB (priceID: {$priceID}) categoryName ({$orderCategoryName})"
 							. '</pre>';
 				exit;
 			}
-			
 			mysql_free_result($productResult);
-		}
+
+			return $itemInfo;
 	}
-	else
-	{
-if($debuggingOn==1)
-	echo '<pre>LoadFormVars already called</pre>';
-	}
-if($debuggingOn==1)
-{
-	echo '<pre>leaving LoadFormVars: orderItems: ';
-		print_r($orderItems);
-			echo 'priceId2quantity: ';
-				print_r($priceId2quantity);
-					echo '</pre>';
-	showFormVars();
-}
-}
 
 function buildProductDescription( $itemInfo )
 {
@@ -627,6 +742,7 @@ function ValidateOrder()
 	global	$GlobalParams,
 					$debuggingOn,
 					$paypalMode,
+					$categoryDBrow,
 					$orderCategoryName,
 					$orderFirstName,
 					$orderLastName,
@@ -643,30 +759,42 @@ function ValidateOrder()
 					$orderPaymentInstructions,
 					$orderHandlingFee,
 					$orderSpecReq,
+					$oneSelectedPriceId,
 					$mysql_conn,
 					$formErrors,
 					$privatekey;
 
 if($debuggingOn==1)
-	echo "<pre>entering ValidateOrder</pre>";
+	{echo "<pre>entering ValidateOrder</pre>";}
 
 	$orderCustInfoErrors = "";
 
 	//$formErrors[] = "testing ValidateOrder";
 
-	if ( ! isset($orderItems) || count($orderItems) == 0)
+	if ( $categoryDBrow->categorySelectionType == "One" )
 	{
-		$formErrors[] = "Please specify a quantity for at least one item.";
+		if ( !isset($oneSelectedPriceId) || $oneSelectedPriceId == 0 )
+		{
+		$formErrors[] = "Please choose one item.";
 		$orderCustInfoErrors .= "I";
+		}
 	}
 	else
 	{
-		foreach ( $orderItems as $orderItemNo => $orderItem )
+		if ( ! isset($orderItems) || count($orderItems) == 0)
 		{
-			if ( ! is_digits( $orderItem["quantity"] ) )
+			$formErrors[] = "Please specify a quantity for at least one item.";
+			$orderCustInfoErrors .= "I";
+		}
+		else
+		{
+			foreach ( $orderItems as $orderItemNo => $orderItem )
 			{
-				$formErrors[] = "Please use numbers to specify quantities of items.";
-				$orderCustInfoErrors .= sprintf( "%2d", $orderItemNo );
+				if ( ! is_digits( $orderItem["quantity"] ) )
+				{
+					$formErrors[] = "Please use numbers to specify quantities of items.";
+					$orderCustInfoErrors .= sprintf( "%02d", $orderItemNo );
+				}
 			}
 		}
 	}
@@ -740,21 +868,9 @@ if($debuggingOn==1)
 	{
 		$formErrors[] = "Please select a payment method.";
 	}
-	$resp = recaptcha_check_answer ($privatekey,
-				$_SERVER["REMOTE_ADDR"],
-				$_REQUEST["recaptcha_challenge_field"],
-				$_REQUEST["recaptcha_response_field"]);
-	if (!$resp->is_valid)
-	{
-		//$formErrors[] = "The captcha was not entered correctly.";
-	}
-	elseif (count($formErrors) > 0)
-	{
-		$formErrors[] = "Be sure to enter the new captcha.";
-	}
 
 if($debuggingOn==1)
-	echo "<pre>leaving ValidateOrder</pre>";
+	{echo "<pre>leaving ValidateOrder: orderCustInfoErrors: {$orderCustInfoErrors}</pre>";}
 
 	return count($formErrors);
 
@@ -781,6 +897,7 @@ function calculateOrderTotalAmount()
 					$orderPaymentMethod,
 					$orderPaymentInstructions,
 					$orderSpecReq,
+					$oneSelectedPriceId,
 					$orderMessage,
 					$orderHandlingFee,
 					$pageTitle,
@@ -789,7 +906,7 @@ function calculateOrderTotalAmount()
 					$mysql_conn;
 
 if($debuggingOn==1)
-	echo "<pre>entering calculateOrderTotalAmount</pre>";
+	{echo "<pre>entering calculateOrderTotalAmount</pre>";}
 	
 	$orderTotalAmount = 0;
 
@@ -810,10 +927,10 @@ if($debuggingOn==1)
 		$orderTotalAmount += $orderItem["amount"];
 		$orderItem["amount"] = sprintf( "%.2f", $orderItem["amount"] ); 
 if($debuggingOn==1)
-	echo "<pre>calculateOrderTotalAmount: 2fer: {$orderItemInfo->productTwofer}| [quantity]: {$orderItem["quantity"]}| ->classPrice: {$orderItemInfo->classPrice}| orderTotalAmount: {$orderTotalAmount}| orderItem[amt]: {$orderItem["amount"]}|</pre>";
+	{echo "<pre>calculateOrderTotalAmount: 2fer: {$orderItemInfo->productTwofer}| [quantity]: {$orderItem["quantity"]}| ->classPrice: {$orderItemInfo->classPrice}| orderTotalAmount: {$orderTotalAmount}| orderItem[amt]: {$orderItem["amount"]}|</pre>";}
 	}
 if($debuggingOn==1)
-	echo "<pre>calculateOrderTotalAmount: orderHandlingFee: {$orderHandlingFee} orderSmallDonationAmount: {$orderSmallDonationAmount}</pre>";
+	{echo "<pre>calculateOrderTotalAmount: orderHandlingFee: {$orderHandlingFee} orderSmallDonationAmount: {$orderSmallDonationAmount}</pre>";}
 
 	$orderTotalAmount += ($orderHandlingFee + $orderSmallDonationAmount);
 	$orderTotalAmount = sprintf("%.2f", $orderTotalAmount);
@@ -838,11 +955,45 @@ function splitPhoneNumber( $phoneNumber )
 	return array( FALSE, 0, 0 );
 }
 
+function getBuyButtonLabelHTML( $orderPaymentMethod, $categoryType )
+{
+	global	$debuggingOn;
+
+	if ( $orderPaymentMethod == "paymentPayPal" )
+	{
+		if ( $categoryType == "sponsor" )
+		{
+			$buyButtonLabel = "Donate Now";
+			$buyButtonHTML = "<img src=\"/images/donate.png\" height=\"25\" alt=\"{$buyButtonLabel}\" style=\"vertical-align:text-bottom;\" />";
+		}
+		else
+		{
+			$buyButtonLabel = "Pay Now";
+			$buyButtonHTML = "<img src=\"/images/paynow.png\" height=\"25\" alt=\"{$buyButtonLabel}\" style=\"vertical-align:text-bottom;\" />";
+		}
+	}
+	else
+	{
+		if ( $categoryType == "sponsor" )
+		{
+			$buyButtonLabel = "Donate Now";
+		}
+		else
+		{
+			$buyButtonLabel = "Place Order";
+		}
+		$buyButtonHTML = "<b class=\"button\" style=\"font-size:small; vertical-align:5px;\">{$buyButtonLabel}</b>";
+	}
+	return array( $buyButtonLabel, $buyButtonHTML );
+}
+
 function ShowOrder( $reviewOrConfirm )
 {
 	global	$GlobalParams,
+					$buyStuffPP,
 					$debuggingOn,
 					$paypalMode,
+					$categoryDBrow,
 					$orderFirstName,
 					$orderLastName,
 					$orderAddress,
@@ -857,6 +1008,7 @@ function ShowOrder( $reviewOrConfirm )
 					$orderPaymentMethod,
 					$orderPaymentInstructions,
 					$orderSpecReq,
+					$oneSelectedPriceId,
 					$orderMessage,
 					$orderHandlingFee,
 					$pageTitle,
@@ -865,16 +1017,15 @@ function ShowOrder( $reviewOrConfirm )
 					$mysql_conn;
 
 if($debuggingOn==1)
-	echo "<pre>entering ShowOrder: reviewOrConfirm: {$reviewOrConfirm}|</pre>";
+	{echo "<pre>entering ShowOrder: reviewOrConfirm: {$reviewOrConfirm}|</pre>";}
 	
 	switch ( $reviewOrConfirm )
 	{
 		case "Review":
 			$pageTitle = "Review Order";
+			list( $buyButtonLabel, $buyButtonHTML ) = getBuyButtonLabelHTML( $orderPaymentMethod, $categoryDBrow->categoryType );
 			if ( $orderPaymentMethod == "paymentPayPal" )
 			{
-				$buyButtonImage = "paynow.png";
-				$buyButtonLabel = "Pay Now";
 				if ( $paypalMode == "live" )
 				{
 					$payNowAction = "https://www.paypal.com/cgi-bin/webscr";
@@ -888,19 +1039,17 @@ if($debuggingOn==1)
 			}
 			else
 			{
-				$buyButtonImage = "PlaceOrder.jpg";
-				$buyButtonLabel = "Place Order";
-				$payNowAction = "buyStuffPP.php";
+				$payNowAction = $buyStuffPP;
 			}
 			$introText = <<<EOT
 				<p>
 					<b style="font-size:large;">PLEASE REVIEW YOUR ORDER</b><br /><br />
 					If we got it right, click the
-					<img src="/images/{$buyButtonImage}" height="18" alt="{$buyButtonLabel}" style="vertical-align:text-bottom;" />
-					button.<br /><br />
+					{$buyButtonHTML}
+					button at the bottom right.<br /><br />
 					If you need to make any changes, click on the
-					<img src="/images/ChangeOrder.jpg" height="18" alt="Change Order" style="vertical-align:text-bottom;" />
-					button.
+					<b class="button" style="font-size:small; vertical-align:5px;">Change Order</b>
+					button at the bottom left.
 				</p>
 EOT;
 			break;
@@ -940,7 +1089,7 @@ EOT;
 			$introText .= <<<EOT
 				</p>
 				<p>
-					You will be contacted ONLY if there is a problem with your ticket order.
+					You will be contacted ONLY if there is a problem with your order.
 				</p>
 EOT;
 			break;
@@ -991,10 +1140,10 @@ EOT;
 EOT;
 	if ( $orderSpecReq )
 	{
-	$slashedSpecReq = addslashes( $orderSpecReq );
 	$pageContent .= <<<EOT
 						<form name="dummy">
-							<textarea readonly name="orderSpecReq" cols="80" rows="4" wrap="physical" style="padding:2px 5px;">{$slashedSpecReq}</textarea>
+							<textarea readonly name="orderSpecReq" cols="80" rows="4" wrap="physical"
+									style="text-align:left; padding:2px 5px; border:3px solid #cccccc; font-size:medium;">{$orderSpecReq}</textarea>
 						</form>
 					</td>
 				</tr>
@@ -1024,23 +1173,23 @@ EOT;
 	else
 	{
 		$payPalCartFormHTML = <<<EOT
-			<form name="PayPalCartForm" method="POST" action="buyStuffPP.php">
+			<form name="PayPalCartForm" method="POST" action="{$buyStuffPP}">
 				<input type="hidden" name="DebugPayPalReturn" value="1" />
 EOT;
 	}
 	list( $orderAreaCode, $orderPhonePrefix, $orderPhone4Digits ) = splitPhoneNumber( $orderPhone );
 
 	// maybe eventually
-	// <input type="hidden" name="cancel_return" value="http://pinoleplayers.org/buyStuffPP.php?PayPalCancel" />
+	// <input type="hidden" name="cancel_return" value="http://pinoleplayers.org/{$buyStuffPP}?PayPalCancel" />
 
 	$payPalCartFormHTML .= <<<EOT
 				<input type="hidden" name="business" value="{$paypalBusinessEmail}" />
 				<input type="hidden" name="cmd" value="_cart" />
 				<input type="hidden" name="upload" value="1" />
 				<input type="hidden" name="cpp_cart_border_color" value="7286A7" />
-				<input type="hidden" name="cpp_logo_image" value="$http://pinoleplayers.org/image/PCPpseudoLogo-black-50h-190w-72ppi.png" />
+				<input type="hidden" name="cpp_logo_image" value="http://pinoleplayers.org/images/PCPpseudoLogo-black-50h-190w-72ppi.png" />
 				<input type="hidden" name="no_shipping" value="1" />
-				<input type="hidden" name="return" value="http://pinoleplayers.org/buyStuffPP.php?PayPalReturn=1&debuggingOn={$debuggingOn}&paypalMode={$paypalMode}" />
+				<input type="hidden" name="return" value="http://pinoleplayers.org/{$buyStuffPP}?PayPalReturn=1&debuggingOn={$debuggingOn}&paypalMode={$paypalMode}" />
 				<input type="hidden" name="rm" value="2" />
 				<input type="hidden" name="cbt" value="Complete this transaction with Pinole Community Playhouse." />
 				<input type="hidden" name="handling_cart" value="{$GlobalParams["HandlingFee-PayPal"]}" />
@@ -1058,13 +1207,15 @@ EOT;
 	$orderHTML .= mainTableSeparatorRowHTML();
 	$orderHTML .= <<<EOT
 			<tr class="bold">
-				<th style="width:{$col1Width}px;">&nbsp;</th>
-				<th style="text-align:center; padding-left:5px; vertical-align:middle; width:50%;">Performance</th>
-				<th colspan="2" style="text-align:left; padding-left:5px; vertical-align:middle;">Quantity</th>
+				<th style="width:{$col1Width};">&nbsp;</th>
+				<th style="text-align:left; padding-left:10px; vertical-align:middle;">Your Selections</th>
+				<th colspan="2" style="text-align:left; vertical-align:middle;">Quantity</th>
 				<th style="text-align:center; vertical-align:middle; width:50px;">Price</th>
 				<th style="text-align:center; vertical-align:middle; width:60px;">Amount</th>
 			</tr>
 EOT;
+
+	$orderMessage = getOrderMessage( $categoryDBrow->categoryType, $categoryDBrow->categoryOrderMessageFn );
 
 	for ( $i=1; $i <= $itemCount; ++$i )
 	{
@@ -1093,19 +1244,18 @@ EOT;
 		}
 
 		$orderHTML .= <<<EOT
-				<td style="font-weight:bold; text-align:left; vertical-align:middle;"> {$productDesc}</td>
+				<td style="font-weight:bold; text-align:left; vertical-align:middle; padding-left:10px;"> {$productDesc}</td>
 				</td>
-				<td style="text-align:right; vertical-align:middle; width:25px;">{$orderItem["quantity"]}</td>
-				<td style="text-align:left; vertical-align:middle; width:75px;">
-					{$orderItemInfo->priceClass}<br />
-					{$orderItemInfo->priceUnits}
+				<td style="text-align:right; vertical-align:middle; width:20px;">{$orderItem["quantity"]}</td>
+				<td style="text-align:left; vertical-align:middle; width:205px; padding-left:5px;">
+					{$orderItemInfo->priceClass} {$orderItemInfo->priceUnits}
 				</td>
 				<td style="text-align:right; vertical-align:middle;">{$orderItemInfo->classPrice}</td>
 				<td style="text-align:right; vertical-align:middle;">{$orderItem["amount"]}</td>
 			</tr>
 EOT;
 		//												Next to Normal - Sat, Feb 9 - 8:00pm (2-for-1) - 		1 												Adult 												Tickets									@$ 20.00
-		$payPalItemDescription = "{$orderItemInfo->categoryName} - {$productDesc} - {$orderItem["quantity"]} {$orderItemInfo->priceClass} {$orderItemInfo->priceUnits}@\${$orderItemInfo->classPrice}";
+		$payPalItemDescription = strip_tags( "{$orderItemInfo->categoryName} - {$productDesc} - {$orderItem["quantity"]} {$orderItemInfo->priceClass} {$orderItemInfo->priceUnits}@\${$orderItemInfo->classPrice}" );
 
 if($debuggingOn==1)
 	{echo "<pre>payPalItemDescription: "; print_r($payPalItemDescription); echo "|</pre>";}
@@ -1129,9 +1279,17 @@ EOT;
 					<input type="hidden" name="amount_{$i}" value="{$orderSmallDonationAmount}" />
 EOT;
 	}
+	if ( $categoryDBrow->categoryType == "sponsor" )
+	{
+		$payImg = "donate.png";
+	}
+	else
+	{
+		$payImg = "paynow.png";
+	}
 	$payPalCartFormHTML .= <<<EOT
 				<div class="bold" style="margin-left:10px; float:right; display:block; font-size:xx-small; text-align:center; padding:0px 3px;">
-					<input type="image" src="/images/paynow.png" name="Pay Now" name="Pay Now at PayPal" value="Pay Now at PayPal" style="text-align:center; vertical-align:top; padding-bottom:3px;" /><br />
+					<input type="image" src="/images/{$payImg}" name="Pay Now" name="Pay Now at PayPal" value="Pay Now at PayPal" style="text-align:center; vertical-align:top; padding-bottom:3px;" /><br />
 					with
 					<img src="/images/PayPal-LOGO-29h-72ppi.png" height="14" alt="PayPal" style="vertical-align:middle;" /><br />
 					<img src="/images/CC_mc_vs_dc_ae.jpg" alt="Pay with a Credit Card at PayPal" height="20" style="vertical-align:text-bottom;" /><br />
@@ -1144,8 +1302,8 @@ EOT;
 	{
 		$orderHTML .= <<<EOT
 			<tr>
-				<th colspan="5" style="text-align:right; vertical-align:middle;">Handling Fee</td>
-				<td style="text-align:right; vertical-align:middle;">\${$orderHandlingFee}</td>
+				<th colspan="5" style="text-align:right; vertical-align:middle; padding-right:10px;">Handling Fee</td>
+				<td style="text-align:right; vertical-align:middle; padding-left:10px;">\${$orderHandlingFee}</td>
 			</tr>
 EOT;
 	}
@@ -1154,16 +1312,16 @@ EOT;
 		$orderDateTime = date( "l, M j, Y - g:ia T" );
 		$orderHTML .= <<<EOT
 			<tr>
-				<th style="text-align:right; vertical-align:middle;">Order Date</td>
-				<td style="text-align:left; vertical-align:middle;">{$orderDateTime}</td>
-				<th colspan="3" style="text-align:right; vertical-align:middle;">Total</td>
+				<th style="text-align:right; vertical-align:middle; padding-right:10px;">Order Date</td>
+				<td style="text-align:left; vertical-align:middle; padding-left:10px;">{$orderDateTime}</td>
+				<th colspan="3" style="text-align:right; vertical-align:middle; padding-right:10px;">Total</td>
 EOT;
 	}
 	else
 	{
 		$orderHTML .= <<<EOT
 			<tr>
-				<th colspan="5" style="text-align:right; vertical-align:middle;">Total</td>
+				<th colspan="5" style="text-align:right; vertical-align:middle; padding-right:10px;">Total</td>
 EOT;
 	}
 		$orderHTML .= <<<EOT
@@ -1176,7 +1334,7 @@ EOT;
 		$orderHTML .= <<<EOT
 				<tr>
 					<th>Payment<br />Instructions</th>
-					<td colspan="5">
+					<td colspan="5" style="text-align:left; vertical-align:middle; padding-left:10px;">
 						$orderPaymentInstructions
 					</td>
 				</tr>
@@ -1190,14 +1348,17 @@ EOT;
 				<td colspan="5" style="text-align:right;">
 					{$payPalCartFormHTML}
 EOT;
+if($debuggingOn==1)
+  {echo "<pre>ShowOrder: payPalCartFormHTML: "; var_dump($payPalCartFormHTML); echo "</pre>";}
 	}
 	else
 	{
+		list( $buyButtonLabel, $buyButtonHTML ) = getBuyButtonLabelHTML( $orderPaymentMethod, $categoryDBrow->categoryType );
 		$orderCommitHTML = <<<EOT
 				</td>
-				<td colspan="5" style="text-align:right;">
+				<td colspan="5" style="text-align:right; padding-right:10px;">
 						<input type="hidden" name="productCategory" value="{$orderCategoryName}" />
-						<input type="submit" name="placeOrder" value="Place Order" class="button" />
+						<input type="submit" name="placeOrder" value="{$buyButtonLabel}" class="button" />
 					</form>
 EOT;
 	}
@@ -1205,8 +1366,8 @@ EOT;
 	{
 	$orderHTML .= <<<EOT
 			<tr>
-				<td style="text-align:center;">
-					<form name="OrderForm" method="post" action="buyStuffPP.php">
+				<td style="text-align:center; padding:3px;">
+					<form name="OrderForm" method="post" action="{$buyStuffPP}">
 						<input type="submit" name="changeOrder" value="Change Order" class="button" /><br />
 						<div style="padding-top:5px; font-size:10px; font-weight:bold; text-align:center; text-transform:uppercase;">
 							Close this window<br />
@@ -1254,12 +1415,12 @@ EOT;
 		}
 		else
 		{
-			$pageContent = "<p style=\"border:1px solid black; padding:10px; background-color:gold;\">It appears you have either pressed the Place Order button more than once, or refreshed this page.  The order below has already been submitted.  Please click here to <a href=\"buyStuffPP.php\">place another order</a>.</p>"
+			$pageContent = "<p style=\"border:1px solid black; padding:10px; background-color:gold;\">It appears you have either pressed the Place Order button more than once, or refreshed this page.  The order below has already been submitted.  Please click here to <a href=\"{$buyStuffPP}\">place another order</a>.</p>"
 						. $pageContent;
 		}
 	}
 if($debuggingOn==1)
-	echo "<pre>leaving ShowOrder</pre>";
+	{echo "<pre>leaving ShowOrder</pre>";}
 
 	return $pageContent;
 }
@@ -1284,10 +1445,11 @@ function rePOSTorderFormHTML()
 					$orderPaymentMethod,
 					$orderPaymentInstructions,
 					$orderSpecReq,
+					$oneSelectedPriceId,
 					$orderMessage,
 					$orderHandlingFee;
 
-	$slashedSpecReq = addslashes( $orderSpecReq );
+	//$slashedSpecReq = addslashes( $orderSpecReq );
 	$rePOSTorderFormHTML = <<<EOT
 				<input type="hidden" name="lastFormRowNo" value="{$lastFormRowNo}" />
 				<input type="hidden" name="productCategory" value="{$orderCategoryName}" />
@@ -1319,6 +1481,7 @@ function processPaymentMethod()
 	global	$GlobalParams,
 					$debuggingOn,
 					$paypalMode,
+					$categoryDBrow,
 					$orderFirstName,
 					$orderLastName,
 					$orderAddress,
@@ -1334,6 +1497,7 @@ function processPaymentMethod()
 					$orderPaymentInstructions,
 					$orderHandlingFee,
 					$orderSpecReq,
+					$oneSelectedPriceId,
 					$orderMessage,
 					$pageTitle,
 					$col1Width,
@@ -1341,7 +1505,9 @@ function processPaymentMethod()
 					$mysql_conn;
 
 if($debuggingOn==1)
-	echo "<pre>entering processPaymentMethod</pre>";
+	{echo "<pre>entering processPaymentMethod</pre>";}
+
+	list( $buyButtonLabel, $buyButtonHTML ) = getBuyButtonLabelHTML( $orderPaymentMethod, $categoryDBrow->categoryType );
 
 	switch ( $orderPaymentMethod )
 	{
@@ -1349,7 +1515,7 @@ if($debuggingOn==1)
 			$orderHandlingFee = $GlobalParams["HandlingFee-PayPal"];
 			$orderPaymentInstructions = <<<EOT
 				Click
-				<img src="/images/paynow.png" height="18" alt="Pay Now" style="vertical-align:text-bottom;" />
+				{$buyButtonHTML}
 				to pay with your Credit Card or
 				<img src="/images/PayPal-LOGO-29h-72ppi.png" height="16" alt="PayPal" style="vertical-align:middle;" />account.<br />
 EOT;
@@ -1376,7 +1542,8 @@ EOT;
 			$orderHandlinFee = "No Fee";
 			$orderPaymentInstructions = "No Instructions";
 if($debuggingOn==1)
-	echo "<pre>unknown orderPaymentMethod ({$orderPaymentMethod})</pre>";
+	{echo "<pre>unknown orderPaymentMethod ({$orderPaymentMethod})</pre>";}
+
 	}
 	if ( $orderHandlingFee != "" )
 	{
@@ -1386,7 +1553,7 @@ if($debuggingOn==1)
 	}
 
 if($debuggingOn==1)
-	echo "<pre>leaving processPaymentMethod</pre>";
+	{echo "<pre>leaving processPaymentMethod</pre>";}
 }
 
 function SendConfirmation( $htmlContent, $name, $email )
@@ -1397,7 +1564,7 @@ function SendConfirmation( $htmlContent, $name, $email )
 					$orderCategoryName;
 		
 if($debuggingOn==1)
-	echo "<pre>entering SendConfirmation: name: {$name}| email: {$email}|</pre>";
+	{echo "<pre>entering SendConfirmation: name: {$name}| email: {$email}|</pre>";}
 
 	// they'll be looking at the email, so
 	$htmlContent = preg_replace( "/We have also emailed a copy to you./", " ", $htmlContent );
@@ -1411,7 +1578,7 @@ if($debuggingOn==1)
 	}
 	$txtOrderHeader .= "\n";
 if($debuggingOn==1)
-	echo "<pre>SendConfirmation: txtOrderHeader: {$txtOrderHeader}|</pre>";
+	{echo "<pre>SendConfirmation: txtOrderHeader: {$txtOrderHeader}|</pre>";}
 
 	// extract rows
 	preg_match_all("/<tr[^>]*>(.*?)<\/tr>/s", $htmlContent, $matches);
@@ -1505,7 +1672,7 @@ if($debuggingOn==1)
 
 	$_SESSION["emailSent"] = "true";
 if($debuggingOn==1)
-	echo "<pre>leaving SendConfirmation</pre>";
+	{echo "<pre>leaving SendConfirmation</pre>";}
 }
 
 function CustomerInfoInputHTML()
@@ -1527,6 +1694,7 @@ function CustomerInfoInputHTML()
 					$orderPaymentMethod,
 					$orderPaymentInstructions,
 					$orderSpecReq,
+					$oneSelectedPriceId,
 					$recaptcha,
 					$orderMessage,
 					$orderHandlingFee,
@@ -1537,7 +1705,7 @@ function CustomerInfoInputHTML()
 					$mysql_conn;
 
 if($debuggingOn==1)
-	echo "<pre>entering CustomerInfoInputHTML</pre>";
+	{echo "<pre>entering CustomerInfoInputHTML</pre>";}
 
 	$errorItemColor = " color:red;";
 	$validItemColor = "";
@@ -1546,9 +1714,9 @@ if($debuggingOn==1)
 	<table width="80%" align="center" border=0 cellspacing=0 cellpadding=2>
 		<tbody style="font-size:12px;">
 			<tr>
-				<th align="right" style="width:{$col1Width}px; padding:5px;{${itemColor("F")}}">First Name</th>
+				<th align="right" style="width:{$col1Width}; padding:5px;{${itemColor("F")}}">First Name</th>
 				<td style="padding:5px; text-weight:bold;"><input tabindex="1" type="text" name="orderFirstName" value="{$orderFirstName}" size="40" style="font-size:14px;" /></td>
-				<th align="right" style="width:{$col1Width}px; padding:5px;{${itemColor("L")}}">Last Name</th>
+				<th align="right" style="width:{$col1Width}; padding:5px;{${itemColor("L")}}">Last Name</th>
 				<td style="padding:5px; text-weight:bold;"><input tabindex="2" type="text" name="orderLastName" value="{$orderLastName}" size="40" style="font-size:14px;" /></td>
 			</tr>
 			<tr>
@@ -1574,7 +1742,7 @@ if($debuggingOn==1)
 EOT;
 
 if($debuggingOn==1)
-	echo "<pre>leaving CustomerInfoInputHTML</pre>";
+	{echo "<pre>leaving CustomerInfoInputHTML</pre>";}
 
 	return $customerInfoInputHTML;
 }
@@ -1597,6 +1765,7 @@ function PaymentChoiceHTML()
 					$orderSmallDonationAmount,
 					$orderPaymentMethod,
 					$orderSpecReq,
+					$oneSelectedPriceId,
 					$recaptcha,
 					$orderMessage,
 					$col1Width,
@@ -1604,7 +1773,7 @@ function PaymentChoiceHTML()
 					$mysql_conn;
 
 if($debuggingOn==1)
-	echo "<pre>entering PaymentChoiceHTML</pre>";
+	{echo "<pre>entering PaymentChoiceHTML</pre>";}
 
 	$paymentChoiceHTML = <<<EOT
 					<table cellspacing=0 border=1 bordercolor="#7286A7">
@@ -1617,14 +1786,20 @@ EOT;
 		}
 		$paymentChoiceHTML .= <<<EOT
 									id="orderPaymentPayPal" value="paymentPayPal" /></td>
-							<td>
-								<img src="/images/CC_mc_vs_dc_ae.jpg" alt="Pay with a Credit Card at PayPal" height="18" style="vertical-align:text-bottom;" />
-								I will pay online with <img src="/images/PayPal-LOGO-38h-72ppi.jpg" height="18" alt="PayPal" style="vertical-align:text-bottom;" />
-								<span style="font-size:smaller";">
+							<td width="100%">
+								<label for="orderPaymentPayPal">
+									I will pay online with <img src="/images/PayPal-LOGO-38h-72ppi.jpg" height="18" alt="PayPal" style="vertical-align:text-bottom;" />
+									<img src="/images/CC_mc_vs_dc_ae.jpg" alt="Pay with a Credit Card at PayPal" height="18" style="vertical-align:text-bottom;" /><br />
+									<img src="/images/PayPal-LOGO-38h-72ppi.jpg" height="14" alt="PayPal Logo" style="vertical-align:text-bottom;" />
+									<span style="font-size:x-small";">
+									ACCOUNT NOT REQUIRED
+									</span>
+									<span style="font-size:smaller";">
 EOT;
 		$paymentChoiceHTML .= makeNonBreaking( "(A \${$GlobalParams["HandlingFee-PayPal"]} handling fee applies.)\n" );
 		$paymentChoiceHTML .= <<<EOT
-								</span>
+									</span>
+								</label>
 							</td>
 						</tr>
 						<tr>
@@ -1637,10 +1812,15 @@ EOT;
 		$paymentChoiceHTML .= <<<EOT
 									id="orderPaymentCheck" value="paymentCheck" /></td>
 							<td>
-								<img src="/images/blankCheck3.jpg" alt="Mail a Check" height="18" style="vertical-align:text-bottom;" />
-								I will mail you a check.
+								<label for="orderPaymentCheck">
+									<img src="/images/blankCheck3.jpg" alt="Mail a Check" height="18" style="vertical-align:text-bottom;" />
+									I will mail you a check.
+								</label>
 							</td>
 						</tr>
+EOT;
+/* NO MORE CC PAYMENTS - LEAVE THE CODE FOR OLD TIMES SAKE
+		$paymentChoiceHTML .= <<<EOT
 						<tr>
 							<td style="vertical-align:top;"><input type="radio" name="orderPaymentMethod"
 EOT;
@@ -1651,20 +1831,24 @@ EOT;
 		$paymentChoiceHTML .= <<<EOT
 									id="orderPaymentCC" value="paymentCC" /></td>
 							<td>
-								<img src="/images/VisaMasterCard.gif" alt="We accept Visa and MasterCard" height="18" style="vertical-align:text-bottom;" />
-								Call me for credit card information.
-								<span style="font-size:smaller";">
+								<label for="orderPaymentCC">
+									<img src="/images/VisaMasterCard.gif" alt="We accept Visa and MasterCard" height="18" style="vertical-align:text-bottom;" />
+									Call me for credit card information.
+									<span style="font-size:smaller";">
 EOT;
 		$paymentChoiceHTML .= makeNonBreaking( "(A \${$GlobalParams["HandlingFee-CC"]} handling fee applies.)\n" );
 		$paymentChoiceHTML .= <<<EOT
-								</span>
+									</span>
+								</label>
 							</td>
 						</tr>
+*/
+		$paymentChoiceHTML .= <<<EOT
 					</table>
 EOT;
 
 if($debuggingOn==1)
-	echo "<pre>leaving PaymentChoiceHTML</pre>";
+	{echo "<pre>leaving PaymentChoiceHTML</pre>";}
 
 	return $paymentChoiceHTML;
 }
@@ -1678,7 +1862,7 @@ function getSmallDonationHTML()
 					$mysql_conn;
 
 if($debuggingOn==1)
-	echo "<pre>entering getSmallDonationHTML</pre>";
+	{echo "<pre>entering getSmallDonationHTML</pre>";}
 
 	$checked = "";
 	if ( $orderSmallDonationAmount == 0 )
@@ -1691,7 +1875,9 @@ if($debuggingOn==1)
 			<tr>
 				<td style="text-align:center;">
 					<input type="radio" name="orderSmallDonationAmount" {$checked} id="orderSmallDonation0" value="0" />
-					Sorry
+					<label for="orderSmallDonation0">
+						Maybe Next Time
+					</label>
 				</td>
 EOT;
 
@@ -1723,7 +1909,9 @@ EOQ;
 		$smallDonationHTML .= <<<EOT
 				<td style="text-align:center;">
 					<input type="radio" name="orderSmallDonationAmount" {$checked} id="orderSmallDonation{$i}" value="{$smallDonationDBrow->classPrice}" />
-					{$smallDonationDBrow->priceClass}
+					<label for="orderSmallDonation{$i}">
+						{$smallDonationDBrow->priceClass}
+					</label>
 				</td>
 EOT;
 	}
@@ -1733,7 +1921,7 @@ EOT;
 EOT;
 
 if($debuggingOn==1)
-	echo "<pre>leaving getSmallDonationHTML</pre>";
+	{echo "<pre>leaving getSmallDonationHTML</pre>";}
 
 	return $smallDonationHTML;
 }
@@ -1757,6 +1945,7 @@ function getSpecialRequestsHTML()
 					$orderPaymentMethod,
 					$orderPaymentInstructions,
 					$orderSpecReq,
+					$oneSelectedPriceId,
 					$recaptcha,
 					$orderMessage,
 					$orderHandlingFee,
@@ -1770,7 +1959,8 @@ function getSpecialRequestsHTML()
 			<tr>
 				<th style="vertical-align:top">Any special requests<br />(seat location, wheel chair<br />access needed)</th>
 				<td colspan="2" style="text-align:center">
-					<textarea name="orderSpecReq" cols="50" rows="4">
+					<textarea name="orderSpecReq" cols="80" rows="4"
+							style="padding:2px 5px; border:3px solid #cccccc; font-size:medium;">
 						{$orderSpecReq}
 					</textarea>
 				</td>
@@ -1789,9 +1979,52 @@ function splitUnavailableProductDescription( $productDesc, $unavailablePattern )
 		$pattern = "/" . $matches[0] . "/";
 		$productDesc = preg_replace( $pattern, "", $productDesc, -1, $replaces_done );
 if($debuggingOn==1)
-	echo "<pre>splitUnavailableProductDescription: replaces_done: {$replaces_done}| productDesc: {$productDesc}| matches[0]: {$matches[0]}|</pre>";
+	{echo "<pre>splitUnavailableProductDescription: replaces_done: {$replaces_done}| productDesc: {$productDesc}| matches[0]: {$matches[0]}|</pre>";}
 	}
 	return array( $productDesc, $matches[0] );
+}
+
+function getCategoryDBrow( $categoryName )
+{
+	global	$mysql_conn;
+					$debuggingOn;
+
+if($debuggingOn==1)
+	{echo '<pre>entering getCategoryDBrow: categoryName:'; print_r($categoryName); echo '|</pre>';}
+
+	$categoryQuery = <<<EOQ
+			SELECT	categoryId,
+							categoryName,
+							categoryDescription,
+							categoryType,
+							categoryLOGOfn,
+							categoryProductionCompany,
+							categoryQuantityInput,
+							categorySelectionType,
+							categorySalesBlackout,
+							categoryOrderMessageFn
+			FROM	ProductCategory AS category
+			WHERE	category.categoryName = '{$categoryName}';
+EOQ;
+	$categoryResult = mysql_query($categoryQuery, $mysql_conn);
+	if (!$categoryResult)
+	{
+if($debuggingOn==1)
+		{echo '<pre>' . "Could not successfully run query ({$categoryQuery}) from DB: " . mysql_error() . '</pre>';}
+	}
+	if ( ! ($categoryDBrow = mysql_fetch_object($categoryResult)) )
+	{
+if($debuggingOn==1)
+		{echo '<pre>fetch_object failed to find $categoryName: ' . mysql_error() . '</pre>';}
+	
+	throw new UnknownProductCategoryException();
+	}
+	mysql_free_result($categoryResult);
+
+if($debuggingOn==1)
+	{echo '<pre>leaving getProductRowsHTML</pre>';}
+
+	return $categoryDBrow;
 }
 
 function getProductRowsHTML( $categoryName )
@@ -1799,6 +2032,7 @@ function getProductRowsHTML( $categoryName )
 	global	$GlobalParams,
 					$debuggingOn,
 					$paypalMode,
+					$categoryDBrow,
 					$lastFormRowNo,
 					$orderFirstName,
 					$orderLastName,
@@ -1814,10 +2048,13 @@ function getProductRowsHTML( $categoryName )
 					$orderPaymentMethod,
 					$orderPaymentInstructions,
 					$orderSpecReq,
+					$oneSelectedPriceId,
 					$priceId2quantity,
 					$recaptcha,
 					$orderMessage,
 					$orderHandlingFee,
+					$errorItemColor,
+					$validItemColor,
 					$col1Width,
 					$col3Width,
 					$mysql_conn;
@@ -1827,33 +2064,11 @@ if($debuggingOn==1)
 
 	$productsHTML .= "";
 
+	$formRowNo = 0;
+
 	$currUnixTime = time();
 
-	$categoryQuery = <<<EOQ
-			SELECT	categoryId,
-							categoryName,
-							categoryDescription,
-							categoryType,
-							categoryLOGOfn,
-							categoryProductionCompany,
-							categoryQuantityInput,
-							categorySelectionType
-			FROM	ProductCategory AS category
-			WHERE	category.categoryName = '{$categoryName}';
-EOQ;
-	$categoryResult = mysql_query($categoryQuery, $mysql_conn);
-	if (!$categoryResult)
-	{
-if($debuggingOn==1)
-	echo '<pre>' . "Could not successfully run query ({$categoryQuery}) from DB: " . mysql_error() . '</pre>';
-	}
-	if ( ! ($categoryDBrow = mysql_fetch_object($categoryResult)) )
-	{
-if($debuggingOn==1)
-	echo '<pre>fetch_object failed to find $categoryName: ' . mysql_error() . '</pre>';
-	
-	throw new UnknownProductCategoryException();
-	}
+	// $categoryDBrow = getCategoryDBrow( $categoryName );
 
 	$productQuery = <<<EOQ
 			SELECT	product.productId,
@@ -1874,7 +2089,7 @@ EOQ;
 	if (!$productResult)
 	{
 if($debuggingOn==1)
-	echo '<pre>' . "Could not successfully run query ({$productQuery}) from DB: " . mysql_error() . '</pre>';
+	{echo '<pre>' . "Could not successfully run query ({$productQuery}) from DB: " . mysql_error() . '</pre>';}
 	}
 	while ($productDBrow = mysql_fetch_object($productResult))
 	{
@@ -1900,7 +2115,7 @@ EOQ;
 		if (!$priceResult)
 		{
 if($debuggingOn==1)
-	echo '<pre>' . "Could not successfully run query ({$priceQuery}) from DB: " . mysql_error() . '</pre>';
+	{echo '<pre>' . "Could not successfully run query ({$priceQuery}) from DB: " . mysql_error() . '</pre>';}
 		}
 		
 		$priceNumRows = mysql_num_rows($priceResult);
@@ -1910,7 +2125,7 @@ if($debuggingOn==1)
 		if ( $formRowNo == 0 )
 		{
 			$productsHTML .=
-				"<td rowspan=%ITEMROWCOUNT% style=\"width:{$col1Width}px; padding:5px; text-align:center; vertical-align:middle;\">\n";
+				"<td rowspan=%ITEMROWCOUNT% style=\"width:{$col1Width}; padding:5px; text-align:center; vertical-align:middle;\">\n";
 			if ( $categoryDBrow->categoryLOGOfn )
 			{
 				$productsHTML .=
@@ -1929,7 +2144,7 @@ EOT;
 			$productsHTML .=
 				"<td align=\"left\" style=\"font-size:larger; font-weight:bold; padding-left:10px;\">{$mod_productDesc}</td>\n";
 			$productsHTML .= <<<EOT
-				<td style="width:{col3Width}px; text-align:center; font-weight:bold; color:blue;">{$unavailable}
+				<td style="width:{col3Width}; text-align:center; font-weight:bold; color:blue;">{$unavailable}
 					<input type="hidden" name="priceId_{$formRowNo}" value="unavailable">
 					<input type="hidden" name="quantity_{$formRowNo}" value="0">&nbsp;
 				</td>
@@ -1950,36 +2165,65 @@ EOT;
 					$productsHTML .=
 						"<td rowspan={$priceNumRows} align=\"left\" style=\"font-size:larger; font-weight:bold; padding-left:10px;\">{$productDesc}</td>\n";
 				}
-				$productsHTML .=
-					"<td align=\"left\" style=\"width:{$col3Width}px; padding-left:3px;\">\n";
-
+				$productsHTML .= <<<EOT
+					<td align="left" style="width:{$col3Width}; padding-left:3px;">
+						<table class="productTableQtyInput" width="100%">
+							<tr>
+								<td rowspan="2">
+EOT;
 				if ( $categoryDBrow->categoryQuantityInput )
 				{
-				$qty = 0;
-				if ( isset( $priceId2quantity[ $priceDBrow->priceId ] ) && $priceId2quantity[ $priceDBrow->priceId ] != "" )
-				{
-					$qty = $priceId2quantity[ $priceDBrow->priceId ];
-				}
-				$productsHTML .=
-							"<input type=\"text\" size=1 maxlength=2 name=\"quantity_{$formRowNo}\" value=\"{$qty}\" style=\"font-size:14px; {${itemColor(sprintf("%d2",$formRowNo))}}\" />\n";
+					$qty = 0;
+					if ( isset( $priceId2quantity[ $priceDBrow->priceId ] ) && $priceId2quantity[ $priceDBrow->priceId ] != "" )
+					{
+						$qty = $priceId2quantity[ $priceDBrow->priceId ];
+					}
+					$itemColor = itemColor( sprintf("%02d",$formRowNo) );
+if($debuggingOn==1)
+	{echo "<pre>itemColor: \$itemColor: {$itemColor}| \$\$itemColor: {${$itemColor}}|</pre>";}
+					$productsHTML .=
+							"<input type=\"text\" size=2 maxlength=2 name=\"quantity_{$formRowNo}\" value=\"{$qty}\" id=\"item_{$formRowNo}\" style=\"font-size:14px; {${$itemColor}}\" />\n";
 				}
 				else
 				{
 					switch ($categoryDBrow->categorySelectionType ) 
 					{
 						case "One":
-							$productsHTML .=
-										"<input type=\"radio\" name=\"quantity_{$formRowNo}\" value=\"1\" />";
+							if ( $oneSelectedPriceId != "" && $oneSelectedPriceId != $priceDBrow->priceId )
+							{
+								$checked = "";
+							}
+							else
+							{
+								$checked = "checked=\"checked\"";
+							}
+							$productsHTML .= <<<EOT
+										<input type="radio" name="oneSelectedPriceId" {$checked} value="{$priceDBrow->priceId}" id="item_{$formRowNo}" />
+										<input type="hidden" name="quantity_{$formRowNo}" value="1" />
+EOT;
 							break;
 						case "Any":
 							$productsHTML .=
-										"<input type=\"checkbox\" name=\"quantity_{$formRowNo}\" value=\"1\" />";
+										"<input type=\"checkbox\" name=\"quantity_{$formRowNo}\" value=\"1\" id=\"item_{$formRowNo}\" />";
+							break;
+						default:
+							$productsHTML .= "categorySelectionType:$categoryDBrow->categorySelectionType";
 							break;
 					}
 				}
 				$productsHTML .= <<<EOT
-							<label for "quantity_{$formRowNo}" style="font-weight:bold;">{$priceDBrow->priceClass} (\${$priceDBrow->classPrice})</label>
-							<input type="hidden" name="priceId_{$formRowNo}" value="{$priceDBrow->priceId}" />
+							</td>
+							<td align="right" style="font-weight:bold; vertical-align:bottom; padding:0px 3px;">
+								<label for="item_{$formRowNo}" style="font-weight:bold;">{$priceDBrow->priceClass}</label>
+								<input type="hidden" name="priceId_{$formRowNo}" value="{$priceDBrow->priceId}" />
+							</td>
+						</tr>
+						<tr>
+							<td align="right" style="font-weight:bold; vertical-align:top; padding:0px 3px;">
+								<label for="item_{$formRowNo}" style="font-weight:bold;">\${$priceDBrow->classPrice}</label>
+							</td>
+						</tr>
+					</table>
 						</td>
 					</tr>
 EOT;
@@ -1995,10 +2239,9 @@ EOT;
 EOT;
 	#mysql_free_result($priceResult);
 	mysql_free_result($productResult);
-	mysql_free_result($categoryResult);
 
 if($debuggingOn==1)
-	echo '<pre>leaving getProductRowsHTML</pre>';
+	{echo '<pre>leaving getProductRowsHTML</pre>';}
 
 	return $productsHTML;
 }
@@ -2012,10 +2255,14 @@ function itemColor( $labelCode )
 
 	if ( preg_match( "/{$labelCode}/", $orderCustInfoErrors ) == 1 )
 	{
+if($debuggingOn==1)
+	{echo "<pre>errorItemColor: orderCustInfoErrors: {$orderCustInfoErrors}| labelCode: {$labelCode}|</pre>";}
 		return "errorItemColor";
 	}
 	else
 	{
+if($debuggingOn==1)
+	{echo "<pre>validItemColor: orderCustInfoErrors: {$orderCustInfoErrors}| labelCode: {$labelCode}|</pre>";}
 		return "validItemColor";
 	}
 }
@@ -2116,8 +2363,10 @@ EOT;
 function DisplayProductsForm( $categoryName )
 {
 	global	$GlobalParams,
+					$buyStuffPP,
 					$debuggingOn,
 					$paypalMode,
+					$categoryDBrow,
 					$orderFirstName,
 					$orderLastName,
 					$orderAddress,
@@ -2132,6 +2381,7 @@ function DisplayProductsForm( $categoryName )
 					$orderPaymentMethod,
 					$orderPaymentInstructions,
 					$orderSpecReq,
+					$oneSelectedPriceId,
 					$recaptcha,
 					$orderMessage,
 					$orderHandlingFee,
@@ -2142,7 +2392,7 @@ function DisplayProductsForm( $categoryName )
 					$mysql_conn;
 
 if($debuggingOn==1)
-	echo "<pre>entering DisplayProductsForm: categoryName: {$categoryName}|</pre>";
+	{echo "<pre>entering DisplayProductsForm: categoryName: {$categoryName}|</pre>";}
 	
 	try {
 		$productRowsHTML = getProductRowsHTML( $categoryName );
@@ -2154,42 +2404,43 @@ if($debuggingOn==1)
 
 	$pageContents = displayFormErrors( $formErrors );
 	$pageContents .= <<<EOT
-						<div class="textBlock" align="left">
-							<h3 style="margin-top:.5em; margin-bottom:.5em;">{$pageTitle}</h3>
-							<div class="bold" style="margin-left:10px; float:right; display:block color:#144C7D; font-size:small; text-align:center; background-color:white; padding:0px 3px;">
-								<img src="/images/AM_SbyPP_mc_vs_dc_ae-80h-72ppi.jpg" height="60" alt="PayPal Logo" /><br />
-								<img src="/images/PayPal-LOGO-38h-72ppi.jpg" height="18" alt="PayPal Logo" style="vertical-align:text-bottom;" />
-								ACCOUNT NOT REQUIRED
-							</div>
+						<div class="textBlock" style="text-align:center;">
+EOT;
+
+	$pageContents .= <<<EOT
+							<h3>GOING IN A GROUP?</h3>
 							<p style="margin-bottom:5px;">
-								We now accept Credit Card payments for your purchases at the
-								<span style="color:blue; font-weight:bold;">Playhouse</span>
-								<span style="color:blue;">Online BoxOffice</span>.
-								We have selected
-								<img src="/images/PayPal-LOGO-38h-72ppi.jpg" height="18" alt="PayPal Logo" style="vertical-align:text-bottom;" />
-								to process credit card purchases online, saving you (and us) time and effort,
-								and securing your credit card information.
+								<strong>For Groups of 15 or more, Tickets are $18 each.</strong><br /><br />
+								Please leave your name and phone number on the Box Office Line at 510-724-9844<br />
+								and our Ticket Coordinator will return your call to take your Group order.
 							</p>
-							<div style="text-align:right; padding-right:0px; font-variant:small-caps;">
+EOT;
+	$pageContentsDiscarded .= <<<EOT
+							<div style="text-align:center; font-size:larger; font-variant:small-caps;">
 								<b>all reservations must be prepaid</b>
 							</div>
+EOT;
+	$pageContents .= <<<EOT
 						</div>
 EOT;
 	
 	$pageContents .= <<<EOT
-	<form name="OrderForm" method="post" action="buyStuffPP.php">
+	<form name="OrderForm" method="post" action="{$buyStuffPP}">
 		<input type="hidden" name="productCategory" value="{$categoryName}" />
 EOT;
+
+	$productColHdr = getProductColHdr( $categoryDBrow->categoryType );
+	$selectionColHdr = getSelectionColHdr( $categoryDBrow->categoryType );
 
 	$pageContents .= <<<EOT
 	<table class="productTable" width="100%" border=1 bordercolor="#7286A7" cellspacing=0>
 		<tbody style="font-size:12px;">
 			<tr>
-				<th style="width:120px; text-align:center; font-size:large; padding-left:10px;">Production</td>
-				<th style="text-align:left; font-size:large; padding-left:10px;">Remaining Performances</td>
-				<th style="width:{$col3Width}px; font-size:10px; text-align:center; text-transform:uppercase;">
-					Specify the Number of Tickets You Desire for Any Performances You Wish to Attend
-				</td>
+				<th style="width:120px; text-align:center; font-size:large;">.</th>
+				<th style="text-align:left; font-size:large; padding-left:10px;">{$productColHdr}</th>
+				<th style="width:{$col3Width}; font-size:10px; text-align:center; text-transform:uppercase;">
+					{$selectionColHdr}
+				</th>
 			</tr>
 EOT;
 
@@ -2215,7 +2466,13 @@ EOT;
 					</div>
 				</td>
 				<td colspan="2" style="text-align:left; padding-left:10px;">
-					<textarea name="orderSpecReq" cols="80" rows="4" wrap="physical" style="padding:2px 5px;">$orderSpecReq</textarea>
+					<div style="text-transform:uppercase; font-variant:small-caps; margin:5px auto; width:90%; text-align:center; line-height:1.2;">
+						<span style="font-weight:bold; font-size:larger;">ASSIGNED RESERVED SEATING</span>
+						- Please specify any special needs or location preferences.<br />
+						<span style="font-weight:bold; color:red;">If you are attending with a group, include the group organizer's name here.</span>
+					</div>
+					<textarea name="orderSpecReq" cols="80" rows="4" wrap="physical"
+						style="padding:2px 5px; border: 3px solid #cccccc; font-size:medium;">$orderSpecReq</textarea>
 				</td>
 			</tr>
 EOT;
@@ -2259,7 +2516,7 @@ EOT;
 	
 	$pageContents .= <<<EOT
 				</td>
-				<td class="bold" style="text-align:center; width:{col3Width}px;">
+				<td class="bold" style="text-align:center; width:{$col3Width};">
 					Every little bit<br />
 					helps.<br />
 					<span style="font-size:large;">Thank You</span>
@@ -2269,7 +2526,7 @@ EOT;
 	$pageContents .= <<<EOT
 			<tr>
 				<td style="text-align:center;">
-					<div style="font-size:10px; font-weight:bold; text-align:center; text-transform:uppercase;">
+					<div style="font-size:15px; font-weight:bold; text-align:center; text-transform:uppercase;">
 						Close this window<br />
 						to cancel this order
 					</div>
@@ -2280,7 +2537,7 @@ EOT;
 
 	$pageContents .= <<<EOT
 				</td>
-				<td style="text-align:center; width:{col3Width}px;">
+				<td style="text-align:center; width:{$col3Width};">
 					<input type="submit" value="Review Order" class="button" />
 					<div style="padding-top:5px; font-size:10px; font-weight:bold; text-align:center; text-transform:uppercase;">
 						You will submit<br />
@@ -2293,12 +2550,12 @@ EOT;
 	$pageContents .= "</form>\n";
 
 if($debuggingOn==1)
-	echo "<pre>leaving DisplayProductsForm</pre>";
+	{echo "<pre>leaving DisplayProductsForm</pre>";}
 
 	return $pageContents;
 }
 if ($debuggingOn)
-	dumpEnvironmentVars();
+	{dumpEnvironmentVars();}
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
