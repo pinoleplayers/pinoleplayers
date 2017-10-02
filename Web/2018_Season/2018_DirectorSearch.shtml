@@ -1,0 +1,265 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+	<head>
+
+<!--#include virtual="/includes/PCPhead.html" -->
+		<title>2018 Season Directors Search</title>
+		<style type="text/css">
+			p {margin: 0.75em;}
+			h2, h3, h4, h5, h6{
+				margin:5px 0px;
+			}
+			ul.compact{
+				margin:0px;
+				font-size:smaller;
+			}
+			.local-colors{
+				color:#102070;
+				background-color:#fef6d9;
+			}
+			.local-colors-rev{
+				color:#102070;
+				background-color:#eee7cb;
+			}
+			.local-return td{
+				padding:2px 8px 2px 12px;
+				vertical-align:top;
+			}
+		</style>
+	</head>
+<body class="pcp-page" style="max-width:800px!important; font-size:14pt;">
+
+	<div class="pcp-container local-colors w3-center pcp-padding-top-bottom-16">
+		<div style="max-width:90%; margin:0px auto;">
+			<div class="w3-row local-colors pcp-margin-bottom-16">
+				<div class="w3-col l4 m4 s12 w3-center" style="padding:0px 16px;">
+					<img src="/images/PCP_LOGO-Pinole-94w-36h-150ppi-dark.png" alt="Pinole Community Players Logo" style="max-height:28px;" />
+					<img src="/images/PCP_LOGO-Community-155w-36h-150ppi-dark.png" alt="Pinole Community Players Logo" style="max-height:28px;" />
+					<img src="/images/PCP_LOGO-Players-114w-36h-150ppi-dark.png" alt="Pinole Community Players Logo" style="max-height:28px;" />
+				</div>
+				<div class="w3-col w3-center l8 m8 s12 w3-left-align" style="padding:10px 24px;">
+					<h2 style="vertical-align:middle;">2018 Season Directors Search</h2>
+				</div>
+			</div>
+
+			<div class="w3-content w3-medium w3-left-align local-colors pcp-margin-top-bottom-16">
+				<p class="pcp-bold">Pinole Players is now accepting applications for Guest Directors for our 2018 Season:</p>
+			</div>
+
+			<div class="w3-row local-colors pcp-margin-bottom-16" style="max-width:90%; margin:auto auto;">
+				<div class="w3-col l4 m4 s4 w3-center" style="padding:5px;">
+					<div class="local-colors" onclick="document.getElementById('firstdatePopup').style.display='block'">
+						<img src="FirstDate_LOGO-319w-476h-96ppi.png" border="0" longdesc="First Date LOGO" style="max-height:100%; max-width:100%;"/>
+					</div>
+				</div>
+	
+				<div id="firstdatePopup" class="w3-modal w3-animate-opacity" onclick="document.getElementById('firstdatePopup').style.display='none'">
+					<div class="w3-modal-content w3-card-8" style="width:98%; max-width:600px;">
+						<header class="w3-container local-colors-rev">
+							<span onclick="document.getElementById('firstdatePopup').style.display='none'" class="w3-closebtn">&times;</span>
+							<h5 class="pcp-bold" style="text-align:center;">February&nbsp;2&nbsp;-&nbsp;24, 2018</h5>
+						</header>
+						<div class="w3-container local-colors-rev" style="margin:8px auto; text-align:center;">
+							<div>
+								<img src="FirstDate_LOGO-319w-476h-96ppi.png" border="0" longdesc="First Date LOGO" style="max-height:100%; max-width:100%; padding-bottom:10px;"/>
+								<p>
+									When tightly wound Aaron is set up with cool girl Casey,
+									a quick drink turns into a hilarious dinner served
+									with sides of Google background checks, fake emergency phone calls,
+									a slew of bad boy and uptown girl exes,
+									and some seriously saucy chemistry.
+									Can this mismatched pair turn what could be a dining disaster
+									into something special before the check arrives,
+									or will they end up at another table for one?
+								</p>
+								<p>
+									The 2013 Broadway premiere with book by Austin Winsberg
+									and music and lyrics by Alan Zachary and Michael Weiner
+									featured Zachary Levi (TV's Chuck, and Tony Nominee for the 2016 Broadway revival of She Loves Me)
+									and Krysta Rodriguez (TV's Smash, and "Wednesday" in the Original Broadway Cast of The Addams Family).
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+	
+				<div class="w3-col l4 m4 s4 w3-center" style="padding:5px;">
+					<div class="local-colors" onclick="document.getElementById('laughterPopup').style.display='block'">
+						<img src="LaughterOnThe23rdFloor_LOGO-319w-476h-96ppi.png" border="0" longdesc="Laughter on the 23rd Floor LOGO" style="max-height:100%; max-width:100%;"/>
+					</div>
+				</div>
+	
+				<div id="laughterPopup" class="w3-modal w3-animate-opacity" onclick="document.getElementById('laughterPopup').style.display='none'">
+					<div class="w3-modal-content w3-card-8" style="width:98%; max-width:600px;">
+						<header class="w3-container local-colors-rev">
+							<span onclick="document.getElementById('laughterPopup').style.display='none'" class="w3-closebtn">&times;</span>
+							<h5 class="pcp-bold" style="text-align:center;">June&nbsp;8&nbsp;-&nbsp;23, 2018</h5>
+						</header>
+						<div class="w3-container local-colors-rev" style="margin:8px auto; text-align:center;">
+							<div>
+								<img src="LaughterOnThe23rdFloor_LOGO-319w-476h-96ppi.png" border="0" longdesc="Laughter on the 23rd Floor LOGO" style="max-height:100%; max-width:100%; padding-bottom:10px;"/>
+								<p>
+									Neil Simon's semi-autobiographical comedy about chaos backstage at a 1950s comedy TV show.
+									A gaggle of eccentric gag writers try to support their star, a charismatic lunatic modeled on Sid Caesar,
+									as the network slowly chips away at his comic vision.
+								</p>
+								<p>
+									Laughter on the 23rd Floor opened on Broadway at the Richard Rodgers Theatre on November 22, 1993
+									and closed on August 27, 1994 after 320 performances and 24 previews.
+									Directed by Jerry Zaks, the cast featured Nathan Lane, Ron Orbach, Randy Graff, Mark Linn-Baker,
+									Bitty Schram, J.K. Simmons and Lewis J. Stadlen.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+	
+				<div class="w3-col l4 m4 s4 w3-center" style="padding:5px;">
+					<div class="local-colors" onclick="document.getElementById('xanaduPopup').style.display='block'">
+						<img src="Xanadu_LOGO-319w-476h-96ppi.png" border="0" longdesc="Xanadu LOGO" style="max-height:100%; max-width:100%;"/>
+					</div>
+				</div>
+	
+				<div id="xanaduPopup" class="w3-modal w3-animate-opacity" onclick="document.getElementById('xanaduPopup').style.display='none'">
+					<div class="w3-modal-content w3-card-8" style="width:98%; max-width:600px;">
+						<header class="w3-container local-colors-rev">
+							<span onclick="document.getElementById('xanaduPopup').style.display='none'" class="w3-closebtn">&times;</span>
+							<h5 class="pcp-bold" style="text-align:center;">September&nbsp;28&nbsp;- October&nbsp;20, 2018</h5>
+						</header>
+						<div class="w3-container local-colors-rev" style="margin:8px auto; text-align:center;">
+							<div>
+								<img src="Xanadu_LOGO-319w-476h-96ppi.png" border="0" longdesc="Xanadu LOGO" style="max-height:100%; max-width:100%; padding-bottom:10px;"/>
+								<p>
+									Based on the film of the same name, Xanadu centers on a Greek muse who is sent to Earth to inspire Californians during the 1980s.
+									While on earth, she meets and falls in love with an artist and helps him realize his dreams.
+								</p>
+								<p>
+									With a campy, hilarious and self-effacing book by Douglas Carter Beane, Xanadu includes classic songs from the 70's & 80's,
+									as well as the original film (I Have You Never Been Mellow, Evil Woman, Magic, Xanadu),
+									as well as new songs written by Jeff Lynne and John Farrar
+									and featuring Cheyenne Jackson, Kerry Butler (Tony Nominee), Jackie Hoffman, Mary Testa and Tony Roberts.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="w3-content w3-medium w3-left-align local-colors pcp-margin-bottom-16">
+				<p class="w3-center pcp-bold">Click on a show to see more info</p>
+
+				<p class="pcp-bold pcp-padding-top-16">To apply to direct one or more of our 2018 productions, please:</p>
+				<ul>
+					<li>Review our <a href="GuestDirectorGuidelines.pdf" target="_blank"> <strong>Guest&nbsp;Director&nbsp;Guidelines</strong></a></li>
+					<li>Download, complete and return our <a href="2018GuestDirectorApplication.pdf" target="_blank"> <strong>Guest&nbsp;Director&nbsp;Application</strong></a>
+					<ul>
+						<li>
+						Applicants are encouraged to attach a directorial resume, along with a detailed proposal
+						for each production that they are applying to direct.
+						</li>
+					</ul>
+				</ul>
+				<p>
+					Applications may be returned:
+				</p>
+				<table class="local-return" style="max-width:80%; margin:0px auto;">
+					<tbody>
+						<tr>
+							<td class="w3-right-align">By email:</td>
+							<td class="w3-left-align" style="vertical-align:middle;">patti.pinoleplayers@yahoo.com</td>
+						</tr>
+						<tr>
+							<td colspan="2" class="w3-center" style="padding:0px;">-or-</td>
+						</tr>
+						<tr>
+							<td class="w3-right-align">By U.S. mail:</td>
+							<td class="w3-left-align">
+								Pinole Players<br />
+								Attn: Director Applications<br />
+								P.O. Box 182<br />
+								Pinole, CA  94564
+							</td>
+						</tr>
+					</tbody>
+				</table>
+				<p class="pcp-bold">
+					Applications must be received by Pinole Players no later than <em>Friday, June&nbsp;30, 2017</em>.
+				</p>
+				<ul>
+					<li>All applicants will receive email confirmation of receipt of their application.</li>
+					<li>All applications will be reviewed by Pinole Player's Board of Directors/Artistic Committee.</li>
+					<li>Selected final candidates will be invited to an in-person interview</li>
+					<ul>
+						<li>All applicants will be notified of the outcome of their application.</li>
+						<li>Final candidates will be notified of the time for their interview. Interviews are on <strong>Thursday, July&nbsp;6, 2017</strong>.</li>
+					</ul>
+					<li>Once the Director/Directorial Teams for each production have been selected, all final candidates will be notified.</li>
+				</ul>
+				<p>
+					If you would like any additional information, email
+					<a target="_blank" href="mailto:patti.pinoleplayers@yahoo.com?subject=2018%20Season%20Director%20Search%20Inquiry">
+						<strong style="font-variant:none;">patti.pinoleplayers@yahoo.com</strong>
+					</a>
+					or leave a message on our Box Office/Business line at <strong>510&#8209;724&#8209;9844</strong>.
+				</p>
+			</div>
+		</div>
+		<style>
+			#local-char-brkdown{
+				border:2px solid #273d49;
+				border-spacing:0px;
+			}
+			#local-char-brkdown tbody tr td, #local-char-brkdown tbody tr th{
+				padding:10px;
+			}
+			#local-char-brkdown tbody tr:nth-child(even){
+				background-color:#8feffe;
+			}
+			#local-char-brkdown tbody tr td:nth-child(2){
+				text-align:center;
+			}
+			p {
+				line-height:1.2;
+				margin:5px;
+			}
+		</style>
+		<div class="w3-hide" style="max-width:800px; margin:10px auto; background-color:#d4f3fe; border: 2px solid #273d49; font-size:smaller;">
+			<div class="w3-responsive">
+				<table id="local-char-brkdown" class="w3-table w3-border w3-striped">
+					<tbody>
+						<tr><th colspan="4" style="text-align:center; font-size:larger; font-weight:bold;">CHARACTERS</th></tr>
+						<tr><th>Name</th><th>Gender</th><th>Age</th><th style="width:45%;">Description</th></tr>
+						<tr><td>Jenny Steinberg</td><td>F</td><td>20s/30s,<br />full-figured/ heavyset</td><td>Older sister of the Bride, co-Maid of Honor</td></tr>
+						<tr><td>Judy Steinberg</td><td>F</td><td>plays mid-50s</td><td>Mother of the bride: overbearing in natural and unconscious way</td></tr>
+						<tr><td>Rebecca Steinberg</td><td>F</td><td>plays mid-20s</td><td>The Bride, slender and pretty</td></tr>
+						<tr><td>Georgette Howard</td><td>F</td><td>plays mid-50s</td><td>Mother of the Groom</td></tr>
+						<tr><td>Annie Sheps</td><td>F</td><td></td><td>African-American, Co-Maid of Honor</td></tr>
+						<tr><td>Mimsy/Aunt Sheila</td><td>F</td><td>plays 40s/50s</td><td>Waiter and Bride's Aunt</td></tr>
+						<tr><td>Murray Steinberg</td><td>M</td><td>plays mid 50s-60</td><td>Father of the Bride</td></tr>
+						<tr><td>Marty Kaufman</td><td>M</td><td>plays 20s/30s</td><td>Ex-boyfriend of Rebecca (The Bride)</td></tr>
+						<tr><td>George Howard</td><td>M</td><td>plays mid-50s-60</td><td>Father of the Groom</td></tr>
+						<tr><td>Brian Howard</td><td>M</td><td>plays 20s/30s</td><td>The Groom</td></tr>
+						<tr><td>Greg Madison</td><td>M</td><td>plays 20s/30s</td><td>The Best Man</td></tr>
+						<tr><td>Albert</td><td>M</td><td>wide age range</td><td>The Wedding Planner</td></tr>
+						<tr><td>Walt/Uncle Morty</td><td>M</td><td>plays mid-50s +</td><td>Waiter and Bride's Uncle</td></tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+
+	<style>
+		#local-sides li:nth-child(odd){
+			background-color:#d4f3fe;
+		}
+		#local-sides li:nth-child(odd):hover{
+			background-color:#ccc;
+		}
+	</style>
+<!--								FOOTER -->
+<!--#include virtual="/includes/PCPfooter.html" -->
+	</div>
+	<script type="text/javascript" src="/js/placeholders.min.js"></script>
+</body>
+</html>
+<!-- vim: set sw=2 ts=2: -->

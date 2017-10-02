@@ -1,0 +1,11 @@
+		<div class="w3-row pcp-frame-colors w3-right-align"> <!-- DROPDOWN MENU -->
+			<ul class="w3-navbar w3-card-2 w3-medium pcp-frame-colors w3-right">
+				<li>
+					<a onclick="pcpMenuDropdownClick('PCPmenu')" href="#"><i class="fa fa-fw fa-bars"></i> Menu <i class="fa fa-caret-down"></i></a>
+					<div id="PCPmenu" class="w3-dropdown-content pcp-colors w3-card-4" style="right:0;">
+<!--#include virtual="/includes/PCPmenu-comb.shtml?DROPDOWN" -->
+					</div>
+				</li>
+			</ul>
+		</div>														<!-- /DROPDOWN MENU -->
+<!-- vim: set sw=2 ts=2: -->

@@ -1,0 +1,87 @@
+<!--#if expr="${QUERY_STRING} = /DROPDOWN/" -->
+	<!--#set var="menuItemClasses" value="w3-dropdown-click" -->
+<!--#else -->
+	<!--#set var="menuItemClasses" value="w3-dropdown-hover w3-dropdown-click" -->
+<!--#endif -->
+		<div class="pcp-menu w3-row pcp-frame-colors"> <!-- MENU -->
+				<ul class="w3-navbar w3-card-2 w3-medium pcp-frame-colors">
+
+					<li><a href="/index.shtml"><i class="fa fa-fw fa-home w3-large" style="padding-top:4px;"></i></a></li>
+
+					<li class="<!--#echo var="menuItemClasses" -->">
+						<a onclick="pcpDropdownClick('PCPmenu-Workshops')" href="#" class="w3-tiny"><div style="display:inline-block;">Children's &amp; Teen's<br />Theatre Information</div> <i class="fa fa-caret-down w3-large"></i></a>
+						<div id="PCPmenu-Workshops" class="w3-dropdown-content pcp-colors w3-card-4">
+						<a href="/2017_PYA/2017_PYA-index.shtml"><i class="fa fa-fw fa-child"></i> PYA Summer Workshop</a>
+						<a href="/2017_TCSM/2017_TCSM-IntoTheWoods-index.shtml"><i class="fa fa-fw fa-child"></i> Teen Musical Theatre Summer Workshop</a>
+					</div>
+<!--
+					<div id="PCPmenu-Workshops" class="w3-dropdown-content pcp-colors w3-card-4">
+						<a href="/2016_PYA/2016_PYA-index.shtml"><i class="fa fa-fw fa-child"></i> PYA Summer Workshop</a>
+						<a href="/2016_TCSM/LegallyBlonde-index.shtml">Pinole Recreation<br />Teen/College Summer Musicals</a>
+						<a class="pcp-smaller-caps pcp-line-ht-110pct spa-colors" href="/2017_CTW-Spring/2017_CTW-Spring-index.shtml">Pinole Recreation<br />Childen's Theatre Workshop</a>
+					</div>
+-->
+					</li>
+					<li class="<!--#echo var="menuItemClasses" -->">
+						<a onclick="pcpDropdownClick('PCPmenu-Tickets')" href="#"><i class="fa fa-fw fa-ticket"></i> BoxOffice <i class="fa fa-caret-down"></i></a>
+						<div id="PCPmenu-Tickets" class="w3-dropdown-content pcp-colors w3-card-4">
+							<a href="/buyStuffPP.php?productCategory=DeathTrap&NewOrder=true" target="_blank">DeathTrap</a>
+							<a href="/Info/directions-index.shtml"><i class="fa fa-fw fa-map"></i> Directions</a>
+						</div>
+					</li>
+
+					<li class="<!--#echo var="menuItemClasses" -->">
+						<a onclick="pcpDropdownClick('PCPmenu-AboutUs')" href="#">About Us <i class="fa fa-caret-down"></i></a>
+						<div id="PCPmenu-AboutUs" class="w3-dropdown-content pcp-colors w3-card-4">
+							<a href="/Info/ourMission-index.shtml">Our Mission</a>
+							<a href="/Info/ourHistory-index.shtml">Our History</a>
+							<a href="/Info/pastProductions-index.shtml">Past Productions</a>
+							<a href="/Info/supportUs-index.shtml"><i class="fa fa-fw fa-support"></i> Ways to Support PCP</a>
+							<a href="/2017SponsorshipForm.shtml"><i class="fa fa-fw fa-pencil"></i> Become a Patron</a>
+							<a href="/Info/ourPatrons-index.shtml"><i class="fa fa-fw fa-list-alt"></i> Our Patrons</a>
+							<a href="/Info/programAdInfo-index.shtml">Program Ads</a>
+						</div>
+					</li>
+
+					<li class="<!--#echo var="menuItemClasses" -->">
+						<a onclick="pcpDropdownClick('PCPmenu-ContactUs')" href="#"><i class="fa fa-fw fa-phone"></i> Contact Us <i class="fa fa-caret-down"></i></a>
+						<div id="PCPmenu-ContactUs" class="w3-dropdown-content pcp-colors w3-card-4 w3-round-large w3-border w3-topbar w3-rightbar w3-bottombar w3-leftbar pcp-border-color">
+<!--#include virtual="/Info/contactUs.html" -->
+						</div>
+					</li>
+<!--
+					<li class="<!--#echo var="menuItemClasses" -->">
+						<a onclick="pcpDropdownClick('PCPmenu-SupportUs')" href="#"><i class="fa fa-fw fa-support"></i> Support Us <i class="fa fa-caret-down"></i></a>
+						<div id="PCPmenu-SupportUs" class="w3-dropdown-content pcp-colors w3-card-4">
+							<a href="/Info/supportUs-index.shtml"><i class="fa fa-fw fa-support"></i> Ways to Support PCP</a>
+							<a href="/2017SponsorshipForm.shtml"><i class="fa fa-fw fa-pencil"></i> Become a Patron</a>
+							<a href="/Info/ourPatrons-index.shtml"><i class="fa fa-fw fa-list-alt"></i> Our Patrons</a>
+							<a href="/Info/programAdInfo-index.shtml">Program Ads</a>
+						</div>
+					</li>
+-->
+					<li class="<!--#echo var="menuItemClasses" -->">
+						<a onclick="pcpDropdownClick('PCPmenu-Auditions')" href="#">Auditions <i class="fa fa-caret-down"></i></a>
+						<div id="PCPmenu-Auditions" class="w3-dropdown-content pcp-colors w3-card-4">
+							<a href="/2017_ItShouldaBeenYou/ItShouldaBeenYou-Auditions.shtml"> It Shoulda Been You</a>
+							<a href="/2018_Season/2018_DirectorSearch.shtml"> 2018 Season Directors</a>
+						</div>
+					</li>
+
+					<li class="<!--#echo var="menuItemClasses" -->">
+						<a onclick="pcpDropdownClick('PCPmenu-Directors')" href="#" class="w3-tiny"><div style="display:inline-block;">2018 Season<br />Directors</div> <i class="fa fa-caret-down w3-large"></i></a>
+						<div id="PCPmenu-Directors" class="w3-dropdown-content pcp-colors w3-card-4">
+							<a href="/2018_Season/2018_DirectorSearch.shtml" class="w3-tiny"><div style="display:inline-block;">Application<br />Materials</div></a>
+						</div>
+					</li>
+
+					<li class="<!--#echo var="menuItemClasses" -->">
+						<a onclick="pcpDropdownClick('PCPmenu-Facebook')" href="#"><i class="fa fa-facebook w3-small" style="border:1px solid #d5d5d5; padding:2px 4px;"></i> <i class="fa fa-caret-down"></i></a>
+						<div id="PCPmenu-Facebook" class="w3-dropdown-content pcp-colors w3-card-4">
+							<a href="https://www.facebook.com/groups/109262739110253?ap=1" target="_blank"><i class="fa fa-facebook w3-small" style="border:1px solid #d5d5d5; padding:2px 4px;"></i> Follow Us on Facebook</a>
+						</div>
+					</li>
+				</ul>
+		</div> <!-- MENU -->
+
+<!-- vim: set sw=2 ts=2: -->

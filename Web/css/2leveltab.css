@@ -1,7 +1,7 @@
 .basictab{
 	padding: 3px;
 	margin-left: 0;
-	font: bold 12px Verdana;
+	font: bold 10pt Helvetica;
 	border-bottom: 1px solid AliceBlue;
 	list-style-type: none;
 	margin-bottom: 0;
@@ -16,24 +16,13 @@
 
 .basictab li a{
 	text-decoration: none;
-	padding: 3px 7px;
+	padding: 3px;
 	margin-right: 2px;
 	border: 1px solid AliceBlue;
 	border-bottom: none;
 	background-color: inherit;
 	color: AliceBlue;
 }
-
-.basictab li span{
-	text-decoration: none;
-	padding: 3px 7px;
-	margin-right: 2px;
-	border: 1px solid AliceBlue;
-	border-bottom: none;
-	background-color: inherit;
-	color: AliceBlue;
-}
-
 
 .basictab li a:visited{
 	color: AliceBlue;
@@ -58,10 +47,11 @@
 
 .submenustyle{
 	padding: 2px 1px;
-	font: regular 12px Verdana;
+	font: bold 10pt Helvetica;
 	border-top: none;
 	width: auto;
 	display: none;
+	color: AliceBlue;
 	filter:alpha(opacity=0);
 	-moz-opacity:0;
 }

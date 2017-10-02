@@ -1,0 +1,338 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+	<head>
+
+<!--#include virtual="/includes/PCPhead.html" -->
+<!--#if expr="${QUERY_STRING} = /Callback/" -->
+		<title>It Shoulda Been You Audition Callback Info</title>
+<!--#elif expr="${QUERY_STRING} = /Confirmed/" -->
+		<title>It Shoulda Been You Confirmed Audition Appt Info</title>
+<!--#else -->
+		<title>It Shoulda Been You Audition Info</title>
+<!--#endif -->
+		<style type="text/css">
+			p {margin: 0.75em;}
+			h2, h3, h4, h5, h6{
+				margin:5px 0px;
+			}
+			ul.compact{
+				margin:0px;
+				font-size:smaller;
+			}
+			.local-colors{
+				color:#4d6a77;
+				background-color:#8feffe;
+			}
+			.local-colors-rev{
+				color:#8feffe;
+				background-color:#4d6a77;
+			}
+			.local-button-colors{
+				color:#6fb4dd;
+				background-color:#8feffe;
+			}
+			.local-button-colors-rev{
+				color:#8feffe;
+				background-color:#6fb4dd;
+			}
+		</style>
+	</head>
+<body class="pcp-page" style="max-width:800px!important; font-size:14pt;">
+
+	<div class="pcp-container local-colors w3-center pcp-padding-top-bottom-16">
+		<div class="w3-row local-colors pcp-margin-bottom-16">
+			<div class="w3-col l4 m4 s12 w3-center" style="padding:0px 16px;">
+				<div class="pcp-logo pcp-sm-logo w3-left">
+					<div><span>P</span>INOLE</div><br />
+					<div><span>C</span>OMMUNITY</div><br />
+					<div><span>P</span>LAYERS</div>
+				</div>
+			</div>
+			<div class="w3-col l7 m7 s12 w3-center" style="padding:0px 24px;">
+<!--#if expr="${QUERY_STRING} = /Callback/" -->
+				<h2>Audition Callback Info</h2>
+<!--#elif expr="${QUERY_STRING} = /Confirmed/" -->
+				<h2>Confirmed Audition Appointment Info</h2>
+<!--#else -->
+				<h1>Auditions<br />
+					<span style="font-size:small; color:black;">Ages: 18 &amp; older</span>
+<!--#endif -->
+			</div>
+		</div>
+		<div class="w3-row local-colors pcp-margin-top-8">
+			<div class="w3-col l4 m4 s12 w3-center" style="padding:0px 16px;">
+				<img src="../2017_ItShouldaBeenYou/ItShouldaBeenYou-PPP_LOGO-400w-600h-96ppi.jpg" width="100%" border="0" longdesc="It Shoulda Been You 2017 LOGO" />
+				<h6 class="pcp-rights">Produced by special arrangements with<br />Music&nbsp;Theatre&nbsp;International (MTI)<br />
+					All authorized performance materials are also supplied by MTI.<br />
+					www.MTIShows.com
+				</h6>
+			</div>
+			<div class="w3-col l7 m7 s12 w3-center" style="padding:0px 24px;">
+				<div style="margin:0px 0px 15px 0px;">
+					<div class="pcp-creatorRole"><span>Book&nbsp;&amp;&nbsp;Lyrics by</span> Brian&nbsp; Hargrove</div>
+					<div class="pcp-creatorRole"><span>Music&nbsp;by</span> Barbara&nbsp;Anselmi</div>
+					<div class="pcp-creatorRole" style="font-size:smaller; margin-top:10px;"><span>Additional Lyrics by</span> Michael&nbsp;Cooper, Will&nbsp;Randall, Carla&nbsp;Rose&nbsp;Fisher, Ernie&nbsp;Lijoi, Jill&nbsp;Abramovitz</div>
+					<div class="pcp-creatorRole" style="font-size:smaller; margin-top:10px;"><span>Based on a concept by</span> Barbara Anselmi</div>
+				</div>
+				<p style="text-align:left;">
+					This charming new musical invites you to a wedding day you will never forget,
+					where anything that can go wrong does and where love pops up in mysterious places.
+					The bride is Jewish. The groom is Catholic.
+					Her mother is a force of nature. His mother is a tempest in a cocktail shaker.
+					When the bride's ex-boyfriend crashes the party, the perfect wedding unravels faster than you can whistle "Oh Promise Me!"
+				<p>
+			</div>
+		</div>
+	
+		<div class="w3-content local-colors" style="max-width:80%; margin-top:10px;">
+<!--#if expr="${QUERY_STRING} != /Callback/" -->
+			<p>Auditions will be held on</p>
+			<p><strong>
+				Tuesday, June&nbsp;20, 2017  7:00&nbsp;p.m.<br />
+				Thursday, June&nbsp;22, 2017  7:00&nbsp;p.m.
+			</strong></p>
+<!--#endif -->
+			<p><strong>Callbacks by Invitation Only</strong> on</p>
+			<p>Sunday, June&nbsp;25, 2017  1:00&nbsp;p.m.</p>
+			<p>at the</p>
+			<p style="font-size:smaller;"><strong>Community Playhouse<br />601 Tennent Ave.<br />Pinole, CA</strong><br /><a style="color:#66010a;" href="/Info/directions-index.shtml">[Directions]</a></p>
+			<div>
+				<h4 class="pcp-bold" style="margin:20px auto 5px auto;">Directed by Buzz Halsing</h4>
+				<div style="width:70%; margin:10px auto 15px auto;">
+					<div class="pcp-creatorRole" style="text-align:center;"><span>Musical Director:</span> Dean&nbsp;Starnes</div>
+					<div class="pcp-creatorRole" style="text-align:center;"><span>Choreographer:</span> Anjee&nbsp;Norgaard&#8209;Gallia</div>
+				</div>
+			</div>
+			<h5 style="margin:0px 0px 15px 0px; padding:0px;">For additional information about the show or the auditions,<br />email the director by clicking</h5>
+			<div class="pcp-button local-button-colors-rev pcp-linkEffect pcp-linkEffect-revealPushOut">
+				<a class="local-button-colors" href="mailto:buzz@halsing.com?subject=Inquiry about PCPs It Shoulda Been You" style="font-variant:none; font-size:18px;"
+																		data-hover="buzz@halsing.com">
+									<span class="local-button-colors-rev">buzz@halsing.com</span>
+				</a>
+			</div>
+<!--#if expr="${QUERY_STRING} != /Callback/" -->
+			<div style="text-align:left; margin-top:15px;">
+				<h3 class="w3-center pcp-bold" >Audition Process</h3>
+				<ul style="width:85%; margin:10px auto 0px auto;">
+					<li>Warm Reading From Script</li>
+						<ul style="font-size:smaller;">
+							<li>See the Character Descriptions Below</li>
+							<li>The excerpts from the script (the "Sides") to be read
+<!--#if expr="${QUERY_STRING} != /Confirmed/" -->
+									will be provided in your appointment confirmation email
+							</li>
+<!--#else -->
+									can be obtained via the links below
+							</li>
+							<li style="font-weight:bold;">
+								Print out the Sides for the character(s) you want to read in the audition.
+								Bring them to the audition.
+							</li>
+<!--#endif -->
+						</ul>
+					<li>One minute monologue, if you desire. <em style="font-variant:small-caps;">not required</em></li>
+					<li>Prepare a 1-2 minute song from a contemporary musical</li>
+						<ul style="font-size:smaller;">
+							<li>Bring sheet music <span style="font-variant:small-caps; font-weight:bold;">IN YOUR KEY</span>. An accompanist will be provided</li>
+							<li>No tapes, CDs or electronic media</li>
+							<li>A capella is strongly discouraged</li>
+						</ul>
+					<li>Dance audition at callbacks</li>
+				</ul>
+			</div>
+<!--#if expr="${QUERY_STRING} != /Confirmed/" -->
+			<h3 class="pcp-bold">Auditions are by appointment.</h3>
+			<p style="width:85%; margin:auto auto;">Audition appointments will be assigned <i>in the order they are received</i>, beginning at 7:00 PM each evening.</p>
+			<p style="font-size:smaller;">If you have time constraints, include them and we will attempt to accommodate you.</p>
+			<div class="pcp-button local-button-colors-rev pcp-linkEffect pcp-linkEffect-revealPushOut" style="margin:10px auto;">
+				<a class="w3-medium local-button-colors" style="font-size:18px;" target="_blank" href="mailto:patti.pinoleplayers@yahoo.com?subject=It Shoulda Been You%20Audition%20Appointment%20Request&body=Name%20/%20Phone%20/%20Preferred%20Date%20(June 20 or 22)%20/%20Time%20Constraints,%20if%20any%0A%0AAttach%20Resume%20/%20Headshot%0A%0ACONFIRMATION BY RETURN EMAIL."
+																		data-hover="Click to Schedule an Appointment">
+									<span class="local-button-colors-rev">Click to Schedule an Appointment</span>
+				</a>
+			</div>
+			<div style="width:80%; margin:auto auto;">
+				<div style="width:72%; text-align:left; margin:0px auto;">
+					Please include:
+					<ul type="circle" style="margin-top:6px; margin-bottom:6px; font-size:smaller;">
+						<li>Name, phone number and email address</li>
+						<li>Preferred Audition Date - June&nbsp;20 or 22</li>
+						<li>Attach Resume and Headshot files,<br />if available</li>
+					</ul>
+					<p style="font-size:75%;">
+						If there are problems with the link, send an email to:
+						patti.pinoleplayers@yahoo.com
+						with the requested info.
+					</p>
+				</div>
+			</div>
+			<h4 class="pcp-bold" style=" margin-top:10px;">You will be notified of your audition time by email.</h4>
+<!--#endif -->
+<!--#endif -->
+<!--#if expr="${QUERY_STRING} = /Confirmed/" -->
+<style>
+.pcp-linkEffect a {
+	margin: 15px 25px;
+	color: #fff;
+	font-size: 1.35em;
+}
+.pcp-linkEffect-3dRolling a {
+	line-height: 44px;
+}
+.pcp-linkEffect-3dRolling a span {
+	padding: 0 14px;
+	background: #2195de;
+}
+.csstransforms3d .cl-effect-2 a span::before {
+	background: #0965a0;
+}
+.pcp-linkEffect-3dRolling a:hover span,
+.pcp-linkEffect-3dRolling a:focus span {
+	-webkit-transform: rotateX(90deg) translateY(-22px);
+	-moz-transform: rotateX(90deg) translateY(-22px);
+	transform: rotateX(90deg) translateY(-22px);
+}
+.pcp-csstransforms3d .pcp-linkEffect-3dRolling a:hover span::before,
+.pcp-csstransforms3d .pcp-linkEffect-3dRolling a:focus span::before {
+	background:#28a2ee;
+}
+</style>
+			<div class="pcp-csstransforms3d">
+				<div class="pcp-button local-button-colors-rev pcp-linkEffect pcp-linkEffect-3dRolling" style="margin:10px auto;">
+					<a class="w3-large pcp-bold local-button-colors" href="ItShouldaBeenYou-AuditionForm.pdf" target="_blank"style="font-size:18px;"
+																		data-hover="Click for the Audition Form">
+									<span class="local-button-colors-rev pcp-bold">Click for the Audition Form</span>
+					</a>
+				</div>
+				<p><strong>Bring a completed Audition Form to the audition.</strong></p>
+				<p style="font-size:smaller; max-width:70%; margin:auto auto;">
+					If you are unable to print the form or sides, copies will be available at the audition.
+					Please arrive early to fill out an Audition Form before your appointment time.
+				</p>
+			</div>
+<!--#endif -->
+			<div style="text-align:center; max-width:70%; margin:10px auto;">
+				<p ><strong>Rehearsals begin August&nbsp;21, 2017</strong></p>
+				<ul class="compact" style="list-style-type:none; width:85%;">
+					<li>Rehearsals are Monday&#8209;Thursday, 7:30&#8209;10:30&nbsp;p.m.</li>
+					<li>If necessary, rehearsals will be scheduled on weekends during the day</lli>
+				</ul>
+				<p style="font-size:smaller;"><strong>Be sure to fill out the rehearsal conflict page in the Audition Form.</strong></p>
+				<p><strong>Performances</strong><br />Fridays, Saturdays, Sundays<br \>October&nbsp;20 - November&nbsp;11, 2017</p>
+			</div>
+			<p>For other inquiries call <strong>510&#8209;724&#8209;9844</strong></p>
+		</div>
+	</div>
+	<style>
+		#local-char-brkdown{
+			border:2px solid #273d49;
+			border-spacing:0px;
+		}
+		#local-char-brkdown tbody tr td, #local-char-brkdown tbody tr th{
+			padding:10px;
+		}
+		#local-char-brkdown tbody tr:nth-child(even){
+			background-color:#8feffe;
+		}
+		#local-char-brkdown tbody tr td:nth-child(2){
+			text-align:center;
+		}
+		p {
+			line-height:1.2;
+			margin:5px;
+		}
+	</style>
+	<div style="max-width:800px; margin:10px auto; background-color:#d4f3fe; border: 2px solid #273d49; font-size:smaller;">
+		<div class="w3-responsive">
+			<table id="local-char-brkdown" class="w3-table w3-border w3-striped">
+				<tbody>
+					<tr><th colspan="4" style="text-align:center; font-size:larger; font-weight:bold;">CHARACTERS</th></tr>
+					<tr><th>Name</th><th>Gender</th><th>Age</th><th style="width:45%;">Description</th></tr>
+					<tr><td>Jenny Steinberg</td><td>F</td><td>20s/30s,<br />full-figured/ heavyset</td><td>Older sister of the Bride, co-Maid of Honor</td></tr>
+					<tr><td>Judy Steinberg</td><td>F</td><td>plays mid-50s</td><td>Mother of the bride: overbearing in natural and unconscious way</td></tr>
+					<tr><td>Rebecca Steinberg</td><td>F</td><td>plays mid-20s</td><td>The Bride, slender and pretty</td></tr>
+					<tr><td>Georgette Howard</td><td>F</td><td>plays mid-50s</td><td>Mother of the Groom</td></tr>
+					<tr><td>Annie Sheps</td><td>F</td><td></td><td>African-American, Co-Maid of Honor</td></tr>
+					<tr><td>Mimsy/Aunt Sheila</td><td>F</td><td>plays 40s/50s</td><td>Waiter and Bride's Aunt</td></tr>
+					<tr><td>Murray Steinberg</td><td>M</td><td>plays mid 50s-60</td><td>Father of the Bride</td></tr>
+					<tr><td>Marty Kaufman</td><td>M</td><td>plays 20s/30s</td><td>Ex-boyfriend of Rebecca (The Bride)</td></tr>
+					<tr><td>George Howard</td><td>M</td><td>plays mid-50s-60</td><td>Father of the Groom</td></tr>
+					<tr><td>Brian Howard</td><td>M</td><td>plays 20s/30s</td><td>The Groom</td></tr>
+					<tr><td>Greg Madison</td><td>M</td><td>plays 20s/30s</td><td>The Best Man</td></tr>
+					<tr><td>Albert</td><td>M</td><td>wide age range</td><td>The Wedding Planner</td></tr>
+					<tr><td>Walt/Uncle Morty</td><td>M</td><td>plays mid-50s +</td><td>Waiter and Bride's Uncle</td></tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+
+	<style>
+		#local-sides a{
+			width:83%;
+		}
+		#local-sides li:nth-child(odd){
+			background-color:#d4f3fe;
+		}
+		#local-sides li:nth-child(odd):hover{
+			background-color:#ccc;
+		}
+	</style>
+
+<!--#if expr="${QUERY_STRING} = /Callback/" -->
+	<div style="max-width:800px; padding:10px; margin-bottom:10px; background-color:#8feffe; border: 2px solid #273d49; font-size:smaller;">
+		<div style="max-width:95%; margin:auto auto;">
+			<h3 class="w3-center pcp-bold">CALLBACK VOCAL SIDES</h3>
+			<h5 class="w3-center">Click on the Characters to see the side</h5>
+			<ul id="local-sides" class="w3-hide w3-ul w3-hoverable" style="max-width:250px; list-style-type:decimal; list-style-position:inside; text-align:left; margin:auto auto; border:1px dotted #273d49;">
+				<li class="pcp-linkEffect pcp-linkEffect-bottomBorderEnlarge"><a href="AuditionSides/CallbackSideVocal-Albert.pdf" target="_blank">ALBERT</a></li>
+				<li class="pcp-linkEffect pcp-linkEffect-bottomBorderEnlarge"><a href="AuditionSides/CallbackSideVocal-Brian+George.pdf" target="_blank">BRIAN + GEORGE</a></li>
+				<li class="pcp-linkEffect pcp-linkEffect-bottomBorderEnlarge"><a href="AuditionSides/CallbackSideVocal-Georgette.pdf" target="_blank">GEORGETTE</a></li>
+				<li class="pcp-linkEffect pcp-linkEffect-bottomBorderEnlarge"><a href="AuditionSides/CallbackSideVocal-Greg+Annie.pdf" target="_blank">GREG + ANNIE</a></li>
+				<li class="pcp-linkEffect pcp-linkEffect-bottomBorderEnlarge"><a href="AuditionSides/CallbackSideVocal-Jenny.pdf" target="_blank">JENNY</a></li>
+				<li class="pcp-linkEffect pcp-linkEffect-bottomBorderEnlarge"><a href="AuditionSides/CallbackSideVocal-Judy.pdf" target="_blank">JUDY</a></li>
+				<li class="pcp-linkEffect pcp-linkEffect-bottomBorderEnlarge"><a href="AuditionSides/CallbackSideVocal-Marty.pdf" target="_blank">MARTY</a></li>
+				<li class="pcp-linkEffect pcp-linkEffect-bottomBorderEnlarge"><a href="AuditionSides/CallbackSideVocal-Rebecca.pdf" target="_blank">REBECCA</a></li>
+			</ul>
+			<div class="w3-large">
+				<div class="pcp-linkEffect pcp-linkEffect-2ndBorderSlidesUp" style="width:230px; display:inline-block;"><a href="AuditionSides/CallbackSideVocal-Albert.pdf" target="_blank">ALBERT</a></div>
+				<div class="pcp-linkEffect pcp-linkEffect-2ndBorderSlidesUp" style="width:230px; display:inline-block;"><a href="AuditionSides/CallbackSideVocal-Brian+George.pdf" target="_blank">BRIAN + GEORGE</a></div>
+				<div class="pcp-linkEffect pcp-linkEffect-2ndBorderSlidesUp" style="width:230px; display:inline-block;"><a href="AuditionSides/CallbackSideVocal-Georgette.pdf" target="_blank">GEORGETTE</a></div>
+				<div class="pcp-linkEffect pcp-linkEffect-2ndBorderSlidesUp" style="width:230px; display:inline-block;"><a href="AuditionSides/CallbackSideVocal-Greg+Annie.pdf" target="_blank">GREG + ANNIE</a></div>
+				<div class="pcp-linkEffect pcp-linkEffect-2ndBorderSlidesUp" style="width:230px; display:inline-block;"><a href="AuditionSides/CallbackSideVocal-Jenny.pdf" target="_blank">JENNY</a></div>
+				<div class="pcp-linkEffect pcp-linkEffect-2ndBorderSlidesUp" style="width:230px; display:inline-block;"><a href="AuditionSides/CallbackSideVocal-Judy.pdf" target="_blank">JUDY</a></div>
+				<div class="pcp-linkEffect pcp-linkEffect-2ndBorderSlidesUp" style="width:230px; display:inline-block;"><a href="AuditionSides/CallbackSideVocal-Marty.pdf" target="_blank">MARTY</a></div>
+				<div class="pcp-linkEffect pcp-linkEffect-2ndBorderSlidesUp" style="width:230px; display:inline-block;"><a href="AuditionSides/CallbackSideVocal-Rebecca.pdf" target="_blank">REBECCA</a></div>
+			</div>
+		</div>
+	</div>
+	<div>
+<!--#endif -->
+<!--#if expr="${QUERY_STRING} = /Confirmed/" -->
+	<div style="max-width:800px; padding:10px; margin-bottom:10px; background-color:#8feffe; border: 2px solid #273d49; font-size:smaller;">
+		<div style="max-width:550px; margin:auto auto;">
+			<h3 class="w3-center pcp-bold">AUDITION SIDES</h3>
+			<h5 class="w3-center">Click on the Characters to see the side</h5>
+			<ul id="local-sides" class="w3-ul w3-hoverable" style="max-width:420px; list-style-type:decimal; list-style-position:inside; text-align:left; margin:auto auto; border:1px dotted #273d49;">
+				<li><a href="AuditionSides/AuditionSide01-BRIAN+GEORGE.pdf" target="_blank">BRIAN / GEORGE</a></li>
+				<li><a href="AuditionSides/AuditionSide02-BRIAN+GREG.pdf" target="_blank">BRIAN / GREG</a></li>
+				<li><a href="AuditionSides/AuditionSide03-JENNY+MARTY.pdf" target="_blank">JENNY / MARTY</a></li>
+				<li><a href="AuditionSides/AuditionSide04-JUDY+GEORGETTE.pdf" target="_blank">JUDY / GEORGETTE</a></li>
+				<li><a href="AuditionSides/AuditionSide05-JUDY+JENNY.pdf" target="_blank">JUDY / JENNY</a></li>
+				<li><a href="AuditionSides/AuditionSide06-GEORGE+BRIAN+GEORGETTE.pdf" target="_blank">GEORGE / BRIAN / GEORGETTE</a></li>
+				<li><a href="AuditionSides/AuditionSide07-ALBERT+MIMSY+WALT+MARTY+MURRAY.pdf" target="_blank">ALBERT / MIMSY / WALT / MARTY / MURRAY</a></li>
+				<li><a href="AuditionSides/AuditionSide08-UNCLE-MORTY+MARTY.pdf" target="_blank">UNCLE MORTY / MARTY</a></li>
+				<li><a href="AuditionSides/AuditionSide09-MIMSY+WALT.pdf" target="_blank">MIMSY / WALT</a></li>
+				<li><a href="AuditionSides/AuditionSide10-ANNIE+JENNY.pdf" target="_blank">ANNIE / JENNY</a></li>
+				<li><a href="AuditionSides/AuditionSide11-REBECCA+ANNIE+BRIAN+JENNY+GREG.pdf" target="_blank">REBECCA / ANNIE / BRIAN / JENNY / GREG</a></li>
+				<li><a href="AuditionSides/AuditionSide12-ALBERT+JENNY+GREG.pdf" target="_blank">ALBERT / JENNY / GREG</a></li>
+			</ol>
+		</div>
+	</div>
+	<div>
+<!--#endif -->
+<!--								FOOTER -->
+<!--#include virtual="/includes/PCPfooter.html" -->
+	</div>
+	<script type="text/javascript" src="/js/placeholders.min.js"></script>
+</body>
+</html>
+<!-- vim: set sw=2 ts=2: -->

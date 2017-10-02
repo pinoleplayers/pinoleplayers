@@ -1,0 +1,72 @@
+<!-- QUERY_STRING = /LG/ for large banner -->
+		<div class="pcp-container pcp-frame-colors"> <!-- BANNER -->
+
+			<div class="w3-row" style="padding:16px 28px 4px 28px;">
+
+				<div class="w3-col w3-hide-small" style="width:18%;">
+					<div class="w3-display-container">
+						<a href="/index.shtml">
+<!--#if expr="${QUERY_STRING} = /LG/" -->
+							<div class="pcp-logo">
+								<div><span>P</span>INOLE</div><br />
+								<div><span>C</span>OMMUNITY</div><br />
+								<div><span>P</span>LAYERS</div>
+							</div>
+<!--#else -->
+							<div class="pcp-logo pcp-sm-logo">
+								<div><span>P</span>INOLE</div><br />
+								<div><span>C</span>OMMUNITY</div><br />
+								<div><span>P</span>LAYERS</div>
+							</div>
+<!--#endif -->
+						</a>
+					</div>
+				</div>
+
+<style>
+	.2017Season-showSlides{display:none;}
+</style>
+
+				<div class="w3-col w3-center w3-hide-small" style="width:64%;">
+					<div id="pcp-middle-header">&nbsp;</div>
+					<div>
+
+						<div class="w3-hide" style="position:relative;">
+							<img class="2017Season-showSlides w3-animate-fading" style="height:120px;" src="/2017_Season/Chicago_LOGO-400w-267h-72ppi.jpg" />
+							<img class="2017Season-showSlides w3-animate-fading" style="height:120px;" src="/2017_Season/Deathtrap_LOGO-400w-267h-96ppi.jpg" />
+							<img class="2017Season-showSlides w3-animate-fading" style="height:120px;" src="/2017_Season/ShouldaBeenYou_LOGO-400w-267h-96ppi.jpg" />
+							<img class="2017Season-showSlides w3-animate-fading" style="height:120px;" src="/2017_Season/SoundsOfTheSeason_LOGO-400w-267h-96ppi.jpg" />
+						</div>
+						<script>
+							var Y2017SeasonShowSlides = {slidesClassName:"2017Season-showSlides", slideIndex:0, firstImageDisplayTime:5000, otherImageDisplayTime:5000, delayAfterLastImage:1};
+							pcpCarousel(Y2017SeasonShowSlides);
+						</script>
+					</div>
+				</div>
+
+
+				<div class="w3-center w3-hide-medium w3-hide-large">
+					<div class="pcp-logo pcp-sm-logo">
+						<div><span>P</span>INOLE</div> <div><span>C</span>OMMUNITY</div> <div><span>P</span>LAYERS</div>
+					</div>
+					<hr class="pcp-hr pcp-thin-hr pcp-hr-color" />
+					<div id="pcp-middle-header"></div>
+				</div>
+
+				<div class="w3-col w3-hide-small" style="width:18%;">
+<!--#if expr="${QUERY_STRING} = /LG/" -->
+					<div class="w3-padding-small w3-xlarge w3-right pcp-bold" style="line-height:120%; margin-top:10px; font-variant:small-caps;">
+<!--#else -->
+					<div class="w3-padding-small w3-medium w3-right pcp-bold" style="line-height:120%; margin-top:5px;">
+<!--#endif -->
+						<div class="w3-center pcp-bold" style="font-family:'bebas_kai','Helvetica','sans-serif';">
+							Celebrating<br />
+							<span class="pcp-larger">31</span><br />
+							Great Years&nbsp;!
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+		</div>									<!-- /BANNER -->

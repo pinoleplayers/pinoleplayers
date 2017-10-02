@@ -1,0 +1,115 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<title>Directions to PCP</title>
+<link rel="stylesheet" type="text/css" href="css/pcp.css" />
+
+	<link rel="stylesheet" type="text/css" href="css/pcp-colors.css" />
+
+<link rel="stylesheet" type="text/css" href="css/2leveltab.css" />
+
+<style type="text/css">
+	.thisText {
+		font-size: 14px;
+	}
+</style>
+
+<script type="text/javascript" src="js/easyDropDownContainer.js"></script>
+
+<script type="text/javascript" src="js/2leveltab2.js">
+	/***********************************************
+	* 2 level Horizontal Tab Menu- by JavaScript Kit (www.javascriptkit.com)
+	* This notice must stay intact for usage
+	* Visit JavaScript Kit at http://www.javascriptkit.com/ for full source code
+	* http://www.javascriptkit.com/script/script2/2leveltab.shtml
+	***********************************************/
+</script>
+</head>
+
+<body style="height:100%">
+
+<div id="mainContainer" style="height:100%">
+	<center>
+	<table id="mainTable" border="0" cellpadding="1" cellspacing="0" width="849 height="100%">
+		<tbody>
+<!--#include virtual="includes/PCPbanner-row.html" -->
+<!--#include virtual="includes/PCPmenu-row2.html" -->
+			<tr class="mainTable-bg">
+				<td colspan=3 style="height:100%; margin-top:0pt; padding-top:0pt" valign="top" align="center">
+					<div style="text-align:center; padding:10px; margin-top:10px;">
+						<table width="95%" align="center" border="0" cellpadding="20" cellspacing="0">
+							<tbody class="col2-bg" style="text-align:center; padding:0; padding-top:20px; margin-top:10px;">
+								<tr class="col2-txt">
+									<td valign="top" class="thisText">
+										<h3 class="col2-hilite">Pinole Community Playhouse<br />
+												601 Tennent Ave<br />
+												Pinole, CA 94564
+										</h3>
+									</td>
+									<td rowspan="2" valign="top" class="thisText">
+										<strong class="col2-hilite">From Martinez/Concord</strong>
+											<ul style="margin:0; padding:5px 12px; text-align:left; list-style-type:square">
+												<li>Take Hwy-4 West to I-80 West</li>
+												<li>Then follow the <i>From Vallejo</i> Directions below.</li>
+											</ul>
+										<strong class="col2-hilite">From Vallejo</strong>
+											<ul style="margin:0; padding:5px 12px; text-align:left; list-style-type:square">
+												<li>Take I-80 West to Pinole Valley Road Exit </li>
+												<li>Turn Right on Pinole Valley Road </li>
+												<li>At second light, go straight on   Tennent Ave. </li>
+												<li>Go through one more light (San Pablo Ave.) </li>
+												<li>Playhouse is on the Right next to the baseball field </li>
+											</ul>
+										<strong class="col2-hilite">From Richmond/Berkeley/Oakland /San&nbsp;Francisco</strong>
+											<ul style="margin:0; padding:5px 12px; text-align:left; list-style-type:square">
+												<li>Take I-80 East to Pinole Valley Road Exit </li>
+												<li>Turn Left on Pinole Valley Road </li>
+												<li>At third light, go   straight on Tennent Ave. </li>
+												<li>Go through one more light (San Pablo Ave.) </li>
+												<li>Playhouse is on the Right next to the baseball field</li>
+											</ul>
+										<strong class="col2-hilite">From Marin</strong>
+											<ul style="margin:0; padding:5px 12px; text-align:left; list-style-type:square">
+												<li>Take I-580 East across the Richmond-San Rafael Bridge</li>
+												<li>Past the Toll Plaza, take Exit 7 I-80 East/Richmond Pkwy/Point Richmond</li>
+												<li>Merge onto E Standard Ave.</li>
+												<li>Continue onto Castro St.</li>
+												<li>Continue onto the Richmond Pkwy</li>
+												<li>Turn Left on San Pablo Ave.</li>
+												<li>Turn Left on Tennent Ave.</li>
+												<li>Playhouse is on the Right next to the baseball field </li>
+											</ul>
+									</td>
+								</tr>
+								<tr>
+									<td align="center" valign="middle">
+										<span style="padding-bottom:0;margin-bottom:0">
+											<a href="http://www.mapquest.com/maps/map.adp?country=US&amp;countryid=US&amp;addtohistory=&amp;searchtab=address&amp;searchtype=address&amp;address=601+tennent+ave&amp;city=pinole&amp;state=ca&amp;zipcode=&amp;search=++Search++" target="_blank" class="col2-hilite">
+												<img src="images/map.png" alt="Map to PCP" width="400" border="0"><br /><br />
+												Click for Full Mapquest Map
+											</a>
+										</span>
+										<p>&nbsp;</p>
+									</td>
+								</tr>
+								<tr>
+									<td colspan=2>
+										<script src="//www.ezticketing.net/_wss/js/jquery.1.9.js"></script>
+
+										<script src="//pcp.getmytix.net/_appajax/venued_events/api/api.js?events=195" type="text/javascript"></script>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</td>
+			</tr>
+<!--#include virtual="includes/PCPfooter-row.html" -->
+		</tbody>
+	</table>
+	</center>
+</div>
+</body>
+</html>
+<!-- vim:set ts=2 sw=2: -->

@@ -1,0 +1,81 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" prefix="og: http://ogp.me/ns#" data-placeholder-focus="false">
+<head>
+
+<!--#include virtual="/includes/PCPhead.html" -->
+
+	<title>PCP's Mission</title>
+
+	<style>
+		#pcp-middle-header:before{
+			content:"PINOLE COMMUNITY PLAYHOUSE";
+		}
+	</style>
+
+</head>
+<body class="pcp-page">
+
+	<div class="pcp-container pcp-frame-colors">
+
+<!--#include virtual="/includes/PCPbanner-comb.shtml?SM" -->
+
+<!--#include virtual="/includes/PCPmenu-dropdown.shtml" -->
+
+
+		<div class="w3-container s1 pcp-colors" style="padding:30px 20px;">
+
+				<div class="w3-row theatreRefresh-accordion-content-colors">
+					<div class="theatreRefresh-accordion-content-colors" style="width:100%; padding-top:16px;">
+						<div class="w3-hide-small w3-col l2 m2 theatreRefresh-accordion-content-colors">&nbsp;</div>
+						<div class="w3-col l8 m8 s12 theatreRefresh-accordion-content-colors w3-xlarge w3-center pcp-bold">THE 2016 RENOVATION OF THE PLAYHOUSE</div>
+						<div class="w3-hide-small w3-col l2 m2 theatreRefresh-accordion-content-colors">&nbsp;</div>
+					</div>
+				</div>
+
+			<div class="w3-row theatreRefresh-accordion-content-colors" style="width:100%;">
+					<div class="w3-col w3-center theatreRefresh-accordion-content-colors" style="padding:10px;">
+						<div style="text-align:center; max-width:799px; margin:0px auto;">
+							Part of the preparations for celebrating PCP's thirtieth year was a renovation of the
+							Pinole Community Playhouse.
+							Permanent seating, new carpeting and freshened paint warmed the theater and invigorated the lobby to begin our second 30 years.
+							Planning and fund-raising took place over years.
+							The final phase of refreshing the interior decorations took weeks of work by a small group of talented volunteers.<br />
+							<span class="pcp-bold">Come to a show and enjoy our beautiful, refreshed space!</span>
+						</div>
+					</div>
+			</div>
+	
+			<div class="pcp-container w3-center theatreRefresh-accordion-content-colors w3-small">
+				<div class="pcp-gridMember theatreRefresh-gridMember theatreRefresh-accordion-colors">
+					<div>
+						<img src="/2017_Season/theatrefotos/lobby-boxoffice_3509c-723h.jpg" />
+					</div>
+					<div>The BoxOffice</div>
+				</div>
+				<div class="pcp-gridMember theatreRefresh-gridMember theatreRefresh-accordion-colors">
+					<div>
+						<img src="/2017_Season/theatrefotos/theatre-tostage_3485-723h-dg.jpg" />
+					</div>
+					<div>Great Sight Lines</div>
+				</div>
+				<div class="pcp-gridMember theatreRefresh-gridMember theatreRefresh-accordion-colors">
+					<div>
+						<img src="/2017_Season/theatrefotos/lobby-snackbar_3496HDRc-723h.jpg" />
+					</div>
+					<div>The Snack Bar</div>
+				</div>
+				<div class="pcp-gridMember theatreRefresh-gridMember theatreRefresh-accordion-colors">
+					<div>
+						<img src="/2017_Season/theatrefotos/theatre-fromstage_3479c-723h.jpg" />
+					</div>
+					<div>Let's Fill Those Seats</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+<!--#include virtual="/includes/PCPfooter.html" -->
+	</div>
+
+</body>
+<!-- vim: set sw=2 ts=2: -->

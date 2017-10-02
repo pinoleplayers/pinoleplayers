@@ -1,0 +1,55 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" prefix="og: http://ogp.me/ns#" data-placeholder-focus="false">
+<head>
+
+<!--#include virtual="/includes/PCPhead.html" -->
+
+<link href="https://fonts.googleapis.com/css?family=Lato:400i,700" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css?family=Monoton" rel="stylesheet">
+
+	<title>Pinole Community Players</title>
+
+	<style>
+		#pcp-middle-header{
+			font-family:'Monoton','Helvetica','Arial Narrow','sans-serif';
+			font-weight:normal;
+			color:#f0f0f0;
+			font-size:2em;
+			font-size:3.8vw;
+			font-size:calc(1em + 2.6vw);
+			line-height:1.1;
+			margin:0px;
+		}
+		#pcp-middle-header:before{
+			content:"ANNOUNCING OUR 2018 SEASON!";
+		}
+	</style>
+	
+</head>
+
+<body class="pcp-page">
+
+<!--#include virtual="/includes/PCPbanner-comb.shtml?LG" -->
+
+<!--#include virtual="/includes/PCPmenu-dropdown.shtml" -->
+
+	<div class="pcp-container pcp-frame-colors">
+
+<!--#include virtual="/2018_Season/2018_Season-index.html" -->
+
+<!--#include virtual="/2017_ItShouldaBeenYou/ItShouldaBeenYou-index.shtml" -->
+
+<!--#include virtual="/GoingGreen/goingGreen-index.shtml" -->
+
+<!--#include virtual="/2017Give-index.shtml" -->
+
+	</div>
+	<div>
+<!--								FOOTER -->
+<!--#include virtual="/includes/PCPfooter.html" -->
+	</div>
+	<script type="text/javascript" src="js/placeholders.min.js"></script>
+</body>
+</html>
+<!-- vim: set sw=2 ts=2: -->

@@ -1,0 +1,270 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+	<head>
+
+<!--#include virtual="/includes/PCPhead.html" -->
+		<title>Color Swatches</title>
+		<style type="text/css">
+			p {padding:25px 0px; margin:0px;}
+			h2, h3, h4, h5, h6{
+				margin:5px 0px;
+			}
+			.local-gridMember{
+				display:inline-block;
+				width:120px;
+				vertical-align:top;
+				font-weight:bold;
+				line-height:1.1;
+				border:3px solid black;
+				margin:2px;
+			}
+			.local-gridMember > div{
+				width:100%;
+				height:75px;
+			}
+		</style>
+	</head>
+<body class="pcp-page" style="max-width:800px!important; font-size:14pt;">
+
+	<div class="pcp-container w3-center pcp-padding-top-bottom-16">
+		<h2>Colors</h2>
+
+		<div class="local-gridMember w3-center">
+			<div style="background-color:#BG;color:#FG;">
+																<p>#BG</p>
+			</div>
+			<div style="background-color:#FG;color:#BG;">
+																<p>#FG</p>
+			</div>
+		</div>
+
+		<div class="local-gridMember w3-center">
+			<div style="background-color:#ff6870;color:#fff5d3;">
+																<p>#ff6870</p>
+			</div>
+			<div style="background-color:#fff5d3;color:#ff6870;">
+																<p>#fff5d3</p>
+			</div>
+		</div>
+
+		<div class="local-gridMember w3-center">
+			<div style="background-color:#c7a97e;color:#fff5d3;">
+																<p>#c7a97e</p>
+			</div>
+			<div style="background-color:#fff5d3;color:#c7a97e;">
+																<p>#fff5d3</p>
+			</div>
+		</div>
+
+		<div class="local-gridMember w3-center">
+			<div style="background-color:#2b879e;color:#f2e8c4;">
+																<p>#2b879e</p>
+			</div>
+			<div style="background-color:#f2e8c4;color:#2b879e;">
+																<p>#f2e8c4</p>
+			</div>
+		</div>
+
+		<div class="local-gridMember w3-center">
+			<div style="background-color:#86ac97;color:#f2e8c4;">
+																<p>#86ac97</p>
+			</div>
+			<div style="background-color:#f2e8c4;color:#86ac97;">
+																<p>#f2e8c4</p>
+			</div>
+		</div>
+
+		<div class="local-gridMember w3-center">
+			<div style="background-color:#86ac97;color:#bfdaaf;">
+																<p>#86ac97</p>
+			</div>
+			<div style="background-color:#bfdaaf;color:#86ac97;">
+																<p>#bfdaaf</p>
+			</div>
+		</div>
+
+		<div class="local-gridMember w3-center">
+			<div style="background-color:#2d1b33;color:#ee887a;">
+																<p>#2d1b33</p>
+			</div>
+			<div style="background-color:#ee887a;color:#2d1b33;">
+																<p>#ee887a</p>
+			</div>
+		</div>
+
+		<div class="local-gridMember w3-center">
+			<div style="background-color:#f8872e;color:#e8d5b9;">
+																<p>#f8872e</p>
+			</div>
+			<div style="background-color:#e8d5b9;color:#f8872e;">
+																<p>#e8d5b9</p>
+			</div>
+		</div>
+
+		<div class="local-gridMember w3-center">
+			<div style="background-color:#f5b349;color:#e8d5b9;">
+																<p>#f5b349</p>
+			</div>
+			<div style="background-color:#e8d5b9;color:#f5b349;">
+																<p>#e8d5b9</p>
+			</div>
+		</div>
+
+		<div class="local-gridMember w3-center">
+			<div style="background-color:#fea887;color:#d1d0d7;">
+																<p>#fea887</p>
+			</div>
+			<div style="background-color:#d1d0d7;color:#fea887;">
+																<p>#d1d0d7</p>
+			</div>
+		</div>
+
+		<div class="local-gridMember w3-center">
+			<div style="background-color:#564334;color:#cfb590;">
+																<p>#564334</p>
+			</div>
+			<div style="background-color:#cfb590;color:#564334;">
+																<p>#cfb590</p>
+			</div>
+		</div>
+
+		<div class="local-gridMember w3-center">
+			<div style="background-color:#b39c82;color:#f0d399;">
+																<p>#b39c82</p>
+			</div>
+			<div style="background-color:#f0d399;color:#b39c82;">
+																<p>#f0d399</p>
+			</div>
+		</div>
+
+		<div class="local-gridMember w3-center">
+			<div style="background-color:#9b8e7e;color:#d1d0d7;">
+																<p>#9b8e7e</p>
+			</div>
+			<div style="background-color:#d1d0d7;color:#9b8e7e;">
+																<p>#d1d0d7</p>
+			</div>
+		</div>
+
+		<div class="local-gridMember w3-center">
+			<div style="background-color:#cc3e18;color:#f6f6f6;">
+																<p>#cc3e18</p>
+			</div>
+			<div style="background-color:#f6f6f6;color:#cc3e18;">
+																<p>#f6f6f6</p>
+			</div>
+		</div>
+
+		<div class="local-gridMember w3-center">
+			<div style="background-color:#f0971c;color:#f6f6f6;">
+																<p>#f0971c</p>
+			</div>
+			<div style="background-color:#f6f6f6;color:#f0971c;">
+																<p>#f6f6f6</p>
+			</div>
+		</div>
+
+		<div class="local-gridMember w3-center">
+			<div style="background-color:#d96153;color:#fff5d6;">
+																<p>#d96153</p>
+			</div>
+			<div style="background-color:#fff5d6;color:#d96153;">
+																<p>#fff5d6</p>
+			</div>
+		</div>
+
+		<div class="local-gridMember w3-center">
+			<div style="background-color:#a86b4c;color:#e8c382;">
+																<p>#a86b4c</p>
+			</div>
+			<div style="background-color:#e8c382;color:#a86b4c;">
+																<p>#e8c382</p>
+			</div>
+		</div>
+
+		<div class="local-gridMember w3-center">
+			<div style="background-color:#a5a36c;color:#e0dfb1;">
+																<p>#a5a36c</p>
+			</div>
+			<div style="background-color:#e0dfb1;color:#a5a36c;">
+																<p>#e0dfb1</p>
+			</div>
+		</div>
+
+		<div class="local-gridMember w3-center">
+			<div style="background-color:#696758;color:#c5bc8e;">
+																<p>#696758</p>
+			</div>
+			<div style="background-color:#c5bc8e;color:#696758;">
+																<p>#c5bc8e</p>
+			</div>
+		</div>
+
+		<div class="local-gridMember w3-center">
+			<div style="background-color:#063940;color:#195e63;">
+																<p>#063940</p>
+			</div>
+			<div style="background-color:#195e63;color:#063940;">
+																<p>#195e63</p>
+			</div>
+		</div>
+
+		<div class="local-gridMember w3-center">
+			<div style="background-color:#604848;color:#607848;">
+																<p>#604848</p>
+			</div>
+			<div style="background-color:#607848;color:#604848;">
+																<p>#607848</p>
+			</div>
+		</div>
+
+		<div class="local-gridMember w3-center">
+			<div style="background-color:#152b3c;color:#e47c5d;">
+																<p>#152b3c</p>
+			</div>
+			<div style="background-color:#e47c5d;color:#152b3c;">
+																<p>#e47c5d</p>
+			</div>
+		</div>
+
+		<div class="local-gridMember w3-center">
+			<div style="background-color:#3b1922;color:#a69e80;">
+																<p>#3b1922</p>
+			</div>
+			<div style="background-color:#a69e80;color:#3b1922;">
+																<p>#a69e80</p>
+			</div>
+		</div>
+
+		<div class="local-gridMember w3-center">
+			<div style="background-color:#3b1922;color:#d28574;">
+																<p>#3b1922</p>
+			</div>
+			<div style="background-color:#d28574;color:#3b1922;">
+																<p>#d28574</p>
+			</div>
+		</div>
+
+		<div class="local-gridMember w3-center">
+			<div style="background-color:#2b4c7c;color:#dce0e6;">
+																<p>#2b4c7c</p>
+			</div>
+			<div style="background-color:#dce0e6;color:#2b4c7c;">
+																<p>#dce0e6</p>
+			</div>
+		</div>
+
+		<div class="local-gridMember w3-center">
+			<div style="background-color:#BG;color:#FG;">
+																<p>#BG</p>
+			</div>
+			<div style="background-color:#FG;color:#BG;">
+																<p>#FG</p>
+			</div>
+		</div>
+
+	</div>
+
+</body>
+</html>
+<!-- vim: set sw=2 ts=2: -->

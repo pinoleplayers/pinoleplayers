@@ -1,138 +1,41 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" prefix="og: http://ogp.me/ns#" data-placeholder-focus="false">
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
 
-	<title>PCP Pinole Community Players</title>
+<!--#include virtual="/includes/PCPhead.html" -->
 
-	<meta property="og:title" content="PCP Pinole Community Players" />
-	<meta property="og:type" content="website" />
-	<meta property="og:url" content="http://www.pinoleplayers.org/index.shtml" />
-	<meta property="og:description" content="The Pinole Community Players" />
-	<meta property="og:image" content="http://www.pinoleplayers.org/images/PlayhouseLOGOforFB.jpg" />
-	<meta property="og:image:width" content="200" />
-	<meta property="og:image:height" content="200" />
+<link href="https://fonts.googleapis.com/css?family=Lato:400i,700" rel="stylesheet">
 
-	<link rel="stylesheet" type="text/css" href="css/pcp-new.css" />
+	<title>Pinole Community Players</title>
 
-	<link rel="stylesheet" type="text/css" href="css/pcp-colors-new.css" />
-
-	<link rel="stylesheet" type="text/css" href="css/2leveltab.css" />
-
-	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Arapey:400italic,400" media-"all" />
-
-	<script type="text/javascript" src="js/easyDropDownContainer.js"></script>
-
-	<script type="text/javascript" src="js/2leveltab2.js">
-		/***********************************************
-		* 2 level Horizontal Tab Menu- by JavaScript Kit (www.javascriptkit.com)
-		* This notice must stay intact for usage
-		* Visit JavaScript Kit at http://www.javascriptkit.com/ for full source code
-		* http://www.javascriptkit.com/script/script2/2leveltab.shtml
-		***********************************************/
-	</script>
+	<style>
+		#pcp-middle-header:before{
+			content:"";
+		}
+	</style>
 	
-	<script type="text/javascript" src="js/expando.js">
-	/* Expando Image Script ©2008 John Davenport Scheuer
-   as first seen in http://www.dynamicdrive.com/forums/
-   username: jscheuer1 - This Notice Must Remain for Legal Use
-   */
-	</script>
-
-	<style type="text/css">
-		<!--.style2 {
-			font-size: 16px;
-			font-weight: bold;
-		}
-		.style4 {
-			font-size: large;
-			font-family: Georgia, "Times New Roman", Times, serif;
-		}
-		.style5 {
-			font-size: large;
-			font-family: Georgia, "Times New Roman", Times, serif;
-		}
-		.style6 {
-			font-size: 14px;
-			font-family: Georgia, "Times New Roman", Times, serif;
-		}
-		.style10 {	
-			font-size: 16px;
-			font-family: Georgia, "Times New Roman", Times, serif;
-		}
-		.mborder {
-			border:1px #404040 double;
-			border-top:1px #c0c0c0 double;
-			border-right:1px #c0c0c0 solid;
-		}
-		ul, ol { padding-left:0px; margin:0px; margin-left:1.5em; padding:0px}
-		li { padding:0em; margin-left:1.5em}
-		#cast-panel {
-			width:100%;
-			height:40px;
-			overflow:hidden;
-			}
-	-->
-</style>
 </head>
 
-<body style="height:100%">
-	<div id="mainContainer" style="height:100%">
-		<table id="mainTable" border="0" cellpadding="1" cellspacing="0" height="100%" align="center">
-			<tbody>
-<!--#include virtual="includes/PCPbanner-row.html" -->
-<!--#include virtual="includes/PCPmenu-row2.html" -->
-				<tr class="mainTable-bg">
-					<td colspan=3 id="mainContent" style="height:100%; margin-top:0pt; padding-top:0pt" valign="top" align="center">
-						<div style="text-align:center; padding:0; padding-top:10px">
-							<table width="100%" align="center" border="0" cellpadding="0" cellspacing="0">
-								<tbody>
-									<tr>
-										<td align="center">
-											<table style="width:826px; solid Gainsboro">
-												<tbody>
-													<tr class="mainTable-bg">
-														<td colspan=3>
-<!--#include virtual="2016_WaitUntilDark/WaitUntilDark-index_content-new.html" -->
-<!--#include virtual="2016_Cabaret/2016Cabaret-thankyou-index_content-new.shtml" -->
-<!--#include virtual="2016_RockyHorrorShow/RockyHorrorShow-index_content-new.html" -->
-<!--#include virtual="/2016Give-index_content-new.shtml" -->
-<!--#include virtual="GoingGreen/goingGreen-index_content-new.shtml" -->
-														</td>
-													</tr>
+<body class="pcp-page">
+
+<!--#include virtual="/includes/PCPbanner-comb.shtml?LG" -->
+
+<!--#include virtual="/includes/PCPmenu-dropdown.shtml" -->
+
+	<div class="pcp-container pcp-frame-colors">
+
+<!--#include virtual="/2017_Season/2017_Season-index.html" -->
+
+<!--#include virtual="/2017_ItShouldaBeenYou/ItShouldaBeenYou-index.shtml" -->
+
+<!--#include virtual="/GoingGreen/goingGreen-index.shtml" -->
+
+<!--#include virtual="/2017Give-index.shtml" -->
+
+	</div>
+	<div>
 <!--								FOOTER -->
-													<tr class="mainTable-bg">
-														<td align="center" style="color:aliceblue;">
-															&nbsp;
-														</td>
-														<td align="center">
-															&nbsp;
-														</td>
-														<td align="center">
-															<a target="_blank" href="http://www.facebook.com/#!/pinolecommunityplayhouse" style="color:white; text-decoration:none; font-size:14px;">
-																<div>
-																	<div style="display:inline-block; width:20px; vertical-align:top; margin:5px;">
-																		FIND US ON
-																	</div>
-																	<div style="display:inline-block; width:60px; vertical-align:top; margin:5px;">
-																		<img src="images/facebookIcon.png" height="50" border="0" alt="" longdesc="Find Us on Facebook" />
-																	</div>
-																</div>
-															</a>
-														</td>
-													</tr>
-												</tbody>
-											</table>
-										</td>
-									</tr>
-								</tbody>
-							</table>
-						</div>
-					<td>
-				</tr>
-<!--#include virtual="includes/PCPfooter-row.html" -->
-			</tbody>
-		</table>
+<!--#include virtual="/includes/PCPfooter.html" -->
 	</div>
 	<script type="text/javascript" src="js/placeholders.min.js"></script>
 </body>

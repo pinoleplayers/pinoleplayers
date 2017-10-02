@@ -54,7 +54,7 @@
 									<td colspan="2" style="font-size:20pt; text-style:bold; margin-top:0; padding-top:20px; text-align:center">
 										Become a PATRON of the ARTS<br />
 										<div style="font-weight:bold; text-align:center; margin-top:.5em;">
-											<a class="button" href="buyStuffPP.php?productCategory=Sponsorship&NewOrder=true" target="">
+											<a class="button" style="font-size:large;" href="buyStuffPP.php?productCategory=Sponsorship&NewOrder=true" target="">
 											Click to Donate Online
 											</a>
 										</div>
@@ -140,9 +140,9 @@
 													October 28 -<br />November 19, 2016</td>
 											</tr>
 											<tr>
-												<td style="padding:5px; border:1px solid white;"><img src="/2016_Godspell/Godspell_LOGO-408w-600h-150ppi.png" width="200" alt="Godspell Logo" /></td>
-												<td style="padding:5px; border:1px solid white;"><img src="/2016_WaitUntilDark/WaitUntilDark_LOGO-v2-408w-600h-150ppi.jpg" width="200" alt="Wait Until Dark Logo" /></td>
-												<td style="padding:5px; border:1px solid white;"><img src="/2016_RockyHorrorShow/RockyHorror_LOGO-408w-600h-150ppi.jpg" width="200" alt="Rocky Horror Logo" /> </td>
+												<td style="padding:5px; border:1px solid white;"><img src="/PastProductionLOGOs/Godspell_LOGO-408w-600h-150ppi.png" width="200" alt="Godspell Logo" /></td>
+												<td style="padding:5px; border:1px solid white;"><img src="/PastProductionLOGOs/WaitUntilDark_LOGO-v2-teaserText-400w-600h-150ppi.jpg" width="200" alt="Wait Until Dark Logo" /></td>
+												<td class="w3-light-grey" style="background-color:#f1f1f1; padding:5px; border:1px solid white;"><img src="/2016_RockyHorrorShow/RockyHorror_LOGO-400w-600h-96ppi-ro.png" style="background:#f1f1f1;" width="200" alt="Rocky Horror Logo" /> </td>
 											<tr>
 												<td style="font-weight:bold; text-align:center; vertical-align:text-top; margin:0px; padding:0px;">
 													Directed by<br />G. A. Klein</td>

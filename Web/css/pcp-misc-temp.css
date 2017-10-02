@@ -1,0 +1,125 @@
+<!-- old colors
+	.theatreRefresh-accordion-colors{
+		color:#f0f0f0;
+		background-color:#59A278;
+	}
+	.theatreRefresh-accordion-content-colors{
+		color:#59A278;
+		background-color:#A8E4C2;
+	}
+	.theatreRefresh-accordion-content-border{
+		border:3px solid #59A278;
+	}
+	-->
+	
+	.theatreRefresh-accordion-colors{
+		color:#f0f0f0;
+		background-color:#4a614b;
+	}
+	.theatreRefresh-accordion-content-colors{
+		color:#4a614b;
+		background-color:#A6B985;
+	}
+	.theatreRefresh-accordion-content-border{
+		border:3px solid #4a614b;
+	}
+
+	.theatreRefresh-gridMember{
+		width:auto;
+	}
+	div.theatreRefresh-gridMember>div{
+		font-size:medium;
+	}
+	div.theatreRefresh-gridMember>div>img{
+		height:250px;
+		width:auto;
+		max-width:300px;
+	}
+	div.theatreRefresh-gridMember>div:last-child{
+		width:auto;
+	}
+
+	<!-- old colors
+	.season2017-accordion-colors{
+		color:#f0f0f0;
+		background-color:#589195;
+	}
+	.season2017-accordion-content-colors{
+		color:#589195;
+		background-color:#91CED2;
+	}
+	.season2017-accordion-content-border{
+		border:3px solid #589195;
+	}
+-->
+
+	.season2017-accordion-colors{
+		color:#f0f0f0;
+		background-color:#2B4E72;
+	}
+	.season2017-accordion-content-colors{
+		color:#2B4E72;
+		background-color:#2790B0;
+	}
+	.season2017-accordion-content-border{
+		border:3px solid #2B4E72;
+	}
+	
+	.season2017-gridMember{
+		width:220px;
+	}
+	div.season2017-gridMember>div{
+		font-size:medium;
+	}
+	div.season2017-gridMember>div>img{
+		width:99%;
+	}
+	div.season2017-gridMember>div:last-child{
+		width:99%;
+	}
+
+	.season2018-accordion-colors{
+		color:#f0f0f0;
+		background-color:#235A07;
+	}
+	.season2018-accordion-content-colors{
+		color:#235A07;
+		background-color:#76a257;
+	}
+	.season2018-accordion-popup-colors{
+		color:#013300;
+		background-color:#76a257;
+	}
+	.season2018-accordion-content-border{
+		border:3px solid #235A07;
+	}
+	
+	.season2018-gridMember{
+		width:220px;
+	}
+	div.season2018-gridMember div:first-child{
+		background-color:#235A07;
+		font-size:large;
+	}
+	div.season2018-gridMember>div{
+		font-size:medium;
+	}
+	div.season2018-gridMember>div>img{
+		width:99%;
+	}
+	div.season2018-gridMember>div:last-child{
+		width:99%;
+	}
+
+	.cabaret2017-accordion-colors{
+		color:#f0ccf1;
+		background-color:#b336e6;
+	}
+	.cabaret2017-accordion-content-colors{
+		color:#b336e6;
+		background-color:#f0ccf1;
+	}
+	.cabaret2017-accordion-content-border{
+		border:3px solid #b336e6;
+	}
+

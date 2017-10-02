@@ -1,0 +1,39 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" prefix="og: http://ogp.me/ns#" data-placeholder-focus="false">
+<head>
+
+<!--#include virtual="/includes/PCPhead.html" -->
+
+	<title>PCP's Mission</title>
+
+	<style>
+		#pcp-middle-header:before{
+			content:"PCP's MISSION";
+		}
+	</style>
+
+</head>
+<body class="pcp-page">
+
+	<div class="pcp-container pcp-frame-colors">
+
+<!--#include virtual="/includes/PCPbanner-comb.shtml?SM" -->
+
+<!--#include virtual="/includes/PCPmenu-dropdown.shtml" -->
+
+		<div class="pcp-container w3-card-8 w3-section w3-center pcp-colors-rev pcp-just-text">
+			<div class="w3-padding-medium">
+				<p class="w3-center">
+					Our mission is to ignite the imagination, inspire the spirit and engage the community
+					through theatrical education, live performance and unique volunteer opportunities.
+				</p>
+			</div>
+		</div>
+	</div>
+
+	<div>
+<!--#include virtual="/includes/PCPfooter.html" -->
+	</div>
+
+</body>
+<!-- vim: set sw=2 ts=2: -->

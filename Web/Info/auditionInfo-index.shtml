@@ -1,0 +1,94 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" prefix="og: http://ogp.me/ns#" data-placeholder-focus="false">
+<head>
+
+<!--#include virtual="/includes/PCPhead.html" -->
+
+	<title>Getting PCP Audition Info</title>
+
+<!--#set var="ORIG_QUERY_STRING" value="${QUERY_STRING}" -->
+
+	<style>
+		#pcp-middle-header:before{
+			content:"Getting Audition Info";
+		}
+		table {border:2px solid black; border-collapse:collapse;}
+		tr, th, td {border:1px solid black; padding:5px;}
+		td:first-child {font-weight:bold;}
+	</style>
+
+</head>
+<body class="pcp-page">
+
+	<div class="pcp-container pcp-frame-colors">
+
+<!--#include virtual="/includes/PCPbanner-comb.shtml?SM" -->
+
+<!--#include virtual="/includes/PCPmenu-dropdown.shtml" -->
+
+		<div class="pcp-container w3-card-8 w3-section w3-center pcp-colors-rev pcp-just-text">
+			<div class="w3-padding-medium">
+				<p class="w3-center">
+<!--#if expr="${ORIG_QUERY_STRING} != /GetIt/" -->
+				<h4 style="font-weight:bold;">Audition Info For <span style="font-size:larger; font-style:italic;">
+<!--#echo var="ORIG_QUERY_STRING" -->
+				</span>Is Not Yet Available</h4>
+<!--#endif -->
+				<table class="w3-medium" style="width:85%; margin:0px auto;">
+					<tbody>
+						<tr>
+							<td colspan="3" class="pcp-bold">Here are the ways to get notified when audition information is announced<br />or to get your questions answered.</td>
+						</tr>
+						<tr>
+							<td>Our Email List</td>
+							<td>
+								<div class="pcp-container">
+<!--#include virtual="/includes/ConstantContact-bubble-w3.html" -->
+								</div>
+							</td>
+							<td>
+								When you join our email list and select the Audition Mailing List,
+								you will receive updates on auditions for all PCP productions.
+							</td>
+						</tr>
+						<tr>
+							<td>Our Facebook Page</td>
+							<td>
+								<a href="https://www.facebook.com/groups/109262739110253?ap=1" target="_blank"><img src="/images/FBlogoFlat-cr.jpg" alt="FB Logo" height="32"" /><br />Follow PCP on Facebook</a>
+							</td>
+							<td>
+								When you follow the PCP Facebook group, you will be notified of updates, including all auditions.
+							</td>
+						</tr>
+						<tr>
+							<td>A Personal Email</td>
+							<td width="25%">
+								<a class="button" style="font-size:15px;" href="mailto:patti.pinoleplayers@yahoo.com?subject=Request for Audition Info">patti.pinoleplayers@yahoo.com</a>
+							</td>
+							<td>
+								You can email the producer with specific questions by clicking this link to send an email.
+							</td>
+						</tr>
+						<tr>
+							<td>Leave a Voicemail</td>
+							<td width="25%">
+								510&#8209;724&#8209;9844
+							</td>
+							<td>
+								Call and leave a message, with your contact info, requesting this information.
+							</td>
+						</tr>
+					<tbody>
+				</table>
+
+			</div>
+		</div>
+	</div>
+
+	<div>
+<!--#include virtual="/includes/PCPfooter.html" -->
+	</div>
+
+</body>
+</html>
+<!-- vim: set sw=2 ts=2: -->

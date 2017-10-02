@@ -1,0 +1,22 @@
+		<div class="pcp-container" style="color:#dcdcdc; background-image:url('/images/Applause_ani-390w-60h-4fr.gif'); background-repeat:repeat-both; margin-top:10px;">
+			<div class="w3-row w3-padding-hor-8">
+				<div class="w3-quarter">
+					<h2 class="w3-xxlarge w3-center w3-middle pcp-outlineText pcp-line-ht-101pct pcp-bold" style="padding:0px; margin:0px;">THANK YOU</h2>
+				</div>
+
+				<div class="w3-half">
+					<h2 class="w3-large w3-center w3-middle pcp-outlineText pcp-line-ht-101pct" style="padding:0px; margin:0px; vertical-align:middle;">
+						for attending our productions for 30 great years!
+						Consider a Sponsorship donation to help even more.
+					</h2>
+				</div>
+
+				<div class="w3-quarter w3-small w3-center w3-middle">
+					<a class="pcp-button" href="/2016SponsorshipForm.shtml" target="_blank">
+					Click for Sponsorship Details
+					</a>
+				</div>
+				
+			</div>
+		</div>
+<!-- vim: set sw=2 ts=2: -->

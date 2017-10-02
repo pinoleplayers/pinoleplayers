@@ -154,7 +154,7 @@
 	.productionTeamTableSpecialty{
 		text-align:left;
 		font-variant:small-caps;
-		font-size:110%;
+		font-size:100%;
 		vertical-align:top;
 		padding:0px;
 		padding-bottom:1px;
@@ -162,8 +162,8 @@
 	.productionTeamTableNames{
 		text-align:left;
 		vertical-align:top;
-		padding:0px;
-		padding-bottom:1px;
+		padding:0px 0px 1px 3px;
+		font-weight:600;
 	}
 
 	.ticketTable,.perfTable{
@@ -196,14 +196,27 @@
 		font-size:14px;
 		vertical-align:middle;
 	}
+	table.productTableQtyInput td:nth-child(1){
+		width:15%;
+	}
+	table.productTableQtyInput td:nth-child(2){
+		width:85%;
+	}
 	table.productTable td{
 		font-weight:bold;
 		text-align:left;
-		padding:5px;
+		padding:3px;
+		line-height:1;
+	}
+	table.productTable > tbody > tr > td:nth-last-of-type(6n+6){
+		padding:0px;
+	}
+	table.productTableQtyInput td{
+		padding:0px 2px;
 	}
 	table.productTable th{
 		text-align:right;
-		padding:5px;
+		padding:3px;
 	}
 	table.patronTable{
 		font-size:14px;
@@ -217,9 +230,12 @@
 	table.patronTable th{
 		padding:5px;
 	}
+	.productTable input[type="text"], textarea{
+		background-color:AliceBlue;
+	}
 	input[type="text"], textarea{
 		font-weight:bold;
-		background-color:AliceBlue;
+		padding:0px;
 	}
 	.strikethru{
 		text-decoration:line-through;
@@ -331,7 +347,16 @@
 		z-index:100;
 	}
 	
-	input[type=text],input[type=submit]{
+	.ccoptin{
+		background-color:#dcdcdc;
+	}
+	.ccoptin input[type=text]{
+		background-color:#dcdcdc;
+		border:3px solid black;
+		border-radius:.42em;
+		padding:.21em .36em;
+	}
+	input[type=submit].ccoptin{
 		background-color:#dcdcdc;
 		border:3px solid black;
 		border-radius:.42em;

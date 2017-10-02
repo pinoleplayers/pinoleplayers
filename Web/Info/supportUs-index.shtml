@@ -1,0 +1,105 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" prefix="og: http://ogp.me/ns#" data-placeholder-focus="false">
+<head>
+
+<!--#include virtual="/includes/PCPhead.html" -->
+
+	<title>Support PCP</title>
+
+	<style>
+		#pcp-middle-header:before{
+			content:"WAYS TO SUPPORT PCP";
+		}
+		h1, h2, h3, h4, h5, h6{
+			font-weight:bold;
+			margin-top:12px;
+			line-height:1.1;
+		}
+	</style>
+
+</head>
+<body class="pcp-page">
+
+	<div class="pcp-container pcp-frame-colors">
+
+<!--#include virtual="/includes/PCPbanner-comb.shtml?SM" -->
+
+<!--#include virtual="/includes/PCPmenu-dropdown.shtml" -->
+
+		<div class="w3-container w3-card-8 w3-section w3-center pcp-colors-rev pcp-just-text" style="max-width:800px;">
+			<div class="w3-center w3-section">
+				<h2 style="font-size:28px; text-align:center; padding-top:0; margin-top:0; line-height:1.0;">YOU CAN SUPPORT US IN MANY WAYS</h2>
+				<h3>SEE A SHOW</h3>
+				<p>
+					After all, it's what we do. The <strong>PINOLE COMMUNITY PLAYERS</strong> exists because of our audiences,
+					the people who pay to see our productions, who come to our Playhouse to be entertained.
+				</p>
+				<p>
+					Ticket revenue doesn't cover the cost of a show, but full houses help.
+				</p>
+				<h3>TELL YOUR FRIENDS</h3>
+				<p>
+					Word of mouth is a very effective way to fill our seats.
+					If you enjoyed a show, maybe some friends or family members will.
+					How about arranging a night out at the theatre with friends.
+				</p>
+				<h5>If your group is 15 or more, you can save with our Group Rate.</h5>
+				<p style="font-size:smaller!important; max-width:600px;; margin:0px auto">
+					For groups of 15 or more, tickets are $18 each for musicals, $13 each for non-musicals.<br />
+					Please leave your name and phone number on the Box Office Line at 510-724-9844
+					and our Ticket Coordinator will return your call to take your group order.
+				</p>
+				<h3>COME TO THE CABARET</h3>
+				<p>
+					Our annual dinner show and silent auction is a fun social event that is also our largest fund raiser of the year.
+				</p>
+				<h2 style="text-align:center;">GOING THE EXTRA MILE</h2>
+				<p>
+					Call <span style="font-size:larger; font-weight:bold;">510&#8209;724&#8209;9844</span>
+					to find out about these ways to help keep live theatre alive in Pinole.
+				</p>
+				<h3>BECOME A PATRON</h3>
+				<p>
+					Have you ever thought you could be a <a href=/2016SponsorshipForm.shtml class="horizontalPanelTextColor">Patron of the Arts</a>?
+					Here are the <a href=/Info/ourPatrons-index.shtml class="horizontalPanelTextColor">fine people</a> who have most recently donated to <strong>PCP</strong>.
+				</p>
+				<p>
+				<h3>ADVERTISE IN OUR SHOW PROGRAMS</h3>
+				<p>
+					Promote your business by purchasing an advertisement in our full color program.
+					Your ad can reach more than 750 audience members with each production and will run for the full year.
+				</p>
+				<h3>UNDERWRITE A PRODUCTION</h3>
+				<p>
+					Let your company's or family's generosity shine as an underwriter of one of our productions.
+				</p>
+				<h3>TAKE A PHOTO!</h3>
+				<p>
+					Sponsor a Cast Photo in our Lobby.
+					Each large 20x24-inch photo has an engraved tag identifying you as sponsor.
+				</p>
+				<h3>VOLUNTEER</h3>
+				<p>
+					<strong>PCP</strong> exists because of the work of hundreds of people.
+				</p>
+				<p>
+					They don't do it for money - there isn't any left after we finance our productions.
+					They do it for love - most for love of theatre, some for love of community, some for love of family.
+				</p>
+				<p>
+					They come from every walk of life - adults, teenagers, even children.
+					They become carpenters, seamstresses, actors, musicians, janitors, stage hands, technicians,
+					stage managers, directors, concessionaires, ticket sellers, ushers, all of the roles required to run
+					a theatre company, produce a show, present a show.
+				</p>
+				<h5>Perhaps you'd like to be one of those amazing people...</h5>
+			</div>
+		</div>
+	</div>
+
+	<div>
+<!--#include virtual="/includes/PCPfooter.html" -->
+	</div>
+
+</body>
+<!-- vim: set sw=2 ts=2: -->

@@ -1,0 +1,134 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" prefix="og: http://ogp.me/ns#" data-placeholder-focus="false">
+<head>
+
+<!--#include virtual="/includes/PCPhead.html" -->
+
+	<title>Directions to PCP</title>
+
+	<style>
+		#pcp-middle-header:before{
+			content:"DIRECTIONS TO THE PINOLE COMMUNITY PLAYHOUSE";
+		}
+	</style>
+
+</head>
+<body class="pcp-page">
+
+	<div class="pcp-container pcp-frame-colors">
+
+<!--#include virtual="/includes/PCPbanner-comb.shtml?SM" -->
+
+<!--#include virtual="/includes/PCPmenu-dropdown.shtml" -->
+
+		<div class="w3-section w3-center pcp-colors">
+
+			<div class="pcp-container w3-section w3-center pcp-colors">
+				<div class="w3-row">
+					<table class="pcp-directionsTable" width="95%" align="center" border="0" cellpadding="5" cellspacing="0">
+						<tbody style="text-align:center; padding:0; padding-top:20px; margin-top:10px;">
+							<tr>
+								<td width="50%" valign="top" class="thisText pcp-bold" style="line-height:1.1;">
+									<h4>Pinole Community Playhouse<br />
+											601 Tennent Ave<br />
+											Pinole, CA 94564
+									</h4>
+								</td>
+							</tr>
+							<tr class="w3-hide-medium w3-hide-small">
+								<td align="center" valign="middle">
+									<span style="padding-bottom:0;margin-bottom:0">
+										<img class="pcp-bigImg" src="/images/PlayhouseGoogleMap-887w-502h-96ppi.jpg" alt="Map to PCP" style="border:2px solid #86191D;"><br />
+										<a class="pcp-button"
+												href="https://www.google.com/maps/place/Pinole+Community+Players/@37.9966736,-122.2908474,15z/data=!4m5!3m4!1s0x808576e6ce68659f:0x7ecf7c2577ac2386!8m2!3d38.006582!4d-122.291357" target="_blank"
+												style="margin:10px;">
+											Click for Full Google Map
+										</a>
+									</span>
+								</td>
+							</tr>
+							<tr>
+								<td rowspan="2" valign="middle" class="thisText">
+									<div class="w3-accordion pcp-frame-colors w3-large pcp-bold">
+										<button onclick="pcpOpenCloseAccordion('from-martinez')" class="w3-btn-block pcp-frame-colors w3-left-align" style="border-bottom:1px solid #dcdcdc">
+											From&nbsp;Martinez/Concord <i class="fa fa-caret-down"></i>
+										</button>
+									</div>
+									<div id="from-martinez" class="w3-accordion-content w3-container">
+										<ul style="margin:0; padding:5px 12px; text-align:left; list-style-type:square">
+											<li>Take Hwy&#8209;4&nbsp;West to I&#8209;80&nbsp;West</li>
+											<li>Then follow the <i>From&nbsp;Vallejo</i> Directions below.</li>
+										</ul>
+									</div>
+									<div class="w3-accordion pcp-frame-colors w3-large pcp-bold">
+										<button onclick="pcpOpenCloseAccordion('from-vallejo')" class="w3-btn-block pcp-frame-colors w3-left-align" style="border-bottom:1px solid #dcdcdc">
+											From&nbsp;Vallejo <i class="fa fa-caret-down"></i>
+										</button>
+									</div>
+									<div id="from-vallejo" class="w3-accordion-content w3-container">
+										<ul style="margin:0; padding:5px 12px; text-align:left; list-style-type:square">
+											<li>Take I&#8209;80&nbsp;West to Pinole&nbsp;Valley&nbsp;Road Exit </li>
+											<li>Turn Right on Pinole&nbsp;Valley&nbsp;Road </li>
+											<li>At second light, go straight on   Tennent&nbsp;Ave. </li>
+											<li>Go through one more light (San&nbsp;Pablo&nbsp;Ave.) </li>
+											<li>Playhouse is on the Right next to the baseball field </li>
+										</ul>
+									</div>
+									<div class="w3-accordion pcp-frame-colors w3-large pcp-bold">
+										<button onclick="pcpOpenCloseAccordion('from-berkeley')" class="w3-btn-block pcp-frame-colors w3-left-align" style="border-bottom:1px solid #dcdcdc">
+											From&nbsp;Berkeley/Oakland /S.&nbsp;F. <i class="fa fa-caret-down"></i>
+										</button>
+									</div>
+									<div id="from-berkeley" class="w3-accordion-content w3-container">
+										<ul style="margin:0; padding:5px 12px; text-align:left; list-style-type:square">
+											<li>Take I&#8209;80&nbsp;East to Pinole&nbsp;Valley&nbsp;Road Exit </li>
+											<li>Turn Left on Pinole&nbsp;Valley&nbsp;Road </li>
+											<li>At third light, go   straight on Tennent&nbsp;Ave. </li>
+											<li>Go through one more light (San&nbsp;Pablo&nbsp;Ave.) </li>
+											<li>Playhouse is on the Right next to the baseball field</li>
+										</ul>
+									</div>
+									<div class="w3-accordion pcp-frame-colors w3-large pcp-bold">
+										<button onclick="pcpOpenCloseAccordion('from-marin')" class="w3-btn-block pcp-frame-colors w3-left-align" style="border-bottom:1px solid #dcdcdc">
+											From Marin <i class="fa fa-caret-down"></i>
+										</button>
+									</div>
+									<div id="from-marin" class="w3-accordion-content w3-container">
+									<strong style="display:block; text-align:left; font-size:larger;">From Marin</strong>
+										<ul style="margin:0; padding:5px 12px; text-align:left; list-style-type:square">
+											<li>Take I&#8209;580 East across the Richmond-San&nbsp;Rafael&nbsp;Bridge</li>
+											<li>Past the Toll Plaza, take Exit 7 I&#8209;80&nbsp;East/Richmond&nbsp;Pkwy/Point&nbsp;Richmond</li>
+											<li>Merge onto E Standard Ave.</li>
+											<li>Continue onto Castro&nbsp;St.</li>
+											<li>Continue onto the Richmond&nbsp;Pkwy</li>
+											<li>Turn Left on San&nbsp;Pablo&nbsp;Ave.</li>
+											<li>Turn Left on Tennent&nbsp;Ave.</li>
+											<li>Playhouse is on the Right next to the baseball field </li>
+										</ul>
+									</div>
+								</td>
+							</tr>
+							<tr class="w3-hide-large">
+								<td align="center" valign="middle">
+									<span style="padding-bottom:0;margin-bottom:0">
+										<img class="pcp-bigImg" src="/images/PlayhouseGoogleMap-887w-502h-96ppi.jpg" alt="Map to PCP" style=" border:2px solid #86191D;"><br />
+										<a class="pcp-button"
+												href="https://www.google.com/maps/place/Pinole+Community+Players/@37.9966736,-122.2908474,15z/data=!4m5!3m4!1s0x808576e6ce68659f:0x7ecf7c2577ac2386!8m2!3d38.006582!4d-122.291357" target="_blank"
+												style="margin:10px;">
+											Click for Full Google Map
+										</a>
+									</span>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+
+<!--#include virtual="/includes/PCPfooter.html" -->
+
+	</div>
+
+</body>
+<!-- vim: set sw=2 ts=2: -->

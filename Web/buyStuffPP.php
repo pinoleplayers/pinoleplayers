@@ -1095,7 +1095,7 @@ EOT;
 			break;
 	}
 
-	processPaymentMethod();
+	processPaymentMethod( $reviewOrConfirm );
 
 	$orderTotalAmount = calculateOrderTotalAmount();
 
@@ -1186,12 +1186,10 @@ EOT;
 				<input type="hidden" name="business" value="{$paypalBusinessEmail}" />
 				<input type="hidden" name="cmd" value="_cart" />
 				<input type="hidden" name="upload" value="1" />
-				<input type="hidden" name="cpp_cart_border_color" value="7286A7" />
-				<input type="hidden" name="cpp_logo_image" value="http://pinoleplayers.org/images/PCPpseudoLogo-black-50h-190w-72ppi.png" />
+				<input type="hidden" name="image_url" value="http://pinoleplayers.org/images/PCP_Logo-150w-50h-150ppi.png" />
 				<input type="hidden" name="no_shipping" value="1" />
 				<input type="hidden" name="return" value="http://pinoleplayers.org/{$buyStuffPP}?PayPalReturn=1&debuggingOn={$debuggingOn}&paypalMode={$paypalMode}" />
 				<input type="hidden" name="rm" value="2" />
-				<input type="hidden" name="cbt" value="Complete this transaction with Pinole Community Playhouse." />
 				<input type="hidden" name="handling_cart" value="{$GlobalParams["HandlingFee-PayPal"]}" />
 				<input type="hidden" name="first_name" value="{$orderFirstName}" />
 				<input type="hidden" name="last_name" value="{$orderLastName}" />
@@ -1250,8 +1248,8 @@ EOT;
 				<td style="text-align:left; vertical-align:middle; width:205px; padding-left:5px;">
 					{$orderItemInfo->priceClass} {$orderItemInfo->priceUnits}
 				</td>
-				<td style="text-align:right; vertical-align:middle;">{$orderItemInfo->classPrice}</td>
-				<td style="text-align:right; vertical-align:middle;">{$orderItem["amount"]}</td>
+				<td style="text-align:right; vertical-align:middle;">\${$orderItemInfo->classPrice}</td>
+				<td style="text-align:right; vertical-align:middle;">\${$orderItem["amount"]}</td>
 			</tr>
 EOT;
 		//												Next to Normal - Sat, Feb 9 - 8:00pm (2-for-1) - 		1 												Adult 												Tickets									@$ 20.00
@@ -1262,7 +1260,7 @@ if($debuggingOn==1)
 
 		$payPalCartFormHTML .= <<<EOT
 				<input type="hidden" name="item_name_{$i}" value="{$payPalItemDescription}" />
-				<input type="hidden" name="amount_{$i}" value="\${$orderItem["amount"]}" />
+				<input type="hidden" name="amount_{$i}" value="{$orderItem["amount"]}" />
 EOT;
 
 	}
@@ -1329,17 +1327,14 @@ EOT;
 			</tr>
 EOT;
 	$orderHTML .= mainTableSeparatorRowHTML();
-	if ( $orderPaymentMethod != "paymentPayPal" || $reviewOrConfirm != "Confirm" )
-	{
-		$orderHTML .= <<<EOT
-				<tr>
-					<th>Payment<br />Instructions</th>
-					<td colspan="5" style="text-align:left; vertical-align:middle; padding-left:10px;">
-						$orderPaymentInstructions
-					</td>
-				</tr>
+	$orderHTML .= <<<EOT
+			<tr>
+				<th>Payment<br />Instructions</th>
+				<td colspan="5" style="text-align:left; vertical-align:middle; padding-left:10px;">
+					$orderPaymentInstructions
+				</td>
+			</tr>
 EOT;
-	}
 	if ( $orderPaymentMethod == "paymentPayPal" )
 	{
 		$orderCommitHTML = <<<EOT
@@ -1349,7 +1344,7 @@ EOT;
 					{$payPalCartFormHTML}
 EOT;
 if($debuggingOn==1)
-  {echo "<pre>ShowOrder: payPalCartFormHTML: "; var_dump($payPalCartFormHTML); echo "</pre>";}
+  {echo "<pre>ShowOrder: payPalCartFormHTML: |${payPalCartFormHTML}|</pre>";}
 	}
 	else
 	{
@@ -1476,7 +1471,7 @@ EOT;
 	return $rePOSTorderFormHTML;
 }
 
-function processPaymentMethod()
+function processPaymentMethod( $reviewOrConfirm )
 {
 	global	$GlobalParams,
 					$debuggingOn,
@@ -1513,12 +1508,24 @@ if($debuggingOn==1)
 	{
 		case "paymentPayPal":
 			$orderHandlingFee = $GlobalParams["HandlingFee-PayPal"];
-			$orderPaymentInstructions = <<<EOT
-				Click
-				{$buyButtonHTML}
-				to pay with your Credit Card or
-				<img src="/images/PayPal-LOGO-29h-72ppi.png" height="16" alt="PayPal" style="vertical-align:middle;" />account.<br />
+			switch ( $reviewOrConfirm )
+			{
+				case "Review":
+					$orderPaymentInstructions = <<<EOT
+						Click
+						{$buyButtonHTML}
+						to pay with your Credit Card or
+						<img src="/images/PayPal-LOGO-29h-72ppi.png" height="16" alt="PayPal" style="vertical-align:middle;" />account.<br />
 EOT;
+					break;
+				case "Confirm":
+					$orderPaymentInstructions = <<<EOT
+						Thank You for using
+						<img src="http://pinoleplayers.org/images/PayPal-LOGO-38h-72ppi.jpg" height="18" alt="PayPal" style="vertical-align:text-bottom;" />
+						for your payment.
+EOT;
+					break;
+			}
 			break;
 		case "paymentCC":
 			$orderHandlingFee = $GlobalParams["HandlingFee-CC"];

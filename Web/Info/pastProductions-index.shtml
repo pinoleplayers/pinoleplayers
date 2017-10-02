@@ -1,0 +1,509 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" prefix="og: http://ogp.me/ns#" data-placeholder-focus="false">
+<head>
+
+<!--#include virtual="/includes/PCPhead.html" -->
+
+	<title>Past PCP Productions</title>
+
+	<style>
+		#pcp-middle-header:before{
+			content:"PAST PRODUCTIONS";
+		}
+	</style>
+
+</head>
+<body class="pcp-page">
+
+	<div class="pcp-container pcp-frame-colors">
+
+<!--#include virtual="/includes/PCPbanner-comb.shtml?SM" -->
+
+<!--#include virtual="/includes/PCPmenu-dropdown.shtml" -->
+
+		<div class="w3-section w3-center pcp-colors-rev">
+			<div class="pcp-gridMember pcp-pastShow">
+				<div>2017</div>
+				<div>
+					<img src="/PastProductionLOGOs/DeathTrap_LOGO-400w-482h-96ppi.jpg" />
+				</div>
+				<div>G. A. Klein</div>
+			</div>
+			<div class="pcp-gridMember pcp-pastShow">
+				<div>2017</div>
+				<div>
+					<img src="/PastProductionLOGOs/Chicago_LOGO-400w-600h-72ppi.jpg" />
+				</div>
+				<div>Janet O'Brien</div>
+			</div>
+			<div class="pcp-gridMember pcp-pastShow">
+				<div>2016</div>
+				<div>
+					<img src="/PastProductionLOGOs/RockyHorror_LOGO-400w-600h-96ppi-ro.png" />
+				</div>
+				<div>Terry Tracy</div>
+			</div>
+			<div class="pcp-gridMember pcp-pastShow">
+				<div>2016</div>
+				<div>
+					<img src="/PastProductionLOGOs/WaitUntilDark_LOGO-v2-teaserText-400w-600h-150ppi.jpg" />
+				</div>
+				<div>Janet O'Brien</div>
+			</div>
+			<div class="pcp-gridMember pcp-pastShow">
+				<div>2016</div>
+				<div>
+					<img src="/PastProductionLOGOs/Godspell_LOGO-408w-600h-150ppi.png" />
+				</div>
+				<div>G. A. Klein</div>
+			</div>
+			<div class="pcp-gridMember pcp-pastShow">
+				<div>2015</div>
+				<div>
+					<img src="/PastProductionLOGOs/Arsenic_LOGO-300w-395h-96ppi.png" />
+				</div>
+				<div>Renee Echavez</div>
+			</div>
+			<div class="pcp-gridMember pcp-pastShow">
+				<div>2015</div>
+				<div>
+					<img src="/PastProductionLOGOs/RENT_LOGO-330w-179h-72ppi.png" />
+				</div>
+				<div>Anjee Gallia</div>
+			</div>
+			<div class="pcp-gridMember pcp-pastShow">
+				<div>2014</div>
+				<div>
+					<img src="/PastProductionLOGOs/MerrilyWRA_LOGO-450w-600h-72ppi.jpg" />
+				</div>
+				<div>Peter Budinger</div>
+			</div>
+			<div class="pcp-gridMember pcp-pastShow">
+				<div>2014</div>
+				<div>
+					<img src="/PastProductionLOGOs/39Steps_LOGO-300w-96ppi.jpg" />
+				</div>
+				<div>Marti Baer</div>
+			</div>
+			<div class="pcp-gridMember pcp-pastShow">
+				<div>2014</div>
+				<div>
+					<img src="/PastProductionLOGOs/Carrie_LOGO-narrowed+largerdates-sat-198w-283h-150ppi.jpg" />
+				</div>
+				<div>Laura Schultze</div>
+			</div>
+			<div class="pcp-gridMember pcp-pastShow">
+				<div>2013</div>
+				<div>
+					<img src="/PastProductionLOGOs/BABY_LOGO-245w-150ppi.png" />
+				</div>
+				<div>Janet O'Brien</div>
+			</div>
+			<div class="pcp-gridMember pcp-pastShow">
+				<div>2013</div>
+				<div>
+					<img src="/PastProductionLOGOs/Songs4aNewWorld_LOGO-200w-145h-72ppi.jpg" />
+				</div>
+				<div>Anjee Gallia &amp;<br />Erica Maier D'Ambrosio</div>
+			</div>
+			<div class="pcp-gridMember pcp-pastShow">
+				<div>2013</div>
+				<div>
+					<img src="/PastProductionLOGOs/nextToNormal_LOGO-200w-150ppi.jpg" />
+				</div>
+				<div>Brian Katz</div>
+			</div>
+			<div class="pcp-gridMember pcp-pastShow">
+				<div>2012</div>
+				<div>
+					<img src="/PastProductionLOGOs/ILYYPNC-LOGO-200w-150ppi.png" />
+				</div>
+				<div>Matthew Teague Miller</div>
+			</div>
+			<div class="pcp-gridMember pcp-pastShow">
+				<div>2011</div>
+				<div>
+					<img src="/PastProductionLOGOs/FullMontyLOGO.jpg" />
+				</div>
+				<div>Meredith Meeks</div>
+			</div>
+			<div class="pcp-gridMember pcp-pastShow">
+				<div>2011</div>
+				<div>
+					<img src="/PastProductionLOGOs/CatLOGO2.jpg" />
+				</div>
+				<div>Brian Katz</div>
+			</div>
+			<div class="pcp-gridMember pcp-pastShow">
+				<div>2011</div>
+				<div>
+					<img src="/PastProductionLOGOs/ProducersLOGO.jpg" />
+				</div>
+				<div>Janet O'Brien</div>
+			</div>
+			<div class="pcp-gridMember pcp-pastShow">
+				<div>2010</div>
+				<div>
+					<img src="/PastProductionLOGOs/2010_Spelling_Bee_logo.jpg" />
+				</div>
+				<div>Janet O'Brien</div>
+			</div>
+			<div class="pcp-gridMember pcp-pastShow">
+				<div>2010</div>
+				<div>
+					<img src="/PastProductionLOGOs/2010_Nunsensations_logo.jpg" />
+				</div>
+				<div>G. A. Klein</div>
+			</div>
+			<div class="pcp-gridMember pcp-pastShow">
+				<div>2009</div>
+				<div>
+					<img src="/PastProductionLOGOs/2009_Falsettos_logo_sm.jpg" />
+				</div>
+				<div>Janet O'Brien</div>
+			</div>
+			<div class="pcp-gridMember pcp-pastShow">
+				<div>2009</div>
+				<div>
+					<img src="/PastProductionLOGOs/2009_PumpBoys_logo_sm.jpg" />
+				</div>
+				<div>Derrick Silva</div>
+			</div>
+			<div class="pcp-gridMember pcp-pastShow">
+				<div>2008</div>
+				<div>
+					<img src="/PastProductionLOGOs/SomethingsAfootSmall.jpg" />
+				</div>
+				<div>Marti Baer</div>
+			</div>
+			<div class="pcp-gridMember pcp-pastShow">
+				<div>2008</div>
+				<div>
+					<img src="/PastProductionLOGOs/carousel logo LH.jpg" />
+				</div>
+				<div>Larry Harada</div>
+			</div>
+			<div class="pcp-gridMember pcp-pastShow">
+				<div>2007</div>
+				<div>
+					<img src="/PastProductionLOGOs/chicagoSmall.jpg" />
+				</div>
+				<div>Janet O'Brien</div>
+			</div>
+			<div class="pcp-gridMember pcp-pastShow">
+				<div>2007</div>
+				<div>
+					<img src="/PastProductionLOGOs/smokeyJoesSmall.jpg" />
+				</div>
+				<div>Nancy Gill<br />& Anjee Norgaard</div>
+			</div>
+			<div class="pcp-gridMember pcp-pastShow">
+				<div>2006</div>
+				<div>
+					<img src="/PastProductionLOGOs/oliverSmall.jpg" />
+				</div>
+				<div>David Clark</div>
+			</div>
+			<div class="pcp-gridMember pcp-pastShow">
+				<div>2006</div>
+				<div>
+					<img src="/PastProductionLOGOs/suddsSmall.jpg" />
+				</div>
+				<div>Janet O'Brien</div>
+			</div>
+			<div class="pcp-gridMember pcp-pastShow">
+				<div>2005</div>
+				<div>
+					<img src="/PastProductionLOGOs/tblwtSmall.jpg" />
+				</div>
+				<div>G. A. Klein</div>
+			</div>
+			<div class="pcp-gridMember pcp-pastShow">
+				<div>2005</div>
+				<div>
+					<img src="/PastProductionLOGOs/CabaretLogo.jpg" />
+				</div>
+				<div>Janet O'Brien</div>
+			</div>
+			<div class="pcp-gridMember pcp-pastShow">
+				<div>2004</div>
+				<div>
+					<i>Quilters</i>
+				</div>
+				<div>Janet O'Brien</div>
+			</div>
+			<div class="pcp-gridMember pcp-pastShow">
+				<div>2004</div>
+				<div>
+					<i>Cinderella</i>
+				</div>
+				<div>Tammara Plankers</div>
+			</div>
+			<div class="pcp-gridMember pcp-pastShow">
+				<div>2003</div>
+				<div>
+					<i>A Few Good Men</i>
+				</div>
+				<div>Janet O'Brien</div>
+			</div>
+			<div class="pcp-gridMember pcp-pastShow">
+				<div>2003</div>
+				<div>
+					<i>Sweet Charity</i>
+				</div>
+				<div>Ted Bigornia</div>
+			</div>
+			<div class="pcp-gridMember pcp-pastShow">
+				<div>2002</div>
+				<div>
+					<i>Guys &amp; Dolls</i>
+				</div>
+				<div>David Clark</div>
+			</div>
+			<div class="pcp-gridMember pcp-pastShow">
+				<div>2002</div>
+				<div>
+					<i>Dames at Sea</i>
+				</div>
+				<div>Justin Cole</div>
+			</div>
+			<div class="pcp-gridMember pcp-pastShow">
+				<div>2001</div>
+				<div>
+					<i>The Fantasticks</i>
+				</div>
+				<div>Janet O&rsquo;Brien</div>
+			</div>
+			<div class="pcp-gridMember pcp-pastShow">
+				<div>2000</div>
+				<div>
+					<i>Forever Plaid</i>
+				</div>
+				<div>Janet O&rsquo;Brien</div>
+			</div>
+			<div class="pcp-gridMember pcp-pastShow">
+				<div>2000</div>
+				<div>
+					<i>Once Upon A Matress</i>
+				</div>
+				<div>Ned Kopp</div>
+			</div>
+			<div class="pcp-gridMember pcp-pastShow">
+				<div>2000</div>
+				<div>
+					<i>Forever Plaid</i>
+				</div>
+				<div>Janet O&rsquo;Brien</div>
+			</div>
+			<div class="pcp-gridMember pcp-pastShow">
+				<div>1999</div>
+				<div>
+					<i>Pump Boys &amp; Dinettes</i>
+				</div>
+				<div>Tammara Plankers</div>
+			</div>
+			<div class="pcp-gridMember pcp-pastShow">
+				<div>1999</div>
+				<div>
+					<i>The Sound of Music</i>
+				</div>
+				<div>Janet O&rsquo;Brien</div>
+			</div>
+			<div class="pcp-gridMember pcp-pastShow">
+				<div>1998</div>
+				<div>
+					<i>Nunsense</i>
+				</div>
+				<div>Janet O&rsquo;Brien</div>
+			</div>
+			<div class="pcp-gridMember pcp-pastShow">
+				<div>1998</div>
+				<div>
+					<i>Anything Goes</i>
+				</div>
+				<div>Justin Cole</div>
+			</div>
+			<div class="pcp-gridMember pcp-pastShow">
+				<div>1998</div>
+				<div>
+					<i>Steel Magnolias</i>
+				</div>
+				<div>Dennis Gleason</div>
+			</div>
+			<div class="pcp-gridMember pcp-pastShow">
+				<div>1997</div>
+				<div>
+					<i>The Odd Couple</i>
+				</div>
+				<div>Mark Patino</div>
+			</div>
+			<div class="pcp-gridMember pcp-pastShow">
+				<div>1997</div>
+				<div>
+					<i>Fiddler on the Roof</i>
+				</div>
+				<div>Janet O&rsquo;Brien</div>
+			</div>
+			<div class="pcp-gridMember pcp-pastShow">
+				<div>1996</div>
+				<div>
+					<i>Drood</i>
+				</div>
+				<div>Debbie Grossman</div>
+			</div>
+			<div class="pcp-gridMember pcp-pastShow">
+				<div>1996</div>
+				<div>
+					<i>Damn Yankees</i>
+				</div>
+				<div>Janet O&rsquo;Brien</div>
+			</div>
+			<div class="pcp-gridMember pcp-pastShow">
+				<div>1996</div>
+				<div>
+					<i>Godspell</i>
+				</div>
+				<div>Mark Patino</div>
+			</div>
+			<div class="pcp-gridMember pcp-pastShow">
+				<div>1995</div>
+				<div>
+					<i>The Music Man</i>
+				</div>
+				<div>David Clark</div>
+			</div>
+			<div class="pcp-gridMember pcp-pastShow">
+				<div>1995</div>
+				<div>
+					<i>My Fair Lady</i>
+				</div>
+				<div>Janet O&rsquo;Brien</div>
+			</div>
+			<div class="pcp-gridMember pcp-pastShow">
+				<div>1994</div>
+				<div>
+					<i>Singin' in the Rain</i>
+				</div>
+				<div>Mark Patino</div>
+			</div>
+			<div class="pcp-gridMember pcp-pastShow">
+				<div>1994</div>
+				<div>
+					<i>Oklahoma</i>
+				</div>
+				<div>Mark Patino</div>
+			</div>
+			<div class="pcp-gridMember pcp-pastShow">
+				<div>1993</div>
+				<div>
+					<i>Forum</i>
+				</div>
+				<div>Mark Patino</div>
+			</div>
+			<div class="pcp-gridMember pcp-pastShow">
+				<div>1993</div>
+				<div>
+					<i>Gypsy</i>
+				</div>
+				<div>David&nbsp;Clark</div>
+			</div>
+			<div class="pcp-gridMember pcp-pastShow">
+				<div>1992</div>
+				<div>
+					<i>Best of Broadway</i>
+				</div>
+				<div>Gerald Calvo</div>
+			</div>
+			<div class="pcp-gridMember pcp-pastShow">
+				<div>1992</div>
+				<div>
+					<i>Best Little Whorehouse in Texas</i>
+				</div>
+				<div>David Clark</div>
+			</div>
+			<div class="pcp-gridMember pcp-pastShow">
+				<div>1992</div>
+				<div>
+					<i>Blithe Spirit</i>
+				</div>
+				<div>Mark Patino</div>
+			</div>
+			<div class="pcp-gridMember pcp-pastShow">
+				<div>1991</div>
+				<div>
+					<i>Little Shop of Horrors</i>
+				</div>
+				<div>Mark Cornfield</div>
+			</div>
+			<div class="pcp-gridMember pcp-pastShow">
+				<div>1991</div>
+				<div>
+					<i>Guys &amp; Dolls</i>
+				</div>
+				<div>Mark Cornfield</div>
+			</div>
+			<div class="pcp-gridMember pcp-pastShow">
+				<div>1990</div>
+				<div>
+					<i>Baby</i>
+				</div>
+				<div>Gerard Calvo</div>
+			</div>
+			<div class="pcp-gridMember pcp-pastShow">
+				<div>1990</div>
+				<div>
+					<i>Annie</i>
+				</div>
+				<div>David Clark</div>
+			</div>
+			<div class="pcp-gridMember pcp-pastShow">
+				<div>1989</div>
+				<div>
+					<i>Company</i>
+				</div>
+				<div>Gerard Calvo</div>
+			</div>
+			<div class="pcp-gridMember pcp-pastShow">
+				<div>1989</div>
+				<div>
+					<i>A Chorus Line</i>
+				</div>
+				<div>David Clark</div>
+			</div>
+			<div class="pcp-gridMember pcp-pastShow">
+				<div>1988</div>
+				<div>
+					<i>The Fantasticks</i>
+				</div>
+				<div>Gerard Calvo</div>
+			</div>
+			<div class="pcp-gridMember pcp-pastShow">
+				<div>1988</div>
+				<div>
+					<i>South Pacific</i>
+				</div>
+				<div>David Clark</div>
+			</div>
+			<div class="pcp-gridMember pcp-pastShow">
+				<div>1987</div>
+				<div>
+					<i>Oliver</i>
+				</div>
+				<div>David Clark</div>
+			</div>
+			<div class="pcp-gridMember pcp-pastShow">
+				<div>1986</div>
+				<div>
+					<i>Godspell</i>
+				</div>
+				<div>David Clark</div>
+			</div>
+		</div>
+	</div>
+	<div>
+<!--#include virtual="/includes/PCPfooter.html" -->
+	</div>
+
+</body>
+<!-- vim: set sw=2 ts=2: -->
+

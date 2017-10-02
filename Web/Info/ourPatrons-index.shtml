@@ -1,0 +1,98 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" prefix="og: http://ogp.me/ns#" data-placeholder-focus="false">
+<head>
+
+<!--#include virtual="/includes/PCPhead.html" -->
+
+	<title>Our Patrons</title>
+
+	<style>
+		#pcp-middle-header:before{
+			content:"OUR PATRONS";
+		}
+		ul{
+			-webkit-padding-start:20px;
+		}
+		h5{
+			text-align:center!important;
+		}
+	</style>
+
+</head>
+<body class="pcp-page">
+
+	<div class="pcp-container pcp-frame-colors">
+
+<!--#include virtual="/includes/PCPbanner-comb.shtml?SM" -->
+
+<!--#include virtual="/includes/PCPmenu-dropdown.shtml" -->
+
+		<div class="w3-section w3-center pcp-colors">
+
+			<div class="pcp-container w3-section w3-center pcp-patrons pcp-colors-rev" style="width:95%; margin:0px auto;">
+				<div class="w3-col w3-padding">
+					A big THANK YOU to all of our Patrons for their generous support.
+				</div>
+				<div class="w3-row">
+					<div class="w3-col l1 m1 w3-hide-small">
+						<h5>&nbsp;</h5>
+					</div>
+					<div class="w3-col l2 m2 s12">
+						<h5>FRIENDS</h5>
+						<ul>
+							<li>Roberta Tim Quan</li>
+							<li>Richard &amp; Patricia Loomis</li>
+							<li>Stephen Scott</li>
+							<li>Larry &amp; Leona Seidell</li>
+							<li>Gary &amp; Margirth Byer</li>
+							<li>Chris &amp; Barbara Saler</li>
+						</ul>
+					</div>
+					<div class="w3-col l2 m2 s12">
+						<h5>SUBSCRIBERS</h5>
+						<ul>
+							<li>Michael &amp; Sharon LeFebvre</li>
+							<li>Pat Hedstrom</li>
+						</ul>
+					</div>
+					<div class="w3-col l2 m2 s12">
+						<h5>BENEFACTORS</h5>
+						<ul>
+							<li>Dave &amp; Kay Zuerner</li>
+						</ul>
+					</div>
+					<div class="w3-col l2 m2 s12">
+						<h5>SPONSORS</h5>
+						<ul>
+							<li>Mark Zimmerman</li>
+							<li>John S. Mills</li>
+							<li>Claudia Mercier</li>
+							<li>Dick &amp; Connie Benne</li>
+							<li>Ronald Berman</li>
+							<li>Jay Praml &amp; Anna Gutierrez</li>
+							<li>Amy Lucido</li>
+							<li>Dave &amp; Deanna Million</li>
+						</ul>
+					</div>
+					<div class="w3-col l2 m2 s12">
+						<h5>ANGELS</h5>
+						<ul>
+							<li>Floyd &amp; Judy Sam</li>
+							<li>Marc &amp; Dana Grisham</li>
+							<li>Jeff &amp; Terry O'Donnell</li>
+						</ul>
+					</div>
+					<div class="w3-col l1 m1 w3-hide-small">
+						<h5>&nbsp;</h5>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div>
+<!--#include virtual="/includes/PCPfooter.html" -->
+	</div>
+
+</body>
+<!-- vim: set sw=2 ts=2: -->

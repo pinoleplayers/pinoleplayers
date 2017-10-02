@@ -1,0 +1,180 @@
+<style>
+		.local-outlineText{
+			text-shadow:1px 1px 0 #000,
+				-1px -1px 0 #000,
+				1px -1px 0 #000,
+				-1px 1px 0 #000,
+				0px 1px 0 #000,
+				1px 0px 0 #000,
+				0px -1px 0 #000,
+				-1px 0px 0 #000;
+		}
+		.local-colors{
+			color:#2b4c7c;
+			background-color:#dce0e6;
+		}
+		.local-colors-rev{
+			color:#dce0e6#2b4c7c;
+			background-color:#2b4c7c;
+		}
+		.pcp-tooltip .w3-text{
+			border-color:white;
+		}
+		.pcp-tooltip .w3-text img{
+			border-color:white;
+		}
+</style>
+
+		<div class="pcp-container local-colors" style="margin-top:10px;">
+			<div class="w3-third w3-row w3-center">
+				<h2 class="pcp-bold pcp-line-ht-101pct" style="margin-top:10px;">OPENING OCTOBER&nbsp;20</h2>
+			</div>
+			<div class="w3-hide-small w3-third w3-row w3-center">
+				<h1 class="pcp-bold pcp-line-ht-101pct">&nbsp;</h1>
+			</div>
+			<div class="w3-hide-small w3-third w3-row w3-center">
+				<h3 class="pcp-bold pcp-line-ht-101pct">October&nbsp;20 -<br />November&nbsp;11, 2017</h3>
+			</div>
+		</div>
+
+		<div class="pcp-container local-colors"> <!-- 3 COLUMN SECTION -->
+
+			<div class="w3-row">
+
+				<div class="w3-third pcp-container w3-padding-ver-4 w3-center">
+					<div class="w3-display-container">
+						<img src="/2017_ItShouldaBeenYou/ItShouldaBeenYou-PPP_LOGO-400w-600h-96ppi.jpg"  style="border:1px solid #520f10; width:85%!important;" longdesc="It Shoulda Been You 2017 LOGO" />
+					</div>
+					<div class="w3-row">
+						<h6 class="pcp-rights">Produced by special arrangements with<br />Music&nbsp;Theatre&nbsp;International (MTI)<br />
+							All authorized performance materials are also supplied by MTI.<br />
+							www.MTIShows.com
+						</h6>
+					</div>
+
+					<div style="width:85%; margin:0px auto;">
+						<p style="text-align:left;">
+							This charming new musical invites you to a wedding day you will never forget,
+							where anything that can go wrong does and where love pops up in mysterious places.
+							The bride is Jewish. The groom is Catholic.
+							Her mother is a force of nature. His mother is a tempest in a cocktail shaker.
+							When the bride's ex-boyfriend crashes the party, the perfect wedding unravels faster than you can whistle "Oh Promise Me!"
+						<p>
+					</div>
+					<div class="w3-hide">
+						<style type="text/css">
+							#DeathTrap-synopsis-panel {
+							  width:90%;
+							  height:25px;
+							  overflow:hidden;
+							}
+						</style>
+						<p style="width:85%; margin:0px auto;">Deathtrap is a thriller in two-acts, with dark comic undertones.</p>
+						<div id="DeathTrap-synopsis-panel" style="height: 20px; font-style:underline; margin:0px auto;">
+							<div align="center" title="click to view" onclick="exposeMoreInfo('DeathTrap-synopsis-panel','DeathTrap-synopsis','more','less','DeathTrap-synopsis-arrow','196px','20px')">
+								<div id="DeathTrap-synopsis" style="display:inline-block; font-size:smaller;">more</div>
+								<img src="/images/arrowd.gif" id="DeathTrap-synopsis-arrow" alt="arrow down">
+								<div align="center">
+									<p style="width:90%; margin:0px auto 5px auto;">
+										Once the toast of Broadway, Sidney Bruhl is a playwright with a bad case of writer's block.
+										Clifford Bradshaw, a student attending Sidney's writing seminars, shares the draft of DEATHTRAP, a play he has written.
+										Sidney is sure it will be a smash and gets a killer idea!
+										Murder Clifford and pass the play off as his own.
+									</p>
+								</div>
+							</div>
+						</div>
+						<p style="width:85%; margin:0px auto;">Twists and turns abound in this clever and funny Broadway hit, a 1978 Tony nominee for Best Play.</p>
+					</div>
+				</div>
+
+				<div class="w3-third pcp-container w3-padding-ver-4 w3-center">
+					<div style="margin:0px auto;">
+						<div style="margin:0px auto;">
+							<h4 class="pcp-creatorRole" style="text-align:center; margin-bottom:8px;"><span>Book&nbsp;&amp;&nbsp;Lyrics by</span> Brian&nbsp; Hargrove</h4>
+							<h4 class="pcp-creatorRole" style="text-align:center; margin-bottom:8px;"><span>Music&nbsp;by</span> Barbara&nbsp;Anselmi</h4>
+							<h4 class="pcp-creatorRole" style="font-size:smaller; text-align:center; margin-bottom:8px;"><span>Additional Lyrics by</span> Michael&nbsp;Cooper, Will&nbsp;Randall, Carla&nbsp;Rose&nbsp;Fisher, Ernie&nbsp;Lijoi, Jill&nbsp;Abramovitz</h4>
+							<h4 class="pcp-creatorRole" style="font-size:smaller; text-align:center; margin-bottom:8px;"><span>Based on a concept by</span> Barbara Anselmi</h4>
+						</div>
+					</div>
+					<div class="w3-row">
+						<h3 class="pcp-creatorRole w3-center" style="margin:15px auto;">
+							<span>DIRECTED BY</span> Buzz&nbsp;Halsing
+						</h3>
+					</div>
+					<div class="w3-row">
+						<table class="pcp-productionTeamTable">
+							<tbody>
+								<tr><td>Music Director</td><td>Dean&nbsp;Starnes</td></tr>
+								<tr><td>Choreographer</td><td>Anjee&nbsp;Norgaard&#8209;Gallia</td></tr>
+								<tr class="w3-hide"><td>Set Designer</td><td>Fernando Ochoa</td></tr>
+								<tr class="w3-hide"><td>Costume Designer</td><td>TBD</td></tr>
+								<tr><td>Lighting Designer</td><td>Michael O'Brien</td></tr>
+							</tbody>
+						</table>
+					</div>
+					<div class="" onclick="" style="margin-bottom:10px;">
+						<h5 class="pcp-small-caps pcp-line-ht-91pct" style="margin:10px 0px 0px 0px; text-align:left; font-weight:bold;">Featuring</h5>
+						<div class="pcp-small-caps pcp-line-ht-91pct" style="padding:0px 0px 3px 0px; margin:0px;">click an actor to see their role</div>
+						<p style="line-height:1.2; text-align:left; margin:0;">
+							<span class="pcp-tooltip">Jon&nbsp;Betts,<span class="w3-text w3-tag pcp-display-abovemiddle w3-round-medium local-colors-rev"><img class="pcp-thumbnail w3-light-grey" src="" style="border:1px solid #520f10;" />Brian Howard</span></span>
+							<span class="pcp-tooltip">Kimberley&nbsp;Cohan,<span class="w3-text w3-tag pcp-display-abovemiddle w3-round-medium local-colors-rev"><img class="pcp-thumbnail w3-light-grey" src="" style="border:1px solid #520f10;" />Rebecca Steinberg</span></span>
+							<span class="pcp-tooltip">George&nbsp;Doerr,<span class="w3-text w3-tag pcp-display-abovemiddle w3-round-medium local-colors-rev"><img class="pcp-thumbnail w3-light-grey" src="" style="border:1px solid #520f10;" />Walt/Uncle Morty</span></span>
+							<span class="pcp-tooltip">Tom&nbsp;Farris,<span class="w3-text w3-tag pcp-display-abovemiddle w3-round-medium local-colors-rev"><img class="pcp-thumbnail w3-light-grey" src="" style="border:1px solid #520f10;" />Murray Steinberg</span></span>
+							<span class="pcp-tooltip">Imani&nbsp;Ivery,<span class="w3-text w3-tag pcp-display-abovemiddle w3-round-medium local-colors-rev"><img class="pcp-thumbnail w3-light-grey" src="" style="border:1px solid #520f10;" />Annie Sheps</span></span>
+							<span class="pcp-tooltip">Greg&nbsp;Lynch,<span class="w3-text w3-tag pcp-display-abovemiddle w3-round-medium local-colors-rev"><img class="pcp-thumbnail w3-light-grey" src="" style="border:1px solid #520f10;" />Albert</span></span>
+							<span class="pcp-tooltip">Bryan&nbsp;Munar,<span class="w3-text w3-tag pcp-display-abovemiddle w3-round-medium local-colors-rev"><img class="pcp-thumbnail w3-light-grey" src="" style="border:1px solid #520f10;" />Greg Madison</span></span>
+							<span class="pcp-tooltip">Clarisse&nbsp;Nichole,<span class="w3-text w3-tag pcp-display-abovemiddle w3-round-medium local-colors-rev"><img class="pcp-thumbnail w3-light-grey" src="" style="border:1px solid #520f10;" />Mimsy/Aunt Sheila</span></span>
+							<span class="pcp-tooltip">Dianna&nbsp;Schepers,<span class="w3-text w3-tag pcp-display-abovemiddle w3-round-medium local-colors-rev"><img class="pcp-thumbnail w3-light-grey" src="" style="border:1px solid #520f10;" />Georgette Howard</span></span>
+							<span class="pcp-tooltip">Scott&nbsp;Scholes,<span class="w3-text w3-tag pcp-display-abovemiddle w3-round-medium local-colors-rev"><img class="pcp-thumbnail w3-light-grey" src="" style="border:1px solid #520f10;" />Marty Kaufman</span></span>
+							<span class="pcp-tooltip">Shauna&nbsp;Shoptaw,<span class="w3-text w3-tag pcp-display-abovemiddle w3-round-medium local-colors-rev"><img class="pcp-thumbnail w3-light-grey" src="" style="border:1px solid #520f10;" />Judy Steinberg</span></span>
+							<span class="pcp-tooltip">Wayne&nbsp;Steffen,<span class="w3-text w3-tag pcp-display-abovemiddle w3-round-medium local-colors-rev"><img class="pcp-thumbnail w3-light-grey" src="" style="border:1px solid #520f10;" />George Howard</span></span>
+							<span class="pcp-tooltip">Amy&nbsp;Zanco<span class="w3-text w3-tag pcp-display-abovemiddle w3-round-medium local-colors-rev"><img class="pcp-thumbnail w3-light-grey" src="" style="border:1px solid #520f10;" />Jenny Steinberg</span></span>
+						</p>
+					</div>
+					<hr class="pcp-hr w3-hide-medium w3-hide-large" style="width:85%;">
+					<div class="" style="line-height:1.2;">
+						<h5 style="margin:25px 0px 0px 0px; font-weight:bold;">WHAT THE CRITICS SAID</h5>
+						<p style="margin-top:10px;">
+							"...this Broadway season's freshest and funniest to date defies skepticism, both in its wacky humor and its big, buoyant heart."
+								-&nbsp;USA&nbsp;Today
+						</p>
+						<p style="margin-top:10px;">
+							"...the main reason to admire "Shoulda" is the frequency, quirkiness and heartiness of the laughs."
+							-&nbsp;Chicago&nbsp;Tribune
+						</p>
+					</div>
+				</div>
+
+				<div class="w3-third pcp-container w3-padding-ver-4 w3-center" style="margin-bottom:10px;">
+					<div class="w3-row w3-center">
+						<table class="pcp-perfTable" style="margin:0 auto; line-height:1.1;">
+							<th colspan="3" style="text-align:left;">Performances:</th></tr>
+							<tr><td style="text-align:left; width:30%;">Fridays</td><td style="text-align:left; padding-left:5px;">Oct 20, 27,<br />Nov 3, 10</td><td style="text-align:right; width:20%;">8 p.m.</td></tr>
+							<tr><td style="text-align:left;">Saturdays</td><td style="text-align:left; padding-left:5px;">Oct 21, 28,<br />Nov 4, 11</td><td style="text-align:right;">8 p.m.</td></tr>
+							<tr><td style="text-align:left;">Sundays</td><td style="text-align:left; padding-left:5px;">Oct 29, Nov 5</span></td><td style="text-align:right;">2 p.m.</td></tr>
+						</table>
+						<hr class="pcp-hr" style="width:65%;" />
+						<table class="pcp-ticketTable" style="width:75%;">
+							<tr><th colspan="2" class="pcp-ticketTableHeading">Tickets:</th></tr>
+							<tr><td>General</td><td>$25</td></tr>
+							<tr><td>Student / Senior</td><td>$20</td></tr>
+						</table>
+
+						<div class="pcp-bold" style="text-align:center; margin-top:25px;">
+							<a class="pcp-button w3-medium local-colors-rev" href="/buyStuffPP.php?productCategory=It Shoulda Been You&NewOrder=true" target="_blank">
+							Click to Order Tickets Online
+							</a>
+							<div class="" style="font-size:small;padding-top:3px;">or</div>
+							Call the Box Office: 510&#8209;724&#8209;9844
+						</div>
+					</div>
+					<div class="w3-hide" style="margin:0px auto; width:95%; margin-top:-320px;">
+						<img src="/images/sold-out-208w-196h-72ppi.png" style="width:100%;" alt="SOLD OUT" />
+					</div>
+				</div>
+
+			</div>
+
+		</div>											<!-- /3 COLUMN SECTION -->
+<!-- vim: set sw=2 ts=2: -->

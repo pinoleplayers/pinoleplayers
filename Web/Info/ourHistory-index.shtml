@@ -1,0 +1,299 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" prefix="og: http://ogp.me/ns#" data-placeholder-focus="false">
+<head>
+
+<!--#include virtual="/includes/PCPhead.html" -->
+
+	<title>PCP History</title>
+
+	<style>
+		#pcp-middle-header:before{
+			content:"HISTORY - The First Five Years";
+		}
+
+		.pastShow{
+			display:inline-block;
+			vertical-align:top;
+			font-weight:bold;
+			padding:2px;
+			margin:2px;
+			background-color:#c8c8c8;
+			line-height:1.1;
+		}
+		div.pastShow>div{
+			display:block;
+			vertical-align:top;
+		}
+		div.pastShow>div>img{
+			height:150px;
+			border:1px solid black;
+			cursor:zoom-in;
+		}
+		div.pastShow>div>div>div>img{
+			cursor:zoom-out;
+		}
+		div.pastShow>div>i{
+			width:175px;
+		}
+		div.pastShow>div:last-child{
+			margin:2px;
+		}
+	</style>
+
+</head>
+<body class="pcp-page">
+
+	<div class="pcp-container pcp-frame-colors">
+
+<!--#include virtual="/includes/PCPbanner-comb.shtml?SM" -->
+
+<!--#include virtual="/includes/PCPmenu-dropdown.shtml" -->
+
+		<div class="w3-container s1 pcp-colors" style="padding:30px 20px;">
+			<p>In 1986, two <a class="horizontalPanelTextColor" href="http://www.ci.pinole.ca.us/" target="_blank">Pinole,CA</a>
+				couples, Gary &amp; Nancy Gill and David &amp; Patti Clark met around the  Gill's kitchen
+				table to discuss their dream of forming a local community theatre group.
+				Utilizing Gary's technical knowledge, Nancy's musical talents, David's directing background
+				and Patti's producing and organizational skills, the <strong>PINOLE COMMUNITY PLAYERS</strong>
+				was born.
+			</p>
+			<p>
+				Contact was made with Father Tom Ryan, pastor of St. Joseph Catholic Church in Pinole, seeking
+				support for the new endeavor.
+				With Father Ryan's blessing and financial support, the Players gained use of the St. Joseph School auditorium.
+				This required the Players to &quot;load in&quot; the production two weeks before opening --
+				constructing a stage, hanging lights, setting up dressing rooms, bringing in tables and chairs --
+				and &quot;load out&quot; when the show closed.
+				Able to pack up lights, scenery and costumes at a moment's notice, the Pinole Players were
+				a band of traveling performers in the theatrical tradition.
+			</p>
+
+			<div class="pcp-container w3-left">
+				<div class="pastShow w3-center">
+					<div>1986</div>
+					<div>
+						<img src=/images/OldShowThumbs/Godspell-86-3.jpg alt="Godspell thumbnail"
+							onclick="document.getElementById('godspell').style.display='block'" />
+						<div id="godspell" class="w3-modal" onclick="this.style.display='none'">
+							<span class="w3-closebtn w3-hover-red w3-container w3-padding-16 w3-display-topright">&times;</span>
+							<div class="w3-modal-content w3-animate-zoom">
+								<img src="/images/OldShowThumbs/Godspell-86-3.jpg" style="width:100%">
+							</div>
+						</div>
+					</div>
+					<div>Godspell</div>
+				</div>
+			</div>
+			<div class="pcp-container w3-right">
+				<div class="pastShow w3-center">
+					<div>1987</div>
+					<div>
+						<img src="/images/Clipping-SeekingAHome-768w-150ppi.jpg" alt="Seeking a Home Clipping"
+							onclick="document.getElementById('clipping').style.display='block'" />
+						<div id="clipping" class="w3-modal" onclick="this.style.display='none'">
+							<span class="w3-closebtn w3-hover-red w3-container w3-padding-16 w3-display-topright">&times;</span>
+							<div class="w3-modal-content w3-animate-zoom">
+								<img src="/images/Clipping-SeekingAHome-768w-150ppi.jpg" style="width:100%">
+							</div>
+						</div>
+					</div>
+					<div>West County Times</div>
+				</div>
+			</div>
+			<p>
+				<em>GODSPELL</em>, a musical based on the Gospel of St. Matthew, was the first production of the new
+				theatre company.
+				Auditions were conducted and an outstanding cast of young local actors hit the newly-constructed
+				stage in July of 1986.
+				Two more successful seasons followed with productions of <em>OLIVER</em>,
+				<em>THE FANTASTICKS</em> and <em>SOUTH PACIFIC</em>.
+			</p>
+			<div class="pcp-container">
+				<div class="pastShow w3-center">
+					<div>1987</div>
+					<div>
+						<img src=/images/OldShowThumbs/Oliver-87-Oliver,Dodger,Fagin.jpg alt="Oliver-87 thumbnail"
+							onclick="document.getElementById('other').style.display='block'" />
+						<div id="other" class="w3-modal" onclick="this.style.display='none'">
+							<span class="w3-closebtn w3-hover-red w3-container w3-padding-16 w3-display-topright">&times;</span>
+							<div class="w3-modal-content w3-animate-zoom">
+								<img src="/images/OldShowThumbs/Oliver-87-Oliver,Dodger,Fagin.jpg" style="width:100%">
+							</div>
+						</div>
+					</div>
+					<div>Oliver</div>
+				</div>
+				<div class="pastShow w3-center">
+					<div>1988</div>
+					<div>
+						<img src=/images/OldShowThumbs/TheFantasticks-88-FullCast.jpg alt="The Fantasticks-88 thumbnail"
+							onclick="document.getElementById('fantasticks').style.display='block'" />
+						<div id="fantasticks" class="w3-modal" onclick="this.style.display='none'">
+							<span class="w3-closebtn w3-hover-red w3-container w3-padding-16 w3-display-topright">&times;</span>
+							<div class="w3-modal-content w3-animate-zoom">
+								<img src="/images/OldShowThumbs/TheFantasticks-88-FullCast.jpg" style="width:100%">
+							</div>
+						</div>
+					</div>
+					<div>The Fantasticks</div>
+				</div>
+				<div class="pastShow w3-center">
+					<div>1988</div>
+					<div>
+						<img src=/images/OldShowThumbs/SouthPacific-Honeybun-Billis+Nellie.jpg alt="South Pacific thumbnail"
+							onclick="document.getElementById('southpacific').style.display='block'" />
+						<div id="southpacific" class="w3-modal" onclick="this.style.display='none'">
+							<span class="w3-closebtn w3-hover-red w3-container w3-padding-16 w3-display-topright">&times;</span>
+							<div class="w3-modal-content w3-animate-zoom">
+								<img src="/images/OldShowThumbs/SouthPacific-Honeybun-Billis+Nellie.jpg" style="width:100%">
+							</div>
+						</div>
+					</div>
+					<div>South Pacific</div>
+				</div>
+			</div>
+			<p>
+				In 1989, the St. Joseph auditorium became unavailable,
+				necessitating a search for a new venue.
+				The City of Pinole offered the use of the Pinole Memorial Center.
+				At the time, the Memorial Center housed the Pinole Senior Center, so shows still had to be loaded in and out.
+				The next three summer productions were staged in the Little Theatre at Pinole Valley High School, which had a
+				stage and stage lighting.
+			</p>
+			<p>
+				<em>COMPANY</em>, <em>A CHORUS LINE</em>, <em>BABY</em>, <em>ANNIE</em>, <em>A LITTLE SHOP OF HORRORS</em> and
+				<em>GUYS &amp; DOLLS</em> brought PCP to their 1991-92 SEASON.
+				The Pinole Community Players had grown with the addition of many talented local people, including
+				entire families -- all bitten by the theatrical bug -- who worked  diligently and tirelessly
+				to make PCP a well-respected performance  group.
+			</p>
+			<div class="pcp-container w3-center">
+				<div class="pastShow">
+					<div>1989</div>
+					<div>
+						<img src=/images/OldShowThumbs/Company-Bobby'sBirthday.jpg alt="Company thumbnail"
+							onclick="document.getElementById('company').style.display='block'" />
+						<div id="company" class="w3-modal" onclick="this.style.display='none'">
+							<span class="w3-closebtn w3-hover-red w3-container w3-padding-16 w3-display-topright">&times;</span>
+							<div class="w3-modal-content w3-animate-zoom">
+								<img src="/images/OldShowThumbs/Company-Bobby'sBirthday.jpg" style="width:100%">
+							</div>
+						</div>
+					</div>
+					<div>Company</div>
+				</div>
+				<div class="pastShow">
+					<div>1989</div>
+					<div>
+						<img src=/images/OldShowThumbs/AChorusLine-TheLine.jpg alt="A Chorus Line thumbnail"
+							onclick="document.getElementById('chorusline').style.display='block'" />
+						<div id="chorusline" class="w3-modal" onclick="this.style.display='none'">
+							<span class="w3-closebtn w3-hover-red w3-container w3-padding-16 w3-display-topright">&times;</span>
+							<div class="w3-modal-content w3-animate-zoom">
+								<img src="/images/OldShowThumbs/AChorusLine-TheLine.jpg" style="width:100%">
+							</div>
+						</div>
+					</div>
+					<div>A Chorus Line</div>
+				</div>
+			</div>
+			<p>
+				Still lacking a permanent home, in 1990, the Board of Directors proposed to the Pinole City Council
+				that the company lease the Pinole Memorial Center as the Players' permanent performance space.
+				In the summer of 1991, the City Council voted unanimously in favor of this agreement, pledged
+				their support to the group and granted permission to establish a PINOLE COMMUNITY PLAYHOUSE.
+			</p>
+			<div class="pcp-container w3-center">
+				<div class="pastShow">
+					<div>1990</div>
+					<div>
+						<img src=/images/OldShowThumbs/BABY-FullCast.jpg alt="BABY thumbnail"
+							onclick="document.getElementById('baby').style.display='block'" />
+						<div id="baby" class="w3-modal" onclick="this.style.display='none'">
+							<span class="w3-closebtn w3-hover-red w3-container w3-padding-16 w3-display-topright">&times;</span>
+							<div class="w3-modal-content w3-animate-zoom">
+								<img src="/images/OldShowThumbs/BABY-FullCast.jpg" style="width:100%">
+							</div>
+						</div>
+					</div>
+					<div>BABY</div>
+				</div>
+				<div class="pastShow">
+					<div>1990</div>
+					<div>
+						<img src=/images/OldShowThumbs/Annie-Orphans+Hannigan.jpg alt="Annie thumbnail"
+							onclick="document.getElementById('annie').style.display='block'" />
+						<div id="annie" class="w3-modal" onclick="this.style.display='none'">
+							<span class="w3-closebtn w3-hover-red w3-container w3-padding-16 w3-display-topright">&times;</span>
+							<div class="w3-modal-content w3-animate-zoom">
+								<img src="/images/OldShowThumbs/Annie-Orphans+Hannigan.jpg" style="width:100%">
+							</div>
+						</div>
+					</div>
+					<div>Annie</div>
+				</div>
+				<div class="pastShow">
+					<div>1991</div>
+					<div>
+						<img src=/images/OldShowThumbs/LittleShopOfHorrors-MushniksWithAudreyII-2.jpg alt="Little Shop Of Horrors thumbnail"
+							onclick="document.getElementById('littleshop').style.display='block'" />
+						<div id="littleshop" class="w3-modal" onclick="this.style.display='none'">
+							<span class="w3-closebtn w3-hover-red w3-container w3-padding-16 w3-display-topright">&times;</span>
+							<div class="w3-modal-content w3-animate-zoom">
+								<img src="/images/OldShowThumbs/LittleShopOfHorrors-MushniksWithAudreyII-2.jpg" style="width:100%">
+							</div>
+						</div>
+					</div>
+					<div>Little Shop of Horrors</div>
+				</div>
+				<div class="pastShow">
+					<div>1991</div>
+					<div>
+						<img src=/images/OldShowThumbs/Guys&Dolls-91-TheCrapGame.jpg alt="Guys & Dolls-91 thumbnail"
+							onclick="document.getElementById('guysndolls').style.display='block'" />
+						<div id="guysndolls" class="w3-modal" onclick="this.style.display='none'">
+							<span class="w3-closebtn w3-hover-red w3-container w3-padding-16 w3-display-topright">&times;</span>
+							<div class="w3-modal-content w3-animate-zoom">
+								<img src="/images/OldShowThumbs/Guys&Dolls-91-TheCrapGame.jpg" style="width:100%">
+							</div>
+						</div>
+					</div>
+					<div>Guys & Dolls</div>
+				</div>
+			</div>
+			<div class="pcp-container w3-left">
+				<div class="pastShow w3-center">
+					<div>1992</div>
+					<div>
+						<img src=/images/OldShowThumbs/BestOfBroadway-SouthPacific.jpg alt="Best of Broadway thumbnail"
+							onclick="document.getElementById('bestofbroadway').style.display='block'" />
+						<div id="bestofbroadway" class="w3-modal" onclick="this.style.display='none'">
+							<span class="w3-closebtn w3-hover-red w3-container w3-padding-16 w3-display-topright">&times;</span>
+							<div class="w3-modal-content w3-animate-zoom">
+								<img src="/images/OldShowThumbs/BestOfBroadway-SouthPacific.jpg" style="width:100%">
+							</div>
+						</div>
+					</div>
+					<div>The Best of Broadway</div>
+				</div>
+			</div>
+			<p>
+				<em>THE BEST OF  BROADWAY</em>
+				opened the 1991-92 season and plans were underway to make
+				renovations to the building and expand the number of  adult and children's performances each year.
+				This group has been able to accomplish renovations to the building, an increase in audience
+				attendance, introduction of new directors and new <a class="horizontalPanelTextColor" href="/Info/pastProductions-index.shtml" target="_parent">
+				productions</a>.
+				Pinole Community Players' quality productions, intimate performance space, unique cabaret style
+				and family atmosphere continue to be strengths as its second quarter century begins.
+			</p>
+			<p>Voted &quot;Best in the West&quot; by West County Times readers and supported by civic leaders,
+				theatre goers, and the community in general.
+			</p>
+		</div>
+	<div>
+<!--#include virtual="/includes/PCPfooter.html" -->
+	</div>
+
+</body>
+<!-- vim: set sw=2 ts=2: -->

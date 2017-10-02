@@ -1,0 +1,17 @@
+		<div class="w3-hide-large w3-hide-medium">
+			<div class="w3-row pcp-frame-colors"> <!-- DROPDOWN MENU -->
+				<ul class="w3-navbar w3-card-2 w3-medium pcp-frame-colors">
+					<li>
+						<a onclick="pcpMenuDropdownClick('PCPmenu')" href="#"><i class="fa fa-fw fa-bars"></i> Menu <i class="fa fa-caret-down"></i></a>
+						<div id="PCPmenu" class="w3-dropdown-content pcp-colors w3-card-4">
+<!--#include virtual="/includes/PCPmenu-comb.shtml?DROPDOWN" -->
+						</div>
+					</li>
+				</ul>
+			</div>														<!-- /DROPDOWN MENU -->
+		</div>
+
+		<div class="w3-hide-small">
+<!--#include virtual="/includes/PCPmenu-comb.shtml?NODROP" -->
+		</div>
+<!-- vim: set sw=2 ts=2: -->
