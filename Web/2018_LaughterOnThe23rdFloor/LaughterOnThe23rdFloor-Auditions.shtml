@@ -1,0 +1,495 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+	<head>
+
+<!--#include virtual="/includes/PCPhead.html" -->
+
+<!--#if expr="${QUERY_STRING} = /Callback/" -->
+		<title>Laughter on the 23rd Floor Audition Callback Info</title>
+<!--#elif expr="${QUERY_STRING} = /Confirmed/" -->
+		<title>Laughter on the 23rd Floor Confirmed Audition Appt Info</title>
+<!--#else -->
+		<title>Laughter on the 23rd Floor Audition Info</title>
+<!--#endif -->
+		<style type="text/css">
+			p {margin: 0.75em;}
+			h2, h3, h4, h5, h6{
+				margin:5px 0px;
+			}
+			ul.compact{
+				margin:0px;
+				font-size:smaller;
+			}
+			.local-colors{
+				color:#3B2D38 /* #4d6a77 */;
+				background-color:#fdca49;
+			}
+			.local-colors-rev{
+				color:#fdca49;
+				background-color:#3B2D38;
+			}
+			.local-button-colors{
+				color:#3B2D38;
+				background-color:#fdca49;
+			}
+			.local-button-colors-rev{
+				color:#fdca49;
+				background-color:#3B2D38;
+			}
+			.local-creatorRole{
+				display:table-row;
+				text-align:left;
+				font-weight:bold;
+				line-height:101%;
+				padding:0px;
+			}
+			.local-creatorRole span:first-child{
+				display:table-cell;
+				font-size:smaller;
+				font-variant:small-caps;
+				padding-right:10px;
+			}
+			.local-creatorRole span:last-child{
+				display:table-cell;
+				vertical-align:middle;
+			}
+			.pcp-linkEffect-3dRolling a {
+				line-height: 44px;
+			}
+			.pcp-linkEffect-3dRolling a span {
+				padding: 0 14px;
+				background: #2195de;
+			}
+			.csstransforms3d .cl-effect-2 a span::before {
+				background: #0965a0;
+			}
+			.pcp-linkEffect-3dRolling a:hover span,
+			.pcp-linkEffect-3dRolling a:focus span {
+				-webkit-transform: rotateX(90deg) translateY(-22px);
+				-moz-transform: rotateX(90deg) translateY(-22px);
+				transform: rotateX(90deg) translateY(-22px);
+			}
+			.pcp-csstransforms3d .pcp-linkEffect-3dRolling a:hover span::before,
+			.pcp-csstransforms3d .pcp-linkEffect-3dRolling a:focus span::before {
+				background:#28a2ee;
+			}
+			#local-sides a{
+				width:83%;
+			}
+			#local-sides li:nth-child(odd){
+				background-color:#d4f3fe;
+			}
+			#local-sides li:nth-child(odd):hover{
+				background-color:#ccc;
+			}
+			#local-char-brkdown td, #local-char-brkdown th {
+				vertical-align: top;
+				line-height:1.2;
+				padding:5px;
+				font-size:15px;
+			}
+			#local-char-brkdown tbody tr td:nth-child(1){
+				width:20%;
+			}
+			#local-char-brkdown tbody tr th, #local-char-brkdown tbody tr td:nth-child(2){
+				text-align:center;
+			}
+			#local-char-brkdown tbody tr th, #local-char-brkdown tbody tr td:nth-child(3){
+				text-align:center;
+			}
+/* with vocal range
+			#local-char-brkdown tbody tr th, #local-char-brkdown tbody tr td:nth-child(4){
+				text-align:center;
+			}
+*/
+			#local-char-brkdown tbody tr:nth-child(even) th, #local-char-brkdown tbody tr:nth-child(even) td{
+				background-color:#fffbf9;
+				border-right-color:WhiteSmoke;
+				border-right-width:2px;
+			}
+			#local-char-brkdown tbody tr:nth-child(odd) td{
+				background-color:#fdca49;
+				border-right-color:DarkGrey;
+				border-right-width:2px;
+			}
+			p {
+				line-height:1.2;
+				margin:5px;
+		</style>
+		</style>
+	</head>
+<body class="pcp-page" style="max-width:800px!important; font-size:14pt;">
+
+	<div class="pcp-container local-colors w3-center pcp-padding-top-bottom-16">
+		<div class="w3-row local-colors pcp-margin-bottom-16">
+			<div class="w3-col l4 m4 s12 w3-center" style="padding:0px 16px;">
+				<div class="pcp-logo pcp-sm-logo w3-left">
+					<div><span>P</span>INOLE</div><br />
+					<div><span>C</span>OMMUNITY</div><br />
+					<div><span>P</span>LAYERS</div>
+				</div>
+			</div>
+			<div class="w3-col l7 m7 s12 w3-center" style="padding:0px 24px;">
+<!--#if expr="${QUERY_STRING} = /Callback/" -->
+				<h2>Audition Callback Info</h2>
+<!--#elif expr="${QUERY_STRING} = /Confirmed/" -->
+				<h3>Confirmed Audition Appointment Info<br /><span class="pcp-smaller">with Link to Audition Packet</span></h3>
+<!--#else -->
+				<h1>Auditions<br />
+					<span style="font-size:small; color:black;">Ages: 18 &amp; older</span>
+<!--#endif -->
+			</div>
+		</div>
+		<div class="w3-row local-colors pcp-margin-top-8">
+			<div class="w3-col l4 m4 s12 w3-center" style="padding:0px 24px;">
+				<img src="/2018_LaughterOnThe23rdFloor/LaughterOnThe23rdFloor_LOGO-400w-792h-96ppi.jpg" width="100%" border="0" longdesc="Laughter on the 23rd Floor LOGO" />
+				<h6 class="pcp-rights">
+					&nbsp;
+				</h6>
+			</div>
+			<div class="w3-col l8 m8 s12 w3-center" style="padding:0px 24px;">
+				<div class="w3-large" style="display:table; margin:0px 0px 15px 0px;">
+					<div class="local-creatorRole"><span>By</span> <span>Neil&nbspSimon</span></div>
+				</div>
+				<p class="w3-left-align w3-medium pcp-bold" style="width:92%; margin-left:0px;">
+					Neil Simon's semi-autobiographical comedy about chaos backstage at a 1950s comedy TV show.
+					A group of eccentric gag writers try to support their star, a charismatic lunatic
+					(modeled on Sid Caesar, star of the classic "Your Show of Shows" TV program),
+					as the network slowly chips away at his comic vision.
+					Both outrageously funny and genuinely touching, this is Neil Simon at his very best.
+				<p>
+				<p class="pcp-margin-top-16 w3-center w3-medium pcp-bold">
+					<span style="font-size:larger;">Performances</span><br />
+					June 8 - 23, 2018<br />
+					Fridays and Saturdays at 8:00 pm<br />
+					Sunday Matinees - June 10, 17 - at 2:00 pm
+				</p>
+			</div>
+		</div>
+	
+		<div class="w3-content local-colors" style="max-width:80%; margin-top:10px;">
+<!--#if expr="${QUERY_STRING} != /Callback/" -->
+			<p>Auditions will be held on</p>
+			<p>
+<!--#if expr="${QUERY_STRING} != /Confirmed/" -->
+				<strong>
+<!--#endif -->
+		    	Sunday, February 4, 2018, 2:00 p.m.<br />
+			    Monday, February 5, 2018, 7:00 p.m.
+<!--#if expr="${QUERY_STRING} != /Confirmed/" -->
+				</strong>
+<!--#endif -->
+			</p>
+<!--#if expr="${QUERY_STRING} = /Confirmed/" -->
+			<h5 class="pcp-bold">The time of your audition is in your audition confirmation email</h5>
+<!--#elif expr="${QUERY_STRING} != /Callback/" -->
+			<h5 class="pcp-bold">NO APPOINTMENT REQUIRED</h5>
+<!--#endif -->
+<!--#endif -->
+			<p class="w3-hide"><strong>Callbacks
+<!--#if expr="${QUERY_STRING} != /Callback/" -->
+			by Invitation Only
+<!--#endif --></strong>
+				on
+			</p>
+			<p class="w3-hide">
+<!--#if expr="${QUERY_STRING} = /Callback/" -->
+				<strong>
+<!--#endif -->
+			Wednesday, February 7, 2018, 7:00 p.m.
+<!--#if expr="${QUERY_STRING} = /Callback/" -->
+				</strong>
+<!--#endif -->
+			</p>
+			<p>at the</p>
+			<p style="font-size:smaller;"><strong>Community Playhouse<br />601 Tennent Ave.<br />Pinole, CA</strong><br /><a style="color:#66010a;" href="/Info/directions-index.shtml">[Directions]</a></p>
+			<div>
+				<h5 class="pcp-bold" style="margin:20px auto 5px auto;">Directed by Arthur Atlas</h5>
+				<div class="w3-medium" style="width:55%; margin:10px auto 15px auto;">
+					<div class="local-creatorRole"><span class="w3-right-align">Assistant Director/ Costumer:</span> <span>Janet&nbsp;O'Brien</span></div>
+					<div class="local-creatorRole"><span class="w3-right-align">Scenic Designer:</span> <span>Fernando&nbsp;Ochoa&nbsp;Beltran&nbsp;Smith</span></div>
+					<div class="local-creatorRole"><span class="w3-right-align">Lighting &amp; Sound Designer:</span> <span>Michael&nbsp;O'Brien</span></div>
+					<div class="local-creatorRole"><span class="w3-right-align">Producer:</span> <span>Patti&nbsp;Clark</span></div>
+				</div>
+			</div>
+			<h5 style="margin:0px 0px 15px 0px; padding:0px;">For additional information about the show or the auditions,<br />email the director by clicking</h5>
+			<div class="pcp-button local-button-colors-rev pcp-linkEffect pcp-linkEffect-revealPushOut">
+				<a class="local-button-colors" href="mailto:arthuratlas75@gmail.com?subject=Inquiry about PCPs Laughter on the 23rd Floor" style="font-variant:none; font-size:16px; font-weight:bold; padding:auto 3px;" target="_blank"
+																		data-hover="arthuratlas75@gmail.com">
+									<span class="local-button-colors-rev" style="font-variant:none; font-size:16px; font-weight:bold; padding:auto 3px;">arthuratlas75@gmail.com</span>
+				</a>
+			</div>
+<!--#if expr="${QUERY_STRING} != /Callback/" -->
+			<div style="text-align:left; margin-top:15px;">
+				<h3 class="w3-center pcp-bold" >Audition Process</h3>
+				<ul style="width:45%; margin:10px auto 0px auto;">
+					<li>NO Monologues</li>
+					<li>Cold Reading From Text</li>
+					<li class="pcp-smaller">A New York accent, while NOT required, will broaden the set of characters for which one can be cast.</li>
+<!--
+						<ul class="" style="font-size:smaller;">
+							<li style="font-size:smaller;">See the Character Descriptions Below</li>
+							<li>The excerpts from the script (the "Sides") to be read
+<!--#if expr="${QUERY_STRING} != /Confirmed/" -->
+									will be provided in your appointment confirmation email
+							</li>
+<!--#else -->
+									can be obtained via the links below
+							</li>
+							<li style="font-weight:bold;">
+								Print out the Sides for the character(s) you want to read in the audition.
+								Bring them to the audition.
+							</li>
+<!--#endif -->
+						</ul>
+					<li class="w3-hide">Prepare 32 Bars or 90 seconds of a song from a contemporary Broadway musical</li>
+						<ul style="font-size:smaller;">
+							<li>Bring sheet music <span style="font-variant:small-caps; font-weight:bold;">IN YOUR KEY</span></li>
+							<li>No tapes, CDs or electronic media</li>
+							<li>Accompanist provided</li>
+							<li>NO A capella</li>
+						</ul>
+					<li>Dance audition at callbacks</li>
+-->
+				</ul>
+			</div>
+<!--
+<!--#if expr="${QUERY_STRING} != /Confirmed/" -->
+			<h4 class="pcp-margin-top-8 pcp-bold">Auditions are by appointment.</h4>
+			<div class="pcp-button local-button-colors-rev pcp-linkEffect pcp-linkEffect-revealPushOut" style="margin:10px auto;">
+				<a class="w3-medium local-button-colors" style="font-variant:small-caps; font-size:18px; font-weight:bold; padding:auto 3px;" target="_blank"
+					href="mailto:pa-clark@comcast.net?subject=Laughter on the 23rd Floor%20Audition%20Appointment%20Request&body=Name%20/%20Phone%20/%20Preferred%20Date%20(September%2016%20or%2017)%20/%20Time%20Constraints,%20if%20any%0A%0AAttach%20Resume%20/%20Headshot%0A%0ACONFIRMATION BY RETURN EMAIL."
+																		data-hover="Click to Schedule an Appointment">
+									<span class="local-button-colors-rev" style="font-variant:small-caps; font-size:18px; font-weight:bold; padding:auto 3px;">Click to Schedule an Appointment</span>
+				</a>
+			</div>
+			<div style="width:80%; margin:auto auto;">
+				<div style="width:72%; text-align:left; margin:10px auto 0px;">
+					Please include:
+			    <ul type="circle" style="margin-top:6px; margin-bottom:6px; font-size:smaller;">
+						<li>Name, phone number and email address</li>
+						<li>Preferred Audition Date - September 16 or 17</li>
+						<li>Attach Resume and Headshot</li>
+					</ul>
+					<p style="font-size:75%;">
+						If there are problems with the link, send an email to:
+						pa&#8209;clark@comcast.net
+						with the requested info.
+					</p>
+				</div>
+			</div>
+			<p style="width:85%; margin:15px auto 0px;">Audition appointments will be assigned <i>in the order requests are received</i>, beginning at 2:30 PM Saturday and 7:00 PM Sunday.</p>
+			<p style="font-size:smaller;">If you have time constraints, include them and we will attempt to accommodate you.</p>
+			<h5 class="pcp-bold" style=" margin-top:10px;">You will be notified of your audition time by email.</h5>
+			<p class="w3-large">
+				The notification email will contain a link to an Audition Packet.
+			</p>
+<!--#endif -->
+<!--#endif -->
+-->
+<!--#if expr="${QUERY_STRING} = /Confirmed/ || TRUE" -->
+				<h5 class="pcp-margin-top-16"><strong>Bring a completed Audition Form to the audition.</strong></h5>
+			<div class="pcp-margin-top-8 pcp-margin-bottom-8 pcp-csstransforms3d">
+				<div class="pcp-button local-button-colors-rev pcp-linkEffect  pcp-linkEffect-revealPushOut">
+					<a class="local-button-colors" href="LaughterOnThe23rdFloor-AuditionPacket.pdf" style="font-variant:none; font-size:18px; font-weight:bold; padding:auto 3px;" target="_blank"
+																		data-hover="Click for the Audition Packet">
+									<span class="local-button-colors-rev" style="font-variant:none; font-size:18px; font-weight:bold; padding:auto 3px;">Click for the Audition Packet</span>
+					</a>
+				</div>
+				<p class="pcp-bold" style="max-width:70%; margin:8px auto 0px;">
+					Please print and complete pages 1 &amp; 2, and bring them to your audition
+				</p>
+				<p style="font-size:smaller; max-width:70%; margin:8px auto 0px;">
+					If you are unable to print the form<!-- or sides-->, copies will be available at the audition.
+					Please arrive <strong>early</strong> to fill out an Audition Form <strong>before</strong> <!-- your appointment time --> the audition time.
+				</p>
+			</div>
+<!--
+<!--#endif -->
+-->
+			<p><strong>Callbacks
+<!--#if expr="${QUERY_STRING} != /Callback/" -->
+			by Invitation Only
+<!--#endif --></strong>
+				on
+			</p>
+			<p>
+<!--#if expr="${QUERY_STRING} = /Callback/" -->
+				<strong>
+<!--#endif -->
+			Wednesday, February 7, 2018, 7:00 p.m.
+<!--#if expr="${QUERY_STRING} = /Callback/" -->
+				</strong>
+<!--#endif -->
+			</p>
+			<div class="" style="width:80%; text-align:left; margin:15px auto 0px auto;">
+				<p><span class="pcp-bold">Full Cast Read-thru: Tuesday, Feb. 20, 2018, 7:30 p.m.</span><p>
+				<ul type="circle" style="margin-top:3px; margin-bottom:6px;">
+					<li>First regular rehearsal: Monday, April&nbsp;23,&nbsp;2018, 7:30 p.m.</li>
+					<li>Rehearsals are 7:30&nbsp;-&nbsp;10:00&nbsp;p.m., Monday&nbsp;-&nbsp;Thursday</li>
+					<li>Occasional Saturday or Sunday rehearsals may be scheduled, if needed</li>
+				</ul>
+<!--#if expr="${QUERY_STRING} = /Confirmed/ || TRUE" -->
+				<p style="font-size:smaller;"><strong>Be sure to fill out the rehearsal conflict page in the Audition Form.</strong></p>
+<!--#endif -->
+			</div>
+	    <h5 style="margin-top:15px; margin-bottom:8px;">Email other inquiries to the producer by clicking</h5>
+			<div class="pcp-button local-button-colors-rev pcp-linkEffect pcp-linkEffect-revealPushOut">
+				<a class="local-button-colors" href="mailto:pa-clark@comcast.net?subject=Inquiry about PCPs Laughter on the 23rd Floor" style="font-variant:none; font-size:16px; font-weight:bold; padding:auto 3px;" target="_blank"
+																		data-hover="pa-clark@comcast.net">
+									<span class="local-button-colors-rev" style="font-variant:none; font-size:16px; font-weight:bold; padding:auto 3px;">pa-clark@comcast.net</span>
+				</a>
+			</div>
+		</div>
+	</div>
+	<div style="width:800px; margin:0px auto; background-color:#fdca49; border: 2px solid black; font-size:smaller;">
+		<h3 style="text-align:center;">
+			We are looking for Seven Men and Two Women - 18 & older - to play the following:<br />
+			<span style="font-size:smaller; font-weight:normal;">Note: All ages listed are the age that the actor / actress appears, not his or her actual age</span>
+		</h3>
+		<div class="w3-responsive">
+			<table id="local-char-brkdown" class="w3-table w3-border w3-striped">
+				<tbody>
+					<tr>
+						<th>Character</th><th width="10%">Age</th><th>Gender</td><th>Description</th>
+					</tr>
+					<tr>
+						<td>Lucas Brickman,<br />our narrator</td>
+						<td>Mid-20s</td>
+						<td>Male</td>
+						<td>The youngest member of staff, newly-hired, a bit nervous about proving himself and kind of lost in the aggressive one-liner atmosphere, but he keeps trying.</td>
+					</tr>
+					<tr>
+						<td>Milt Fields</td>
+						<td>25-50</td>
+						<td>Male</td>
+						<td>Both his New York accent and his manner give him the quintessential 1950s "bagel &amp; borscht" voice; he embodies urban, Jewish anxiety which he expresses with lots of "ba-dum-bums" and a dry, well-timed wit.</td>
+					</tr>
+					<tr>
+						<td>Val Skolsky<br /><br />(Russian/Jewish accent a must)</td>
+						<td>30-60</td>
+						<td>Male</td>
+						<td>
+							The senior member of staff, a Russian &eacute;migr&eacute; (with Russian/Jewish accent); he is the most politically aware of the writers and a man who, having been through some of the horrors of WW2, still manages to find the "funny" in almost everything.
+						</td>
+					</tr>
+					<tr>
+						<td>Brian Doyle</td>
+						<td>25-50</td>
+						<td>Male</td>
+						<td>
+							A good (Irish) guy with a cigarette usually hanging from his mouth; he's rumpled and has had recent hair implants.
+							He is a heavy smoker, cougher, drinker with a biting, caustic sense of humor and he constantly brags about signing a contract to write Hollywood movies.
+							(He is always ready to trade insults with Ira Stone.)
+						</td>
+					</tr>
+					<tr>
+						<td>Ira Stone<br /><br />(New York accent a plus)</td>
+						<td>25-50</td>
+						<td>Male</td>
+						<td>
+							All energy with a touch of brilliant madness and also a (big) touch of hypochondria.
+							Ira comes in late every day, with a new ailment, and his greatest wish is to have a virus named after him.
+							(He is always ready to trade insults with Brian Doyle.)
+						</td>
+					</tr>
+					<tr>
+						<td>Kenny Franks</td>
+						<td>20-35</td>
+						<td>Male</td>
+						<td>
+							The boy genius; neatly dressed with shell-framed glasses, he is the most sophisticated of the group and he displays a worldliness far beyond his years.</td>
+					</tr>
+					<tr>
+						<td>Max Prince</td>
+						<td>Sid Caesar-ish at<br />30-50</td>
+						<td>Male</td>
+						<td>
+							He exudes strength and he dominates a room with personality: quixotic, changing instantly from warm, infectious laughter to sullen anger,
+							he storms about the place making pronouncements and messing up most historical facts.
+						</td>
+					</tr>
+					<tr>
+						<td>Carol Wyman</td>
+						<td>25-35</td>
+						<td>Female</td>
+						<td>
+							A strong and quick defense system. She is the only female writer on staff and she is trying to become a new mother.
+							She does not want to be known as a female writer, but as a comedy writer.
+							Carol is perfectly able to handle herself (and her mouth) in a room full of smart-ass comedians.
+						</td>
+					</tr>
+					<tr>
+						<td>Helen</td>
+						<td>20-30</td>
+						<td>Female</td>
+						<td>
+							Although she's Max's long-suffering secretary right now, she aspires to be a comedy writer and join the team.
+							She will eventually end up going to law school because she lacks the comedy gene - totally.
+							It's all in the timing.
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+
+<!--#if expr="${QUERY_STRING} = /CallbackMaybe/" -->
+	<div style="max-width:800px; padding:10px; margin-bottom:10px; background-color:#8feffe; border: 2px solid #273d49; font-size:smaller;">
+		<div style="max-width:95%; margin:auto auto;">
+			<h3 class="w3-center pcp-bold">CALLBACK VOCAL SIDES</h3>
+			<h5 class="w3-center">Click on the Characters to see the side</h5>
+			<ul id="local-sides" class="w3-hide w3-ul w3-hoverable" style="max-width:250px; list-style-type:decimal; list-style-position:inside; text-align:left; margin:auto auto; border:1px dotted #273d49;">
+				<li class="pcp-linkEffect pcp-linkEffect-bottomBorderEnlarge"><a href="AuditionSides/CallbackSideVocal-Albert.pdf" target="_blank">ALBERT</a></li>
+				<li class="pcp-linkEffect pcp-linkEffect-bottomBorderEnlarge"><a href="AuditionSides/CallbackSideVocal-Brian+George.pdf" target="_blank">BRIAN + GEORGE</a></li>
+				<li class="pcp-linkEffect pcp-linkEffect-bottomBorderEnlarge"><a href="AuditionSides/CallbackSideVocal-Georgette.pdf" target="_blank">GEORGETTE</a></li>
+				<li class="pcp-linkEffect pcp-linkEffect-bottomBorderEnlarge"><a href="AuditionSides/CallbackSideVocal-Greg+Annie.pdf" target="_blank">GREG + ANNIE</a></li>
+				<li class="pcp-linkEffect pcp-linkEffect-bottomBorderEnlarge"><a href="AuditionSides/CallbackSideVocal-Jenny.pdf" target="_blank">JENNY</a></li>
+				<li class="pcp-linkEffect pcp-linkEffect-bottomBorderEnlarge"><a href="AuditionSides/CallbackSideVocal-Judy.pdf" target="_blank">JUDY</a></li>
+				<li class="pcp-linkEffect pcp-linkEffect-bottomBorderEnlarge"><a href="AuditionSides/CallbackSideVocal-Marty.pdf" target="_blank">MARTY</a></li>
+				<li class="pcp-linkEffect pcp-linkEffect-bottomBorderEnlarge"><a href="AuditionSides/CallbackSideVocal-Rebecca.pdf" target="_blank">REBECCA</a></li>
+			</ul>
+			<div class="w3-large">
+				<div class="pcp-linkEffect pcp-linkEffect-2ndBorderSlidesUp" style="width:230px; display:inline-block;"><a href="AuditionSides/CallbackSideVocal-Albert.pdf" target="_blank">ALBERT</a></div>
+				<div class="pcp-linkEffect pcp-linkEffect-2ndBorderSlidesUp" style="width:230px; display:inline-block;"><a href="AuditionSides/CallbackSideVocal-Brian+George.pdf" target="_blank">BRIAN + GEORGE</a></div>
+				<div class="pcp-linkEffect pcp-linkEffect-2ndBorderSlidesUp" style="width:230px; display:inline-block;"><a href="AuditionSides/CallbackSideVocal-Georgette.pdf" target="_blank">GEORGETTE</a></div>
+				<div class="pcp-linkEffect pcp-linkEffect-2ndBorderSlidesUp" style="width:230px; display:inline-block;"><a href="AuditionSides/CallbackSideVocal-Greg+Annie.pdf" target="_blank">GREG + ANNIE</a></div>
+				<div class="pcp-linkEffect pcp-linkEffect-2ndBorderSlidesUp" style="width:230px; display:inline-block;"><a href="AuditionSides/CallbackSideVocal-Jenny.pdf" target="_blank">JENNY</a></div>
+				<div class="pcp-linkEffect pcp-linkEffect-2ndBorderSlidesUp" style="width:230px; display:inline-block;"><a href="AuditionSides/CallbackSideVocal-Judy.pdf" target="_blank">JUDY</a></div>
+				<div class="pcp-linkEffect pcp-linkEffect-2ndBorderSlidesUp" style="width:230px; display:inline-block;"><a href="AuditionSides/CallbackSideVocal-Marty.pdf" target="_blank">MARTY</a></div>
+				<div class="pcp-linkEffect pcp-linkEffect-2ndBorderSlidesUp" style="width:230px; display:inline-block;"><a href="AuditionSides/CallbackSideVocal-Rebecca.pdf" target="_blank">REBECCA</a></div>
+			</div>
+		</div>
+	</div>
+	<div>
+<!--#endif -->
+<!--#if expr="${QUERY_STRING} = /ConfirmedMaybe/" -->
+	<div style="max-width:800px; padding:10px; margin-bottom:10px; background-color:#8feffe; border: 2px solid #273d49; font-size:smaller;">
+		<div style="max-width:550px; margin:auto auto;">
+			<h3 class="w3-center pcp-bold">AUDITION SIDES</h3>
+			<h5 class="w3-center">Click on the Characters to see the side</h5>
+			<ul id="local-sides" class="w3-ul w3-hoverable" style="max-width:420px; list-style-type:decimal; list-style-position:inside; text-align:left; margin:auto auto; border:1px dotted #273d49;">
+				<li><a href="AuditionSides/AuditionSide01-BRIAN+GEORGE.pdf" target="_blank">BRIAN / GEORGE</a></li>
+				<li><a href="AuditionSides/AuditionSide02-BRIAN+GREG.pdf" target="_blank">BRIAN / GREG</a></li>
+				<li><a href="AuditionSides/AuditionSide03-JENNY+MARTY.pdf" target="_blank">JENNY / MARTY</a></li>
+				<li><a href="AuditionSides/AuditionSide04-JUDY+GEORGETTE.pdf" target="_blank">JUDY / GEORGETTE</a></li>
+				<li><a href="AuditionSides/AuditionSide05-JUDY+JENNY.pdf" target="_blank">JUDY / JENNY</a></li>
+				<li><a href="AuditionSides/AuditionSide06-GEORGE+BRIAN+GEORGETTE.pdf" target="_blank">GEORGE / BRIAN / GEORGETTE</a></li>
+				<li><a href="AuditionSides/AuditionSide07-ALBERT+MIMSY+WALT+MARTY+MURRAY.pdf" target="_blank">ALBERT / MIMSY / WALT / MARTY / MURRAY</a></li>
+				<li><a href="AuditionSides/AuditionSide08-UNCLE-MORTY+MARTY.pdf" target="_blank">UNCLE MORTY / MARTY</a></li>
+				<li><a href="AuditionSides/AuditionSide09-MIMSY+WALT.pdf" target="_blank">MIMSY / WALT</a></li>
+				<li><a href="AuditionSides/AuditionSide10-ANNIE+JENNY.pdf" target="_blank">ANNIE / JENNY</a></li>
+				<li><a href="AuditionSides/AuditionSide11-REBECCA+ANNIE+BRIAN+JENNY+GREG.pdf" target="_blank">REBECCA / ANNIE / BRIAN / JENNY / GREG</a></li>
+				<li><a href="AuditionSides/AuditionSide12-ALBERT+JENNY+GREG.pdf" target="_blank">ALBERT / JENNY / GREG</a></li>
+			</ol>
+		</div>
+	</div>
+	<div>
+<!--#endif -->
+<!--								FOOTER -->
+<!--#include virtual="/includes/PCPfooter.html" -->
+	</div>
+	<script type="text/javascript" src="/js/placeholders.min.js"></script>
+</body>
+</html>
+<!-- vim: set sw=2 ts=2: -->
