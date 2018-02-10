@@ -1,0 +1,50 @@
+<tr><td>Clio/Kira</td><td>Female</td><td>20-30</td>
+		<td>
+			Muse of History, and leader of the muses.
+			She comes to Earth to help the mortal Sonny Malone in hopes of fulfilling Zeus’ prophecy: “that one day soon she will inspire a creation so wondrous that she will be granted the gift of Xanadu.”
+			She ends up falling in love with Sonny, an act forbidden by the gods, and in turn must endure the wrath of her father Zeus.
+			The actor playing Clio/Kira spends almost the entire duration of the musical in roller skates.
+			Soprano/Mezzo with strong comedic timing.
+		</td>
+</tr>
+<tr><td>Sonny Malone</td><td>Male</td><td>25-35</td>
+		<td>
+			Handsome and “very 1980’s.”
+			He is a struggling artist who, when we first meet him, is working on a mural of the Nine Muses.
+			But what he really wants is to open “an apex of all the arts” - a roller disco.
+			He falls in love with Clio, disguised as Kira, as she attempts to help inspire him in his art.
+			The actor playing Sonny Malone must be able to move well in roller skates.
+			Tenor/Baritone, with good comic timing and leading man looks.
+		</td>
+</tr>
+<tr><td>Danny Maguire/Zeus</td><td>Male</td><td>45+</td>
+		<td>
+			A very professional, very successful businessman who used to be a clarinet player but gave up on his dreams to become a real estate mogul.
+			He was once in love with a Southern belle named “Kitty” (actually Clio in disguise) who left him because he refused to open the “Xanadu,” a theater he built especially for her. 
+			Baritone with strong acting chop
+		</td>
+</tr>
+<tr><td>Melpomene</td><td>Female</td>^<td>35+</td>
+		<td>
+			Muse of Tragedy.
+			As the eldest of the Muses, she resents that Zeus made Clio - and not her - leader of the Muses.
+			She plots revenge against Clio in the form of a curse to make her fall in love with the mortal Sonny Malone, and as a result be condemned to eternal damnation in the netherworld.
+			Need string Mezzo/Alto Belter.
+		</td>
+</tr>
+<tr><td>Calliope</td><td>Female</td><td>35+</td>
+		<td>
+			Muse of Epics.
+			Quirky sidekick to Melpomene.
+			Strong Mezzo Belter.
+		</td>
+</tr>
+<tr><td>Ensemble</td><td>3 Male, 3 Female</td><td>18+</td>
+		<td>
+			The ensemble of this show must be quadruple threats, as they portray every other character in this show.
+			They must be strong dancers, strong singers (who can easily handle harmonies),
+			strong actors who are able to play multiple small but EXTREMELY important character roles,
+			and they must possess the ability to roller skate (or be willing to learn).
+			All additional characters are played by this very busy ensemble.
+		</td>
+</tr>

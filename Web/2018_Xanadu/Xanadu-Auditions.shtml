@@ -1,0 +1,414 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+	<head>
+
+<!--#include virtual="/includes/PCPhead.html" -->
+<!--#if expr="${QUERY_STRING} = /Callback/" -->
+		<title>Xanadu Audition Callback Info</title>
+<!--#elif expr="${QUERY_STRING} = /Confirmed/" -->
+		<title>Xanadu Confirmed Audition Appt Info</title>
+<!--#else -->
+		<title>Xanadu Audition Info</title>
+<!--#endif -->
+		<style type="text/css">
+			p {margin: 0.75em;}
+			h2, h3, h4, h5, h6{
+				margin:5px 0px;
+			}
+			ul.compact{
+				margin:0px;
+				font-size:smaller;
+			}
+			.local-colors{
+				color:#621353!important;
+				background-color:#fc9af1!important;
+			}
+			.local-colors-rev{
+				color:#fc9af1;
+				background-color:#621353;
+			}
+			.local-button-colors{
+				color:#621353;
+				background-color:#fc9af1;
+			}
+			.local-button-colors-rev{
+				color:#fc9af1;
+				background-color:#621353;
+			}
+		</style>
+	</head>
+<body class="pcp-page" style="max-width:800px!important; font-size:14pt;">
+
+	<div class="pcp-container local-colors w3-center pcp-padding-top-bottom-16">
+		<div class="w3-row local-colors pcp-margin-bottom-16">
+			<div class="w3-col l4 m4 s12 w3-center" style="padding:0px 16px;">
+				<div class="pcp-logo pcp-sm-logo w3-left">
+					<div><span>P</span>INOLE</div><br />
+					<div><span>C</span>OMMUNITY</div><br />
+					<div><span>P</span>LAYERS</div>
+				</div>
+			</div>
+			<div class="w3-col l7 m7 s12 w3-center" style="padding:0px 24px;">
+<!--#if expr="${QUERY_STRING} = /Callback/" -->
+				<h2>Audition Callback Info</h2>
+<!--#elif expr="${QUERY_STRING} = /Confirmed/" -->
+				<h2>Confirmed Audition Appointment Info</h2>
+<!--#else -->
+				<h1>Auditions<br />
+					<span style="font-size:small; color:black;">Ages: 18 &amp; older</span>
+<!--#endif -->
+			</div>
+		</div>
+		<div class="w3-row local-colors pcp-margin-top-8">
+			<div class="w3-col l4 m4 s12 w3-center" style="padding:0px 16px;">
+				<img src="../2018_Season/Xanadu_LOGO-319w-476h-96ppi.png" width="100%" border="0" longdesc="Xanadu 2017 LOGO" />
+				<h6 class="pcp-rights">Produced by special arrangements with<br />Music&nbsp;Theatre&nbsp;International (MTI)<br />
+					All authorized performance materials are also supplied by MTI.<br />
+					www.MTIShows.com
+				</h6>
+			</div>
+			<div class="w3-col l7 m7 s12 w3-center" style="padding:0px 24px;">
+				<div style="margin:0px 0px 15px 0px;">
+					<div class="pcp-creatorRole"><span>Book&nbsp; by</span> Douglas&nbsp;Carter&nbsp;Beene</div>
+					<div class="pcp-creatorRole"><span>Music&nbsp;&amp;&nbsp;Lyrics&nbsp;by</span> Jeff&nbsp;Lynne&nbsp;& John&nbsp;Farrar</div>
+					<div class="pcp-creatorRole" style="margin-top:10px;"><span>Based on the Universal Pictures film<br />with a screenplay by</span> Richard&nbsp;Danus&nbsp;& Marc&nbsp;Rubel</div>
+				</div>
+				<div style="text-align:left; font-size:12pt; margin-top:20px;">
+					<p>
+						<b>XANADU</b> follows the journey of a magical and beautiful Greek muse, Kira, who descends from the heavens of Mount Olympus to Venice Beach, California in 1980!
+						Her quest is to inspire a struggling artist, Sonny, to achieve the greatest artistic creation of all time - the first ROLLER DISCO!
+						(Hey, it's 1980!)
+						But, when Kira falls into forbidden love with the mortal, her jealous sisters take advantage of the situation, and chaos abounds.
+					</p>
+					<p>
+						This campy, loving homage to the 80s is a moving, electrifying tale of endless fun that will keep audiences in stitches,
+						while the original legendary, chart-topping tunes will lift them out of their seats.
+						You'll want to keep the music in your head and <b>XANADU</b> in your heart... forever.
+					<p>
+				</div>
+			</div>
+		</div>
+	
+		<div class="w3-content local-colors" style="max-width:90%; margin-top:20px;">
+<!--#if expr="${QUERY_STRING} != /Callback/" -->
+			<p>Auditions will be held on</p>
+			<p><strong>
+				Saturday, March 3, 2018 - 1:00 - 4:00 p.m.</br >
+				Sunday, March 4, 2018 - 6:00 - 9:00 p.m.
+			</strong></p>
+<!--#endif -->
+			<p><strong>Callbacks by Invitation Only</strong> on</p>
+			<p>Saturday, March 10, 2018 at 1:00 p.m. (exact times TBD)</p>
+			<p>at the</p>
+			<p style="font-size:smaller;"><strong>Community Playhouse<br />601 Tennent Ave.<br />Pinole, CA</strong><br /><a style="color:#66010a;" href="/Info/directions-index.shtml">[Directions]</a></p>
+			<div>
+				<h4 class="pcp-bold" style="margin:20px auto 5px auto;">Directed by G.&nbsp;A.&nbsp;Klein</h4>
+				<div style="width:70%; margin:10px auto 15px auto;">
+					<div class="pcp-creatorRole" style="text-align:center;"><span>Vocal Director:</span> G.&nbsp;A.&nbsp;Klein</div>
+					<div class="pcp-creatorRole" style="text-align:center;"><span>Choreographer:</span> Anjee&nbsp;Norgaard&#8209;Gallia</div>
+					<div class="pcp-creatorRole" style="text-align:center;"><span>Assistant Director:</span> Jennifer&nbsp;Jackson</div>
+				</div>
+			</div>
+			<h5 style="margin:0px 0px 15px 0px; padding:0px;">For additional information about the show or the auditions,<br />email the director by clicking</h5>
+			<div class="pcp-button local-button-colors-rev pcp-linkEffect pcp-linkEffect-revealPushOut">
+				<a class="local-button-colors" href="mailto:greggars.talking64@gmail.com?subject=Inquiry about PCPs Xanadu" style="font-variant:none; font-size:18px;"
+																		data-hover="greggars.talking64@gmail.com">
+									<span class="local-button-colors-rev">greggars.talking64@gmail.com</span>
+				</a>
+			</div>
+			<div class="pcp-bold pcp-padding-top-4">or phone: 510&#8209;334&#8209;1414</div>
+			</div>
+<!--#if expr="${QUERY_STRING} != /Callback/" -->
+			<div class="w3-center" style="margin-top:15px;">
+				<h3 class="w3-center pcp-bold" >Audition Process</h3>
+				<ul style="text-align:left; width:70%; margin:10px auto 0px auto;">
+					<li>Please prepare two songs:</li>
+					<ul style="padding-left:15px;">
+						<li>An Up-Tempo Modern Broadway or Pop Song</li>
+						<li>A Modern Broadway or Pop Ballad</li>
+						<ul style="font-size:smaller; padding-left:15px;">
+							<li>Sing 16-32 Bars - up to one minute - of each</li>
+							<li>NO Stephen Sondheim, Leonard Bernstein or Jason Robert Brown</li>
+							<li>Bring sheet music <strong>IN YOUR KEY</strong></li>
+							<li>An accompanist will be provided.</li>
+							<li>MP3 backing tracks are discouraged</li>
+							<li>No a capella</li>
+						</ul>
+					</ul>
+					<li>A short dance audition will be included; dress for movement</li>
+					<li>Cold readings from the script, time permitting.</li>
+					<ul style="font-size:smaller; padding-left:15px;">
+						<li>See the Character Descriptions Below</li>
+					</ul>
+					<li class="pcp-bold">ALL cast members will roller skate in the show.</li>
+					<ul style="font-size:smaller; padding-left:15px;">
+						<li> Current skill level is not important; those cast will be trained.</li>
+					</ul>
+				</ul>
+			</div>
+<!--#if expr="${QUERY_STRING} != /Confirmed/" -->
+			<h4 class="pcp-bold">Auditions are by appointment.</h4>
+			<p style="width:75%; margin:auto auto;">Appointments for 30 minute audition slots will be assigned <i>in the order they are received</i>, beginning each day at the times above.</p>
+			<p style="font-size:smaller;">If you have time constraints, include them and we will attempt to accommodate you.</p>
+			<div class="pcp-button local-button-colors-rev pcp-linkEffect pcp-linkEffect-revealPushOut" style="margin:10px auto;">
+				<a class="w3-medium local-button-colors" style="font-size:18px;" target="_blank" href="mailto:pa-clark@comcast.net?subject=Xanadu%20Audition%20Appointment%20Request&body=Name%20/%20Phone%20/%20Preferred%20Date%20(March 3 or 4)%20/%20Time%20Constraints,%20if%20any%0A%0AAttach%20Resume%20/%20Headshot%0A%0ACONFIRMATION BY RETURN EMAIL."
+																		data-hover="Click to Schedule an Appointment">
+									<span class="local-button-colors-rev">Click to Schedule an Appointment</span>
+				</a>
+			</div>
+			<div style="width:60%; margin:auto auto;">
+				<div style="width:80%; text-align:left; margin:0px auto;">
+					Please include:
+					<ul type="circle" style="margin-top:6px; margin-bottom:6px; font-size:smaller;">
+						<li>Name, phone number and email address</li>
+						<li>Preferred Audition Date - March&nbsp;3 or 4</li>
+						<li>Attach Resume and Headshot files,<br />if available</li>
+					</ul>
+				</div>
+				<p style="font-size:75%; width:65%; margin:0 auto;">
+					If there are problems with the link, send an email to:
+					pa-clark@comcast.net
+					with the requested info.
+				</p>
+			</div>
+			<h4 class="pcp-bold" style=" margin-top:10px;">You will be notified of your audition time by email.</h4>
+<!--#endif -->
+<!--#endif -->
+<!--#if expr="${QUERY_STRING} = /Confirmed/" -->
+<style>
+.pcp-linkEffect a {
+	margin: 15px 25px;
+	color: #fff;
+	font-size: 1.35em;
+}
+.pcp-linkEffect-3dRolling a {
+	line-height: 44px;
+}
+.pcp-linkEffect-3dRolling a span {
+	padding: 0 14px;
+	background: #621353;
+}
+.csstransforms3d .cl-effect-2 a span::before {
+	background: #fc9af1;
+}
+.pcp-linkEffect-3dRolling a:hover span,
+.pcp-linkEffect-3dRolling a:focus span {
+	-webkit-transform: rotateX(90deg) translateY(-22px);
+	-moz-transform: rotateX(90deg) translateY(-22px);
+	transform: rotateX(90deg) translateY(-22px);
+}
+.pcp-csstransforms3d .pcp-linkEffect-3dRolling a:hover span::before,
+.pcp-csstransforms3d .pcp-linkEffect-3dRolling a:focus span::before {
+	background:#28a2ee;
+}
+</style>
+<!--#endif -->
+			<div class="pcp-csstransforms3d">
+				<p><strong>Bring a completed Audition Form to the audition.</strong></p>
+				<div class="pcp-button local-button-colors-rev pcp-linkEffect pcp-linkEffect-revealPushOut">
+					<a class="w3-large pcp-bold local-button-colors" href="XANADU-AuditionPacket.pdf" target="_blank"style="font-size:18px;"
+																		data-hover="Click for the Audition Form">
+									<span class="local-button-colors-rev pcp-bold">Click for the Audition Form</span>
+					</a>
+				</div>
+				<p style="font-size:smaller; max-width:70%; margin:5px auto;">
+					If you are unable to print the form, copies will be available at the audition.
+					Please arrive early to complete an Audition Form before your appointment time.
+				</p>
+			</div>
+			<div class="w3-center" style="max-width:75%; margin:10px auto; font-size:12pt;">
+				<h3 class="pcp-bold">Callbacks</h3>
+				<ul style="text-align:left; padding-left:15px; width:75%; margin:0 auto;">
+					<li>Saturday, March 10, 2018 - 1:00 PM (exact times TBD)</li>
+					<li><strong>By invitation ONLY.</strong></li>
+					<li>There will be an extended dance audition.
+					<li>Musical Sides for the Call Back will be available no later than Tuesday, March 6, 2018.
+					<li>COLD readings will be assigned at the Call Back.
+				</ul>
+				<h4 class="w3-center" style="max-width:85%; margin:10px auto 0px auto;">
+					<strong>Some roles may be cast directly from the audition.</strong><br />
+					<span style="font-size:smaller;">If you do not receive a Call Back invitation,<br />it does NOT mean you will not be cast.</span>
+				</h4>
+			</div>
+			<div class="w3-center" style="max-width:75%; margin:10px auto; font-size:12pt;">
+				<h3 class="pcp-bold">Rehearsals</h3>
+				<ul style="text-align:left; padding-left:15px; width:75%; margin:0 auto;">
+					<li><strong>First Cast Meeting - Monday, August&nbsp;6, 2018</strong></li>
+					<li>Regular Rehearsals begin August&nbsp;7, 2018</li>
+					<li>Rehearsals are Monday&#8209;Thursday, 7:30&#8209;10:30&nbsp;p.m.</li>
+					<li>Saturday rehearsals will be scheduled as needed</li>
+					<ul style="padding-left:15px;">
+						<li class="pcp-smaller">Possible Dates: 8/11, 8/18, 8/25, 9/8, 9/15
+					</ul>
+					<li>Tech Week - <span class="pcp-smaller">Sunday, September 23 - Thursday, September 27, 2018</span></li>
+				</ul>
+				<p class="w3-center"><strong>Be sure to fill out the rehearsal conflict page in the Audition Form.</strong></p>
+			</div>
+			<div class="w3-center" style="max-width:70%; margin:10px auto; font-size:12pt;">
+				<h4><strong>Performances</strong><br />
+					September&nbsp;28 - October&nbsp;20, 2018<br />
+					Fridays &amp; Saturdays - 8:00 p.m.<br />
+					Sunday Matinees (October 7 & 14) - 2 p.m.
+				</h4>
+			</div>
+			<p>For other inquiries call <strong>510&#8209;724&#8209;9844</strong></p>
+		</div>
+	</div>
+	<style>
+		#local-char-brkdown{
+			border:2px solid #621353;
+			border-spacing:0px;
+		}
+		#local-char-brkdown tbody tr td, #local-char-brkdown tbody tr th{
+			padding:10px;
+		}
+		#local-char-brkdown tbody tr:nth-child(even){
+			background-color:#fbc6ff;
+		}
+		#local-char-brkdown tbody tr td:nth-child(1){
+			font-size:larger;
+		}
+		#local-char-brkdown tbody tr td:nth-child(2){
+			text-align:center;
+		}
+		p {
+			line-height:1.2;
+			margin:5px;
+		}
+	</style>
+	<div style="max-width:800px; margin:10px auto; background-color:#faa0f0; border: 2px solid #621353; font-size:smaller;">
+		<div class="w3-responsive">
+			<table id="local-char-brkdown" class="w3-table w3-border w3-striped">
+				<tbody>
+					<tr><th colspan="5" style="text-align:center; font-size:larger; font-weight:bold;">CHARACTERS</th></tr>
+					<tr><th>Name</th><th>Gender</th><th>Age</th><th>Vocal<br />Range</th><th style="width:75%;">Description</th></tr
+					<tr><td>Clio/Kira</td><td>F</td><td>20-30</td><td>Soprano/<br />Mezzo</td>
+							<td>
+								Muse of History, and leader of the Muses.
+								She comes to Earth as Kira to help the mortal, Sonny Malone, in hopes of fulfilling Zeus' prophecy,
+								"that one day she will inspire a creation so wondrous that she will be granted the gift of Xanadu."
+								She falls in love with Sonny, an act forbidden by the gods, and, in turn, endures the wrath of her father, Zeus.
+								The actor playing Clio/Kira spends almost the entire show in roller skates.
+								Soprano/Mezzo with strong comedic timing.
+							</td>
+					</tr>
+					<tr><td>Sonny Malone</td><td>M</td><td>25-35</td><td>Tenor/<br />Baritone</td>
+							<td>
+								Handsome and very "1980s."
+								He is a struggling artist.
+								When we first meet him, he is working on a mural of the Nine Muses.
+								But his dream is to open "an apex of all the arts" - a roller disco.
+								He falls in love with Clio, disguised as Kira, as she attempts to inspire his art.
+								Tenor/Baritone, with good comic timing and leading man looks.
+								Must move well in roller skates.
+							</td>
+					</tr>
+					<tr><td>Danny Maguire/<br />Zeus</td><td>M</td><td>45+</td><td>Baritone</td>
+							<td>
+								This very professional, very successful businessman is a former clarinet player, who gave up his dreams to become a real estate mogul.
+								He was once in love with a Southern belle named Kitty (Clio in disguise), who left him when he refused to open the <em>Xanadu</em>, a theater he had built for her.
+								Baritone with strong acting chops.
+							</td>
+					</tr>
+					<tr><td>Melpomene</td><td>F</td>^<td>35+</td><td>Mezzo/<br />Alto Belter</td>
+							<td>
+								Muse of Tragedy.
+								As the eldest of the Muses, she resents that Zeus made Clio - and not her - leader of the Muses.
+								She takes revenge on Clio with a curse to make her fall in love with the mortal Sonny,
+								and so, be condemned to eternal damnation in the netherworld.
+								Strong Mezzo/Alto Belter.
+							</td>
+					</tr>
+					<tr><td>Calliope</td><td>F</td><td>35+</td><td>Mezzo Belter</td>
+							<td>
+								Muse of Epics.
+								Quirky sidekick to Melpomene.
+								Strong Mezzo Belter.
+							</td>
+					</tr>
+					<tr><td>Ensemble</td><td>3M,3F</td><td>18+</td><td>Various</td>
+							<td>
+								The ensemble must be quadruple threats, as they portray every other character in this show.
+								They must be strong dancers, strong singers, easily handling harmonies,
+								strong actors, able to play multiple small but EXTREMELY important character roles,
+								and be able to roller skate (or willing to learn).
+								All in all, a very busy ensemble.
+							</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+
+	<style>
+		#local-sides a{
+			width:83%;
+		}
+		#local-sides li:nth-child(odd){
+			background-color:#d4f3fe;
+		}
+		#local-sides li:nth-child(odd):hover{
+			background-color:#ccc;
+		}
+	</style>
+
+<!--#if expr="${QUERY_STRING} = /Callback/" -->
+	<div style="max-width:800px; padding:10px; margin-bottom:10px; background-color:#8feffe; border: 2px solid #273d49; font-size:smaller;">
+		<div style="max-width:95%; margin:auto auto;">
+			<h3 class="w3-center pcp-bold">CALLBACK VOCAL SIDES</h3>
+			<h5 class="w3-center">Click on the Characters to see the side</h5>
+			<ul id="local-sides" class="w3-hide w3-ul w3-hoverable" style="max-width:250px; list-style-type:decimal; list-style-position:inside; text-align:left; margin:auto auto; border:1px dotted #273d49;">
+				<li class="pcp-linkEffect pcp-linkEffect-bottomBorderEnlarge"><a href="AuditionSides/CallbackSideVocal-Albert.pdf" target="_blank">ALBERT</a></li>
+				<li class="pcp-linkEffect pcp-linkEffect-bottomBorderEnlarge"><a href="AuditionSides/CallbackSideVocal-Brian+George.pdf" target="_blank">BRIAN + GEORGE</a></li>
+				<li class="pcp-linkEffect pcp-linkEffect-bottomBorderEnlarge"><a href="AuditionSides/CallbackSideVocal-Georgette.pdf" target="_blank">GEORGETTE</a></li>
+				<li class="pcp-linkEffect pcp-linkEffect-bottomBorderEnlarge"><a href="AuditionSides/CallbackSideVocal-Greg+Annie.pdf" target="_blank">GREG + ANNIE</a></li>
+				<li class="pcp-linkEffect pcp-linkEffect-bottomBorderEnlarge"><a href="AuditionSides/CallbackSideVocal-Jenny.pdf" target="_blank">JENNY</a></li>
+				<li class="pcp-linkEffect pcp-linkEffect-bottomBorderEnlarge"><a href="AuditionSides/CallbackSideVocal-Judy.pdf" target="_blank">JUDY</a></li>
+				<li class="pcp-linkEffect pcp-linkEffect-bottomBorderEnlarge"><a href="AuditionSides/CallbackSideVocal-Marty.pdf" target="_blank">MARTY</a></li>
+				<li class="pcp-linkEffect pcp-linkEffect-bottomBorderEnlarge"><a href="AuditionSides/CallbackSideVocal-Rebecca.pdf" target="_blank">REBECCA</a></li>
+			</ul>
+			<div class="w3-large">
+				<div class="pcp-linkEffect pcp-linkEffect-2ndBorderSlidesUp" style="width:230px; display:inline-block;"><a href="AuditionSides/CallbackSideVocal-Albert.pdf" target="_blank">ALBERT</a></div>
+				<div class="pcp-linkEffect pcp-linkEffect-2ndBorderSlidesUp" style="width:230px; display:inline-block;"><a href="AuditionSides/CallbackSideVocal-Brian+George.pdf" target="_blank">BRIAN + GEORGE</a></div>
+				<div class="pcp-linkEffect pcp-linkEffect-2ndBorderSlidesUp" style="width:230px; display:inline-block;"><a href="AuditionSides/CallbackSideVocal-Georgette.pdf" target="_blank">GEORGETTE</a></div>
+				<div class="pcp-linkEffect pcp-linkEffect-2ndBorderSlidesUp" style="width:230px; display:inline-block;"><a href="AuditionSides/CallbackSideVocal-Greg+Annie.pdf" target="_blank">GREG + ANNIE</a></div>
+				<div class="pcp-linkEffect pcp-linkEffect-2ndBorderSlidesUp" style="width:230px; display:inline-block;"><a href="AuditionSides/CallbackSideVocal-Jenny.pdf" target="_blank">JENNY</a></div>
+				<div class="pcp-linkEffect pcp-linkEffect-2ndBorderSlidesUp" style="width:230px; display:inline-block;"><a href="AuditionSides/CallbackSideVocal-Judy.pdf" target="_blank">JUDY</a></div>
+				<div class="pcp-linkEffect pcp-linkEffect-2ndBorderSlidesUp" style="width:230px; display:inline-block;"><a href="AuditionSides/CallbackSideVocal-Marty.pdf" target="_blank">MARTY</a></div>
+				<div class="pcp-linkEffect pcp-linkEffect-2ndBorderSlidesUp" style="width:230px; display:inline-block;"><a href="AuditionSides/CallbackSideVocal-Rebecca.pdf" target="_blank">REBECCA</a></div>
+			</div>
+		</div>
+	</div>
+	<div>
+<!--#endif -->
+<!--#if expr="${QUERY_STRING} = /Confirmed/" -->
+	<div style="max-width:800px; padding:10px; margin-bottom:10px; background-color:#8feffe; border: 2px solid #273d49; font-size:smaller;">
+		<div style="max-width:550px; margin:auto auto;">
+			<h3 class="w3-center pcp-bold">AUDITION SIDES</h3>
+			<h5 class="w3-center">Click on the Characters to see the side</h5>
+			<ul id="local-sides" class="w3-ul w3-hoverable" style="max-width:420px; list-style-type:decimal; list-style-position:inside; text-align:left; margin:auto auto; border:1px dotted #273d49;">
+				<li><a href="AuditionSides/AuditionSide01-BRIAN+GEORGE.pdf" target="_blank">BRIAN / GEORGE</a></li>
+				<li><a href="AuditionSides/AuditionSide02-BRIAN+GREG.pdf" target="_blank">BRIAN / GREG</a></li>
+				<li><a href="AuditionSides/AuditionSide03-JENNY+MARTY.pdf" target="_blank">JENNY / MARTY</a></li>
+				<li><a href="AuditionSides/AuditionSide04-JUDY+GEORGETTE.pdf" target="_blank">JUDY / GEORGETTE</a></li>
+				<li><a href="AuditionSides/AuditionSide05-JUDY+JENNY.pdf" target="_blank">JUDY / JENNY</a></li>
+				<li><a href="AuditionSides/AuditionSide06-GEORGE+BRIAN+GEORGETTE.pdf" target="_blank">GEORGE / BRIAN / GEORGETTE</a></li>
+				<li><a href="AuditionSides/AuditionSide07-ALBERT+MIMSY+WALT+MARTY+MURRAY.pdf" target="_blank">ALBERT / MIMSY / WALT / MARTY / MURRAY</a></li>
+				<li><a href="AuditionSides/AuditionSide08-UNCLE-MORTY+MARTY.pdf" target="_blank">UNCLE MORTY / MARTY</a></li>
+				<li><a href="AuditionSides/AuditionSide09-MIMSY+WALT.pdf" target="_blank">MIMSY / WALT</a></li>
+				<li><a href="AuditionSides/AuditionSide10-ANNIE+JENNY.pdf" target="_blank">ANNIE / JENNY</a></li>
+				<li><a href="AuditionSides/AuditionSide11-REBECCA+ANNIE+BRIAN+JENNY+GREG.pdf" target="_blank">REBECCA / ANNIE / BRIAN / JENNY / GREG</a></li>
+				<li><a href="AuditionSides/AuditionSide12-ALBERT+JENNY+GREG.pdf" target="_blank">ALBERT / JENNY / GREG</a></li>
+			</ol>
+		</div>
+	</div>
+	<div>
+<!--#endif -->
+<!--								FOOTER -->
+
+<!--#include virtual="/includes/PCPfooter.html" -->
+	</div>
+	<script type="text/javascript" src="/js/placeholders.min.js"></script>
+</body>
+</html>
+<!-- vim: set sw=2 ts=2: -->
