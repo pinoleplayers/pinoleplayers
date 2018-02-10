@@ -6,11 +6,24 @@
 
 <link href="https://fonts.googleapis.com/css?family=Lato:400i,700" rel="stylesheet">
 
+<link href="https://fonts.googleapis.com/css?family=Monoton" rel="stylesheet">
+
 	<title>Pinole Community Players</title>
 
 	<style>
+		#pcp-middle-header{
+			font-family:'Monoton','Helvetica','Arial Narrow','sans-serif';
+			font-weight:normal;
+			color:#f0f0f0;
+			font-size:2em;
+			font-size:3.8vw;
+			font-size:calc(1em + 2.6vw);
+			line-height:1.1;
+			margin:0px;
+			white-space:pre-wrap;
+		}
 		#pcp-middle-header:before{
-			content:"";
+			content:"COME   TO   THE   CABARET!";
 		}
 	</style>
 	
@@ -24,9 +37,11 @@
 
 	<div class="pcp-container pcp-frame-colors">
 
-<!--#include virtual="/2017_Season/2017_Season-index.html" -->
+<!--#include virtual="/2018_Season/2018_Season-index.html" -->
 
-<!--#include virtual="/2017_ItShouldaBeenYou/ItShouldaBeenYou-index.shtml" -->
+<!--#include virtual="/2018_Cabaret/2018_Cabaret-index.html" -->
+
+<!--#include virtual="/2018_FirstDate/FirstDate-index.shtml" -->
 
 <!--#include virtual="/GoingGreen/goingGreen-index.shtml" -->
 

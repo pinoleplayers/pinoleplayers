@@ -364,7 +364,7 @@
 			line-height:101%;
 			margin:0px;
 		}
-		.pcp-creatorRole span{
+		.pcp-creatorRole > span{
 			font-size:smaller;
 			font-variant:small-caps;
 		}

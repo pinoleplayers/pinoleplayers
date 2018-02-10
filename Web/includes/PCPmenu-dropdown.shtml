@@ -39,7 +39,7 @@
 									<li class=" w3-dropdown-click">
 										<a onclick="pcpDropdownClick('PCPmenu-Workshops')" href="#" class="w3-tiny"><i class="fa fa-fw fa-child w3-large" style="vertical-align:top;"></i> <div style="display:inline-block;">Children's &amp; Teen's<br />Theatre Information</div>&nbsp&nbsp;<i class="fa fa-fw fa-chevron-down w3-large" style="vertical-align:top;"></i></a>
 										<div id="PCPmenu-Workshops" class="w3-dropdown-content pcp-colors w3-card-4">
-											<a href="/2017_CTW-Fall/2017_CTW-Fall-index.shtml"><i class="fa fa-fw fa-child"></i> Children's Theatre Fall Workshop <i class="fa fa-fw fa-spacer"></i></a>
+											<a href="/2018_CTW-Spring/2018_CTW-Spring-index.shtml"><i class="fa fa-fw fa-child"></i> Children's Theatre Spring Workshop <i class="fa fa-fw fa-spacer"></i></a>
 <!--
 											<a href="/2017_TCSM/2017_TCSM-IntoTheWoods-index.shtml"><i class="fa fa-fw fa-child" style="vertical-align:top;"></i> <div class="w3-small" style="display:inline-block;">Teen Musical Theatre<br />Summer Workshop</div> <i class="fa fa-fw fa-spacer"></i></a>
 -->
@@ -56,7 +56,9 @@
 									<li class=" w3-dropdown-click">
 										<a onclick="pcpDropdownClick('PCPmenu-Tickets')" href="#"><i class="fa fa-fw fa-ticket"></i> BoxOffice&nbsp&nbsp;<i class="fa fa-fw fa-chevron-down"></i></a>
 										<div id="PCPmenu-Tickets" class="w3-dropdown-content pcp-colors w3-card-4">
-											<a href="/buyStuffPP.php?productCategory=It Shoulda Been You&NewOrder=true" target="_blank"><i class="fa fa-fw fa-music"></i> It Shoulda Been You <i class="fa fa-fw fa-spacer"></i></a>
+											<a href="/buyStuffPP.php?productCategory=2018 Season Subscriptions&NewOrder=true" target="_blank"><i class="fa fa-fw fa-ticket"></i> 2018 Season Subscription <i class="fa fa-fw fa-spacer"></i></a>
+											<a href="/buyStuffPP.php?productCategory=Lucky Cabaret&NewOrder=true" target="_blank"><i class="fa fa-fw fa-ticket"></i> Lucky Cabaret<i class="fa fa-fw fa-spacer"></i></a>
+											<a href="/buyStuffPP.php?productCategory=First Date&NewOrder=true" target="_blank"><i class="fa fa-fw fa-music"></i> First Date <i class="fa fa-fw fa-spacer"></i></a>
 											<a href="/Info/directions-index.shtml"><i class="fa fa-fw fa-map-o"></i> Directions <i class="fa fa-fw fa-spacer"></i></a>
 											<a href="/Info/2016_TheatreRefresh-index.shtml"><i class="fa fa-fw fa-photo"></i> Our Theatre <i class="fa fa-fw fa-spacer"></i></a>
 										</div>
@@ -72,7 +74,7 @@
 									</li>
 
 									<li class=" w3-dropdown-click">
-										<a onclick="pcpDropdownClick('PCPmenu-ContactUs')" href="#"><i class="fa fa-fw fa-phone"></i> Contact Us&nbsp&nbsp;<i class="fa fa-fw fa-spacer"></i></a>
+										<a onclick="pcpDropdownClick('PCPmenu-ContactUs')" href="#"><i class="fa fa-fw fa-address-card-o"></i> Contact Us&nbsp&nbsp;<i class="fa fa-fw fa-spacer"></i></a>
 										<div id="PCPmenu-ContactUs" onclick="pcpDropdownClick('PCPmenu-ContactUs')" class="w3-dropdown-content pcp-colors w3-card-4 w3-round-large w3-border w3-topbar w3-rightbar w3-bottombar w3-leftbar pcp-border-color pcp-animate-opacity-in" style="width:100%;">
 											<i class="fa fa-fw fa-close w3-display-topright"></i>
 <!--#include virtual="/Info/contactUs.html" -->
@@ -92,7 +94,9 @@
 									<li class=" w3-dropdown-click">
 										<a onclick="pcpDropdownClick('PCPmenu-Auditions')" href="#"><i class="fa fa-fw fa-spacer"></i> Auditions&nbsp&nbsp;<i class="fa fa-fw fa-chevron-down"></i></a>
 										<div id="PCPmenu-Auditions" class="w3-dropdown-content pcp-colors w3-card-4">
-											<a href="/2018_FirstDate/FirstDate-Auditions.shtml"><i class="fa fa-fw fa-music"></i> First Date <i class="fa fa-fw fa-spacer"></i></a>
+<!--
+											<a href="/2018_LaughterOnThe23rdFloor/LaughterOnThe23rdFloor-Auditions.shtml"><i class="fa fa-fw fa-book"></i> Laughter on the 23rd Floor <i class="fa fa-fw fa-spacer"></i></a>
+-->
 											<a href="/Info/auditionInfo-index.shtml?GetIt"><i class="fa fa-fw fa-list"></i> Getting Audition Info <i class="fa fa-fw fa-spacer"></i></a>
 										</div>
 									</li>
